@@ -5,7 +5,6 @@ Malton is an on-device non-anvasive dynamic analysis tool for Android apps, and 
 @inproceedings{xue2017malton,
 
   title={Malton: Towards On-Device Non-Invasive Mobile Malware Analysis for $\{$ART$\}$},
-  
   author={Xue, Lei and Zhou, Yajin and Chen, Ting and Luo, Xiapu and Gu, Guofei},
   
   booktitle={26th $\{$USENIX$\}$ Security Symposium ($\{$USENIX$\}$ Security 17)},
