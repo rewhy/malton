@@ -1,0 +1,1965 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCESS_FLAG_NAMES	dt_oatparse.c	/^const HChar *ACCESS_FLAG_NAMES[20] = {$/;"	v
+ACCESS_FLAG_VALUES	dt_oatparse.c	/^const UInt ACCESS_FLAG_VALUES[20] = {$/;"	v
+ACC_ABSTRACT	dt_dexparse.h	/^	ACC_ABSTRACT     = 0x00000400,       \/\/ class, method, ic$/;"	e	enum:__anon12
+ACC_ANNOTATION	dt_dexparse.h	/^	ACC_ANNOTATION   = 0x00002000,       \/\/ class, ic (1.5)$/;"	e	enum:__anon12
+ACC_BRIDGE	dt_dexparse.h	/^	ACC_BRIDGE       = 0x00000040,       \/\/ method (1.5)$/;"	e	enum:__anon12
+ACC_CLASS_MASK	dt_dexparse.h	/^	ACC_CLASS_MASK =$/;"	e	enum:__anon12
+ACC_CONSTRUCTOR	dt_dexparse.h	/^	ACC_CONSTRUCTOR  = 0x00010000,       \/\/ method (Dalvik only)$/;"	e	enum:__anon12
+ACC_DECLARED_SYNCHRONIZED	dt_dexparse.h	/^	ACC_DECLARED_SYNCHRONIZED = 0x00020000,       \/\/ method (Dalvik only)$/;"	e	enum:__anon12
+ACC_ENUM	dt_dexparse.h	/^	ACC_ENUM         = 0x00004000,       \/\/ class, field, ic (1.5)$/;"	e	enum:__anon12
+ACC_FIELD_MASK	dt_dexparse.h	/^	ACC_FIELD_MASK =$/;"	e	enum:__anon12
+ACC_FINAL	dt_dexparse.h	/^	ACC_FINAL        = 0x00000010,       \/\/ class, field, method, ic$/;"	e	enum:__anon12
+ACC_INNER_CLASS_MASK	dt_dexparse.h	/^	ACC_INNER_CLASS_MASK =$/;"	e	enum:__anon12
+ACC_INTERFACE	dt_dexparse.h	/^	ACC_INTERFACE    = 0x00000200,       \/\/ class, ic$/;"	e	enum:__anon12
+ACC_METHOD_MASK	dt_dexparse.h	/^	ACC_METHOD_MASK =$/;"	e	enum:__anon12
+ACC_NATIVE	dt_dexparse.h	/^	ACC_NATIVE       = 0x00000100,       \/\/ method$/;"	e	enum:__anon12
+ACC_NATIVE	dt_dexparse.h	1020;"	d
+ACC_PRIVATE	dt_dexparse.h	/^	ACC_PRIVATE      = 0x00000002,       \/\/ field, method, ic$/;"	e	enum:__anon12
+ACC_PROTECTED	dt_dexparse.h	/^	ACC_PROTECTED    = 0x00000004,       \/\/ field, method, ic$/;"	e	enum:__anon12
+ACC_PUBLIC	dt_dexparse.h	/^	ACC_PUBLIC       = 0x00000001,       \/\/ class, field, method, ic$/;"	e	enum:__anon12
+ACC_STATIC	dt_dexparse.h	/^	ACC_STATIC       = 0x00000008,       \/\/ field, method, ic$/;"	e	enum:__anon12
+ACC_STRICT	dt_dexparse.h	/^	ACC_STRICT       = 0x00000800,       \/\/ method$/;"	e	enum:__anon12
+ACC_SUPER	dt_dexparse.h	/^	ACC_SUPER        = 0x00000020,       \/\/ class (not used in Dalvik)$/;"	e	enum:__anon12
+ACC_SYNCHRONIZED	dt_dexparse.h	/^	ACC_SYNCHRONIZED = 0x00000020,       \/\/ method (only allowed on natives)$/;"	e	enum:__anon12
+ACC_SYNTHETIC	dt_dexparse.h	/^	ACC_SYNTHETIC    = 0x00001000,       \/\/ field, method, ic$/;"	e	enum:__anon12
+ACC_TRANSIENT	dt_dexparse.h	/^	ACC_TRANSIENT    = 0x00000080,       \/\/ field$/;"	e	enum:__anon12
+ACC_VARARGS	dt_dexparse.h	/^	ACC_VARARGS      = 0x00000080,       \/\/ method (1.5)$/;"	e	enum:__anon12
+ACC_VOLATILE	dt_dexparse.h	/^	ACC_VOLATILE     = 0x00000040,       \/\/ field$/;"	e	enum:__anon12
+ADDRESS_FAMILY	dt_main.c	/^const HChar* ADDRESS_FAMILY[11] = {$/;"	v
+AF_INET	dt_main.h	32;"	d
+AF_LOCAL	dt_main.h	31;"	d
+AF_UNIX	dt_main.h	30;"	d
+AF_UNSPEC	dt_main.h	29;"	d
+AMD64CondAlways	dt_stmt2.c	/^      AMD64CondAlways = 16  \/* HACK *\/$/;"	e	enum:__anon25	file:
+AMD64CondB	dt_stmt2.c	/^      AMD64CondB      = 2,  \/* below              *\/$/;"	e	enum:__anon25	file:
+AMD64CondBE	dt_stmt2.c	/^      AMD64CondBE     = 6,  \/* below or equal     *\/$/;"	e	enum:__anon25	file:
+AMD64CondL	dt_stmt2.c	/^      AMD64CondL      = 12, \/* jump less          *\/$/;"	e	enum:__anon25	file:
+AMD64CondLE	dt_stmt2.c	/^      AMD64CondLE     = 14, \/* less or equal      *\/$/;"	e	enum:__anon25	file:
+AMD64CondNB	dt_stmt2.c	/^      AMD64CondNB     = 3,  \/* not below          *\/$/;"	e	enum:__anon25	file:
+AMD64CondNBE	dt_stmt2.c	/^      AMD64CondNBE    = 7,  \/* not below or equal *\/$/;"	e	enum:__anon25	file:
+AMD64CondNL	dt_stmt2.c	/^      AMD64CondNL     = 13, \/* not less           *\/$/;"	e	enum:__anon25	file:
+AMD64CondNLE	dt_stmt2.c	/^      AMD64CondNLE    = 15, \/* not less or equal  *\/$/;"	e	enum:__anon25	file:
+AMD64CondNO	dt_stmt2.c	/^      AMD64CondNO     = 1,  \/* no overflow        *\/$/;"	e	enum:__anon25	file:
+AMD64CondNP	dt_stmt2.c	/^      AMD64CondNP     = 11, \/* not parity even    *\/$/;"	e	enum:__anon25	file:
+AMD64CondNS	dt_stmt2.c	/^      AMD64CondNS     = 9,  \/* not negative       *\/$/;"	e	enum:__anon25	file:
+AMD64CondNZ	dt_stmt2.c	/^      AMD64CondNZ     = 5,  \/* not zero           *\/$/;"	e	enum:__anon25	file:
+AMD64CondO	dt_stmt2.c	/^      AMD64CondO      = 0,  \/* overflow           *\/$/;"	e	enum:__anon25	file:
+AMD64CondP	dt_stmt2.c	/^      AMD64CondP      = 10, \/* parity even        *\/$/;"	e	enum:__anon25	file:
+AMD64CondS	dt_stmt2.c	/^      AMD64CondS      = 8,  \/* negative           *\/$/;"	e	enum:__anon25	file:
+AMD64CondZ	dt_stmt2.c	/^      AMD64CondZ      = 4,  \/* zero               *\/$/;"	e	enum:__anon25	file:
+AMD64Condcode	dt_stmt2.c	/^   AMD64Condcode;$/;"	t	typeref:enum:__anon25	file:
+AMD64G_CC_OP_ADCB	dt_stmt2.c	/^    AMD64G_CC_OP_ADCB,    \/* 9 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_ADCL	dt_stmt2.c	/^    AMD64G_CC_OP_ADCL,    \/* 11 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_ADCQ	dt_stmt2.c	/^    AMD64G_CC_OP_ADCQ,    \/* 12 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_ADCW	dt_stmt2.c	/^    AMD64G_CC_OP_ADCW,    \/* 10 DEP1 = argL, DEP2 = argR ^ oldCarry, NDEP = oldCarry *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_ADDB	dt_stmt2.c	/^    AMD64G_CC_OP_ADDB,    \/* 1 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_ADDL	dt_stmt2.c	/^    AMD64G_CC_OP_ADDL,    \/* 3 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_ADDQ	dt_stmt2.c	/^    AMD64G_CC_OP_ADDQ,    \/* 4 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_ADDW	dt_stmt2.c	/^    AMD64G_CC_OP_ADDW,    \/* 2 DEP1 = argL, DEP2 = argR, NDEP = unused *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_COPY	dt_stmt2.c	/^    AMD64G_CC_OP_COPY=0,  \/* DEP1 = current flags, DEP2 = 0, NDEP = unused *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_DECB	dt_stmt2.c	/^    AMD64G_CC_OP_DECB,    \/* 25 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_DECL	dt_stmt2.c	/^    AMD64G_CC_OP_DECL,    \/* 27 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_DECQ	dt_stmt2.c	/^    AMD64G_CC_OP_DECQ,    \/* 28 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_DECW	dt_stmt2.c	/^    AMD64G_CC_OP_DECW,    \/* 26 DEP1 = result, DEP2 = 0, NDEP = oldCarry (0 or 1) *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_INCB	dt_stmt2.c	/^    AMD64G_CC_OP_INCB,    \/* 21 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_INCL	dt_stmt2.c	/^    AMD64G_CC_OP_INCL,    \/* 23 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_INCQ	dt_stmt2.c	/^    AMD64G_CC_OP_INCQ,    \/* 24 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_INCW	dt_stmt2.c	/^    AMD64G_CC_OP_INCW,    \/* 22 DEP1 = result, DEP2 = 0, NDEP = oldCarry (0 or 1) *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_LOGICB	dt_stmt2.c	/^    AMD64G_CC_OP_LOGICB,  \/* 17 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_LOGICL	dt_stmt2.c	/^    AMD64G_CC_OP_LOGICL,  \/* 19 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_LOGICQ	dt_stmt2.c	/^    AMD64G_CC_OP_LOGICQ,  \/* 20 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_LOGICW	dt_stmt2.c	/^    AMD64G_CC_OP_LOGICW,  \/* 18 DEP1 = result, DEP2 = 0, NDEP = unused *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_NUMBER	dt_stmt2.c	/^    AMD64G_CC_OP_NUMBER$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_ROLB	dt_stmt2.c	/^    AMD64G_CC_OP_ROLB,    \/* 37 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_ROLL	dt_stmt2.c	/^    AMD64G_CC_OP_ROLL,    \/* 39 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_ROLQ	dt_stmt2.c	/^    AMD64G_CC_OP_ROLQ,    \/* 40 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_ROLW	dt_stmt2.c	/^    AMD64G_CC_OP_ROLW,    \/* 38 DEP1 = res, DEP2 = 0, NDEP = old flags *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_RORB	dt_stmt2.c	/^    AMD64G_CC_OP_RORB,    \/* 41 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_RORL	dt_stmt2.c	/^    AMD64G_CC_OP_RORL,    \/* 43 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_RORQ	dt_stmt2.c	/^    AMD64G_CC_OP_RORQ,    \/* 44 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_RORW	dt_stmt2.c	/^    AMD64G_CC_OP_RORW,    \/* 42 DEP1 = res, DEP2 = 0, NDEP = old flags *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SBBB	dt_stmt2.c	/^    AMD64G_CC_OP_SBBB,    \/* 13 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SBBL	dt_stmt2.c	/^    AMD64G_CC_OP_SBBL,    \/* 15 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SBBQ	dt_stmt2.c	/^    AMD64G_CC_OP_SBBQ,    \/* 16 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SBBW	dt_stmt2.c	/^    AMD64G_CC_OP_SBBW,    \/* 14 DEP1 = argL, DEP2 = argR ^ oldCarry, NDEP = oldCarry *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SHLB	dt_stmt2.c	/^    AMD64G_CC_OP_SHLB,    \/* 29 DEP1 = res, DEP2 = res', NDEP = unused *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SHLL	dt_stmt2.c	/^    AMD64G_CC_OP_SHLL,    \/* 31 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SHLQ	dt_stmt2.c	/^    AMD64G_CC_OP_SHLQ,    \/* 32 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SHLW	dt_stmt2.c	/^    AMD64G_CC_OP_SHLW,    \/* 30 where res' is like res but shifted one bit less *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SHRB	dt_stmt2.c	/^    AMD64G_CC_OP_SHRB,    \/* 33 DEP1 = res, DEP2 = res', NDEP = unused *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SHRL	dt_stmt2.c	/^    AMD64G_CC_OP_SHRL,    \/* 35 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SHRQ	dt_stmt2.c	/^    AMD64G_CC_OP_SHRQ,    \/* 36 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SHRW	dt_stmt2.c	/^    AMD64G_CC_OP_SHRW,    \/* 34 where res' is like res but shifted one bit less *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SMULB	dt_stmt2.c	/^    AMD64G_CC_OP_SMULB,   \/* 49 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SMULL	dt_stmt2.c	/^    AMD64G_CC_OP_SMULL,   \/* 51 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SMULQ	dt_stmt2.c	/^    AMD64G_CC_OP_SMULQ,   \/* 52 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SMULW	dt_stmt2.c	/^    AMD64G_CC_OP_SMULW,   \/* 50 DEP1 = argL, DEP2 = argR, NDEP = unused *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SUBB	dt_stmt2.c	/^    AMD64G_CC_OP_SUBB,    \/* 5 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SUBL	dt_stmt2.c	/^    AMD64G_CC_OP_SUBL,    \/* 7 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SUBQ	dt_stmt2.c	/^    AMD64G_CC_OP_SUBQ,    \/* 8 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_SUBW	dt_stmt2.c	/^    AMD64G_CC_OP_SUBW,    \/* 6 DEP1 = argL, DEP2 = argR, NDEP = unused *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_UMULB	dt_stmt2.c	/^    AMD64G_CC_OP_UMULB,   \/* 45 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_UMULL	dt_stmt2.c	/^    AMD64G_CC_OP_UMULL,   \/* 47 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_UMULQ	dt_stmt2.c	/^    AMD64G_CC_OP_UMULQ,   \/* 48 *\/$/;"	e	enum:__anon26	file:
+AMD64G_CC_OP_UMULW	dt_stmt2.c	/^    AMD64G_CC_OP_UMULW,   \/* 46 DEP1 = argL, DEP2 = argR, NDEP = unused *\/$/;"	e	enum:__anon26	file:
+APPEND_MEM	dt_dexparse.c	2046;"	d	file:
+ART_INVOKE	dt_debug.h	118;"	d
+ART_LOGI	dt_debug.h	131;"	d
+ART_LOGW	dt_debug.h	137;"	d
+ART_RETURN	dt_debug.h	124;"	d
+AUXMAP_L1_INSERT_IX	dt_taint.c	149;"	d	file:
+AccessFor	dt_dexparse.h	/^enum AccessFor {$/;"	g
+ArrayMirror	dt_framework.h	/^} ArrayMirror;$/;"	t	typeref:struct:_ArrayMirror
+ArtMethodPlus	dt_oatparse.h	/^struct ArtMethodPlus {$/;"	s
+ArtMethod_Invoke	dt_art_wrap.c	/^void ArtMethod_Invoke(void* this, void* thread, unsigned int* args, unsigned int args_size, void* result, HChar* shorty)$/;"	f
+AuxMapEnt	dt_taint.c	/^AuxMapEnt;$/;"	t	typeref:struct:__anon1	file:
+BG_Z_LIBART_SONAME	dt_art_wrap.c	3;"	d	file:
+BYTES_PER_SEC_VBIT_NODE	dt_taint.c	520;"	d	file:
+CALL_FN_v_8W	dt_libfun_replace.c	55;"	d	file:
+CLASS_ERROR	dt_dexparse.h	/^	CLASS_ERROR         = -1,$/;"	e	enum:ClassStatus
+CLASS_FIELD_SLOTS	dt_dexparse.h	1018;"	d
+CLASS_IDX	dt_dexparse.h	/^	CLASS_IDX           = 1,    \/* loaded, DEX idx in super or ifaces *\/$/;"	e	enum:ClassStatus
+CLASS_INITIALIZED	dt_dexparse.h	/^	CLASS_INITIALIZED   = 7,    \/* ready to go *\/$/;"	e	enum:ClassStatus
+CLASS_INITIALIZING	dt_dexparse.h	/^	CLASS_INITIALIZING  = 6,    \/* class init in progress *\/$/;"	e	enum:ClassStatus
+CLASS_LOADED	dt_dexparse.h	/^	CLASS_LOADED        = 2,    \/* DEX idx values resolved *\/$/;"	e	enum:ClassStatus
+CLASS_NOTREADY	dt_dexparse.h	/^	CLASS_NOTREADY      = 0,$/;"	e	enum:ClassStatus
+CLASS_RESOLVED	dt_dexparse.h	/^	CLASS_RESOLVED      = 3,    \/* part of linking *\/$/;"	e	enum:ClassStatus
+CLASS_VERIFIED	dt_dexparse.h	/^	CLASS_VERIFIED      = 5,    \/* logically part of linking; done pre-init *\/$/;"	e	enum:ClassStatus
+CLASS_VERIFYING	dt_dexparse.h	/^	CLASS_VERIFYING     = 4,    \/* in the process of being verified *\/$/;"	e	enum:ClassStatus
+CheckJNI_CallMethodA	dt_art_wrap.c	/^void CheckJNI_CallMethodA(const HChar* function_name, void* env, void* obj, void* c, void* mid, void* vargs, $/;"	f
+CheckJNI_CallMethodV	dt_art_wrap.c	/^void CheckJNI_CallMethodV(const HChar* function_name, void* env, void* obj, void* c, void* mid, void* vargs, $/;"	f
+ClassLinker_DefineClass	dt_art_wrap.c	/^void* ClassLinker_DefineClass(void* this, void* thread,void* descriptor, int hash, void* class_loader, void* dex_file, void* dex_class_def)$/;"	f
+ClassMirror	dt_framework.h	/^} ClassMirror;$/;"	t	typeref:struct:_ClassMirror
+ClassObject	dt_dexparse.h	/^struct ClassObject{$/;"	s
+ClassStatus	dt_dexparse.h	/^enum ClassStatus {$/;"	g
+CodeItem	dt_dexparse.h	/^struct CodeItem {$/;"	s
+DBG_ADVANCE_LINE	dt_dexparse.h	/^	DBG_ADVANCE_LINE         = 0x02,$/;"	e	enum:__anon10
+DBG_ADVANCE_PC	dt_dexparse.h	/^	DBG_ADVANCE_PC           = 0x01,$/;"	e	enum:__anon10
+DBG_CURRENT_LINE	dt_debug.h	22;"	d
+DBG_END_LOCAL	dt_dexparse.h	/^	DBG_END_LOCAL            = 0x05,$/;"	e	enum:__anon10
+DBG_END_SEQUENCE	dt_dexparse.h	/^	DBG_END_SEQUENCE         = 0x00,$/;"	e	enum:__anon10
+DBG_FIRST_SPECIAL	dt_dexparse.h	/^	DBG_FIRST_SPECIAL        = 0x0a,$/;"	e	enum:__anon10
+DBG_FRAMEWORK	dt_debug.h	19;"	d
+DBG_INSTRUMENT	dt_debug.h	16;"	d
+DBG_LINE_BASE	dt_dexparse.h	/^	DBG_LINE_BASE            = -4,$/;"	e	enum:__anon10
+DBG_LINE_RANGE	dt_dexparse.h	/^	DBG_LINE_RANGE           = 15,$/;"	e	enum:__anon10
+DBG_MEM	dt_debug.h	8;"	d
+DBG_MEM_INFO	dt_debug.h	102;"	d
+DBG_MEM_INFO	dt_debug.h	94;"	d
+DBG_OAT_PARSE	dt_dexparse.h	13;"	d
+DBG_PARAMETER_PARSE	dt_debug.h	20;"	d
+DBG_REQUEST_INFO	dt_debug.h	25;"	d
+DBG_REQUEST_INFO	dt_debug.h	30;"	d
+DBG_RESTART_LOCAL	dt_dexparse.h	/^	DBG_RESTART_LOCAL        = 0x06,$/;"	e	enum:__anon10
+DBG_SET_EPILOGUE_BEGIN	dt_dexparse.h	/^	DBG_SET_EPILOGUE_BEGIN   = 0x08,$/;"	e	enum:__anon10
+DBG_SET_FILE	dt_dexparse.h	/^	DBG_SET_FILE             = 0x09,$/;"	e	enum:__anon10
+DBG_SET_PROLOGUE_END	dt_dexparse.h	/^	DBG_SET_PROLOGUE_END     = 0x07,$/;"	e	enum:__anon10
+DBG_START_LOCAL	dt_dexparse.h	/^	DBG_START_LOCAL          = 0x03,$/;"	e	enum:__anon10
+DBG_START_LOCAL_EXTENDED	dt_dexparse.h	/^	DBG_START_LOCAL_EXTENDED = 0x04,$/;"	e	enum:__anon10
+DBG_SYSCALL	dt_debug.h	9;"	d
+DBG_SYSCALL_INFO	dt_debug.h	107;"	d
+DBG_SYSCALL_INFO	dt_debug.h	114;"	d
+DBT_TAINT_INFO	dt_debug.h	17;"	d
+DEBUG_FRAMEWORK	dt_debug.h	35;"	d
+DEBUG_IDLE	dt_main.h	7;"	d
+DEBUG_IDLE	dt_main.h	8;"	d
+DEXCLASS	dt_dexparse.h	523;"	d
+DEXFILEPARSE_FLAG	dt_main.c	/^const HChar* DEXFILEPARSE_FLAG[3] = { $/;"	v
+DEXHEAD	dt_dexparse.h	521;"	d
+DEXMETHOD	dt_dexparse.h	524;"	d
+DEXOPTDATA	dt_dexparse.h	522;"	d
+DEX_DEP_MAGIC	dt_dexparse.h	40;"	d
+DEX_MAGIC	dt_dexparse.h	34;"	d
+DEX_MAGIC_VERS	dt_dexparse.h	35;"	d
+DEX_OPT_MAGIC	dt_dexparse.h	37;"	d
+DEX_OPT_MAGIC_VERS	dt_dexparse.h	38;"	d
+DO_CREQ_W_W	dt_main.h	374;"	d
+DO_CREQ_W_W	dt_main.h	391;"	d
+DO_CREQ_W_WW	dt_main.h	376;"	d
+DO_CREQ_W_WWW	dt_main.h	378;"	d
+DO_CREQ_W_WWW	dt_main.h	424;"	d
+DO_CREQ_v_W	dt_main.h	373;"	d
+DO_CREQ_v_W	dt_main.h	382;"	d
+DO_CREQ_v_WW	dt_main.h	375;"	d
+DO_CREQ_v_WW	dt_main.h	402;"	d
+DO_CREQ_v_WWW	dt_main.h	377;"	d
+DO_CREQ_v_WWW	dt_main.h	412;"	d
+DO_CREQ_v_WWWW	dt_main.h	379;"	d
+DO_CREQ_v_WWWW	dt_main.h	439;"	d
+DO_CREQ_v_WWWWW	dt_main.h	380;"	d
+DO_CREQ_v_WWWWW	dt_main.h	452;"	d
+DRIFTUP_GROWTH_FACTOR	dt_taint.c	539;"	d	file:
+DRIFTUP_MAX_SIZE	dt_taint.c	540;"	d	file:
+DRIFTUP_SURVIVOR_PROPORTION	dt_taint.c	538;"	d	file:
+DT_ASSERT	dt_debug.h	82;"	d
+DT_ASSERT	dt_debug.h	87;"	d
+DT_DEBUG	dt_debug.h	7;"	d
+DT_EXE_LOGI	dt_debug.h	75;"	d
+DT_EXE_LOGI	dt_debug.h	89;"	d
+DT_LOGE	dt_debug.h	66;"	d
+DT_LOGE	dt_debug.h	86;"	d
+DT_LOGI	dt_debug.h	59;"	d
+DT_LOGI	dt_debug.h	85;"	d
+DT_MALLOC_REDZONE_SZB	dt_wrap.h	11;"	d
+DT_PROFILE_MEMORY	dt_wrap.h	65;"	d
+DT_PROFILE_MEMORY	dt_wrap.h	66;"	d
+DT_WHITE_LIST	dt_taint.h	14;"	d
+DexAnnotationItem	dt_dexparse.h	/^struct DexAnnotationItem {$/;"	s
+DexAnnotationSetItem	dt_dexparse.h	/^struct DexAnnotationSetItem {$/;"	s
+DexAnnotationSetRefItem	dt_dexparse.h	/^struct DexAnnotationSetRefItem {$/;"	s
+DexAnnotationSetRefList	dt_dexparse.h	/^struct DexAnnotationSetRefList {$/;"	s
+DexAnnotationsDirectoryItem	dt_dexparse.h	/^struct DexAnnotationsDirectoryItem {$/;"	s
+DexClassData	dt_dexparse.h	/^struct DexClassData {$/;"	s
+DexClassDataHeader	dt_dexparse.h	/^struct DexClassDataHeader {$/;"	s
+DexClassDef	dt_dexparse.h	/^struct DexClassDef {$/;"	s
+DexClassLookup	dt_dexparse.h	/^struct DexClassLookup {$/;"	s
+DexCode	dt_dexparse.h	/^struct DexCode {$/;"	s
+DexEncodedArray	dt_dexparse.h	/^struct DexEncodedArray {$/;"	s
+DexField	dt_dexparse.h	/^struct DexField {$/;"	s
+DexFieldAnnotationsItem	dt_dexparse.h	/^struct DexFieldAnnotationsItem {$/;"	s
+DexFieldId	dt_dexparse.h	/^struct DexFieldId {$/;"	s
+DexFile	dt_dexparse.h	/^struct DexFile { \/\/ 52 bytes$/;"	s
+DexFileInfo	dt_dexparse.h	/^struct DexFileInfo {$/;"	s
+DexFilePlus	dt_oatparse.h	/^struct DexFilePlus {$/;"	s
+DexFilePlus2DexFile	dt_dexparse.c	/^	static struct DexFile *DexFilePlus2DexFile(struct DexFilePlus *pDexFilePlus) {$/;"	f	file:
+DexFilePlusNode	dt_dexparse.h	/^struct DexFilePlusNode {$/;"	s
+DexFile_DexFile	dt_art_wrap.c	/^void* DexFile_DexFile(void *this, void *base, int size, void* location, int checksum, void* mem_map, void* oat_dex_file)$/;"	f
+DexFile_OpenMemory	dt_art_wrap.c	/^void* DexFile_OpenMemory(void *this, const unsigned char* base, int size, void* location, int location_checksum, void *mem_map, void* oat_dex_file, void* error_msg)$/;"	f
+DexHeader	dt_dexparse.h	/^struct DexHeader { \/* 112 bytes *\/$/;"	s
+DexLink	dt_dexparse.h	/^struct DexLink {$/;"	s
+DexMapItem	dt_dexparse.h	/^struct DexMapItem {$/;"	s
+DexMapList	dt_dexparse.h	/^struct DexMapList {$/;"	s
+DexMemParse	dt_dexparse.c	/^	void DexMemParse(UChar* addr, Int len) {$/;"	f
+DexMethod	dt_dexparse.h	/^struct DexMethod {$/;"	s
+DexMethodAnnotationsItem	dt_dexparse.h	/^struct DexMethodAnnotationsItem {$/;"	s
+DexMethodId	dt_dexparse.h	/^struct DexMethodId {$/;"	s
+DexOptHeader	dt_dexparse.h	/^struct DexOptHeader {$/;"	s
+DexOrJar	dt_dexparse.h	/^struct DexOrJar {$/;"	s
+DexParameterAnnotationsItem	dt_dexparse.h	/^struct DexParameterAnnotationsItem {$/;"	s
+DexProto	dt_dexparse.h	/^struct DexProto {$/;"	s
+DexProtoId	dt_dexparse.h	/^struct DexProtoId {$/;"	s
+DexStringCache	dt_dexparse.h	/^struct DexStringCache {$/;"	s
+DexStringId	dt_dexparse.h	/^struct DexStringId {$/;"	s
+DexTry	dt_dexparse.h	/^struct DexTry {$/;"	s
+DexTypeId	dt_dexparse.h	/^struct DexTypeId {$/;"	s
+DexTypeItem	dt_dexparse.h	/^struct DexTypeItem {$/;"	s
+DexTypeList	dt_dexparse.h	/^struct DexTypeList {$/;"	s
+DvmDex	dt_dexparse.h	/^struct DvmDex {$/;"	s
+F	dt_framework.c	20;"	d	file:
+FD_MAX	dt_wrap.h	152;"	d
+FD_MAX_PATH	dt_wrap.h	153;"	d
+FD_READ	dt_wrap.h	154;"	d
+FD_STAT	dt_wrap.h	156;"	d
+FD_WRITE	dt_wrap.h	155;"	d
+FNNAME_MAX	dt_wrap.h	146;"	d
+FRM_LOGI	dt_debug.h	36;"	d
+FRM_LOGI	dt_debug.h	41;"	d
+FdAppApk	dt_wrap.h	/^	FdAppApk,$/;"	e	enum:OpenedFdType
+FdAppDex	dt_wrap.h	/^	FdAppDex,$/;"	e	enum:OpenedFdType
+FdAppJar	dt_wrap.h	/^	FdAppJar,$/;"	e	enum:OpenedFdType
+FdAppLib	dt_wrap.h	/^	FdAppLib,$/;"	e	enum:OpenedFdType
+FdDevice	dt_wrap.h	/^	FdDevice,$/;"	e	enum:OpenedFdType
+FdFrameworkDex	dt_wrap.h	/^	FdFrameworkDex,$/;"	e	enum:OpenedFdType
+FdFrameworkJar	dt_wrap.h	/^	FdFrameworkJar,$/;"	e	enum:OpenedFdType
+FdProcMap	dt_wrap.h	/^	FdProcMap,$/;"	e	enum:OpenedFdType
+FdSystemLib	dt_wrap.h	/^	FdSystemLib = 1,$/;"	e	enum:OpenedFdType
+FdUnknown	dt_wrap.h	/^	FdUnknown$/;"	e	enum:OpenedFdType
+Field	dt_dexparse.h	/^struct Field {$/;"	s
+FilterList	dt_taint.h	/^struct FilterList {$/;"	s
+FunList	dt_taint.h	/^struct FunList {$/;"	s
+GCs_done	dt_taint.c	/^static UInt GCs_done = 0;$/;"	v	file:
+Global	dt_wrap.h	/^enum VariableType { Local = 3, Global = 4 };$/;"	e	enum:VariableType
+GlobalFromApplication	dt_wrap.h	/^enum VariableLocation { GlobalFromApplication = 5, GlobalFromElsewhere = 6 };$/;"	e	enum:VariableLocation
+GlobalFromElsewhere	dt_wrap.h	/^enum VariableLocation { GlobalFromApplication = 5, GlobalFromElsewhere = 6 };$/;"	e	enum:VariableLocation
+H32_PC	dt_taint.c	2220;"	d	file:
+H32_PC_OP	dt_taint.c	2226;"	d	file:
+H32_PRINT	dt_taint.c	2281;"	d	file:
+H32_PRINTC	dt_taint.c	2289;"	d	file:
+H32_PRINTC_OP	dt_taint.c	2292;"	d	file:
+H32_PRINT_OP	dt_taint.c	2284;"	d	file:
+H64_PC	dt_taint.c	2232;"	d	file:
+H64_PC_OP	dt_taint.c	2238;"	d	file:
+H64_PRINT	dt_taint.c	2297;"	d	file:
+H64_PRINTC	dt_taint.c	2305;"	d	file:
+H64_PRINTC_OP	dt_taint.c	2308;"	d	file:
+H64_PRINT_OP	dt_taint.c	2300;"	d	file:
+HP_Chunk	dt_wrap.h	/^} HP_Chunk;$/;"	t	typeref:struct:_HP_Chunk
+HTONL	dt_main.h	39;"	d
+HTONS	dt_main.h	47;"	d
+H_EXIT_EARLY	dt_taint.c	2258;"	d	file:
+H_EXIT_EARLY_LDST	dt_taint.c	2265;"	d	file:
+H_SMT2	dt_taint.c	2313;"	d	file:
+H_SMT2_LOAD	dt_taint.c	2321;"	d	file:
+H_SMT2_not_implemented	dt_taint.c	2329;"	d	file:
+H_VAR	dt_taint.c	2244;"	d	file:
+H_WRTMP_BOOKKEEPING	dt_taint.c	2269;"	d	file:
+INLINE	dt_dexparse.h	9;"	d
+INLINE	dt_taint.h	121;"	d
+IRAtom	dt_instrument.c	/^typedef  IRExpr  IRAtom;$/;"	t	file:
+IRConst_string	dt_string.h	/^const char *IRConst_string[] = {$/;"	v
+IREndness_string	dt_string.h	/^const char *IREndness_string[] = {$/;"	v
+IRExpr_string	dt_string.h	/^const char *IRExpr_string[] = {$/;"	v
+IRJumpKind_string	dt_string.h	/^const char *IRJumpKind_string[] = {$/;"	v
+IRStmt_string	dt_string.h	/^const char *IRStmt_string[] = {$/;"	v
+IRType_MAX	dt_string.h	24;"	d
+IRType_string	dt_string.h	/^const char *IRType_string[] = {$/;"	v
+IS_SYSCALL_ALLOWED	dt_wrap.h	177;"	d
+InitiatingLoaderList	dt_dexparse.h	/^struct InitiatingLoaderList {$/;"	s
+InstField	dt_dexparse.h	/^struct InstField {$/;"	s
+InstructionSet	dt_dexparse.h	/^} InstructionSet;$/;"	t	typeref:enum:__anon20
+InterfaceEntry	dt_dexparse.h	/^struct InterfaceEntry {$/;"	s
+InterpBreak	dt_dexparse.h	/^union InterpBreak {$/;"	u
+InterpSaveState	dt_dexparse.h	/^struct InterpSaveState {$/;"	s
+InvokeType	dt_wrap.h	/^enum InvokeType {$/;"	g
+JValue	dt_dexparse.h	/^union JValue {$/;"	u
+JavaVMExt_LoadNativeLibrary	dt_art_wrap.c	/^Bool JavaVMExt_LoadNativeLibrary(void *this, void *env, char* path, void* class_loader, char* error_msg)$/;"	f
+KMAG	dt_taint.c	23;"	d	file:
+KNRM	dt_taint.c	24;"	d	file:
+KRED	dt_taint.c	22;"	d	file:
+LIBART_FUNC	dt_art_wrap.c	/^LIBART_FUNC(Bool, _ZN3art9JavaVMExt17LoadNativeLibraryEP7_JNIEnvRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEP8_jobjectPS9_,$/;"	f
+LIBART_FUNC	dt_art_wrap.c	/^LIBART_FUNC(int, _ZN3art3JNI11GetMethodIDEP7_JNIEnvP7_jclassPKcS6_,$/;"	f
+LIBART_FUNC	dt_art_wrap.c	/^LIBART_FUNC(int, _ZN3art3JNI17GetStaticMethodIDEP7_JNIEnvP7_jclassPKcS6_,$/;"	f
+LIBART_FUNC	dt_art_wrap.c	/^LIBART_FUNC(void*,  _ZN3art11ClassLinker11DefineClassEPNS_6ThreadEPKcjNS_6HandleINS_6mirror11ClassLoaderEEERKNS_7DexFileERKNS9_8ClassDefE,$/;"	f
+LIBART_FUNC	dt_art_wrap.c	/^LIBART_FUNC(void*, _ZN3art12InvokeMethodERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectS4_S4_j,$/;"	f
+LIBART_FUNC	dt_art_wrap.c	/^LIBART_FUNC(void*, _ZN3art7DexFile10OpenMemoryEPKhjRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEjPNS_6MemMapEPKNS_10OatDexFileEPS9_,$/;"	f
+LIBART_FUNC	dt_art_wrap.c	/^LIBART_FUNC(void*, _ZN3art7DexFileC2EPKhjRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEjPNS_6MemMapEPKNS_10OatDexFileE,$/;"	f
+LIBART_FUNC	dt_art_wrap.c	/^LIBART_FUNC(void*,_ZN3art3JNI9FindClassEP7_JNIEnvPKc, $/;"	f
+LIBART_FUNC	dt_art_wrap.c	/^LIBART_FUNC(void,	_ZN3art8CheckJNI11CallMethodAEPKcP7_JNIEnvP8_jobjectP7_jclassP10_jmethodIDP6jvalueNS_9Primitive4TypeENS_10InvokeTypeE,$/;"	f
+LIBART_FUNC	dt_art_wrap.c	/^LIBART_FUNC(void,  _ZN3art9ArtMethod6InvokeEPNS_6ThreadEPjjPNS_6JValueEPKc,$/;"	f
+LIBART_FUNC	dt_art_wrap.c	/^LIBART_FUNC(void, _ZN3art8CheckJNI11CallMethodVEPKcP7_JNIEnvP8_jobjectP7_jclassP10_jmethodIDSt9__va_listNS_9Primitive4TypeENS_10InvokeTypeE,$/;"	f
+LIBART_FUNC	dt_art_wrap.c	4;"	d	file:
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(Int, fread,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(Int, fwrite,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(char*, strstr, const char* ls, const char* ss)$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, accept,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, bind,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, close,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, connect, $/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, fclose,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, fseek,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, gettimeofday, void *tv, void *tz) {$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, listen,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, madvise, void *addr, int length, int advice)$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, mprotect,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, munmap,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, open,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, pthread_mutex_loack,	pthread_mutex_t* mutex) {$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, pthread_mutex_unloack,	pthread_mutex_t* mutex) {$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, read,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, recv,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, recvfrom, $/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, send,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, sendto,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, setregid,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, setreuid,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, shutdown, int s, int how) {$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, sigaction, $/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, signal, int signum, int handler)$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, sigprocmask, int how, void *set, void *oldset)$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, socket,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, strncmp, const void* s1, char* s2, int n)$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, system, const void *command) {$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(int, write,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(long, ptrace,	int r, int p, int a, int d) {$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(void *, fopen,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(void*, dlopen,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(void*, memchr, const void* s, int c, int n)$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(void*, mmap,$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	/^LIBC_FUNC(void, exit, int status)$/;"	f
+LIBC_FUNC	dt_libfun_replace.c	46;"	d	file:
+LIBC_FUNC	dt_libfun_replace.c	51;"	d	file:
+LibList	dt_taint.h	/^struct LibList {$/;"	s
+Local	dt_wrap.h	/^enum VariableType { Local = 3, Global = 4 };$/;"	e	enum:VariableType
+MAP_ANON	dt_main.h	62;"	d
+MAP_ANONYMOUS	dt_main.h	61;"	d
+MAP_DENYWRITE	dt_main.h	64;"	d
+MAP_FILE	dt_main.h	60;"	d
+MAP_FIXED	dt_main.h	59;"	d
+MAP_FOOBAR	dt_main.h	65;"	d
+MAP_PRIVATE	dt_main.h	57;"	d
+MAP_SHARED	dt_main.h	56;"	d
+MASK	dt_taint.c	1454;"	d	file:
+MAX_LEN	dt_taint.h	16;"	d
+MAX_METHOD_NUM	dt_dexparse.h	1602;"	d
+MAX_PATH	dt_taint.h	268;"	d
+MAX_PRIMARY_ADDRESS	dt_taint.h	67;"	d
+MAX_REG_WRITE_SIZE	dt_main.c	264;"	d	file:
+MAX_REG_WRITE_SIZE	dt_main.c	273;"	d	file:
+MAX_SPILL_JIT_IA	dt_dexparse.h	1285;"	d
+MAX_STACK_SIZE	dt_dexparse.h	1611;"	d
+MCEnv	dt_instrument.c	/^MCEnv;$/;"	t	typeref:struct:_MCEnv	file:
+MCEnv	dt_instrument.h	/^} MCEnv;$/;"	t	typeref:struct:_MCEnv
+MemMapPlus	dt_oatparse.h	/^struct MemMapPlus {$/;"	s
+MemMapping	dt_dexparse.h	/^struct MemMapping {$/;"	s
+Method	dt_dexparse.h	/^struct Method {$/;"	s
+MonitorDexFile	dt_dexparse.h	/^struct MonitorDexFile {$/;"	s
+MthList	dt_dexparse.h	/^	}MthList;$/;"	t	typeref:struct:_Mth_List
+MthNode	dt_dexparse.h	/^	} MthNode;$/;"	t	typeref:struct:_Mth_Pool
+MthStack	dt_dexparse.h	/^	} MthStack;$/;"	t	typeref:struct:_Mth_stack
+NO_INDEX	dt_dexparse.h	31;"	d
+NTOHL	dt_main.h	34;"	d
+NTOHS	dt_main.h	44;"	d
+NUM_FLAGS	dt_dexparse.c	869;"	d	file:
+N_AUXMAP_L1	dt_taint.c	144;"	d	file:
+N_PRIMARY_BITS	dt_taint.h	60;"	d
+N_PRIMARY_BITS	dt_taint.h	62;"	d
+N_PRIMARY_MAP	dt_taint.h	65;"	d
+N_PROF_EVENTS	dt_wrap.h	69;"	d
+OAT_CLASS_TYPE	dt_oatparse.c	/^const HChar * OAT_CLASS_TYPE[3] = {$/;"	v
+OAT_DEBUG	dt_dexparse.h	12;"	d
+OAT_LOGD	dt_dexparse.h	16;"	d
+OAT_LOGD	dt_dexparse.h	19;"	d
+OAT_LOGD	dt_dexparse.h	21;"	d
+OAT_LOGE	dt_dexparse.h	29;"	d
+OAT_LOGI	dt_dexparse.h	25;"	d
+OAT_LOGI	dt_dexparse.h	27;"	d
+OatClassHeader	dt_dexparse.h	/^struct OatClassHeader {$/;"	s
+OatClassOffset	dt_dexparse.h	/^struct OatClassOffset {$/;"	s
+OatClassType	dt_dexparse.h	/^} OatClassType;$/;"	t	typeref:enum:__anon19
+OatDexFilePlus	dt_oatparse.h	/^struct OatDexFilePlus {$/;"	s
+OatHeader	dt_dexparse.h	/^struct OatHeader {$/;"	s
+OatQuickMethodHeader	dt_dexparse.h	/^struct OatQuickMethodHeader {$/;"	s
+OatSec	dt_dexparse.h	/^struct OatSec {$/;"	s
+Object	dt_dexparse.h	/^struct Object {$/;"	s
+ObjectMirror	dt_framework.h	/^} ObjectMirror;$/;"	t	typeref:struct:_ObjectMirror
+ObjectReference	dt_framework.h	/^} ObjectReference;$/;"	t	typeref:struct:_ObjectReference
+OpenedFdType	dt_wrap.h	/^enum OpenedFdType { $/;"	g
+Orig	dt_instrument.c	/^enum { Orig=1, VSh=2 } \/\/, BSh=3 }  Not doing origin tracking$/;"	e	enum:__anon4	file:
+Orig	dt_instrument.h	/^typedef enum { Orig=1, VSh=2 }$/;"	e	enum:__anon23
+PERF_FAST_LOADV	dt_taint.h	52;"	d
+PERF_FAST_SARP	dt_taint.h	54;"	d
+PERF_FAST_STOREV	dt_taint.h	53;"	d
+PRIM_BOOLEAN	dt_dexparse.h	/^	PRIM_BOOLEAN    = 2,$/;"	e	enum:PrimitiveType
+PRIM_BYTE	dt_dexparse.h	/^	PRIM_BYTE       = 3,$/;"	e	enum:PrimitiveType
+PRIM_CHAR	dt_dexparse.h	/^	PRIM_CHAR       = 5,$/;"	e	enum:PrimitiveType
+PRIM_DOUBLE	dt_dexparse.h	/^	PRIM_DOUBLE     = 9,$/;"	e	enum:PrimitiveType
+PRIM_FLOAT	dt_dexparse.h	/^	PRIM_FLOAT      = 8,$/;"	e	enum:PrimitiveType
+PRIM_INT	dt_dexparse.h	/^	PRIM_INT        = 6,$/;"	e	enum:PrimitiveType
+PRIM_LONG	dt_dexparse.h	/^	PRIM_LONG       = 7,$/;"	e	enum:PrimitiveType
+PRIM_NOT	dt_dexparse.h	/^	PRIM_NOT        = 0,       \/* value is a reference type, not a primitive type *\/$/;"	e	enum:PrimitiveType
+PRIM_SHORT	dt_dexparse.h	/^	PRIM_SHORT      = 4,$/;"	e	enum:PrimitiveType
+PRIM_VOID	dt_dexparse.h	/^	PRIM_VOID       = 1,$/;"	e	enum:PrimitiveType
+PROF_EVENT	dt_wrap.h	74;"	d
+PROF_EVENT	dt_wrap.h	84;"	d
+PROTOCOL_FAMILY	dt_main.c	/^const char* PROTOCOL_FAMILY[11] = {$/;"	v
+PROT_EXEC	dt_main.h	54;"	d
+PROT_NONE	dt_main.h	51;"	d
+PROT_READ	dt_main.h	52;"	d
+PROT_WRITE	dt_main.h	53;"	d
+PointerArrayMirror	dt_framework.h	/^} PointerArrayMirror;$/;"	t	typeref:struct:_PointerArrayMirror
+PrimType	dt_wrap.h	/^enum PrimType {                      $/;"	g
+PrimitiveArrayMiror	dt_framework.h	/^} PrimitiveArrayMiror;$/;"	t	typeref:struct:_PrimitiveArrayMirror
+PrimitiveType	dt_dexparse.h	/^enum PrimitiveType {$/;"	g
+PtrSizedFields	dt_oatparse.h	/^	struct PtrSizedFields {$/;"	s	struct:ArtMethodPlus
+RECORD_OVERLAP_ERROR	dt_libfun_replace.c	796;"	d	file:
+RI_MAX	dt_taint.h	136;"	d
+RegisterMap	dt_dexparse.h	/^struct RegisterMap {$/;"	s
+SHUTDOWN_HOW	dt_main.c	/^const HChar* SHUTDOWN_HOW[3] = {$/;"	v
+SMT2_ty	dt_stmt2.c	/^const Int SMT2_ty[] = {$/;"	v
+SM_CHUNKS	dt_taint.h	73;"	d
+SM_DIST_NOACCESS	dt_taint.c	42;"	d	file:
+SM_DIST_TAINTED	dt_taint.c	43;"	d	file:
+SM_DIST_UNTAINTED	dt_taint.c	44;"	d	file:
+SM_MASK	dt_taint.h	82;"	d
+SM_OFF	dt_taint.h	74;"	d
+SM_OFF_16	dt_taint.h	75;"	d
+SM_SIZE	dt_taint.h	81;"	d
+SOCKET_TYPE	dt_main.c	/^const HChar* SOCKET_TYPE[11] = {$/;"	v
+STACK_SIZE	dt_taint.h	17;"	d
+STACK_TRACE_SIZE	dt_wrap.h	10;"	d
+STEPUP_GROWTH_FACTOR	dt_taint.c	525;"	d	file:
+STEPUP_SURVIVOR_PROPORTION	dt_taint.c	524;"	d	file:
+STRRCHR	dt_libfun_replace.c	805;"	d	file:
+SYSCALLS_MAX	dt_wrap.h	175;"	d
+SecMap	dt_taint.h	/^} SecMap;$/;"	t	typeref:struct:__anon27
+SecVBitNode	dt_taint.c	/^SecVBitNode;$/;"	t	typeref:struct:__anon3	file:
+StaticField	dt_dexparse.h	/^struct StaticField{$/;"	s
+StdString	dt_oatparse.h	/^struct StdString {$/;"	s
+StringMirror	dt_framework.h	/^} StringMirror;$/;"	t	typeref:struct:_StringMirror
+T	dt_framework.c	19;"	d	file:
+TG_N_THREADS	dt_wrap.h	157;"	d
+TI_MAX	dt_taint.h	135;"	d
+TMP_STR_SIZE	dt_framework.c	17;"	d	file:
+TNT_LOGI	dt_debug.h	146;"	d
+TNT_LOGI	dt_debug.h	153;"	d
+TRACE_ART_METHOD	dt_instrument.c	7086;"	d	file:
+TRACE_ART_PLATFORM	dt_main.h	6;"	d
+TRACE_DEX_FILE_DATA	dt_dexparse.h	43;"	d
+TYPE_NONE	dt_dexparse.h	/^	TYPE_NONE		= 0x00,$/;"	e	enum:__anon21
+TYPE_SINK	dt_dexparse.h	/^	TYPE_SINK		= 0x02$/;"	e	enum:__anon21
+TYPE_SOURCE	dt_dexparse.h	/^	TYPE_SOURCE = 0x01,$/;"	e	enum:__anon21
+TempKind	dt_instrument.c	/^TempKind;$/;"	t	typeref:enum:__anon4	file:
+TempKind	dt_instrument.h	/^TempKind;$/;"	t	typeref:enum:__anon23
+TempMapEnt	dt_instrument.c	/^TempMapEnt;$/;"	t	typeref:struct:__anon5	file:
+TempMapEnt	dt_instrument.h	/^} TempMapEnt;$/;"	t	typeref:struct:__anon24
+Thread	dt_dexparse.h	/^struct Thread {$/;"	s
+UNALIGNED_OR_HIGH	dt_taint.c	1458;"	d	file:
+UNKNOWN_CLASS_NAME	dt_framework.c	16;"	d	file:
+VALGRIND_CHECK_MEM_TAINTED	dt_main.h	167;"	d
+VALGRIND_CHECK_VALUE_IS_DEFINED	dt_libfun_replace.c	799;"	d	file:
+VALGRIND_COPY_MEM_TAINT	dt_main.h	192;"	d
+VALGRIND_DISCARD_INS_CACHE	dt_main.h	161;"	d
+VALGRIND_MAKE_MEM_NOACCESS	dt_main.h	173;"	d
+VALGRIND_MAKE_MEM_TAINTED	dt_main.h	180;"	d
+VALGRIND_MAKE_MEM_UNTAINTED	dt_main.h	187;"	d
+VAR_MAX	dt_wrap.h	165;"	d
+VAR_READ	dt_wrap.h	166;"	d
+VAR_WRITE	dt_wrap.h	167;"	d
+VA_BITS16_NOACCESS	dt_taint.h	117;"	d
+VA_BITS16_TAINTED	dt_taint.h	118;"	d
+VA_BITS16_UNTAINTED	dt_taint.h	119;"	d
+VA_BITS2_NOACCESS	dt_taint.h	101;"	d
+VA_BITS2_PARTUNTAINTED	dt_taint.h	104;"	d
+VA_BITS2_TAINTED	dt_taint.h	102;"	d
+VA_BITS2_UNTAINTED	dt_taint.h	103;"	d
+VA_BITS4_NOACCESS	dt_taint.h	107;"	d
+VA_BITS4_TAINTED	dt_taint.h	108;"	d
+VA_BITS4_UNTAINTED	dt_taint.h	109;"	d
+VA_BITS8_NOACCESS	dt_taint.h	112;"	d
+VA_BITS8_TAINTED	dt_taint.h	113;"	d
+VA_BITS8_UNTAINTED	dt_taint.h	114;"	d
+VG_USERREQ__CHECK_MEM_TAINTED	dt_main.h	/^	VG_USERREQ__CHECK_MEM_TAINTED,$/;"	e	enum:__anon22
+VG_USERREQ__COPY_MEM_TAINT	dt_main.h	/^	VG_USERREQ__COPY_MEM_TAINT,$/;"	e	enum:__anon22
+VG_USERREQ__MAKE_MEM_NOACCESS	dt_main.h	/^	VG_USERREQ__MAKE_MEM_NOACCESS,$/;"	e	enum:__anon22
+VG_USERREQ__MAKE_MEM_TAINTED	dt_main.h	/^	VG_USERREQ__MAKE_MEM_TAINTED,$/;"	e	enum:__anon22
+VG_USERREQ__MAKE_MEM_UNTAINTED	dt_main.h	/^	VG_USERREQ__MAKE_MEM_UNTAINTED,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ACCEPT	dt_main.h	/^	VG_USERREQ__WRAPPER_ACCEPT,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_CALLMETHODA	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_CALLMETHODA,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_CALLMETHODV	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_CALLMETHODV,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_DEFINECLASS	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_DEFINECLASS,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_DEFINECLASS_PRE	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_DEFINECLASS_PRE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_DEXFILE	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_DEXFILE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_DEXFILE_PRE	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_DEXFILE_PRE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_INVOKE	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_INVOKE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_INVOKEMETHOD	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_INVOKEMETHOD,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_INVOKEVIRTUALORINTERFACEWITHJVALUES	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_INVOKEVIRTUALORINTERFACEWITHJVALUES,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_INVOKEVIRTUALORINTERFACEWITHVARARGS	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_INVOKEVIRTUALORINTERFACEWITHVARARGS,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_INVOKEWITHJVALUES	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_INVOKEWITHJVALUES,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_INVOKEWITHVARARGS	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_INVOKEWITHVARARGS,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_INVOKE_PRE	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_INVOKE_PRE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_JNIFINDCLASS	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_JNIFINDCLASS,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_JNIGETMETHODID	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_JNIGETMETHODID,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_JNIGETSTATICMETHODID	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_JNIGETSTATICMETHODID,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_LOADNATIVELIBRARY	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_LOADNATIVELIBRARY,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_LOADNATIVELIBRARY_PRE	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_LOADNATIVELIBRARY_PRE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_OPENMEMORY	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_OPENMEMORY,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_TEST	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_TEST,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_ART_TEST_PRE	dt_main.h	/^	VG_USERREQ__WRAPPER_ART_TEST_PRE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_BIND	dt_main.h	/^	VG_USERREQ__WRAPPER_BIND,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_CLOSE	dt_main.h	/^	VG_USERREQ__WRAPPER_CLOSE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_CONNECT	dt_main.h	/^	VG_USERREQ__WRAPPER_CONNECT,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_CONNECT_PRE	dt_main.h	/^	VG_USERREQ__WRAPPER_CONNECT_PRE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_DLOPEN	dt_main.h	/^	VG_USERREQ__WRAPPER_DLOPEN,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_EXIT_PRE	dt_main.h	/^	VG_USERREQ__WRAPPER_EXIT_PRE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_FCLOSE	dt_main.h	/^	VG_USERREQ__WRAPPER_FCLOSE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_FOPEN	dt_main.h	/^	VG_USERREQ__WRAPPER_FOPEN,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_FREAD	dt_main.h	/^	VG_USERREQ__WRAPPER_FREAD,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_FSEEK	dt_main.h	/^	VG_USERREQ__WRAPPER_FSEEK,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_FWRITE	dt_main.h	/^	VG_USERREQ__WRAPPER_FWRITE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_GETTIMEOFDAY	dt_main.h	/^	VG_USERREQ__WRAPPER_GETTIMEOFDAY,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_LISTEN	dt_main.h	/^	VG_USERREQ__WRAPPER_LISTEN,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_LSEEK	dt_main.h	/^	VG_USERREQ__WRAPPER_LSEEK,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_MADVISE	dt_main.h	/^	VG_USERREQ__WRAPPER_MADVISE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_MADVISE_PRE	dt_main.h	/^	VG_USERREQ__WRAPPER_MADVISE_PRE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_MEMCHR	dt_main.h	/^	VG_USERREQ__WRAPPER_MEMCHR,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_MMAP	dt_main.h	/^	VG_USERREQ__WRAPPER_MMAP,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_MPROTECT	dt_main.h	/^	VG_USERREQ__WRAPPER_MPROTECT,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_MUNMAP	dt_main.h	/^	VG_USERREQ__WRAPPER_MUNMAP,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_OPEN	dt_main.h	/^	VG_USERREQ__WRAPPER_OPEN,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_READ	dt_main.h	/^	VG_USERREQ__WRAPPER_READ,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_RECV	dt_main.h	/^	VG_USERREQ__WRAPPER_RECV,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_RECVFROM	dt_main.h	/^	VG_USERREQ__WRAPPER_RECVFROM,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_RECVFROM_PRE	dt_main.h	/^	VG_USERREQ__WRAPPER_RECVFROM_PRE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_RECV_PRE	dt_main.h	/^	VG_USERREQ__WRAPPER_RECV_PRE,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_SEND	dt_main.h	/^	VG_USERREQ__WRAPPER_SEND,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_SENDTO	dt_main.h	/^	VG_USERREQ__WRAPPER_SENDTO,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_SHUTDOWN	dt_main.h	/^	VG_USERREQ__WRAPPER_SHUTDOWN,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_SIGACTION	dt_main.h	/^	VG_USERREQ__WRAPPER_SIGACTION,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_SIGNAL	dt_main.h	/^	VG_USERREQ__WRAPPER_SIGNAL,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_SIGPROCMASK	dt_main.h	/^	VG_USERREQ__WRAPPER_SIGPROCMASK,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_SOCKET	dt_main.h	/^	VG_USERREQ__WRAPPER_SOCKET,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_STRCMP	dt_main.h	/^	VG_USERREQ__WRAPPER_STRCMP,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_STRNCMP	dt_main.h	/^	VG_USERREQ__WRAPPER_STRNCMP,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_STRSTR	dt_main.h	/^	VG_USERREQ__WRAPPER_STRSTR,$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_SYSTEM	dt_main.h	/^	VG_USERREQ__WRAPPER_SYSTEM$/;"	e	enum:__anon22
+VG_USERREQ__WRAPPER_WRITE	dt_main.h	/^	VG_USERREQ__WRAPPER_WRITE,$/;"	e	enum:__anon22
+VSh	dt_instrument.c	/^enum { Orig=1, VSh=2 } \/\/, BSh=3 }  Not doing origin tracking$/;"	e	enum:__anon4	file:
+VSh	dt_instrument.h	/^typedef enum { Orig=1, VSh=2 }$/;"	e	enum:__anon23
+V_BITS16_TAINTED	dt_taint.h	91;"	d
+V_BITS16_UNTAINTED	dt_taint.h	90;"	d
+V_BITS32_TAINTED	dt_taint.h	94;"	d
+V_BITS32_UNTAINTED	dt_taint.h	93;"	d
+V_BITS64_TAINTED	dt_taint.h	97;"	d
+V_BITS64_UNTAINTED	dt_taint.h	96;"	d
+V_BITS8_TAINTED	dt_taint.h	88;"	d
+V_BITS8_UNTAINTED	dt_taint.h	87;"	d
+V_BIT_TAINTED	dt_taint.h	85;"	d
+V_BIT_UNTAINTED	dt_taint.h	84;"	d
+VariableLocation	dt_wrap.h	/^enum VariableLocation { GlobalFromApplication = 5, GlobalFromElsewhere = 6 };$/;"	g
+VariableType	dt_wrap.h	/^enum VariableType { Local = 3, Global = 4 };$/;"	g
+Vg_DatatraceClientRequest	dt_main.h	/^} Vg_DatatraceClientRequest;$/;"	t	typeref:enum:__anon22
+WITH_JIT	dt_dexparse.h	1284;"	d
+XcurFrame	dt_dexparse.h	/^	void*       XcurFrame;$/;"	m	struct:Thread
+_ArrayMirror	dt_framework.h	/^struct _ArrayMirror {$/;"	s
+_ClassMirror	dt_framework.h	/^struct _ClassMirror {$/;"	s
+_DT_DEBUG_H	dt_debug.h	2;"	d
+_DT_DEX_PARSE_H	dt_dexparse.h	2;"	d
+_DT_FRAMEWORK_H	dt_framework.h	2;"	d
+_DT_INSTRUMENT_H	dt_instrument.h	2;"	d
+_DT_OATPARSE_H	dt_oatparse.h	2;"	d
+_DT_TAINT_H	dt_taint.h	2;"	d
+_DT_WRAP_h	dt_wrap.h	2;"	d
+_HP_Chunk	dt_wrap.h	/^typedef struct _HP_Chunk {$/;"	s
+_MCEnv	dt_instrument.c	/^struct _MCEnv {$/;"	s	file:
+_MCEnv	dt_instrument.h	/^typedef struct _MCEnv {$/;"	s
+_Mth_List	dt_dexparse.h	/^	struct _Mth_List {$/;"	s
+_Mth_Pool	dt_dexparse.h	/^	struct _Mth_Pool {$/;"	s
+_Mth_stack	dt_dexparse.h	/^	struct _Mth_stack {$/;"	s
+_ObjectMirror	dt_framework.h	/^struct _ObjectMirror {$/;"	s
+_ObjectReference	dt_framework.h	/^struct _ObjectReference {$/;"	s
+_PointerArrayMirror	dt_framework.h	/^struct _PointerArrayMirror {$/;"	s
+_PrimitiveArrayMirror	dt_framework.h	/^struct _PrimitiveArrayMirror {$/;"	s
+_StringMirror	dt_framework.h	/^struct _StringMirror {$/;"	s
+__COPY_H	copy.h	33;"	d
+__DATATRACE_H	dt_main.h	2;"	d
+__DT_STRING_H	dt_string.h	2;"	d
+_b	dt_dexparse.h	/^		Char    _b[3];$/;"	m	struct:JValue::__anon15
+_c	dt_dexparse.h	/^		UShort    _c;$/;"	m	struct:JValue::__anon16
+_s	dt_dexparse.h	/^		Short    _s;$/;"	m	struct:JValue::__anon17
+_ti	dt_taint.h	284;"	d
+_z	dt_dexparse.h	/^		UChar    _z[3];$/;"	m	struct:JValue::__anon14
+a	dt_taint.c	/^	Addr  a;$/;"	m	struct:__anon3	file:
+a2t32	dt_stmt2.c	38;"	d	file:
+a2t64	dt_stmt2.c	44;"	d	file:
+a2v32	dt_stmt2.c	35;"	d	file:
+a2v64	dt_stmt2.c	41;"	d	file:
+accept_wrapper	dt_libfun_replace.c	/^int accept_wrapper(int s, struct sockaddr *addr, socklen_t *addrlen)$/;"	f
+accessFlags	dt_dexparse.h	/^		Int			accessFlags;$/;"	m	struct:_Mth_Pool
+accessFlags	dt_dexparse.h	/^	UInt		          accessFlags;$/;"	m	struct:Method
+accessFlags	dt_dexparse.h	/^	UInt              accessFlags;$/;"	m	struct:ClassObject
+accessFlags	dt_dexparse.h	/^	UInt             accessFlags;$/;"	m	struct:Field
+accessFlags	dt_dexparse.h	/^	UInt accessFlags;$/;"	m	struct:DexField
+accessFlags	dt_dexparse.h	/^	UInt accessFlags;$/;"	m	struct:DexMethod
+accessFlags	dt_dexparse.h	/^	\/*0x04*\/ UInt  accessFlags;$/;"	m	struct:DexClassDef
+access_flags_	dt_framework.h	/^	\/*0x24*\/ UInt		access_flags_;$/;"	m	struct:_ClassMirror
+access_flags_	dt_oatparse.h	/^	\/*0x0c*\/	UInt	access_flags_;$/;"	m	struct:ArtMethodPlus
+addDexFileList	dt_dexparse.c	/^struct MonitorDexFile* addDexFileList( struct DexFile* pDexFile ) {$/;"	f
+addFilterFun	dt_instrument.c	/^Bool addFilterFun(const HChar* soname, const HChar* fnname) {$/;"	f
+addFilterList	dt_instrument.c	/^void addFilterList( Addr avma, SizeT size ) {$/;"	f
+addStmt	dt_instrument.c	/^static inline void addStmt( MCEnv *mce, IRStmt *st) {$/;"	f	file:
+add_method	dt_oatparse.c	/^static void* add_method(HChar *clazz, HChar* mth, HChar* shorty, Addr codeAddr, SizeT codeSize, Int index, Int accessFlags)$/;"	f	file:
+addr	dt_dexparse.h	/^		Addr	addr[MAX_STACK_SIZE];$/;"	m	struct:_Mth_stack
+addr	dt_dexparse.h	/^	void*   addr;           \/* start of data *\/$/;"	m	struct:MemMapping
+addr	dt_main.h	/^	struct	in_addr	addr;$/;"	m	struct:sockaddr_in	typeref:struct:sockaddr_in::in_addr
+adler32Checksum	dt_dexparse.h	/^	UInt  adler32Checksum;$/;"	m	struct:OatHeader
+all	dt_dexparse.h	/^	volatile Long   all;$/;"	m	union:InterpBreak
+alloc_and_record_block	dt_mem_wrap.c	/^void* alloc_and_record_block ( ThreadId tid, SizeT req_szB, SizeT req_alignB,$/;"	f	file:
+allocatedSize	dt_dexparse.h	/^	Int allocatedSize; \/* size of the allocated buffer, if allocated *\/$/;"	m	struct:DexStringCache
+annotation	dt_dexparse.h	/^	UChar  annotation[1];              \/* data in encoded_annotation format *\/$/;"	m	struct:DexAnnotationItem
+annotationsOff	dt_dexparse.h	/^	UInt  annotationsOff;             \/* offset to DexAnnotationSetItem *\/$/;"	m	struct:DexAnnotationSetRefItem
+annotationsOff	dt_dexparse.h	/^	UInt  annotationsOff;             \/* offset to DexAnnotationSetItem *\/$/;"	m	struct:DexFieldAnnotationsItem
+annotationsOff	dt_dexparse.h	/^	UInt  annotationsOff;             \/* offset to DexAnnotationSetItem *\/$/;"	m	struct:DexMethodAnnotationsItem
+annotationsOff	dt_dexparse.h	/^	UInt  annotationsOff;             \/* offset to DexAnotationSetRefList *\/$/;"	m	struct:DexParameterAnnotationsItem
+annotationsOff	dt_dexparse.h	/^	\/*0x14*\/ UInt  annotationsOff;     \/* file offset to annotations_directory_item *\/$/;"	m	struct:DexClassDef
+anonymous_obj	dt_main.c	/^static const HChar *anonymous_obj = "???";$/;"	v	file:
+arrary_	dt_framework.h	/^	ArrayMirror	arrary_;$/;"	m	struct:_PointerArrayMirror
+arrary_	dt_framework.h	/^	ArrayMirror	arrary_;$/;"	m	struct:_PrimitiveArrayMirror
+array	dt_dexparse.h	/^	UChar  array[1];                   \/* data in encoded_array format *\/$/;"	m	struct:DexEncodedArray
+arrayDim	dt_dexparse.h	/^	Int								arrayDim;$/;"	m	struct:ClassObject
+art_InvokeMethod	dt_art_wrap.c	/^void* art_InvokeMethod(const void* soa, void* javaMethod, void* javaReceiver, void* javaArgs, int num_frames)$/;"	f
+asciify	dt_dexparse.c	/^static void asciify(HChar* out, const UChar* data, UInt len)$/;"	f	file:
+assign	dt_instrument.c	/^void assign ( HChar cat, MCEnv* mce, IRTemp tmp, IRExpr* expr ) {$/;"	f	file:
+assignNew	dt_instrument.c	/^static IRAtom* assignNew ( HChar cat, MCEnv* mce, IRType ty, IRExpr* e ) \/\/418$/;"	f	file:
+atoi	dt_taint.c	/^Int atoi( HChar *s ){$/;"	f
+atom2vbits	dt_instrument.c	/^IRExpr* atom2vbits ( MCEnv* mce, IRAtom* atom )$/;"	f	file:
+auxmap_L1	dt_taint.c	/^auxmap_L1[N_AUXMAP_L1];$/;"	v	typeref:struct:__anon2	file:
+auxmap_L2	dt_taint.c	/^static OSet* auxmap_L2 = NULL;$/;"	v	file:
+b	dt_dexparse.h	/^		Char    b;$/;"	m	struct:JValue::__anon15
+b	dt_dexparse.h	/^	Char      b;$/;"	m	union:JValue
+bailPtr	dt_dexparse.h	/^	void*										bailPtr;$/;"	m	struct:InterpSaveState
+base	dt_taint.c	/^	Addr       base;$/;"	m	struct:__anon2	file:
+base	dt_taint.c	/^	Addr    base;$/;"	m	struct:__anon1	file:
+baseAddr	dt_dexparse.h	/^	Addr						baseAddr;$/;"	m	struct:MonitorDexFile
+baseAddr	dt_dexparse.h	/^	const UChar*       baseAddr;$/;"	m	struct:DexFile
+baseAddr	dt_dexparse.h	/^	void*   baseAddr;       \/* page-aligned base address *\/$/;"	m	struct:MemMapping
+baseLength	dt_dexparse.h	/^	Int  baseLength;     \/* length of mapping *\/$/;"	m	struct:MemMapping
+base_begin_	dt_oatparse.h	/^	\/*0x14*\/ void*  base_begin_;$/;"	m	struct:MemMapPlus
+base_size	dt_oatparse.h	/^	\/*0x18*\/ UInt		base_size;$/;"	m	struct:MemMapPlus
+begin	dt_dexparse.h	/^	Addr		begin;			\/* The beginning address of mapped memory *\/$/;"	m	struct:DexFileInfo
+begin_	dt_oatparse.h	/^	\/*0x04*\/ UChar*	begin_;$/;"	m	struct:DexFilePlus
+begin_	dt_oatparse.h	/^	\/*0x0c*\/ UChar* begin_;$/;"	m	struct:MemMapPlus
+binary16Ix16	dt_instrument.c	/^IRAtom* binary16Ix16 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 )$/;"	f	file:
+binary16Ix2	dt_instrument.c	/^IRAtom* binary16Ix2 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 )$/;"	f	file:
+binary16Ix4	dt_instrument.c	/^IRAtom* binary16Ix4 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 )$/;"	f	file:
+binary16Ix8	dt_instrument.c	/^IRAtom* binary16Ix8 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 )$/;"	f	file:
+binary32F0x4	dt_instrument.c	/^IRAtom* binary32F0x4 ( MCEnv* mce, IRAtom* vatomX, IRAtom* vatomY )$/;"	f	file:
+binary32Fx2	dt_instrument.c	/^IRAtom* binary32Fx2 ( MCEnv* mce, IRAtom* vatomX, IRAtom* vatomY )$/;"	f	file:
+binary32Fx4	dt_instrument.c	/^IRAtom* binary32Fx4 ( MCEnv* mce, IRAtom* vatomX, IRAtom* vatomY ) \/\/1761$/;"	f	file:
+binary32Fx4_w_rm	dt_instrument.c	/^IRAtom* binary32Fx4_w_rm ( MCEnv* mce, IRAtom* vRM,$/;"	f	file:
+binary32Fx8	dt_instrument.c	/^IRAtom* binary32Fx8 ( MCEnv* mce, IRAtom* vatomX, IRAtom* vatomY )$/;"	f	file:
+binary32Fx8_w_rm	dt_instrument.c	/^IRAtom* binary32Fx8_w_rm ( MCEnv* mce, IRAtom* vRM,$/;"	f	file:
+binary32Ix2	dt_instrument.c	/^IRAtom* binary32Ix2 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 )$/;"	f	file:
+binary32Ix4	dt_instrument.c	/^IRAtom* binary32Ix4 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 )$/;"	f	file:
+binary32Ix8	dt_instrument.c	/^IRAtom* binary32Ix8 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 )$/;"	f	file:
+binary64F0x2	dt_instrument.c	/^IRAtom* binary64F0x2 ( MCEnv* mce, IRAtom* vatomX, IRAtom* vatomY )$/;"	f	file:
+binary64Fx2	dt_instrument.c	/^IRAtom* binary64Fx2 ( MCEnv* mce, IRAtom* vatomX, IRAtom* vatomY ) \/\/1807$/;"	f	file:
+binary64Fx2_w_rm	dt_instrument.c	/^IRAtom* binary64Fx2_w_rm ( MCEnv* mce, IRAtom* vRM,$/;"	f	file:
+binary64Fx4	dt_instrument.c	/^IRAtom* binary64Fx4 ( MCEnv* mce, IRAtom* vatomX, IRAtom* vatomY )$/;"	f	file:
+binary64Fx4_w_rm	dt_instrument.c	/^IRAtom* binary64Fx4_w_rm ( MCEnv* mce, IRAtom* vRM,$/;"	f	file:
+binary64Ix1	dt_instrument.c	/^IRAtom* binary64Ix1 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 )$/;"	f	file:
+binary64Ix2	dt_instrument.c	/^IRAtom* binary64Ix2 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 )$/;"	f	file:
+binary64Ix4	dt_instrument.c	/^IRAtom* binary64Ix4 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 )$/;"	f	file:
+binary8Ix16	dt_instrument.c	/^IRAtom* binary8Ix16 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 ) \/\/1927$/;"	f	file:
+binary8Ix32	dt_instrument.c	/^IRAtom* binary8Ix32 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 )$/;"	f	file:
+binary8Ix4	dt_instrument.c	/^IRAtom* binary8Ix4 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 )$/;"	f	file:
+binary8Ix8	dt_instrument.c	/^IRAtom* binary8Ix8 ( MCEnv* mce, IRAtom* vatom1, IRAtom* vatom2 )$/;"	f	file:
+bind_shadow_tmp_to_orig	dt_instrument.c	/^static void bind_shadow_tmp_to_orig ( UChar how,$/;"	f	file:
+bind_wrapper	dt_libfun_replace.c	/^int bind_wrapper(int socket, struct sockaddr *addr, socklen_t length)$/;"	f
+binop	dt_instrument.c	306;"	d	file:
+bleargh	dt_dexparse.h	/^	UChar  bleargh;$/;"	m	struct:DexLink
+bogusLiterals	dt_instrument.c	/^	Bool    bogusLiterals;$/;"	m	struct:_MCEnv	file:
+bogusLiterals	dt_instrument.h	/^	Bool		bogusLiterals;$/;"	m	struct:_MCEnv
+breakFlags	dt_dexparse.h	/^		UChar			 breakFlags;$/;"	m	struct:InterpBreak::__anon18
+buffer	dt_dexparse.h	/^	HChar buffer[120];     \/* buffer used to hold small-enough results *\/$/;"	m	struct:DexStringCache
+byteOffset	dt_dexparse.h	/^	Int             byteOffset;$/;"	m	struct:InstField
+byte_offset_w	dt_taint.c	/^static INLINE UWord byte_offset_w ( UWord wordszB, Bool bigendian, UWord byteno ) {$/;"	f	file:
+c	dt_dexparse.h	/^		UShort    c;$/;"	m	struct:JValue::__anon16
+c	dt_dexparse.h	/^	UShort      c;$/;"	m	union:JValue
+cardTable	dt_dexparse.h	/^	UChar*         cardTable;$/;"	m	struct:Thread
+checkForBogusLiterals	dt_instrument.c	/^static Bool checkForBogusLiterals ( \/*FLAT*\/ IRStmt* st )$/;"	f	file:
+check_mth_invoke	dt_framework.c	/^Int check_mth_invoke(MthNode *mNode, ThreadId tid)$/;"	f
+check_mth_return	dt_framework.c	/^Int check_mth_return(MthNode *mNode, ThreadId tid)$/;"	f
+check_string_tainted	dt_framework.c	/^Bool check_string_tainted(StringMirror *strObj)$/;"	f	file:
+checksum	dt_dexparse.h	/^	UInt  checksum;           \/* adler32 checksum covering deps\/opt *\/$/;"	m	struct:DexOptHeader
+checksum	dt_dexparse.h	/^	\/* 08 *\/UInt  checksum;           \/* adler32 checksum *\/$/;"	m	struct:DexHeader
+classAnnotationsOff	dt_dexparse.h	/^	UInt  classAnnotationsOff;  \/* offset to DexAnnotationSetItem *\/$/;"	m	struct:DexAnnotationsDirectoryItem
+classDataOff	dt_dexparse.h	/^	\/*0x18*\/ UInt  classDataOff;       \/* file offset to class_data_item *\/$/;"	m	struct:DexClassDef
+classDefOffset	dt_dexparse.h	/^		Int		classDefOffset;         \/\/ in bytes, from start of DEX$/;"	m	struct:DexClassLookup::__anon13
+classDefsOff	dt_dexparse.h	/^	\/* 64 *\/UInt  classDefsOff;$/;"	m	struct:DexHeader
+classDefsSize	dt_dexparse.h	/^	\/* 60 *\/UInt  classDefsSize;$/;"	m	struct:DexHeader
+classDescriptorHash	dt_dexparse.h	/^		UInt  classDescriptorHash;    \/\/ class descriptor hash code$/;"	m	struct:DexClassLookup::__anon13
+classDescriptorOffset	dt_dexparse.h	/^		Int   classDescriptorOffset;  \/\/ in bytes, from start of DEX$/;"	m	struct:DexClassLookup::__anon13
+classIdx	dt_dexparse.h	/^	UShort  classIdx;$/;"	m	struct:DexMethodId
+classIdx	dt_dexparse.h	/^	UShort classIdx;$/;"	m	struct:DexFieldId
+classIdx	dt_dexparse.h	/^	\/*0x00*\/ UInt  classIdx;           \/* index into typeIds for this class *\/$/;"	m	struct:DexClassDef
+classLoader	dt_dexparse.h	/^	struct Object*         classLoader;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::Object
+class_def_index_	dt_oatparse.h	/^	\/*0x40*\/ void		*class_def_index_; $/;"	m	struct:DexFilePlus
+class_defs_	dt_oatparse.h	/^	\/*0x38*\/ struct ClassDef	*class_defs_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::ClassDef
+class_loader_	dt_framework.h	/^	\/*0x00*\/ void*	class_loader_;$/;"	m	struct:_ClassMirror
+class_size_	dt_framework.h	/^	\/*0x48*\/ UInt	class_size_;$/;"	m	struct:_ClassMirror
+clazz	dt_dexparse.h	/^		HChar		clazz[256];$/;"	m	struct:_Mth_Pool
+clazz	dt_dexparse.h	/^	struct ClassObject*			clazz;$/;"	m	struct:Method	typeref:struct:Method::ClassObject
+clazz	dt_dexparse.h	/^	struct ClassObject*    clazz;$/;"	m	struct:InterfaceEntry	typeref:struct:InterfaceEntry::ClassObject
+clazz	dt_dexparse.h	/^	void*		  				clazz;$/;"	m	struct:Field
+clazz	dt_dexparse.h	/^	void* clazz;$/;"	m	struct:Object
+client_binary_name	dt_taint.c	/^HChar* client_binary_name = "???";\/\/NULL;$/;"	v
+clinit_thread_id_	dt_framework.h	/^	\/*0x4c*\/ UInt	clinit_thread_id_;$/;"	m	struct:_ClassMirror
+cloneLen	dt_dexparse.h	/^	UInt						cloneLen;$/;"	m	struct:MonitorDexFile
+cloneMem	dt_dexparse.h	/^	Addr						cloneMem;$/;"	m	struct:MonitorDexFile
+close_dex_fun_	dt_oatparse.h	/^	\/*0x00*\/ void*  close_dex_fun_;$/;"	m	struct:DexFilePlus
+close_wrapper	dt_libfun_replace.c	/^int close_wrapper(int handle)$/;"	f
+codeAddr	dt_dexparse.h	/^		Addr		codeAddr;$/;"	m	struct:_Mth_Pool
+codeAddr	dt_dexparse.h	/^		Addr	codeAddr;$/;"	m	struct:_Mth_List
+codeOff	dt_dexparse.h	/^	UInt codeOff;      \/* file offset to a code_item *\/$/;"	m	struct:DexMethod
+codeSize	dt_dexparse.h	/^		SizeT		codeSize;$/;"	m	struct:_Mth_Pool
+codeSize	dt_dexparse.h	/^	UInt codeSize;$/;"	m	struct:OatQuickMethodHeader
+complainIfTainted	dt_instrument.c	/^static void complainIfTainted ( MCEnv* mce, IRAtom* atom, IRDirty* di2 )$/;"	f	file:
+component_type_	dt_framework.h	/^	\/*0x04*\/ void*	component_type_;$/;"	m	struct:_ClassMirror
+connect_wrapper	dt_libfun_replace.c	/^int connect_wrapper(int socket, const struct sockaddr *serv_addr, socklen_t addrlen)$/;"	f
+convert_Value	dt_instrument.c	/^static IRExpr* convert_Value( MCEnv* mce, IRAtom* value ){$/;"	f	file:
+copyAllClasses	dt_dexparse.c	/^	Bool copyAllClasses(const struct DexFile* pDexFile) {$/;"	f
+copyDexClass	dt_dexparse.c	/^	Bool copyDexClass(const struct DexFile* pDexFile, Int idx, HChar* desc) {$/;"	f
+copyDexFileHead	dt_dexparse.c	/^	Bool copyDexFileHead(const struct DexFile* pDexFile) {$/;"	f
+copyDexFileOptHeader	dt_dexparse.c	/^	Bool copyDexFileOptHeader(const struct DexFile* pDexFile) {$/;"	f
+copyMethod	dt_dexparse.c	/^	static	Bool copyMethod(struct MonitorDexFile* pMDexFile, $/;"	f	file:
+copyMthCode	dt_dexparse.c	/^	Bool copyMthCode(const struct DexFile* pDexFile, const struct Method* pMethod) {$/;"	f
+copyOneClass	dt_dexparse.c	/^	Bool copyOneClass(const struct DexFile* pDexFile, HChar* desc) {$/;"	f
+copy_for_writing	dt_taint.c	/^static SecMap* copy_for_writing ( SecMap* dist_sm )$/;"	f	file:
+coreSpillMask	dt_dexparse.h	/^	UInt coreSpillMask;$/;"	m	struct:OatQuickMethodHeader
+countOnes	dt_dexparse.c	/^static Int countOnes(UInt val)$/;"	f	file:
+count_	dt_framework.h	/^	Int			count_;$/;"	m	struct:_StringMirror
+createAccessFlagStr	dt_dexparse.c	/^static HChar* createAccessFlagStr(UInt flags, enum AccessFor forWhat)$/;"	f	file:
+createDexFileMem	dt_dexparse.c	/^	struct MonitorDexFile* createDexFileMem(const struct DexFile* pDexFile, Addr addr, UInt len) {$/;"	f
+createSecVBitTable	dt_taint.c	/^static OSet* createSecVBitTable(void)$/;"	f	file:
+create_dirty_BINOP	dt_instrument.c	/^IRDirty* create_dirty_BINOP( MCEnv* mce, IRStmt *clone,$/;"	f
+create_dirty_CAS	dt_instrument.c	/^IRDirty* create_dirty_CAS( MCEnv* mce, IRCAS* details ){$/;"	f
+create_dirty_CCALL	dt_instrument.c	/^IRDirty* create_dirty_CCALL( MCEnv* mce, IRStmt *clone, IRTemp tmp,$/;"	f
+create_dirty_DIRTY	dt_instrument.c	/^IRDirty* create_dirty_DIRTY( MCEnv* mce, IRDirty* details ){$/;"	f
+create_dirty_EXIT	dt_instrument.c	/^IRDirty* create_dirty_EXIT( MCEnv* mce, IRStmt *clone, IRExpr* guard, IRJumpKind jk, IRConst* dst ){$/;"	f
+create_dirty_GET	dt_instrument.c	/^IRDirty* create_dirty_GET( MCEnv* mce, IRStmt *clone, IRTemp tmp, Int offset, IRType ty ){$/;"	f
+create_dirty_GETI	dt_instrument.c	/^IRDirty* create_dirty_GETI( MCEnv* mce, IRStmt *clone, IRTemp tmp, IRRegArray* descr, IRExpr* ix, Int bias ){$/;"	f
+create_dirty_ITE	dt_instrument.c	/^IRDirty* create_dirty_ITE( MCEnv* mce, IRStmt *clone, IRTemp tmp,$/;"	f
+create_dirty_LOAD	dt_instrument.c	/^IRDirty* create_dirty_LOAD( MCEnv* mce, IRStmt *clone, IRTemp tmp,$/;"	f
+create_dirty_NEXT	dt_instrument.c	/^IRDirty* create_dirty_NEXT( MCEnv* mce, IRExpr* next ){$/;"	f
+create_dirty_PUT	dt_instrument.c	/^IRDirty* create_dirty_PUT( MCEnv* mce, IRStmt *clone, Int offset, IRExpr* data ){$/;"	f
+create_dirty_PUTI	dt_instrument.c	/^IRDirty* create_dirty_PUTI( MCEnv* mce, IRRegArray* descr, IRExpr* ix, Int bias, IRExpr* data ){$/;"	f
+create_dirty_QOP	dt_instrument.c	/^IRDirty* create_dirty_QOP( MCEnv* mce, IRStmt *clone, IRTemp tmp, IROp op,$/;"	f
+create_dirty_RDTMP	dt_instrument.c	/^IRDirty* create_dirty_RDTMP( MCEnv* mce, IRStmt *clone, IRTemp tmp, IRTemp data ){$/;"	f
+create_dirty_STORE	dt_instrument.c	/^IRDirty* create_dirty_STORE( MCEnv* mce, IRStmt *clone,$/;"	f
+create_dirty_TRIOP	dt_instrument.c	/^IRDirty* create_dirty_TRIOP( MCEnv* mce, IRStmt *clone, IRTemp tmp, IROp op,$/;"	f
+create_dirty_UNOP	dt_instrument.c	/^IRDirty* create_dirty_UNOP( MCEnv* mce, IRStmt *clone, IRTemp tmp, IROp op, IRExpr* arg ){$/;"	f
+create_dirty_WRTMP	dt_instrument.c	/^IRDirty* create_dirty_WRTMP( MCEnv* mce, IRStmt *clone, IRTemp tmp, IRExpr* e ){$/;"	f
+create_dirty_WRTMP_const	dt_instrument.c	/^IRDirty *create_dirty_WRTMP_const( MCEnv *mce, IRStmt *clone, IRTemp tmp )$/;"	f
+create_dirty_from_dirty	dt_instrument.c	/^IRDirty* create_dirty_from_dirty( IRDirty* di_old ){$/;"	f
+ctl	dt_dexparse.h	/^	} ctl;$/;"	m	union:InterpBreak	typeref:struct:InterpBreak::__anon18
+ctoi	dt_taint.c	/^Int ctoi( HChar c ){$/;"	f
+ctoi_test	dt_taint.c	/^Int ctoi_test( HChar c ){$/;"	f
+curFrame	dt_dexparse.h	/^	UInt*										curFrame;   \/\/ Dalvik frame pointer$/;"	m	struct:InterpSaveState
+curHandlerTable	dt_dexparse.h	/^		void*			 curHandlerTable;$/;"	m	struct:InterpBreak::__anon18
+d	dt_dexparse.h	/^	Double  d;$/;"	m	union:JValue
+d	dt_dexparse.h	/^	double  d;$/;"	m	union:JValue
+data	dt_dexparse.h	/^	UChar      data[1];$/;"	m	struct:RegisterMap
+data	dt_oatparse.h	/^	\/*0x08*\/ HChar*	data;$/;"	m	struct:StdString
+data	dt_wrap.h	/^	Addr		data;								\/\/ Address of the actual block$/;"	m	struct:_HP_Chunk
+dataOff	dt_dexparse.h	/^	\/* 6c *\/UInt  dataOff;$/;"	m	struct:DexHeader
+dataSize	dt_dexparse.h	/^	\/* 68 *\/UInt  dataSize;$/;"	m	struct:DexHeader
+dbgSuspendCount	dt_dexparse.h	/^	int dbgSuspendCount;$/;"	m	struct:Thread
+debugInfoOff	dt_dexparse.h	/^	UInt	  debugInfoOff;       \/* file offset to debug info stream *\/$/;"	m	struct:DexCode
+debugInfoOff	dt_dexparse.h	/^	UInt	 debugInfoOff;$/;"	m	struct:CodeItem
+debugIsMethodEntry	dt_dexparse.h	/^	Bool        debugIsMethodEntry;$/;"	m	struct:Thread
+declaring_class_	dt_oatparse.h	/^	\/*0x00*\/	void* declaring_class_;$/;"	m	struct:ArtMethodPlus
+deepMallocIRCallee	copy.c	/^IRCallee* deepMallocIRCallee(IRCallee* ce)$/;"	f
+deepMallocIRConst	copy.c	/^IRConst* deepMallocIRConst(IRConst* c)$/;"	f
+deepMallocIRDirty	copy.c	/^IRDirty* deepMallocIRDirty(IRDirty* d)$/;"	f
+deepMallocIRExpr	copy.c	/^IRExpr* deepMallocIRExpr(IRExpr* e)$/;"	f
+deepMallocIRExprVec	copy.c	/^IRExpr** deepMallocIRExprVec(IRExpr** vec)$/;"	f
+deepMallocIRRegArray	copy.c	/^IRRegArray* deepMallocIRRegArray(IRRegArray* d)$/;"	f
+deepMallocIRStmt	copy.c	/^IRStmt* deepMallocIRStmt(IRStmt* s)$/;"	f
+definedOfType	dt_instrument.c	/^static IRExpr* definedOfType ( IRType ty ) { \/\/367$/;"	f	file:
+delDexFileList	dt_dexparse.c	/^void delDexFileList( struct DexFile* pDexFile ) {$/;"	f
+depsLength	dt_dexparse.h	/^	UInt  depsLength;$/;"	m	struct:DexOptHeader
+depsOffset	dt_dexparse.h	/^	UInt  depsOffset;         \/* offset of optimized DEX dependency table *\/$/;"	m	struct:DexOptHeader
+descriptor	dt_dexparse.h	/^	const HChar*			descriptor;$/;"	m	struct:ClassObject
+descriptorAlloc	dt_dexparse.h	/^	HChar*						descriptorAlloc;$/;"	m	struct:ClassObject
+descriptorClassToDot	dt_dexparse.c	/^static HChar* descriptorClassToDot(const HChar* str)$/;"	f	file:
+descriptorIdx	dt_dexparse.h	/^	UInt descriptorIdx;$/;"	m	struct:DexTypeId
+descriptorToDot	dt_dexparse.c	/^static HChar* descriptorToDot(const HChar* str)$/;"	f	file:
+dexComputeChecksum	dt_dexparse.c	/^static UInt dexComputeChecksum(const struct DexHeader* pHeader)$/;"	f	file:
+dexCopyDescriptorFromMethodId	dt_dexparse.c	/^INLINE HChar* dexCopyDescriptorFromMethodId(const struct DexFile* pDexFile,$/;"	f
+dexFile	dt_dexparse.h	/^	const struct DexFile* dexFile;     \/* file the idx refers to *\/$/;"	m	struct:DexProto	typeref:struct:DexProto::DexFile
+dexFileCount	dt_dexparse.h	/^	UInt  dexFileCount;$/;"	m	struct:OatHeader
+dexFileList	dt_dexparse.c	/^static struct MonitorDexFile *dexFileList = NULL;$/;"	v	typeref:struct:MonitorDexFile	file:
+dexFileParse	dt_dexparse.c	/^	static struct DexFile* dexFileParse(UChar* dexBuf, UInt length) {$/;"	f	file:
+dexFileSetupBasicPoInters	dt_dexparse.c	/^	void dexFileSetupBasicPoInters(struct DexFile* pDexFile, const UChar* data) {$/;"	f
+dexGetAnnotationItem	dt_dexparse.h	/^INLINE const struct DexAnnotationItem* dexGetAnnotationItem($/;"	f
+dexGetAnnotationOff	dt_dexparse.h	/^INLINE UInt dexGetAnnotationOff($/;"	f
+dexGetAnnotationsDirectoryItem	dt_dexparse.h	/^INLINE const struct DexAnnotationsDirectoryItem* dexGetAnnotationsDirectoryItem($/;"	f
+dexGetCatchHandlerData	dt_dexparse.h	/^INLINE const UChar* dexGetCatchHandlerData(const struct DexCode* pCode) {$/;"	f
+dexGetClassAnnotationSet	dt_dexparse.h	/^INLINE const struct DexAnnotationSetItem* dexGetClassAnnotationSet($/;"	f
+dexGetClassData	dt_dexparse.h	/^INLINE const UChar* dexGetClassData(const struct DexFile* pDexFile,$/;"	f
+dexGetClassDef	dt_dexparse.h	/^INLINE const struct DexClassDef* dexGetClassDef(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexGetClassDescriptor	dt_dexparse.h	/^INLINE const UChar* dexGetClassDescriptor(const struct DexFile* pDexFile,$/;"	f
+dexGetCode	dt_dexparse.c	/^INLINE const struct DexCode* dexGetCode(const struct DexFile* pDexFile,$/;"	f
+dexGetDebugInfoStream	dt_dexparse.h	/^INLINE const UChar* dexGetDebugInfoStream(const struct DexFile* pDexFile,$/;"	f
+dexGetDescriptorFromMethodId	dt_dexparse.c	/^INLINE const HChar* dexGetDescriptorFromMethodId(const struct DexFile* pDexFile,$/;"	f
+dexGetFieldAnnotationSetItem	dt_dexparse.h	/^INLINE const struct DexAnnotationSetItem* dexGetFieldAnnotationSetItem($/;"	f
+dexGetFieldAnnotations	dt_dexparse.h	/^INLINE const struct DexFieldAnnotationsItem* dexGetFieldAnnotations($/;"	f
+dexGetFieldAnnotationsSize	dt_dexparse.h	/^INLINE Int dexGetFieldAnnotationsSize(const struct DexFile* pDexFile,$/;"	f
+dexGetFieldId	dt_dexparse.h	/^INLINE const struct DexFieldId* dexGetFieldId(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexGetIndexForClassDef	dt_dexparse.h	/^INLINE UInt dexGetIndexForClassDef(const struct DexFile* pDexFile,$/;"	f
+dexGetInterfacesList	dt_dexparse.h	/^INLINE const struct DexTypeList* dexGetInterfacesList(const struct DexFile* pDexFile,$/;"	f
+dexGetMap	dt_dexparse.h	/^INLINE const struct DexMapList* dexGetMap(const struct DexFile* pDexFile) {$/;"	f
+dexGetMethodAnnotationSetItem	dt_dexparse.h	/^INLINE const struct DexAnnotationSetItem* dexGetMethodAnnotationSetItem($/;"	f
+dexGetMethodAnnotations	dt_dexparse.h	/^INLINE const struct DexMethodAnnotationsItem* dexGetMethodAnnotations($/;"	f
+dexGetMethodAnnotationsSize	dt_dexparse.h	/^INLINE Int dexGetMethodAnnotationsSize(const struct DexFile* pDexFile,$/;"	f
+dexGetMethodId	dt_dexparse.h	/^INLINE const struct DexMethodId* dexGetMethodId(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexGetParameterAnnotationSetRef	dt_dexparse.h	/^INLINE const struct DexAnnotationSetRefItem* dexGetParameterAnnotationSetRef($/;"	f
+dexGetParameterAnnotationSetRefList	dt_dexparse.h	/^INLINE const struct DexAnnotationSetRefList* dexGetParameterAnnotationSetRefList($/;"	f
+dexGetParameterAnnotationSetRefSize	dt_dexparse.h	/^INLINE Int dexGetParameterAnnotationSetRefSize(const struct DexFile* pDexFile,$/;"	f
+dexGetParameterAnnotations	dt_dexparse.h	/^INLINE const struct DexParameterAnnotationsItem* dexGetParameterAnnotations($/;"	f
+dexGetParameterAnnotationsSize	dt_dexparse.h	/^INLINE Int dexGetParameterAnnotationsSize(const struct DexFile* pDexFile,$/;"	f
+dexGetProtoId	dt_dexparse.h	/^INLINE const struct DexProtoId* dexGetProtoId(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexGetProtoParameters	dt_dexparse.h	/^INLINE const struct DexTypeList* dexGetProtoParameters($/;"	f
+dexGetSetRefItemItem	dt_dexparse.h	/^INLINE const struct DexAnnotationSetItem* dexGetSetRefItemItem($/;"	f
+dexGetSourceFile	dt_dexparse.h	/^INLINE const UChar* dexGetSourceFile($/;"	f
+dexGetStaticValuesList	dt_dexparse.h	/^INLINE const struct DexEncodedArray* dexGetStaticValuesList($/;"	f
+dexGetStringData	dt_dexparse.h	/^INLINE const HChar* dexGetStringData(const struct DexFile* pDexFile,$/;"	f
+dexGetStringId	dt_dexparse.h	/^INLINE const struct DexStringId* dexGetStringId(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexGetSuperClassDescriptor	dt_dexparse.h	/^INLINE const UChar* dexGetSuperClassDescriptor(const struct DexFile* pDexFile,$/;"	f
+dexGetTries	dt_dexparse.h	/^INLINE const struct DexTry* dexGetTries(const struct DexCode* pCode) {$/;"	f
+dexGetTypeId	dt_dexparse.h	/^INLINE const struct DexTypeId* dexGetTypeId(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexGetTypeItem	dt_dexparse.h	/^INLINE const struct DexTypeItem* dexGetTypeItem(const struct DexTypeList* pList,$/;"	f
+dexHeaderParse	dt_dexparse.c	/^	void dexHeaderParse( struct DexHeader* dh) $/;"	f
+dexLength	dt_dexparse.h	/^	UInt  dexLength;$/;"	m	struct:DexOptHeader
+dexOffset	dt_dexparse.h	/^	UInt  dexOffset;          \/* file offset of DEX header *\/$/;"	m	struct:DexOptHeader
+dexParseOptData	dt_dexparse.c	/^	Bool dexParseOptData(const UChar* data, UInt length, struct DexFile* pDexFile)$/;"	f
+dexProtoCopyMethodDescriptor	dt_dexparse.c	/^INLINE HChar* dexProtoCopyMethodDescriptor(const struct DexProto* pProto) {$/;"	f
+dexProtoGetMethodDescriptor	dt_dexparse.c	/^const HChar* dexProtoGetMethodDescriptor(const struct DexProto* pProto,$/;"	f
+dexProtoGetShorty	dt_dexparse.c	/^static INLINE const char* dexProtoGetShorty(const struct DexProto* pProto) {$/;"	f	file:
+dexProtoSetFromMethodId	dt_dexparse.c	/^INLINE void dexProtoSetFromMethodId(struct DexProto* pProto,$/;"	f
+dexReadAndVerifyClassData	dt_dexparse.c	/^struct DexClassData* dexReadAndVerifyClassData(const UChar** pData, const UChar* pLimit) {$/;"	f
+dexReadAndVerifyClassDataField	dt_dexparse.c	/^Bool dexReadAndVerifyClassDataField(const UChar** pData, const UChar* pLimit,$/;"	f
+dexReadAndVerifyClassDataHeader	dt_dexparse.c	/^Bool dexReadAndVerifyClassDataHeader(const UChar** pData, const UChar* pLimit,$/;"	f
+dexReadAndVerifyClassDataMethod	dt_dexparse.c	/^Bool dexReadAndVerifyClassDataMethod(const UChar** pData, const UChar* pLimit,$/;"	f
+dexReadClassDataField	dt_dexparse.c	/^INLINE void dexReadClassDataField(const UInt** pData, struct DexField* pField,$/;"	f
+dexReadClassDataHeader	dt_dexparse.c	/^INLINE void dexReadClassDataHeader(const UChar** pData,$/;"	f
+dexReadClassDataMethod	dt_dexparse.c	/^INLINE void dexReadClassDataMethod(const UChar** pData, struct DexMethod* pMethod,$/;"	f
+dexStringById	dt_dexparse.h	/^INLINE const HChar* dexStringById(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexStringByTypeIdx	dt_dexparse.h	/^INLINE const char* dexStringByTypeIdx(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexStringCacheAbandon	dt_dexparse.c	/^HChar* dexStringCacheAbandon(struct DexStringCache* pCache, const HChar* value) {$/;"	f
+dexStringCacheAlloc	dt_dexparse.c	/^void dexStringCacheAlloc(struct DexStringCache* pCache, Int length) {$/;"	f
+dexStringCacheEnsureCopy	dt_dexparse.c	/^HChar* dexStringCacheEnsureCopy(struct DexStringCache* pCache, const HChar* value) {$/;"	f
+dexStringCacheInit	dt_dexparse.c	/^void dexStringCacheInit(struct DexStringCache* pCache) {$/;"	f
+dexStringCacheRelease	dt_dexparse.c	/^void dexStringCacheRelease(struct DexStringCache* pCache) {$/;"	f
+dexTypeListGetIdx	dt_dexparse.h	/^INLINE UInt dexTypeListGetIdx(const struct DexTypeList* pList, UInt idx) {$/;"	f
+dex_cache_	dt_framework.h	/^	\/*0x08*\/ void*	dex_cache_;$/;"	m	struct:_ClassMirror
+dex_cache_resolved_methods_	dt_oatparse.h	/^	\/*0x04*\/	void* dex_cache_resolved_methods_;$/;"	m	struct:ArtMethodPlus
+dex_cache_resolved_types_	dt_oatparse.h	/^	\/*0x08*\/	void* dex_cache_resolved_types_;$/;"	m	struct:ArtMethodPlus
+dex_cache_strings_	dt_framework.h	/^	\/*0x0c*\/ void*	dex_cache_strings_;$/;"	m	struct:_ClassMirror
+dex_class_def_idx_	dt_framework.h	/^	\/*0x50*\/ UInt	dex_class_def_idx_;$/;"	m	struct:_ClassMirror
+dex_code_item_offset_	dt_oatparse.h	/^	\/*0x10*\/	UInt	dex_code_item_offset_;			\/* offset to the CodeIdem *\/$/;"	m	struct:ArtMethodPlus
+dex_method_index_	dt_oatparse.h	/^	\/*0x14*\/	UInt	dex_method_index_;					\/* index into method_ids of the dex file *\/$/;"	m	struct:ArtMethodPlus
+dex_object	dt_dexparse.h	/^	void*								dex_object; \/\/ jobject is type _jobject* in native layer$/;"	m	struct:DvmDex
+dex_type_idx_	dt_framework.h	/^	\/*0x54*\/ UInt	dex_type_idx_;$/;"	m	struct:_ClassMirror
+di_art	dt_instrument.c	/^static DebugInfo *di_art = NULL;$/;"	v	file:
+directMethodCount	dt_dexparse.h	/^	Int								directMethodCount;$/;"	m	struct:ClassObject
+directMethods	dt_dexparse.h	/^	struct DexMethod*         directMethods;$/;"	m	struct:DexClassData	typeref:struct:DexClassData::DexMethod
+directMethods	dt_dexparse.h	/^	struct Method*    directMethods;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::Method
+directMethodsSize	dt_dexparse.h	/^	UInt directMethodsSize;$/;"	m	struct:DexClassDataHeader
+direct_methods_	dt_framework.h	/^	\/*0x28*\/ ULong	direct_methods_;$/;"	m	struct:_ClassMirror
+dlopen_wrapper	dt_libfun_replace.c	/^void* dlopen_wrapper(const char *file, int flags)$/;"	f
+doCmpORD	dt_instrument.c	/^static IRAtom* doCmpORD ( MCEnv*  mce,$/;"	f	file:
+do_shadow_CAS	dt_instrument.c	/^void do_shadow_CAS ( MCEnv* mce, IRCAS* cas )$/;"	f	file:
+do_shadow_CAS_double	dt_instrument.c	/^static void do_shadow_CAS_double ( MCEnv* mce, IRCAS* cas )$/;"	f	file:
+do_shadow_CAS_single	dt_instrument.c	/^static void do_shadow_CAS_single ( MCEnv* mce, IRCAS* cas )$/;"	f	file:
+do_shadow_Dirty	dt_instrument.c	/^void do_shadow_Dirty ( MCEnv* mce, IRDirty* d )$/;"	f	file:
+do_shadow_LLSC	dt_instrument.c	/^static void do_shadow_LLSC ( MCEnv*    mce,$/;"	f	file:
+do_shadow_LoadG	dt_instrument.c	/^static void do_shadow_LoadG ( MCEnv* mce, IRLoadG* lg )$/;"	f	file:
+do_shadow_PUT	dt_instrument.c	/^void do_shadow_PUT ( MCEnv* mce, IRStmt *clone, Int offset,$/;"	f	file:
+do_shadow_PUTI	dt_instrument.c	/^void do_shadow_PUTI ( MCEnv* mce, IRPutI *puti )$/;"	f	file:
+do_shadow_Store	dt_instrument.c	/^void do_shadow_Store ( MCEnv* mce,$/;"	f	file:
+do_shadow_StoreG	dt_instrument.c	/^static void do_shadow_StoreG ( MCEnv* mce, IRStoreG* sg )$/;"	f	file:
+do_shadow_WRTMP	dt_instrument.c	/^void do_shadow_WRTMP ( MCEnv* mce, IRStmt *clone, IRTemp tmp, IRExpr* expr )$/;"	f	file:
+do_taint_source	dt_framework.c	/^void do_taint_source(MthNode *mNode, ThreadId tid)$/;"	f
+dt_LOADV16	dt_taint.c	/^UWord dt_LOADV16 ( Addr a, Bool isBigEndian )$/;"	f	file:
+dt_LOADV32	dt_taint.c	/^UWord dt_LOADV32 ( Addr a, Bool isBigEndian )$/;"	f	file:
+dt_LOADV64	dt_taint.c	/^ULong dt_LOADV64 ( Addr a, Bool isBigEndian )$/;"	f	file:
+dt_LOADV_128_or_256	dt_taint.c	/^void dt_LOADV_128_or_256 ( \/*OUT*\/ULong* res,$/;"	f	file:
+dt_LOADV_128_or_256_slow	dt_taint.c	/^void dt_LOADV_128_or_256_slow ( \/*OUT*\/ULong* res,$/;"	f	file:
+dt_LOADVn_slow	dt_taint.c	/^ULong dt_LOADVn_slow ( Addr a, SizeT nBits, Bool bigendian )$/;"	f	file:
+dt_STOREV16	dt_taint.c	/^void dt_STOREV16 ( Addr a, UWord vbits16, Bool isBigEndian )$/;"	f	file:
+dt_STOREV32	dt_taint.c	/^void dt_STOREV32 ( Addr a, UWord vbits32, Bool isBigEndian )$/;"	f	file:
+dt_STOREV64	dt_taint.c	/^void dt_STOREV64 ( Addr a, ULong vbits64, Bool isBigEndian )$/;"	f	file:
+dt_STOREVn_slow	dt_taint.c	/^void dt_STOREVn_slow ( Addr a, SizeT nBits, ULong vbytes, Bool bigendian )$/;"	f	file:
+dt___builtin_delete	dt_mem_wrap.c	/^void dt___builtin_delete ( ThreadId tid, void* p )$/;"	f
+dt___builtin_new	dt_mem_wrap.c	/^void* dt___builtin_new ( ThreadId tid, SizeT szB )$/;"	f
+dt___builtin_vec_delete	dt_mem_wrap.c	/^void dt___builtin_vec_delete ( ThreadId tid, void* p )$/;"	f
+dt___builtin_vec_new	dt_mem_wrap.c	/^void* dt___builtin_vec_new ( ThreadId tid, SizeT szB )$/;"	f
+dt_ban_mem_stack	dt_main.c	/^static void dt_ban_mem_stack ( Addr a, SizeT len )$/;"	f	file:
+dt_calloc	dt_mem_wrap.c	/^void* dt_calloc ( ThreadId tid, SizeT m, SizeT szB )$/;"	f
+dt_check_fd_access	dt_sys_wrap.c	/^void dt_check_fd_access(ThreadId tid, UInt fd, Int fd_request) {$/;"	f
+dt_check_mem_tainted	dt_taint.c	/^Bool dt_check_mem_tainted( Addr a, SizeT len ) {$/;"	f
+dt_check_reg_tainted	dt_taint.c	/^Bool dt_check_reg_tainted(Int r, ThreadId tid) {$/;"	f
+dt_clear_mem_tainted	dt_taint.c	/^void dt_clear_mem_tainted() { }$/;"	f
+dt_clo_critical_ins_only	dt_main.c	/^Bool	dt_clo_critical_ins_only	= True;$/;"	v
+dt_clo_smt2_format	dt_main.c	/^Bool  dt_clo_smt2_format				= False;$/;"	v
+dt_clo_taint_begin	dt_main.c	/^Bool	dt_clo_taint_begin				= False;$/;"	v
+dt_clo_tainted_ins_only	dt_main.c	/^Bool	dt_clo_tainted_ins_only		=	True;$/;"	v
+dt_copy_address_range_state	dt_taint.c	/^void dt_copy_address_range_state(Addr src, Addr dst, SizeT len) {$/;"	f
+dt_copy_mem_to_reg	dt_main.c	/^static void dt_copy_mem_to_reg ( CorePart part, ThreadId tid, Addr a,$/;"	f	file:
+dt_copy_reg_to_mem	dt_main.c	/^static void dt_copy_reg_to_mem ( CorePart part, ThreadId tid, $/;"	f	file:
+dt_describe_data	dt_taint.c	/^void dt_describe_data(Addr addr, HChar* varnamebuf, UInt bufsize, enum VariableType* type, enum VariableLocation* loc) {$/;"	f
+dt_dex_is_open	dt_main.c	/^Bool	dt_dex_is_open						= False;$/;"	v
+dt_die_mem_stack	dt_main.c	/^static void dt_die_mem_stack ( Addr a, SizeT len )$/;"	f	file:
+dt_discard_superblock_info	dt_main.c	/^void dt_discard_superblock_info ( Addr orig_addr, VexGuestExtents vge )$/;"	f	file:
+dt_do_print_taint_flow	dt_main.c	/^Int   dt_do_print_taint_flow		= 1;$/;"	v
+dt_event_ctr	dt_wrap.h	/^UInt   dt_event_ctr[N_PROF_EVENTS];$/;"	v
+dt_event_ctr_name	dt_wrap.h	/^HChar* dt_event_ctr_name[N_PROF_EVENTS];$/;"	v
+dt_fini	dt_main.c	/^static void dt_fini(Int exitcode)$/;"	f	file:
+dt_framework_mth_list	dt_oatparse.c	/^VgHashTable* dt_framework_mth_list = NULL;$/;"	v
+dt_free	dt_mem_wrap.c	/^void dt_free ( ThreadId tid __attribute__((unused)), void* p )$/;"	f
+dt_get_bb_info	dt_main.c	/^static INLINE void dt_get_bb_info(Addr addr)$/;"	f	file:
+dt_get_debug_info	dt_main.c	/^Bool dt_get_debug_info( Addr instr_addr,$/;"	f	file:
+dt_get_fnname	dt_sys_wrap.c	/^void dt_get_fnname(ThreadId tid, const HChar** buf) {$/;"	f
+dt_h32_binop_cc	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_binop_cc ($/;"	f
+dt_h32_binop_ct	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_binop_ct ($/;"	f
+dt_h32_binop_tc	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_binop_tc ($/;"	f
+dt_h32_binop_tt	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_binop_tt ($/;"	f
+dt_h32_ccall	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_ccall ($/;"	f
+dt_h32_exit_c	dt_taint.c	/^VG_REGPARM(3) void dt_h32_exit_c ($/;"	f
+dt_h32_exit_t	dt_taint.c	/^VG_REGPARM(3) void dt_h32_exit_t ($/;"	f
+dt_h32_get	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_get ($/;"	f
+dt_h32_get_i	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_get_i ($/;"	f
+dt_h32_ite_cc	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_ite_cc ($/;"	f
+dt_h32_ite_ct	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_ite_ct ($/;"	f
+dt_h32_ite_tc	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_ite_tc ($/;"	f
+dt_h32_ite_tt	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_ite_tt ($/;"	f
+dt_h32_load_c	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_load_c ($/;"	f
+dt_h32_load_t	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_load_t ($/;"	f
+dt_h32_next_c	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_next_c ($/;"	f
+dt_h32_next_t	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_next_t ($/;"	f
+dt_h32_none	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_none ( $/;"	f
+dt_h32_put_c	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_put_c ($/;"	f
+dt_h32_put_i	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_put_i ($/;"	f
+dt_h32_put_t	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_put_t ($/;"	f
+dt_h32_qop	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_qop ($/;"	f
+dt_h32_rdtmp	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_rdtmp ($/;"	f
+dt_h32_store_ct	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_store_ct ($/;"	f
+dt_h32_store_tc	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_store_tc ($/;"	f
+dt_h32_store_tt	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_store_tt ($/;"	f
+dt_h32_triop	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_triop ($/;"	f
+dt_h32_unop_c	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_unop_c ($/;"	f
+dt_h32_unop_t	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_unop_t ($/;"	f
+dt_h32_wrtmp_c	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_wrtmp_c ($/;"	f
+dt_h32_x86g_calculate_condition	dt_taint.c	/^VG_REGPARM(3)	void dt_h32_x86g_calculate_condition ($/;"	f
+dt_h64_amd64g_calculate_condition	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_amd64g_calculate_condition ($/;"	f
+dt_h64_binop_cc	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_binop_cc ($/;"	f
+dt_h64_binop_ct	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_binop_ct ($/;"	f
+dt_h64_binop_tc	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_binop_tc ($/;"	f
+dt_h64_binop_tt	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_binop_tt ($/;"	f
+dt_h64_ccall	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_ccall ($/;"	f
+dt_h64_exit_c	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_exit_c ($/;"	f
+dt_h64_exit_t	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_exit_t ($/;"	f
+dt_h64_get	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_get ($/;"	f
+dt_h64_get_i	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_get_i ($/;"	f
+dt_h64_ite_cc	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_ite_cc ($/;"	f
+dt_h64_ite_ct	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_ite_ct ($/;"	f
+dt_h64_ite_tc	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_ite_tc ($/;"	f
+dt_h64_ite_tt	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_ite_tt ($/;"	f
+dt_h64_load_c	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_load_c ($/;"	f
+dt_h64_load_t	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_load_t ($/;"	f
+dt_h64_next_c	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_next_c ($/;"	f
+dt_h64_next_t	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_next_t ($/;"	f
+dt_h64_none	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_none ( $/;"	f
+dt_h64_put_c	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_put_c ($/;"	f
+dt_h64_put_i	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_put_i ($/;"	f
+dt_h64_put_t	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_put_t ($/;"	f
+dt_h64_qop	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_qop ($/;"	f
+dt_h64_rdtmp	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_rdtmp ($/;"	f
+dt_h64_store_ct	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_store_ct ($/;"	f
+dt_h64_store_tc	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_store_tc ($/;"	f
+dt_h64_store_tt	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_store_tt ($/;"	f
+dt_h64_triop	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_triop ($/;"	f
+dt_h64_unop_c	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_unop_c ($/;"	f
+dt_h64_unop_t	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_unop_t ($/;"	f
+dt_h64_wrtmp_c	dt_taint.c	/^VG_REGPARM(3)	void dt_h64_wrtmp_c ($/;"	f
+dt_handle_client_requests	dt_main.c	/^Bool dt_handle_client_requests( ThreadId tid, UWord *arg, UWord *ret) {$/;"	f
+dt_helperc_LOADV128be	dt_taint.c	/^VG_REGPARM(2) void dt_helperc_LOADV128be ( \/*OUT*\/V128* res, Addr a )$/;"	f
+dt_helperc_LOADV128le	dt_taint.c	/^VG_REGPARM(2) void dt_helperc_LOADV128le ( \/*OUT*\/V128* res, Addr a )$/;"	f
+dt_helperc_LOADV16be	dt_taint.c	/^VG_REGPARM(1) UWord dt_helperc_LOADV16be ( Addr a )$/;"	f
+dt_helperc_LOADV16le	dt_taint.c	/^VG_REGPARM(1) UWord dt_helperc_LOADV16le ( Addr a )$/;"	f
+dt_helperc_LOADV256be	dt_taint.c	/^VG_REGPARM(2) void dt_helperc_LOADV256be ( \/*OUT*\/V256* res, Addr a )$/;"	f
+dt_helperc_LOADV256le	dt_taint.c	/^VG_REGPARM(2) void dt_helperc_LOADV256le ( \/*OUT*\/V256* res, Addr a )$/;"	f
+dt_helperc_LOADV32be	dt_taint.c	/^VG_REGPARM(1) UWord dt_helperc_LOADV32be ( Addr a )$/;"	f
+dt_helperc_LOADV32le	dt_taint.c	/^VG_REGPARM(1) UWord dt_helperc_LOADV32le ( Addr a )$/;"	f
+dt_helperc_LOADV64be	dt_taint.c	/^VG_REGPARM(1) ULong dt_helperc_LOADV64be ( Addr a )$/;"	f
+dt_helperc_LOADV64le	dt_taint.c	/^VG_REGPARM(1) ULong dt_helperc_LOADV64le ( Addr a )$/;"	f
+dt_helperc_LOADV8	dt_taint.c	/^VG_REGPARM(1) UWord dt_helperc_LOADV8 ( Addr a )$/;"	f
+dt_helperc_STOREV16be	dt_taint.c	/^VG_REGPARM(2) void dt_helperc_STOREV16be ( Addr a, UWord vbits16 )$/;"	f
+dt_helperc_STOREV16le	dt_taint.c	/^VG_REGPARM(2) void dt_helperc_STOREV16le ( Addr a, UWord vbits16 )$/;"	f
+dt_helperc_STOREV32be	dt_taint.c	/^VG_REGPARM(2) void dt_helperc_STOREV32be ( Addr a, UWord vbits32 )$/;"	f
+dt_helperc_STOREV32le	dt_taint.c	/^VG_REGPARM(2) void dt_helperc_STOREV32le ( Addr a, UWord vbits32 )$/;"	f
+dt_helperc_STOREV64be	dt_taint.c	/^VG_REGPARM(1) void dt_helperc_STOREV64be ( Addr a, ULong vbits64 )$/;"	f
+dt_helperc_STOREV64le	dt_taint.c	/^VG_REGPARM(1) void dt_helperc_STOREV64le ( Addr a, ULong vbits64 )$/;"	f
+dt_helperc_STOREV8	dt_taint.c	/^VG_REGPARM(2) void dt_helperc_STOREV8 ( Addr a, UWord vbits8 )$/;"	f
+dt_instrument	dt_main.c	/^static IRSB* dt_instrument( VgCallbackClosure* closure,$/;"	f	file:
+dt_isatty	dt_main.c	/^static int dt_isatty(void) {$/;"	f	file:
+dt_make_mem_noaccess	dt_taint.c	/^void dt_make_mem_noaccess( Addr a, SizeT len ) {$/;"	f
+dt_make_mem_tainted	dt_taint.c	/^void dt_make_mem_tainted ( Addr a, SizeT len ) {$/;"	f
+dt_make_mem_tainted_named	dt_taint.c	/^void dt_make_mem_tainted_named ( Addr a, SizeT len, const HChar *varname ) {$/;"	f
+dt_make_mem_untainted	dt_taint.c	/^void dt_make_mem_untainted( Addr beg, SizeT len ) {$/;"	f
+dt_make_reg_tainted	dt_taint.c	/^void dt_make_reg_tainted (Int r, ThreadId tid) {$/;"	f
+dt_make_reg_untainted	dt_taint.c	/^void dt_make_reg_untainted (Int r, ThreadId tid) {$/;"	f
+dt_malloc	dt_mem_wrap.c	/^void* dt_malloc ( ThreadId tid, SizeT szB )$/;"	f
+dt_malloc_list	dt_mem_wrap.c	/^VgHashTable *dt_malloc_list  = NULL;   \/\/ HP_Chunks$/;"	v
+dt_malloc_usable_size	dt_mem_wrap.c	/^SizeT dt_malloc_usable_size ( ThreadId tid, void* p )$/;"	f
+dt_memalign	dt_mem_wrap.c	/^void* dt_memalign ( ThreadId tid, SizeT alignB, SizeT szB )$/;"	f
+dt_new_mem_stack	dt_main.c	/^static void dt_new_mem_stack ( Addr a, SizeT len )$/;"	f	file:
+dt_new_mem_startup	dt_main.c	/^static void dt_new_mem_startup ( Addr a, SizeT len, Bool rr, Bool ww, Bool xx, $/;"	f	file:
+dt_post_clo_init	dt_main.c	/^static void dt_post_clo_init(void) {$/;"	f	file:
+dt_post_mem_write	dt_main.c	/^void dt_post_mem_write ( CorePart part, ThreadId tid, Addr a, SizeT len) {$/;"	f	file:
+dt_post_reg_write	dt_main.c	/^static void dt_post_reg_write ( CorePart part, ThreadId tid,$/;"	f	file:
+dt_post_reg_write_clientcall	dt_main.c	/^static void dt_post_reg_write_clientcall ( ThreadId tid,$/;"	f	file:
+dt_post_syscall	dt_main.c	/^static void dt_post_syscall(ThreadId tid, UInt syscallno, UWord *args, UInt nArgs, SysRes res) {$/;"	f	file:
+dt_pre_clo_init	dt_main.c	/^static void dt_pre_clo_init(void)$/;"	f	file:
+dt_pre_mem_read	dt_main.c	/^void dt_pre_mem_read ( CorePart part, ThreadId tid, const HChar* s,$/;"	f	file:
+dt_pre_mem_read_asciiz	dt_main.c	/^void dt_pre_mem_read_asciiz ( CorePart part, ThreadId tid, const HChar* s,$/;"	f	file:
+dt_pre_mem_write	dt_main.c	/^void dt_pre_mem_write ( CorePart part, ThreadId tid, const HChar* s,$/;"	f	file:
+dt_pre_syscall	dt_main.c	/^static void dt_pre_syscall(ThreadId tid, UInt syscallno, UWord *args, UInt nArgs) {$/;"	f	file:
+dt_print_debug_usage	dt_main.c	/^static void dt_print_debug_usage(void) {$/;"	f	file:
+dt_print_usage	dt_main.c	/^static void dt_print_usage(void) {$/;"	f	file:
+dt_process_cmd_line_options	dt_main.c	/^static Bool dt_process_cmd_line_options(const HChar* arg) {$/;"	f	file:
+dt_realloc	dt_mem_wrap.c	/^void* dt_realloc ( ThreadId tid, void* p_old, SizeT new_szB )$/;"	f
+dt_set_instrumentate	dt_main.c	/^static void dt_set_instrumentate(const HChar *reason, Bool state) {$/;"	f	file:
+dt_smt2_amd64g_calculate_condition	dt_stmt2.c	/^void dt_smt2_amd64g_calculate_condition ( IRStmt *clone )$/;"	f
+dt_smt2_amd64g_calculate_condition_cond	dt_stmt2.c	/^static char *dt_smt2_amd64g_calculate_condition_cond( IRStmt *clone, char *buf )$/;"	f	file:
+dt_smt2_amd64g_calculate_condition_op	dt_stmt2.c	/^static char *dt_smt2_amd64g_calculate_condition_op( IRStmt *clone, char *buf )$/;"	f	file:
+dt_smt2_amd64g_calculate_condition_op_ct	dt_stmt2.c	/^static char *dt_smt2_amd64g_calculate_condition_op_ct( IRStmt *clone, char *buf )$/;"	f	file:
+dt_smt2_amd64g_calculate_condition_op_ct_common	dt_stmt2.c	/^static char *dt_smt2_amd64g_calculate_condition_op_ct_common( IRStmt *clone, char *buf, ULong dep1c, UInt dep2tmp )$/;"	f	file:
+dt_smt2_amd64g_calculate_condition_op_tc	dt_stmt2.c	/^static char *dt_smt2_amd64g_calculate_condition_op_tc( IRStmt *clone, char *buf )$/;"	f	file:
+dt_smt2_amd64g_calculate_condition_op_tc_common	dt_stmt2.c	/^static char *dt_smt2_amd64g_calculate_condition_op_tc_common( IRStmt *clone, char *buf, UInt dep1tmp, ULong dep2c )$/;"	f	file:
+dt_smt2_amd64g_calculate_condition_op_tt_01	dt_stmt2.c	/^static char *dt_smt2_amd64g_calculate_condition_op_tt_01( IRStmt *clone, char *buf )$/;"	f	file:
+dt_smt2_amd64g_calculate_condition_op_tt_10	dt_stmt2.c	/^static char *dt_smt2_amd64g_calculate_condition_op_tt_10( IRStmt *clone, char *buf )$/;"	f	file:
+dt_smt2_amd64g_calculate_condition_op_tt_11	dt_stmt2.c	/^static char *dt_smt2_amd64g_calculate_condition_op_tt_11( IRStmt *clone, char *buf )$/;"	f	file:
+dt_smt2_binop_ct	dt_stmt2.c	/^void dt_smt2_binop_ct ( IRStmt *clone )$/;"	f
+dt_smt2_binop_ct_common	dt_stmt2.c	/^static void dt_smt2_binop_ct_common ( UInt op, UInt ltmp, UInt rtmp, ULong c ) {$/;"	f	file:
+dt_smt2_binop_tc	dt_stmt2.c	/^void dt_smt2_binop_tc ( IRStmt *clone )$/;"	f
+dt_smt2_binop_tc_common	dt_stmt2.c	/^static void dt_smt2_binop_tc_common ( UInt op, UInt ltmp, UInt rtmp, ULong c ) {$/;"	f	file:
+dt_smt2_binop_tt	dt_stmt2.c	/^void dt_smt2_binop_tt ( IRStmt *clone )$/;"	f
+dt_smt2_binop_tt_01	dt_stmt2.c	/^static void dt_smt2_binop_tt_01 ( IRStmt *clone )$/;"	f	file:
+dt_smt2_binop_tt_10	dt_stmt2.c	/^static void dt_smt2_binop_tt_10 ( IRStmt *clone )$/;"	f	file:
+dt_smt2_binop_tt_11	dt_stmt2.c	/^static void dt_smt2_binop_tt_11 ( IRStmt *clone )$/;"	f	file:
+dt_smt2_concat_32	dt_stmt2.c	/^static char *dt_smt2_concat_32( char *buf, ULong addr, UInt c, UInt v, UInt t )$/;"	f	file:
+dt_smt2_concat_64	dt_stmt2.c	/^static char *dt_smt2_concat_64( char *buf, ULong addr, UInt c, ULong v, ULong t )$/;"	f	file:
+dt_smt2_concat_indexed	dt_stmt2.c	/^static char *dt_smt2_concat_indexed( char *buf, UInt t, UInt c, UInt max )$/;"	f	file:
+dt_smt2_exit	dt_stmt2.c	/^void dt_smt2_exit ( IRStmt *clone )$/;"	f
+dt_smt2_get	dt_stmt2.c	/^void dt_smt2_get ( IRStmt *clone )$/;"	f
+dt_smt2_ite_tt	dt_stmt2.c	/^void dt_smt2_ite_tt ( IRStmt *clone )$/;"	f
+dt_smt2_load32_c	dt_stmt2.c	/^void dt_smt2_load32_c ( IRStmt *clone, UInt value, UInt taint )$/;"	f
+dt_smt2_load32_t	dt_stmt2.c	/^void dt_smt2_load32_t ( IRStmt *clone, UInt value, UInt taint )$/;"	f
+dt_smt2_load64_c	dt_stmt2.c	/^void dt_smt2_load64_c ( IRStmt *clone, ULong value, ULong taint )$/;"	f
+dt_smt2_load64_t	dt_stmt2.c	/^void dt_smt2_load64_t ( IRStmt *clone, ULong value, ULong taint )$/;"	f
+dt_smt2_load_ltmp_32	dt_stmt2.c	/^static void dt_smt2_load_ltmp_32 ( UInt ltmp, UInt ty, ULong address, UInt value, UInt taint )$/;"	f	file:
+dt_smt2_load_ltmp_64	dt_stmt2.c	/^static void dt_smt2_load_ltmp_64 ( UInt ltmp, UInt ty, ULong address, ULong value, ULong taint )$/;"	f	file:
+dt_smt2_loadstore_atmp	dt_stmt2.c	/^static void dt_smt2_loadstore_atmp ( UInt atmp, ULong address )$/;"	f	file:
+dt_smt2_preamble	dt_stmt2.c	/^void dt_smt2_preamble( void )$/;"	f
+dt_smt2_put32_t	dt_stmt2.c	/^void dt_smt2_put32_t ( IRStmt *clone )$/;"	f
+dt_smt2_put64_t	dt_stmt2.c	/^void dt_smt2_put64_t ( IRStmt *clone )$/;"	f
+dt_smt2_rdtmp	dt_stmt2.c	/^void dt_smt2_rdtmp ( IRStmt *clone )$/;"	f
+dt_smt2_store_ct	dt_stmt2.c	/^void dt_smt2_store_ct ( IRStmt *clone )$/;"	f
+dt_smt2_store_dtmp	dt_stmt2.c	/^static void dt_smt2_store_dtmp( UInt dtmp, ULong address )$/;"	f	file:
+dt_smt2_store_tc	dt_stmt2.c	/^void dt_smt2_store_tc ( IRStmt *clone )$/;"	f
+dt_smt2_store_tt	dt_stmt2.c	/^void dt_smt2_store_tt ( IRStmt *clone )$/;"	f
+dt_smt2_unop_t	dt_stmt2.c	/^void dt_smt2_unop_t ( IRStmt *clone )$/;"	f
+dt_smt2_x86g_calculate_condition	dt_stmt2.c	/^void dt_smt2_x86g_calculate_condition ( IRStmt *clone )$/;"	f
+dt_stm2_instrument	dt_instrument.c	/^IRSB* dt_stm2_instrument( VgCallbackClosure* closure,$/;"	f
+dt_syscall_action	dt_sys_wrap.c	/^void dt_syscall_action(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_clone	dt_sys_wrap.c	/^void dt_syscall_clone(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_close	dt_sys_wrap.c	/^void dt_syscall_close(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_execve	dt_sys_wrap.c	/^void dt_syscall_execve(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_llseek	dt_sys_wrap.c	/^void dt_syscall_llseek(ThreadId tid, UWord* args, UInt nArgs,$/;"	f
+dt_syscall_lseek	dt_sys_wrap.c	/^void dt_syscall_lseek(ThreadId tid, UWord* args, UInt nArgs,$/;"	f
+dt_syscall_mmap	dt_sys_wrap.c	/^void dt_syscall_mmap( ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_mprotect	dt_sys_wrap.c	/^void dt_syscall_mprotect( ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_msync	dt_sys_wrap.c	/^void dt_syscall_msync( ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_munmap	dt_sys_wrap.c	/^void dt_syscall_munmap( ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_open	dt_sys_wrap.c	/^void dt_syscall_open(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_pread	dt_sys_wrap.c	/^void dt_syscall_pread(ThreadId tid, UWord* args, UInt nArgs,$/;"	f
+dt_syscall_preadv	dt_sys_wrap.c	/^void dt_syscall_preadv(ThreadId tid, UWord* args, UInt nArgs, SysRes res)$/;"	f
+dt_syscall_ptrace	dt_sys_wrap.c	/^void dt_syscall_ptrace( ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_pwritev	dt_sys_wrap.c	/^void dt_syscall_pwritev(ThreadId tid, UWord* args, UInt nArgs, SysRes res)$/;"	f
+dt_syscall_read	dt_sys_wrap.c	/^void dt_syscall_read(ThreadId tid, UWord* args, UInt nArgs,$/;"	f
+dt_syscall_readv	dt_sys_wrap.c	/^void dt_syscall_readv(ThreadId tid, UWord* args, UInt nArgs, SysRes res)$/;"	f
+dt_syscall_recv	dt_sys_wrap.c	/^void dt_syscall_recv(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_recvfrom	dt_sys_wrap.c	/^void dt_syscall_recvfrom(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_send	dt_sys_wrap.c	/^void dt_syscall_send(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_sendto	dt_sys_wrap.c	/^void dt_syscall_sendto(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_setgid	dt_sys_wrap.c	/^void dt_syscall_setgid(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_setregid	dt_sys_wrap.c	/^void dt_syscall_setregid(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_setreuid	dt_sys_wrap.c	/^void dt_syscall_setreuid(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_setuid	dt_sys_wrap.c	/^void dt_syscall_setuid(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_unlink	dt_sys_wrap.c	/^void dt_syscall_unlink(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_write	dt_sys_wrap.c	/^void dt_syscall_write(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+dt_syscall_writev	dt_sys_wrap.c	/^void dt_syscall_writev(ThreadId tid, UWord* args, UInt nArgs, SysRes res)$/;"	f
+dt_track_copy_address_range_state	dt_main.c	/^static void dt_track_copy_address_range_state ( Addr src, Addr dst, SizeT len) {$/;"	f	file:
+dt_track_die_mem_brk	dt_main.c	/^static void dt_track_die_mem_brk (Addr a, SizeT len) {$/;"	f	file:
+dt_track_die_mem_munmap	dt_main.c	/^static void dt_track_die_mem_munmap (Addr a, SizeT len) {$/;"	f	file:
+dt_track_die_mem_stack_signal	dt_main.c	/^static void dt_track_die_mem_stack_signal (Addr a, SizeT len) {$/;"	f	file:
+dt_track_new_mem_mmap	dt_main.c	/^static void dt_track_new_mem_mmap ( Addr a, SizeT len, Bool rr, Bool ww, Bool xx,$/;"	f	file:
+dumpClass	dt_dexparse.c	/^void dumpClass(struct DexFile* pDexFile, Int idx, HChar** pLastPackage)$/;"	f
+dumpClassData	dt_dexparse.c	/^void dumpClassData(const struct DexFile* pDexFile, const struct MonitorDexFile* pMDexFile) $/;"	f
+dumpClassDef	dt_dexparse.c	/^void dumpClassDef(struct DexFile* pDexFile, Int idx)$/;"	f
+dumpCode	dt_dexparse.c	/^void dumpCode(const struct DexCode *pCode, Int i)$/;"	f	file:
+dumpDexFile	dt_dexparse.c	/^	void dumpDexFile(UChar* addr, Int len) {$/;"	f
+dumpDexFileBasicPointers	dt_dexparse.c	/^		void dumpDexFileBasicPointers(struct DexFile* pDexFile) {$/;"	f	file:
+dumpDifferentialCompressedMap	dt_dexparse.c	/^	void dumpDifferentialCompressedMap(const UChar** pData)$/;"	f
+dumpFileHeader	dt_dexparse.c	/^static Bool dumpFileHeader(const struct DexFile* pDexFile, const struct MonitorDexFile* pMDexFile)$/;"	f	file:
+dumpIField	dt_dexparse.c	/^void dumpIField(const struct DexFile* pDexFile, const struct DexField* pIField, Int i)$/;"	f
+dumpInterface	dt_dexparse.c	/^void dumpInterface(const struct DexFile* pDexFile, const struct DexTypeItem* pTypeItem,$/;"	f
+dumpMethod	dt_dexparse.c	/^void dumpMethod(struct DexFile* pDexFile, const struct DexMethod* pDexMethod, Int i)$/;"	f
+dumpMethodMap	dt_dexparse.c	/^	void dumpMethodMap(struct DexFile* pDexFile, const struct DexMethod* pDexMethod, Int idx,$/;"	f
+dumpOptDirectory	dt_dexparse.c	/^void dumpOptDirectory(const struct DexFile* pDexFile, const struct MonitorDexFile* pMDexFile)$/;"	f
+dumpRawData	dt_dexparse.c	/^static Bool dumpRawData(UChar* buf, UInt size, Addr a) {$/;"	f	file:
+dumpRegisterMaps	dt_dexparse.c	/^	static void dumpRegisterMaps(const struct DexFile* pDexFile, const struct MonitorDexFile* pMDexFile)$/;"	f	file:
+dumpSField	dt_dexparse.c	/^void dumpSField(const struct DexFile* pDexFile, const struct DexField* pSField, Int i)$/;"	f
+elementClass	dt_dexparse.h	/^	struct ClassObject*    elementClass;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::ClassObject
+enc_unicode_to_utf8_one	dt_framework.c	/^int enc_unicode_to_utf8_one(ULong unic, UChar *pOutput, Int outSize)  $/;"	f
+endAddr	dt_dexparse.h	/^	Addr						endAddr;$/;"	m	struct:MonitorDexFile
+endianTag	dt_dexparse.h	/^	\/* 28 *\/UInt  endianTag;$/;"	m	struct:DexHeader
+ent	dt_taint.c	/^	AuxMapEnt* ent; \/\/ pointer to the matching auxmap_L2 node$/;"	m	struct:__anon2	file:
+entries	dt_dexparse.h	/^	UInt  entries[1];                 \/* offset to DexAnnotationItem *\/$/;"	m	struct:DexAnnotationSetItem
+entry_point_from_interpreter_	dt_oatparse.h	/^		\/*0x1c*\/	void* entry_point_from_interpreter_;$/;"	m	struct:ArtMethodPlus::PtrSizedFields
+entry_point_from_jni_	dt_oatparse.h	/^		\/*0x20*\/	void* entry_point_from_jni_;$/;"	m	struct:ArtMethodPlus::PtrSizedFields
+entry_point_from_quick_compiled_code_	dt_oatparse.h	/^		\/*0x24*\/	void* entry_point_from_quick_compiled_code_;$/;"	m	struct:ArtMethodPlus::PtrSizedFields
+exception	dt_dexparse.h	/^	void*			  exception;$/;"	m	struct:Thread
+executableOffset	dt_dexparse.h	/^	UInt  executableOffset;$/;"	m	struct:OatHeader
+exit_wrapper	dt_libfun_replace.c	/^void exit_wrapper(int status)$/;"	f
+expensiveAddSub	dt_instrument.c	/^IRAtom* expensiveAddSub ( MCEnv*  mce,$/;"	f	file:
+expensiveCmpEQorNE	dt_instrument.c	/^static IRAtom* expensiveCmpEQorNE ( MCEnv*  mce, \/\/774$/;"	f	file:
+expensiveCountTrailingZeroes	dt_instrument.c	/^IRAtom* expensiveCountTrailingZeroes ( MCEnv* mce, IROp czop,$/;"	f	file:
+expr2vbits	dt_instrument.c	/^IRExpr* expr2vbits ( MCEnv* mce, IRExpr* e )$/;"	f	file:
+expr2vbits_Binop	dt_instrument.c	/^IRAtom* expr2vbits_Binop ( MCEnv* mce,$/;"	f	file:
+expr2vbits_ITE	dt_instrument.c	/^IRAtom* expr2vbits_ITE ( MCEnv* mce, \/\/2881$/;"	f	file:
+expr2vbits_Load	dt_instrument.c	/^IRAtom* expr2vbits_Load ( MCEnv* mce,$/;"	f	file:
+expr2vbits_Load_WRK	dt_instrument.c	/^IRAtom* expr2vbits_Load_WRK ( MCEnv* mce,$/;"	f	file:
+expr2vbits_Load_guarded_General	dt_instrument.c	/^IRAtom* expr2vbits_Load_guarded_General ( MCEnv* mce,$/;"	f	file:
+expr2vbits_Load_guarded_Simple	dt_instrument.c	/^IRAtom* expr2vbits_Load_guarded_Simple ( MCEnv* mce,$/;"	f	file:
+expr2vbits_Qop	dt_instrument.c	/^IRAtom* expr2vbits_Qop ( MCEnv* mce, \/\/1997$/;"	f	file:
+expr2vbits_Triop	dt_instrument.c	/^IRAtom* expr2vbits_Triop ( MCEnv* mce,$/;"	f	file:
+expr2vbits_Unop	dt_instrument.c	/^IRExpr* expr2vbits_Unop ( MCEnv* mce, IROp op, IRAtom* atom )$/;"	f	file:
+extract_IRAtom	dt_instrument.c	/^Int extract_IRAtom( IRAtom* atom ){$/;"	f
+extract_IRConst	dt_instrument.c	/^Int extract_IRConst( IRConst* con ){$/;"	f
+extract_IRConst64	dt_instrument.c	/^ULong extract_IRConst64( IRConst* con ){$/;"	f
+extract_vabits2_from_vabits8	dt_taint.c	/^UChar extract_vabits2_from_vabits8 ( Addr a, UChar vabits8 )$/;"	f	file:
+extract_vabits4_from_vabits8	dt_taint.c	/^UChar extract_vabits4_from_vabits8 ( Addr a, UChar vabits8 )$/;"	f	file:
+f	dt_dexparse.h	/^	Float   f;$/;"	m	union:JValue
+f	dt_dexparse.h	/^	float   f;$/;"	m	union:JValue
+fastJni	dt_dexparse.h	/^	Bool fastJni;$/;"	m	struct:Method
+fclose_wrapper	dt_libfun_replace.c	/^int fclose_wrapper(void *fp)$/;"	f
+fd	dt_dexparse.h	/^	Int			fd;					\/* fd of the opened file *\/$/;"	m	struct:DexFileInfo
+fd_info	dt_wrap.h	/^struct fd_info {$/;"	s
+fds	dt_main.c	/^struct fd_info fds[TG_N_THREADS][FD_MAX];$/;"	v	typeref:struct:fd_info
+field	dt_dexparse.h	/^	struct Field				field;$/;"	m	struct:StaticField	typeref:struct:StaticField::Field
+field	dt_dexparse.h	/^	struct Field		field;$/;"	m	struct:InstField	typeref:struct:InstField::Field
+fieldIdsOff	dt_dexparse.h	/^	\/* 54 *\/UInt  fieldIdsOff;$/;"	m	struct:DexHeader
+fieldIdsSize	dt_dexparse.h	/^	\/* 50 *\/UInt  fieldIdsSize;$/;"	m	struct:DexHeader
+fieldIdx	dt_dexparse.h	/^	UInt  fieldIdx;$/;"	m	struct:DexFieldAnnotationsItem
+fieldIdx	dt_dexparse.h	/^	UInt fieldIdx;    \/* index to a field_id_item *\/$/;"	m	struct:DexField
+field_ids_	dt_oatparse.h	/^	\/*0x2c*\/ struct FieldId		*field_ids_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::FieldId
+fieldsSize	dt_dexparse.h	/^	UInt  fieldsSize;           \/* count of DexFieldAnnotationsItem *\/$/;"	m	struct:DexAnnotationsDirectoryItem
+fileName	dt_dexparse.h	/^	char*       fileName;$/;"	m	struct:DexOrJar
+fileSize	dt_dexparse.h	/^	\/* 20 *\/UInt  fileSize;           \/* length of entire file *\/$/;"	m	struct:DexHeader
+file_index	dt_dexparse.c	/^static Int file_index = 0;$/;"	v	file:
+filterNum	dt_instrument.c	/^static Int filterNum = 0;$/;"	v	file:
+findLib	dt_instrument.c	/^static struct LibList* findLib(const HChar* soname) {$/;"	f	file:
+findShadowTmpV	dt_instrument.c	/^static IRTemp findShadowTmpV ( MCEnv* mce, IRTemp orig )$/;"	f	file:
+find_class_def_misses_	dt_oatparse.h	/^	\/*0x3b*\/ UInt		find_class_def_misses_;$/;"	m	struct:DexFilePlus
+find_or_alloc_in_auxmap	dt_taint.c	/^static AuxMapEnt* find_or_alloc_in_auxmap ( Addr a )$/;"	f	file:
+first_element_	dt_framework.h	/^	UInt		first_element_[0];$/;"	m	struct:_ArrayMirror
+fl	dt_instrument.c	/^static struct FilterList *fl = NULL;$/;"	v	typeref:struct:FilterList	file:
+flags	dt_dexparse.h	/^	UInt  flags;              \/* some info flags *\/$/;"	m	struct:DexOptHeader
+flist	dt_taint.h	/^	struct Funlist *flist;$/;"	m	struct:LibList	typeref:struct:LibList::Funlist
+fopen_wrapper	dt_libfun_replace.c	/^void *fopen_wrapper(const char *path, const char *mode)$/;"	f
+format	dt_dexparse.h	/^	UChar      format;         \/* enum RegisterMapFormat; MUST be first entry *\/$/;"	m	struct:RegisterMap
+fpSpillMask	dt_dexparse.h	/^	UInt fpSpillMask;$/;"	m	struct:OatQuickMethodHeader
+frameSizeInBytes	dt_dexparse.h	/^	UInt frameSizeInBytes;$/;"	m	struct:OatQuickMethodHeader
+fread_wrapper	dt_libfun_replace.c	/^Int	fread_wrapper(void *ptr, Int size, Int nmemb, FILE *stream)$/;"	f
+fseek_wrapper	dt_libfun_replace.c	/^int fseek_wrapper(void *stream, long offset, int whence)$/;"	f
+fwrite_wrapper	dt_libfun_replace.c	/^Int fwrite_wrapper(const void *ptr, Int size, Int nmemb, FILE *stream)$/;"	f
+gcMapOffset	dt_dexparse.h	/^	UInt gcMapOffset;$/;"	m	struct:OatQuickMethodHeader
+gcSecVBitTable	dt_taint.c	/^static void gcSecVBitTable(void)$/;"	f	file:
+get2LE	dt_dexparse.c	/^static INLINE UShort get2LE(UChar const* pSrc)$/;"	f	file:
+get4LE	dt_dexparse.c	/^static INLINE UInt get4LE(UChar const* pSrc)$/;"	f	file:
+getClassFileName	dt_oatparse.c	/^void getClassFileName(UChar* dex, struct DexStringId *strIdList, $/;"	f
+getClassMethods	dt_dexparse.c	/^	Bool getClassMethods(const struct DexFile *pDexFile, struct ClassObject *pClazz) {$/;"	f
+getCodeOffset	dt_oatparse.c	/^UInt getCodeOffset(UShort type, UChar* bitmap, UInt* offsets, UInt mid, UInt *nid) {$/;"	f
+getMethod	dt_dexparse.c	/^	static struct Method* getMethod(struct Method* mth, Int count, $/;"	f	file:
+getMethodCode	dt_dexparse.c	/^	static Bool getMethodCode(struct DexFile *pDexFile, struct DexMethod* pDexMethod, struct Method *mths, Int count)$/;"	f	file:
+getProtoDesc	dt_oatparse.c	/^void getProtoDesc(UChar* dex, struct DexStringId *strIdList,$/;"	f
+getProtoId	dt_dexparse.c	/^static INLINE const struct DexProtoId* getProtoId(const struct DexProto* pProto) {$/;"	f	file:
+getStringValue	dt_oatparse.c	/^void getStringValue(UChar* dex, struct DexStringId *strIdList,$/;"	f
+getTypeDesc	dt_oatparse.c	/^void getTypeDesc(UChar* dex, struct DexStringId *strIdList,$/;"	f
+getTypeDescForClass	dt_oatparse.c	/^UInt getTypeDescForClass(UChar* dex, struct DexStringId* strIdList,$/;"	f
+getUnsignedLebValue	dt_oatparse.c	/^void getUnsignedLebValue(UChar* dex, UChar* stringData,$/;"	f
+get_and_check_reg	dt_taint.c	/^Int get_and_check_reg( HChar *reg ){$/;"	f
+get_and_check_tvar	dt_taint.c	/^Int get_and_check_tvar( HChar *tmp ){$/;"	f
+get_classobject_name	dt_framework.c	/^HChar *get_classobject_name(ClassMirror *clazz) {$/;"	f
+get_sec_vbits8	dt_taint.c	/^static UWord get_sec_vbits8(Addr a)$/;"	f	file:
+get_secmap_for_reading	dt_taint.c	/^static INLINE SecMap* get_secmap_for_reading ( Addr a )$/;"	f	file:
+get_secmap_for_reading_high	dt_taint.c	/^static INLINE SecMap* get_secmap_for_reading_high ( Addr a )$/;"	f	file:
+get_secmap_for_reading_low	dt_taint.c	/^static INLINE SecMap* get_secmap_for_reading_low ( Addr a )$/;"	f	file:
+get_secmap_for_writing	dt_taint.c	/^static SecMap* get_secmap_for_writing ( Addr a )$/;"	f	file:
+get_secmap_for_writing_high	dt_taint.c	/^static INLINE SecMap* get_secmap_for_writing_high ( Addr a )$/;"	f	file:
+get_secmap_for_writing_low	dt_taint.c	/^static INLINE SecMap* get_secmap_for_writing_low ( Addr a)$/;"	f	file:
+get_secmap_high_ptr	dt_taint.c	/^static INLINE SecMap** get_secmap_high_ptr ( Addr a )$/;"	f	file:
+get_secmap_low_ptr	dt_taint.c	/^static INLINE SecMap** get_secmap_low_ptr ( Addr a )$/;"	f	file:
+get_secmap_ptr	dt_taint.c	/^static SecMap** get_secmap_ptr ( Addr a )$/;"	f	file:
+get_string_content	dt_framework.c	/^UShort* get_string_content(Addr addr)$/;"	f
+get_stringobj_str	dt_framework.c	/^HChar* get_stringobj_str(Addr addr)$/;"	f	file:
+get_vabits2	dt_taint.c	/^UChar get_vabits2 ( Addr a )$/;"	f
+get_vabits8_for_aligned_word32	dt_taint.c	/^UChar get_vabits8_for_aligned_word32 ( Addr a )$/;"	f	file:
+get_vbits8	dt_taint.c	/^Bool get_vbits8 ( Addr a, UChar* vbits8 )$/;"	f	file:
+gettimeofday_wrapper	dt_libfun_replace.c	/^int gettimeofday_wrapper(void* tv, void* tz) {$/;"	f
+hWordTy	dt_instrument.c	/^	IRType hWordTy;$/;"	m	struct:_MCEnv	file:
+hWordTy	dt_instrument.h	/^	IRType	hWordTy;$/;"	m	struct:_MCEnv
+handlerOff	dt_dexparse.h	/^	UShort  handlerOff;         \/* offset in encoded handler data to handlers *\/$/;"	m	struct:DexTry
+hash_code_	dt_framework.h	/^	UInt		hash_code_;$/;"	m	struct:_StringMirror
+header	dt_dexparse.h	/^	struct DexClassDataHeader header;$/;"	m	struct:DexClassData	typeref:struct:DexClassData::DexClassDataHeader
+headerSize	dt_dexparse.h	/^	\/* 24 *\/UInt  headerSize;         \/* offset to start of next section *\/$/;"	m	struct:DexHeader
+header_	dt_oatparse.h	/^	\/*0x20*\/ struct DexHeader	*header_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::DexHeader
+i	dt_dexparse.h	/^	Int      i;$/;"	m	union:JValue
+i128_const_zero	dt_instrument.c	/^static IRExpr *i128_const_zero(void)$/;"	f	file:
+identifyFdType	dt_sys_wrap.c	/^static Bool identifyFdType(ThreadId tid, Int fd, HChar *path) $/;"	f	file:
+ifieldCount	dt_dexparse.h	/^	Int								ifieldCount;$/;"	m	struct:ClassObject
+ifieldRefCount	dt_dexparse.h	/^	Int								ifieldRefCount; \/\/ number of fields that are object refs$/;"	m	struct:ClassObject
+ifields	dt_dexparse.h	/^	struct InstField* ifields;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::InstField
+ifields_	dt_framework.h	/^	\/*0x30*\/ ULong	ifields_;$/;"	m	struct:_ClassMirror
+iftable	dt_dexparse.h	/^	struct InterfaceEntry*		iftable;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::InterfaceEntry
+iftableCount	dt_dexparse.h	/^	Int								iftableCount;$/;"	m	struct:ClassObject
+iftable_	dt_framework.h	/^	\/*0x10*\/ void*	iftable_;$/;"	m	struct:_ClassMirror
+ifviPool	dt_dexparse.h	/^	Int*							ifviPool;$/;"	m	struct:ClassObject
+ifviPoolCount	dt_dexparse.h	/^	Int								ifviPoolCount;$/;"	m	struct:ClassObject
+imageFileLocationOatChecksum	dt_dexparse.h	/^	UInt  imageFileLocationOatChecksum;					\/\/ Adler-32 checksum of boot.oat's header$/;"	m	struct:OatHeader
+imageFileLocationOatDataBegin	dt_dexparse.h	/^	UInt  imageFileLocationOatDataBegin;				\/\/ The virtual address of boot.oat's oatdata section$/;"	m	struct:OatHeader
+imagePatchDelta	dt_dexparse.h	/^	UInt  imagePatchDelta;											\/\/ The image relocated address delta$/;"	m	struct:OatHeader
+inProfile	dt_dexparse.h	/^	Bool            inProfile;$/;"	m	struct:Method
+in_addr	dt_main.h	/^struct in_addr {$/;"	s
+inet_aton	dt_main.c	/^Int inet_aton(UChar *cp,	struct in_addr *ap)$/;"	f
+inet_ntoa	dt_main.c	/^HChar *inet_ntoa(struct in_addr in)$/;"	f
+infer_client_binary_name	dt_taint.c	/^void infer_client_binary_name(UInt pc) {$/;"	f
+initFilterlist	dt_instrument.c	/^void initFilterlist() {$/;"	f
+initThreadId	dt_dexparse.h	/^	UInt              initThreadId;$/;"	m	struct:ClassObject
+init_auxmap_L1_L2	dt_taint.c	/^static void init_auxmap_L1_L2 ( void )$/;"	f	file:
+init_shadow_memory	dt_taint.c	/^void init_shadow_memory(void) {$/;"	f
+init_soaap_data	dt_taint.c	/^void init_soaap_data() {$/;"	f
+init_tv	dt_main.c	/^static ULong init_tv = 0; $/;"	v	file:
+initiatingLoaderCount	dt_dexparse.h	/^	Int						  initiatingLoaderCount;$/;"	m	struct:InitiatingLoaderList
+initiatingLoaderList	dt_dexparse.h	/^	struct InitiatingLoaderList initiatingLoaderList;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::InitiatingLoaderList
+initiatingLoaders	dt_dexparse.h	/^	struct Object**  initiatingLoaders;$/;"	m	struct:InitiatingLoaderList	typeref:struct:InitiatingLoaderList::Object
+insSize	dt_dexparse.h	/^	UShort              insSize;$/;"	m	struct:Method
+insSize	dt_dexparse.h	/^	UShort  insSize;$/;"	m	struct:DexCode
+insSize	dt_dexparse.h	/^	UShort insSize;$/;"	m	struct:CodeItem
+insert_into_auxmap_L1_at	dt_taint.c	/^static void insert_into_auxmap_L1_at ( Word rank, AuxMapEnt* ent )$/;"	f	file:
+insert_vabits2_into_vabits8	dt_taint.c	/^void insert_vabits2_into_vabits8 ( Addr a, UChar vabits2, UChar* vabits8 ) \/\/682$/;"	f	file:
+insert_vabits4_into_vabits8	dt_taint.c	/^void insert_vabits4_into_vabits8 ( Addr a, UChar vabits4, UChar* vabits8 )$/;"	f	file:
+insnCount	dt_dexparse.h	/^	UShort  insnCount;          \/* instruction count, in 16-bit code units *\/$/;"	m	struct:DexTry
+insns	dt_dexparse.h	/^	UShort  insns[1];$/;"	m	struct:DexCode
+insns	dt_dexparse.h	/^	UShort insns[1];$/;"	m	struct:CodeItem
+insns	dt_dexparse.h	/^	const UShort*       insns;          \/* instructions, in memory-mapped .dex *\/$/;"	m	struct:Method
+insnsSize	dt_dexparse.h	/^	UInt	  insnsSize;          \/* size of the insns array, in UShort units *\/$/;"	m	struct:DexCode
+insnsSizeInCodeUnits	dt_dexparse.h	/^	UInt	 insnsSizeInCodeUnits;$/;"	m	struct:CodeItem
+instanceData	dt_dexparse.h	/^	UInt							instanceData[CLASS_FIELD_SLOTS];$/;"	m	struct:ClassObject
+instanceFields	dt_dexparse.h	/^	struct DexField*          instanceFields;$/;"	m	struct:DexClassData	typeref:struct:DexClassData::DexField
+instanceFieldsSize	dt_dexparse.h	/^	UInt instanceFieldsSize;$/;"	m	struct:DexClassDataHeader
+instructionSet	dt_dexparse.h	/^	UInt  instructionSet;$/;"	m	struct:OatHeader
+instructionSetFeatures	dt_dexparse.h	/^	UInt  instructionSetFeatures;$/;"	m	struct:OatHeader
+interfaceCount	dt_dexparse.h	/^	Int								interfaceCount;$/;"	m	struct:ClassObject
+interfaces	dt_dexparse.h	/^	struct ClassObject**   interfaces;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::ClassObject
+interfacesOff	dt_dexparse.h	/^	\/*0x0c*\/ UInt  interfacesOff;      \/* file offset to DexTypeList *\/$/;"	m	struct:DexClassDef
+interpBreak	dt_dexparse.h	/^	union InterpBreak interpBreak;$/;"	m	struct:Thread	typeref:union:Thread::InterpBreak
+interpSave	dt_dexparse.h	/^	struct InterpSaveState	interpSave;$/;"	m	struct:Thread	typeref:struct:Thread::InterpSaveState
+interpStackEnd	dt_dexparse.h	/^	const UChar*   interpStackEnd;$/;"	m	struct:Thread
+interpStackSize	dt_dexparse.h	/^	int         interpStackSize;$/;"	m	struct:Thread
+interpreterToCompiledCodeBridgeOffset	dt_dexparse.h	/^	UInt  interpreterToCompiledCodeBridgeOffset;$/;"	m	struct:OatHeader
+interpreterToInterpreterBridgeOffset	dt_dexparse.h	/^	UInt  interpreterToInterpreterBridgeOffset;$/;"	m	struct:OatHeader
+invoke_superblock	dt_instrument.c	/^static void invoke_superblock(MthList* mList, VexGuestLayout *layout)$/;"	f	file:
+iov_base	dt_wrap.h	/^	Addr  iov_base;$/;"	m	struct:iovec
+iov_len	dt_wrap.h	/^	Int		iov_len;$/;"	m	struct:iovec
+iovec	dt_wrap.h	/^struct iovec {$/;"	s
+isAlwaysDefd	dt_instrument.c	/^static Bool isAlwaysDefd ( MCEnv* mce, Int offset, Int size ) \/\/1159$/;"	f	file:
+isBogusAtom	dt_instrument.c	/^static Bool isBogusAtom ( IRAtom* at )$/;"	f	file:
+isCloneMemValid	dt_dexparse.c	/^	static INLINE Bool isCloneMemValid(const struct DexFile* pDexFile, const struct MonitorDexFile* pMDexFile) {$/;"	f	file:
+isDex	dt_dexparse.h	/^	Bool        isDex;$/;"	m	struct:DexOrJar
+isInDexFileList	dt_dexparse.c	/^struct MonitorDexFile* isInDexFileList( struct DexFile* pDexFile ) {$/;"	f
+isMappedReadOnly	dt_dexparse.h	/^	Bool                isMappedReadOnly;$/;"	m	struct:DvmDex
+isOriginalAtom	dt_instrument.c	/^static Bool isOriginalAtom ( MCEnv* mce, IRAtom* a1 ) \/\/303$/;"	f	file:
+isShadowAtom	dt_instrument.c	/^static Bool isShadowAtom ( MCEnv* mce, IRAtom* a1 )$/;"	f	file:
+isThirdFd	dt_sys_wrap.c	/^static INLINE Bool isThirdFd( Int tid, Int fd) {$/;"	f	file:
+isValidPoInter	dt_dexparse.c	/^static INLINE Bool isValidPoInter(const UChar* ptr, const UChar* start, const UChar* end)$/;"	f	file:
+isZeroU32	dt_instrument.c	/^static Bool isZeroU32 ( IRAtom* e ) \/\/886$/;"	f	file:
+isZeroU64	dt_instrument.c	/^static Bool isZeroU64 ( IRAtom* e )$/;"	f	file:
+is_distinguished_sm	dt_taint.c	/^static INLINE Bool is_distinguished_sm ( SecMap* sm ) {$/;"	f	file:
+is_framework_bb	dt_instrument.c	/^INLINE Bool is_framework_bb(Addr *a) {$/;"	f	file:
+is_instrument_needed	dt_instrument.c	/^Bool is_instrument_needed( VgCallbackClosure* closure ) {$/;"	f	file:
+is_overlap	dt_libfun_replace.c	/^Bool is_overlap ( void* dst, const void* src, SizeT dstlen, SizeT srclen )$/;"	f	file:
+is_start_of_sm	dt_taint.h	/^static INLINE Bool is_start_of_sm ( Addr a ) {$/;"	f
+is_taint_sink	dt_oatparse.c	/^static Bool is_taint_sink(Int dex_method_idx){$/;"	f	file:
+is_taint_source	dt_oatparse.c	/^static Bool is_taint_source(Int dex_method_idx){$/;"	f	file:
+is_taint_white	dt_oatparse.c	/^static Bool is_taint_white(Addr addr){$/;"	f	file:
+is_tainted	dt_taint.h	285;"	d
+istty	dt_taint.c	/^int istty = 0;$/;"	v
+j	dt_dexparse.h	/^	Long      j;$/;"	m	union:JValue
+jniArgInfo	dt_dexparse.h	/^	int             jniArgInfo;$/;"	m	struct:Method
+jniDlsymLookupOffset	dt_dexparse.h	/^	UInt  jniDlsymLookupOffset;$/;"	m	struct:OatHeader
+jni_FindClass	dt_art_wrap.c	/^void* jni_FindClass(void* env, const char* name)$/;"	f
+jni_GetMethodID	dt_art_wrap.c	/^int jni_GetMethodID(void* env, void* java_class, const char* name, const char* sig)$/;"	f
+jni_GetStaticMethodID	dt_art_wrap.c	/^int jni_GetStaticMethodID(void* env, void* java_class, const char* name, const char* sig)$/;"	f
+kAccessForClass	dt_dexparse.h	/^	kAccessForClass = 0, kAccessForMethod = 1, kAccessForField = 2,$/;"	e	enum:AccessFor
+kAccessForField	dt_dexparse.h	/^	kAccessForClass = 0, kAccessForMethod = 1, kAccessForField = 2,$/;"	e	enum:AccessFor
+kAccessForMAX	dt_dexparse.h	/^	kAccessForMAX$/;"	e	enum:AccessFor
+kAccessForMethod	dt_dexparse.h	/^	kAccessForClass = 0, kAccessForMethod = 1, kAccessForField = 2,$/;"	e	enum:AccessFor
+kArm	dt_dexparse.h	/^	kArm,$/;"	e	enum:__anon20
+kArm64	dt_dexparse.h	/^	kArm64,$/;"	e	enum:__anon20
+kDexAnnotationAnnotation	dt_dexparse.h	/^	kDexAnnotationAnnotation    = 0x1d,$/;"	e	enum:__anon7
+kDexAnnotationArray	dt_dexparse.h	/^	kDexAnnotationArray         = 0x1c,$/;"	e	enum:__anon7
+kDexAnnotationBoolean	dt_dexparse.h	/^	kDexAnnotationBoolean       = 0x1f,$/;"	e	enum:__anon7
+kDexAnnotationByte	dt_dexparse.h	/^	kDexAnnotationByte          = 0x00,$/;"	e	enum:__anon7
+kDexAnnotationChar	dt_dexparse.h	/^	kDexAnnotationChar          = 0x03,$/;"	e	enum:__anon7
+kDexAnnotationDouble	dt_dexparse.h	/^	kDexAnnotationDouble        = 0x11,$/;"	e	enum:__anon7
+kDexAnnotationEnum	dt_dexparse.h	/^	kDexAnnotationEnum          = 0x1b,$/;"	e	enum:__anon7
+kDexAnnotationField	dt_dexparse.h	/^	kDexAnnotationField         = 0x19,$/;"	e	enum:__anon7
+kDexAnnotationFloat	dt_dexparse.h	/^	kDexAnnotationFloat         = 0x10,$/;"	e	enum:__anon7
+kDexAnnotationInt	dt_dexparse.h	/^	kDexAnnotationInt           = 0x04,$/;"	e	enum:__anon7
+kDexAnnotationLong	dt_dexparse.h	/^	kDexAnnotationLong          = 0x06,$/;"	e	enum:__anon7
+kDexAnnotationMethod	dt_dexparse.h	/^	kDexAnnotationMethod        = 0x1a,$/;"	e	enum:__anon7
+kDexAnnotationNull	dt_dexparse.h	/^	kDexAnnotationNull          = 0x1e,$/;"	e	enum:__anon7
+kDexAnnotationShort	dt_dexparse.h	/^	kDexAnnotationShort         = 0x02,$/;"	e	enum:__anon7
+kDexAnnotationString	dt_dexparse.h	/^	kDexAnnotationString        = 0x17,$/;"	e	enum:__anon7
+kDexAnnotationType	dt_dexparse.h	/^	kDexAnnotationType          = 0x18,$/;"	e	enum:__anon7
+kDexAnnotationValueArgShift	dt_dexparse.h	/^	kDexAnnotationValueArgShift = 5,$/;"	e	enum:__anon7
+kDexAnnotationValueTypeMask	dt_dexparse.h	/^	kDexAnnotationValueTypeMask = 0x1f,     \/* low 5 bits *\/$/;"	e	enum:__anon7
+kDexChunkClassLookup	dt_dexparse.h	/^	kDexChunkClassLookup            = 0x434c4b50,   \/* CLKP *\/$/;"	e	enum:__anon9
+kDexChunkEnd	dt_dexparse.h	/^	kDexChunkEnd                    = 0x41454e44,   \/* AEND *\/$/;"	e	enum:__anon9
+kDexChunkRegisterMaps	dt_dexparse.h	/^	kDexChunkRegisterMaps           = 0x524d4150,   \/* RMAP *\/$/;"	e	enum:__anon9
+kDexEndianConstant	dt_dexparse.h	/^	kDexEndianConstant = 0x12345678,    \/* the endianness indicator *\/$/;"	e	enum:__anon11
+kDexNoIndex	dt_dexparse.h	/^	kDexNoIndex = 0xffffffff,           \/* not a valid index value *\/$/;"	e	enum:__anon11
+kDexTypeAnnotationItem	dt_dexparse.h	/^	kDexTypeAnnotationItem           = 0x2004,$/;"	e	enum:__anon8
+kDexTypeAnnotationSetItem	dt_dexparse.h	/^	kDexTypeAnnotationSetItem        = 0x1003,$/;"	e	enum:__anon8
+kDexTypeAnnotationSetRefList	dt_dexparse.h	/^	kDexTypeAnnotationSetRefList     = 0x1002,$/;"	e	enum:__anon8
+kDexTypeAnnotationsDirectoryItem	dt_dexparse.h	/^	kDexTypeAnnotationsDirectoryItem = 0x2006,$/;"	e	enum:__anon8
+kDexTypeClassDataItem	dt_dexparse.h	/^	kDexTypeClassDataItem            = 0x2000,$/;"	e	enum:__anon8
+kDexTypeClassDefItem	dt_dexparse.h	/^	kDexTypeClassDefItem             = 0x0006,$/;"	e	enum:__anon8
+kDexTypeCodeItem	dt_dexparse.h	/^	kDexTypeCodeItem                 = 0x2001,$/;"	e	enum:__anon8
+kDexTypeDebugInfoItem	dt_dexparse.h	/^	kDexTypeDebugInfoItem            = 0x2003,$/;"	e	enum:__anon8
+kDexTypeEncodedArrayItem	dt_dexparse.h	/^	kDexTypeEncodedArrayItem         = 0x2005,$/;"	e	enum:__anon8
+kDexTypeFieldIdItem	dt_dexparse.h	/^	kDexTypeFieldIdItem              = 0x0004,$/;"	e	enum:__anon8
+kDexTypeHeaderItem	dt_dexparse.h	/^	kDexTypeHeaderItem               = 0x0000,$/;"	e	enum:__anon8
+kDexTypeMapList	dt_dexparse.h	/^	kDexTypeMapList                  = 0x1000,$/;"	e	enum:__anon8
+kDexTypeMethodIdItem	dt_dexparse.h	/^	kDexTypeMethodIdItem             = 0x0005,$/;"	e	enum:__anon8
+kDexTypeProtoIdItem	dt_dexparse.h	/^	kDexTypeProtoIdItem              = 0x0003,$/;"	e	enum:__anon8
+kDexTypeStringDataItem	dt_dexparse.h	/^	kDexTypeStringDataItem           = 0x2002,$/;"	e	enum:__anon8
+kDexTypeStringIdItem	dt_dexparse.h	/^	kDexTypeStringIdItem             = 0x0001,$/;"	e	enum:__anon8
+kDexTypeTypeIdItem	dt_dexparse.h	/^	kDexTypeTypeIdItem               = 0x0002,$/;"	e	enum:__anon8
+kDexTypeTypeList	dt_dexparse.h	/^	kDexTypeTypeList                 = 0x1001,$/;"	e	enum:__anon8
+kDexVisibilityBuild	dt_dexparse.h	/^	kDexVisibilityBuild         = 0x00,     \/* annotation visibility *\/$/;"	e	enum:__anon7
+kDexVisibilityRuntime	dt_dexparse.h	/^	kDexVisibilityRuntime       = 0x01,$/;"	e	enum:__anon7
+kDexVisibilitySystem	dt_dexparse.h	/^	kDexVisibilitySystem        = 0x02,$/;"	e	enum:__anon7
+kDirect	dt_wrap.h	/^   kDirect,     \/\/ <<direct>>$/;"	e	enum:InvokeType
+kInterface	dt_wrap.h	/^   kInterface,  \/\/ <<interface>>$/;"	e	enum:InvokeType
+kMaxInvokeType	dt_wrap.h	/^   kMaxInvokeType = kInterface$/;"	e	enum:InvokeType
+kMips	dt_dexparse.h	/^	kMips,$/;"	e	enum:__anon20
+kMips64	dt_dexparse.h	/^	kMips64$/;"	e	enum:__anon20
+kNone	dt_dexparse.h	/^	kNone,$/;"	e	enum:__anon20
+kOatClassAllCompiled	dt_dexparse.h	/^	kOatClassAllCompiled = 0, $/;"	e	enum:__anon19
+kOatClassMax	dt_dexparse.h	/^	kOatClassMax = 3$/;"	e	enum:__anon19
+kOatClassNoneCompiled	dt_dexparse.h	/^	kOatClassNoneCompiled = 2,$/;"	e	enum:__anon19
+kOatClassSomeCompiled	dt_dexparse.h	/^	kOatClassSomeCompiled = 1,$/;"	e	enum:__anon19
+kPrimBoolean	dt_wrap.h	/^   kPrimBoolean,$/;"	e	enum:PrimType
+kPrimByte	dt_wrap.h	/^   kPrimByte,$/;"	e	enum:PrimType
+kPrimChar	dt_wrap.h	/^   kPrimChar,$/;"	e	enum:PrimType
+kPrimDouble	dt_wrap.h	/^   kPrimDouble,$/;"	e	enum:PrimType
+kPrimFloat	dt_wrap.h	/^   kPrimFloat,$/;"	e	enum:PrimType
+kPrimInt	dt_wrap.h	/^   kPrimInt,$/;"	e	enum:PrimType
+kPrimLong	dt_wrap.h	/^   kPrimLong,$/;"	e	enum:PrimType
+kPrimNot	dt_wrap.h	/^   kPrimNot = 0,$/;"	e	enum:PrimType
+kPrimShort	dt_wrap.h	/^   kPrimShort,$/;"	e	enum:PrimType
+kPrimVoid	dt_wrap.h	/^   kPrimVoid,$/;"	e	enum:PrimType
+kSHA1DigestLen	dt_dexparse.h	/^enum { kSHA1DigestLen = 20,$/;"	e	enum:__anon6
+kSHA1DigestOutputLen	dt_dexparse.h	/^	kSHA1DigestOutputLen = kSHA1DigestLen*2 +1 };$/;"	e	enum:__anon6
+kStatic	dt_wrap.h	/^   kStatic,     \/\/ <<static>>$/;"	e	enum:InvokeType
+kSuper	dt_wrap.h	/^   kSuper,      \/\/ <<super>>$/;"	e	enum:InvokeType
+kThumb2	dt_dexparse.h	/^	kThumb2,$/;"	e	enum:__anon20
+kVirtual	dt_wrap.h	/^   kVirtual,    \/\/ <<virtual>>$/;"	e	enum:InvokeType
+kX86	dt_dexparse.h	/^	kX86,$/;"	e	enum:__anon20
+kX86_64	dt_dexparse.h	/^	kX86_64,$/;"	e	enum:__anon20
+keyValueStoreSize	dt_dexparse.h	/^	UInt  keyValueStoreSize;										\/\/ The length of key_value_store$/;"	m	struct:OatHeader
+kind	dt_instrument.c	/^	TempKind kind;$/;"	m	struct:__anon5	file:
+kind	dt_instrument.h	/^	TempKind	kind;$/;"	m	struct:__anon24
+klass_	dt_framework.h	/^	struct _ClassMirror *klass_;$/;"	m	struct:_ObjectMirror	typeref:struct:_ObjectMirror::_ClassMirror
+l	dt_dexparse.h	/^	struct Object* l;$/;"	m	union:JValue	typeref:struct:JValue::Object
+l	dt_dexparse.h	/^	void*   l;$/;"	m	union:JValue
+lastAddr	dt_dexparse.h	/^	Addr						lastAddr;$/;"	m	struct:MonitorDexFile
+layout	dt_instrument.c	/^	const VexGuestLayout* layout;$/;"	m	struct:_MCEnv	file:
+layout	dt_instrument.h	/^	const		VexGuestLayout*	layout;$/;"	m	struct:_MCEnv
+len	dt_dexparse.h	/^	UInt		len;				\/* Length of the file in memory *\/$/;"	m	struct:DexFileInfo
+len	dt_oatparse.h	/^	\/*0x04*\/ UInt		len;$/;"	m	struct:StdString
+len_uleb128	dt_oatparse.c	/^UInt len_uleb128(unsigned long n)$/;"	f
+length	dt_dexparse.h	/^	Int  length;         \/* length of data *\/$/;"	m	struct:MemMapping
+length_	dt_framework.h	/^	UInt		length_;$/;"	m	struct:_ArrayMirror
+linkOff	dt_dexparse.h	/^	\/* 30 *\/UInt  linkOff;$/;"	m	struct:DexHeader
+linkSize	dt_dexparse.h	/^	\/* 2c *\/UInt  linkSize;$/;"	m	struct:DexHeader
+list	dt_dexparse.h	/^	struct DexAnnotationSetRefItem list[1];$/;"	m	struct:DexAnnotationSetRefList	typeref:struct:DexAnnotationSetRefList::DexAnnotationSetRefItem
+list	dt_dexparse.h	/^	struct DexMapItem list[1];     \/* entries *\/$/;"	m	struct:DexMapList	typeref:struct:DexMapList::DexMapItem
+list	dt_dexparse.h	/^	struct DexTypeItem list[1];	\/\/ elements of the list$/;"	m	struct:DexTypeList	typeref:struct:DexTypeList::DexTypeItem
+listen_wrapper	dt_libfun_replace.c	/^int listen_wrapper(int s, int backlog) $/;"	f
+llist	dt_instrument.c	/^struct LibList *llist = NULL;$/;"	v	typeref:struct:LibList
+location_	dt_oatparse.h	/^	\/*0x0c*\/ struct StdString location_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::StdString
+location_checksum_	dt_oatparse.h	/^	\/*0x18*\/ UInt		location_checksum_;$/;"	m	struct:DexFilePlus
+lock	dt_dexparse.h	/^	UInt  lock;$/;"	m	struct:Object
+lvar_i	dt_taint.c	/^int      lvar_i[STACK_SIZE];$/;"	v
+lvar_s	dt_taint.c	/^struct   myStringArray lvar_s;$/;"	v	typeref:struct:myStringArray
+m	dt_taint.h	/^   char m[STACK_SIZE][MAX_LEN];$/;"	m	struct:myStringArray
+madvise_wrapper	dt_libfun_replace.c	/^int madvise_wrapper(void *addr, int length, int advice) $/;"	f
+magic	dt_dexparse.h	/^	UChar  magic[4];$/;"	m	struct:OatHeader
+magic	dt_dexparse.h	/^	UChar  magic[8];           \/* includes version number *\/$/;"	m	struct:DexOptHeader
+magic	dt_dexparse.h	/^	\/* 00 *\/UChar  magic[8];           \/* includes version number *\/$/;"	m	struct:DexHeader
+make_string_tainted	dt_framework.c	/^Int make_string_tainted(StringMirror *strObj) $/;"	f	file:
+make_string_untainted	dt_framework.c	/^Int make_string_untainted(StringMirror *strObj) $/;"	f	file:
+mallocEmptyIRDirty	copy.c	/^IRDirty* mallocEmptyIRDirty(void) {$/;"	f
+mallocIRCallee	copy.c	/^IRCallee* mallocIRCallee(Int regparms, const HChar* name, void* addr)$/;"	f
+mallocIRConst_F64	copy.c	/^IRConst* mallocIRConst_F64(Double f64)$/;"	f
+mallocIRConst_F64i	copy.c	/^IRConst* mallocIRConst_F64i(ULong f64i)$/;"	f
+mallocIRConst_U1	copy.c	/^IRConst* mallocIRConst_U1(Bool bit)$/;"	f
+mallocIRConst_U16	copy.c	/^IRConst* mallocIRConst_U16(UShort u16)$/;"	f
+mallocIRConst_U32	copy.c	/^IRConst* mallocIRConst_U32(UInt u32)$/;"	f
+mallocIRConst_U64	copy.c	/^IRConst* mallocIRConst_U64(ULong u64)$/;"	f
+mallocIRConst_U8	copy.c	/^IRConst* mallocIRConst_U8(UChar u8)$/;"	f
+mallocIRConst_V128	copy.c	/^IRConst* mallocIRConst_V128(UShort con)$/;"	f
+mallocIRExpr_Binder	copy.c	/^IRExpr* mallocIRExpr_Binder(Int binder) {$/;"	f
+mallocIRExpr_Binop	copy.c	/^IRExpr* mallocIRExpr_Binop(IROp op, IRExpr* arg1, IRExpr* arg2) {$/;"	f
+mallocIRExpr_CCall	copy.c	/^IRExpr* mallocIRExpr_CCall(IRCallee* cee, IRType retty, IRExpr** args) {$/;"	f
+mallocIRExpr_Const	copy.c	/^IRExpr* mallocIRExpr_Const(IRConst* con) {$/;"	f
+mallocIRExpr_Get	copy.c	/^IRExpr* mallocIRExpr_Get(Int off, IRType ty) {$/;"	f
+mallocIRExpr_GetI	copy.c	/^IRExpr* mallocIRExpr_GetI(IRRegArray* descr, IRExpr* ix, Int bias) {$/;"	f
+mallocIRExpr_ITE	copy.c	/^IRExpr* mallocIRExpr_ITE(IRExpr* cond, IRExpr* iftrue, IRExpr* iffalse) {$/;"	f
+mallocIRExpr_Load	copy.c	/^IRExpr* mallocIRExpr_Load(IREndness end, IRType ty, IRExpr* addr) {$/;"	f
+mallocIRExpr_Qop	copy.c	/^IRExpr* mallocIRExpr_Qop(IROp op, IRExpr* arg1, IRExpr* arg2, $/;"	f
+mallocIRExpr_RdTmp	copy.c	/^IRExpr* mallocIRExpr_RdTmp(IRTemp tmp) {$/;"	f
+mallocIRExpr_Triop	copy.c	/^IRExpr* mallocIRExpr_Triop (IROp op, IRExpr* arg1, $/;"	f
+mallocIRExpr_Unop	copy.c	/^IRExpr* mallocIRExpr_Unop(IROp op, IRExpr* arg) {$/;"	f
+mallocIRRegArray	copy.c	/^IRRegArray* mallocIRRegArray(Int base, IRType elemTy, Int nElems)$/;"	f
+mallocIRStmt_AbiHint	copy.c	/^IRStmt* mallocIRStmt_AbiHint(IRExpr* base, Int len, IRExpr* nia) {$/;"	f
+mallocIRStmt_Dirty	copy.c	/^IRStmt* mallocIRStmt_Dirty(IRDirty* d)$/;"	f
+mallocIRStmt_Exit	copy.c	/^IRStmt* mallocIRStmt_Exit(IRExpr* guard, IRJumpKind jk, IRConst* dst) {$/;"	f
+mallocIRStmt_IMark	copy.c	/^IRStmt* mallocIRStmt_IMark(Addr64 addr, Int len) {$/;"	f
+mallocIRStmt_MBE	copy.c	/^IRStmt* mallocIRStmt_MBE(IRMBusEvent event)$/;"	f
+mallocIRStmt_NoOp	copy.c	/^IRStmt* mallocIRStmt_NoOp(void)$/;"	f
+mallocIRStmt_Put	copy.c	/^IRStmt* mallocIRStmt_Put(Int off, IRExpr* data) {$/;"	f
+mallocIRStmt_PutI	copy.c	/^IRStmt* mallocIRStmt_PutI(IRRegArray* descr, IRExpr* ix,$/;"	f
+mallocIRStmt_Store	copy.c	/^IRStmt* mallocIRStmt_Store(IREndness end, IRExpr* addr, IRExpr* data) {$/;"	f
+mallocIRStmt_WrTmp	copy.c	/^IRStmt* mallocIRStmt_WrTmp(IRTemp tmp, IRExpr* data) {$/;"	f
+mapOff	dt_dexparse.h	/^	\/* 34 *\/UInt  mapOff;$/;"	m	struct:DexHeader
+mappingTableOffset	dt_dexparse.h	/^	UInt mappingTableOffset;$/;"	m	struct:OatQuickMethodHeader
+max_defined_SMs	dt_taint.c	/^static Int   max_defined_SMs   = 0;$/;"	v	file:
+max_noaccess_SMs	dt_taint.c	/^static Int   max_noaccess_SMs  = 0;$/;"	v	file:
+max_non_DSM_SMs	dt_taint.c	/^static Int   max_non_DSM_SMs   = 0;$/;"	v	file:
+max_secVBit_nodes	dt_taint.c	/^static Int   max_secVBit_nodes = 0;$/;"	v	file:
+max_undefined_SMs	dt_taint.c	/^static Int   max_undefined_SMs = 0;$/;"	v	file:
+maybe_find_in_auxmap	dt_taint.c	/^static INLINE AuxMapEnt* maybe_find_in_auxmap ( Addr a )$/;"	f	file:
+meetDexFile	dt_dexparse.c	/^	struct MonitorDexFile* meetDexFile(const struct DexFile* pDexFile, Addr addr, UInt len, UInt state)$/;"	f
+meetDexFilePlus	dt_dexparse.c	/^	struct MonitorDexFile* meetDexFilePlus(const struct DexFilePlus* pDexFilePlus, Addr addr, UInt len, UInt state)$/;"	f
+memMap	dt_dexparse.h	/^	struct MemMapping   memMap;$/;"	m	struct:DvmDex	typeref:struct:DvmDex::MemMapping
+mem_map_	dt_oatparse.h	/^	\/*0x1c*\/ struct MemMapPlus *mem_map_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::MemMapPlus
+memchr_wrapper	dt_libfun_replace.c	/^void *memchr_wrapper(const void *s, int c, int n)$/;"	f
+method	dt_dexparse.h	/^		HChar		method[128];$/;"	m	struct:_Mth_Pool
+method	dt_dexparse.h	/^	const  struct Method*		method;    \/\/ Method being executed$/;"	m	struct:InterpSaveState	typeref:struct:InterpSaveState::Method
+methodClassDex	dt_dexparse.h	/^	struct  DvmDex*         methodClassDex;$/;"	m	struct:InterpSaveState	typeref:struct:InterpSaveState::DvmDex
+methodIdsOff	dt_dexparse.h	/^	\/* 5c *\/UInt  methodIdsOff;$/;"	m	struct:DexHeader
+methodIdsSize	dt_dexparse.h	/^	\/* 58 *\/UInt  methodIdsSize;$/;"	m	struct:DexHeader
+methodIdx	dt_dexparse.h	/^	UInt  methodIdx;$/;"	m	struct:DexMethodAnnotationsItem
+methodIdx	dt_dexparse.h	/^	UInt  methodIdx;$/;"	m	struct:DexParameterAnnotationsItem
+methodIdx	dt_dexparse.h	/^	UInt methodIdx;    \/* index to a method_id_item *\/$/;"	m	struct:DexMethod
+methodIndex	dt_dexparse.h	/^	UShort			        methodIndex;$/;"	m	struct:Method
+methodIndexArray	dt_dexparse.h	/^	Int*            methodIndexArray;$/;"	m	struct:InterfaceEntry
+method_ids_	dt_oatparse.h	/^	\/*0x30*\/ struct MethodId	*method_ids_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::MethodId
+method_index_	dt_oatparse.h	/^	\/*0x18*\/	UInt	method_index_;							\/* Entry within a dispatch table for this methods *\/$/;"	m	struct:ArtMethodPlus
+methodsSize	dt_dexparse.h	/^	UInt  methodsSize;          \/* count of DexMethodAnnotationsItem *\/$/;"	m	struct:DexAnnotationsDirectoryItem
+mkDifD16	dt_instrument.c	/^static IRAtom* mkDifD16 ( MCEnv* mce, IRAtom* a1, IRAtom* a2 ) {$/;"	f	file:
+mkDifD32	dt_instrument.c	/^static IRAtom* mkDifD32 ( MCEnv* mce, IRAtom* a1, IRAtom* a2 ) {$/;"	f	file:
+mkDifD64	dt_instrument.c	/^static IRAtom* mkDifD64 ( MCEnv* mce, IRAtom* a1, IRAtom* a2 ) {$/;"	f	file:
+mkDifD8	dt_instrument.c	/^static IRAtom* mkDifD8 ( MCEnv* mce, IRAtom* a1, IRAtom* a2 ) { \/\/444$/;"	f	file:
+mkDifDV128	dt_instrument.c	/^static IRAtom* mkDifDV128 ( MCEnv* mce, IRAtom* a1, IRAtom* a2 ) {$/;"	f	file:
+mkDifDV256	dt_instrument.c	/^static IRAtom* mkDifDV256 ( MCEnv* mce, IRAtom* a1, IRAtom* a2 ) {$/;"	f	file:
+mkImproveAND16	dt_instrument.c	/^static IRAtom* mkImproveAND16 ( MCEnv* mce, IRAtom* data, IRAtom* vbits )$/;"	f	file:
+mkImproveAND32	dt_instrument.c	/^static IRAtom* mkImproveAND32 ( MCEnv* mce, IRAtom* data, IRAtom* vbits )$/;"	f	file:
+mkImproveAND64	dt_instrument.c	/^static IRAtom* mkImproveAND64 ( MCEnv* mce, IRAtom* data, IRAtom* vbits )$/;"	f	file:
+mkImproveAND8	dt_instrument.c	/^static IRAtom* mkImproveAND8 ( MCEnv* mce, IRAtom* data, IRAtom* vbits ) \/\/546$/;"	f	file:
+mkImproveANDV128	dt_instrument.c	/^static IRAtom* mkImproveANDV128 ( MCEnv* mce, IRAtom* data, IRAtom* vbits )$/;"	f	file:
+mkImproveANDV256	dt_instrument.c	/^static IRAtom* mkImproveANDV256 ( MCEnv* mce, IRAtom* data, IRAtom* vbits )$/;"	f	file:
+mkImproveOR16	dt_instrument.c	/^static IRAtom* mkImproveOR16 ( MCEnv* mce, IRAtom* data, IRAtom* vbits )$/;"	f	file:
+mkImproveOR32	dt_instrument.c	/^static IRAtom* mkImproveOR32 ( MCEnv* mce, IRAtom* data, IRAtom* vbits )$/;"	f	file:
+mkImproveOR64	dt_instrument.c	/^static IRAtom* mkImproveOR64 ( MCEnv* mce, IRAtom* data, IRAtom* vbits )$/;"	f	file:
+mkImproveOR8	dt_instrument.c	/^static IRAtom* mkImproveOR8 ( MCEnv* mce, IRAtom* data, IRAtom* vbits )$/;"	f	file:
+mkImproveORV128	dt_instrument.c	/^static IRAtom* mkImproveORV128 ( MCEnv* mce, IRAtom* data, IRAtom* vbits )$/;"	f	file:
+mkImproveORV256	dt_instrument.c	/^static IRAtom* mkImproveORV256 ( MCEnv* mce, IRAtom* data, IRAtom* vbits )$/;"	f	file:
+mkLazy2	dt_instrument.c	/^IRAtom* mkLazy2 ( MCEnv* mce, IRType finalVty, IRAtom* va1, IRAtom* va2 ) \/\/1322$/;"	f	file:
+mkLazy3	dt_instrument.c	/^IRAtom* mkLazy3 ( MCEnv* mce, IRType finalVty,$/;"	f	file:
+mkLazy4	dt_instrument.c	/^IRAtom* mkLazy4 ( MCEnv* mce, IRType finalVty,$/;"	f	file:
+mkLazyN	dt_instrument.c	/^IRAtom* mkLazyN ( MCEnv* mce,$/;"	f	file:
+mkLeft16	dt_instrument.c	/^static IRAtom* mkLeft16 ( MCEnv* mce, IRAtom* a1 ) {$/;"	f	file:
+mkLeft32	dt_instrument.c	/^static IRAtom* mkLeft32 ( MCEnv* mce, IRAtom* a1 ) {$/;"	f	file:
+mkLeft64	dt_instrument.c	/^static IRAtom* mkLeft64 ( MCEnv* mce, IRAtom* a1 ) {$/;"	f	file:
+mkLeft8	dt_instrument.c	/^static IRAtom* mkLeft8 ( MCEnv* mce, IRAtom* a1 ) {$/;"	f	file:
+mkPCast16x16	dt_instrument.c	/^static IRAtom* mkPCast16x16 ( MCEnv* mce, IRAtom* at )$/;"	f	file:
+mkPCast16x2	dt_instrument.c	/^static IRAtom* mkPCast16x2 ( MCEnv* mce, IRAtom* at )$/;"	f	file:
+mkPCast16x4	dt_instrument.c	/^static IRAtom* mkPCast16x4 ( MCEnv* mce, IRAtom* at )$/;"	f	file:
+mkPCast16x8	dt_instrument.c	/^static IRAtom* mkPCast16x8 ( MCEnv* mce, IRAtom* at )$/;"	f	file:
+mkPCast32x2	dt_instrument.c	/^static IRAtom* mkPCast32x2 ( MCEnv* mce, IRAtom* at )$/;"	f	file:
+mkPCast32x4	dt_instrument.c	/^static IRAtom* mkPCast32x4 ( MCEnv* mce, IRAtom* at )$/;"	f	file:
+mkPCast32x8	dt_instrument.c	/^static IRAtom* mkPCast32x8 ( MCEnv* mce, IRAtom* at )$/;"	f	file:
+mkPCast64x2	dt_instrument.c	/^static IRAtom* mkPCast64x2 ( MCEnv* mce, IRAtom* at )$/;"	f	file:
+mkPCast64x4	dt_instrument.c	/^static IRAtom* mkPCast64x4 ( MCEnv* mce, IRAtom* at )$/;"	f	file:
+mkPCast8x16	dt_instrument.c	/^static IRAtom* mkPCast8x16 ( MCEnv* mce, IRAtom* at ) \/\/1688$/;"	f	file:
+mkPCast8x32	dt_instrument.c	/^static IRAtom* mkPCast8x32 ( MCEnv* mce, IRAtom* at )$/;"	f	file:
+mkPCast8x4	dt_instrument.c	/^static IRAtom* mkPCast8x4 ( MCEnv* mce, IRAtom* at )$/;"	f	file:
+mkPCast8x8	dt_instrument.c	/^static IRAtom* mkPCast8x8 ( MCEnv* mce, IRAtom* at )$/;"	f	file:
+mkPCastTo	dt_instrument.c	/^static IRAtom* mkPCastTo( MCEnv* mce, IRType dst_ty, IRAtom* vbits )$/;"	f	file:
+mkPCastXXtoXXlsb	dt_instrument.c	/^static IRAtom* mkPCastXXtoXXlsb ( MCEnv* mce, IRAtom* varg, IRType ty )$/;"	f	file:
+mkU1	dt_instrument.c	308;"	d	file:
+mkU16	dt_instrument.c	310;"	d	file:
+mkU32	dt_instrument.c	311;"	d	file:
+mkU64	dt_instrument.c	312;"	d	file:
+mkU8	dt_instrument.c	309;"	d	file:
+mkUifU	dt_instrument.c	/^static IRAtom* mkUifU ( MCEnv* mce, IRType vty, IRAtom* a1, IRAtom* a2 ) {$/;"	f	file:
+mkUifU16	dt_instrument.c	/^static IRAtom* mkUifU16 ( MCEnv* mce, IRAtom* a1, IRAtom* a2 ) {$/;"	f	file:
+mkUifU32	dt_instrument.c	/^static IRAtom* mkUifU32 ( MCEnv* mce, IRAtom* a1, IRAtom* a2 ) {$/;"	f	file:
+mkUifU64	dt_instrument.c	/^static IRAtom* mkUifU64 ( MCEnv* mce, IRAtom* a1, IRAtom* a2 ) {$/;"	f	file:
+mkUifU8	dt_instrument.c	/^static IRAtom* mkUifU8 ( MCEnv* mce, IRAtom* a1, IRAtom* a2 ) {$/;"	f	file:
+mkUifUV128	dt_instrument.c	/^static IRAtom* mkUifUV128 ( MCEnv* mce, IRAtom* a1, IRAtom* a2 ) {$/;"	f	file:
+mkUifUV256	dt_instrument.c	/^static IRAtom* mkUifUV256 ( MCEnv* mce, IRAtom* a1, IRAtom* a2 ) {$/;"	f	file:
+mkV128	dt_instrument.c	313;"	d	file:
+mkexpr	dt_instrument.c	314;"	d	file:
+mmap_proto2a	dt_main.c	/^HChar* mmap_proto2a(Int flag) {$/;"	f
+mmap_wrapper	dt_libfun_replace.c	/^void * mmap_wrapper(void *address, size_t length, int protect, int flags, int filedes, int offset )$/;"	f
+monitor_	dt_framework.h	/^	UInt			monitor_;$/;"	m	struct:_ObjectMirror
+mprotect_wrapper	dt_libfun_replace.c	/^int mprotect_wrapper(void *addr, size_t len, int prot)$/;"	f
+mth	dt_dexparse.h	/^		Addr  mth[MAX_STACK_SIZE];$/;"	m	struct:_Mth_stack
+mthKey	dt_dexparse.h	/^		UInt		mthKey;$/;"	m	struct:_Mth_Pool
+mthNodes	dt_dexparse.h	/^		Addr	mthNodes[MAX_METHOD_NUM];$/;"	m	struct:_Mth_List
+mthStack	dt_instrument.c	/^static MthStack	mthStack[TG_N_THREADS];$/;"	v	file:
+mth_lookup_stack	dt_instrument.c	/^INLINE MthNode* mth_lookup_stack(ThreadId tid, Addr a) {$/;"	f	file:
+mth_pop_stack	dt_instrument.c	/^INLINE Int mth_pop_stack(ThreadId tid) {$/;"	f	file:
+mth_push_stack	dt_instrument.c	/^INLINE Int mth_push_stack(ThreadId tid, Addr addr, MthNode *mth) {$/;"	f	file:
+mth_stack_print	dt_instrument.c	/^INLINE void mth_stack_print(ThreadId tid) {$/;"	f	file:
+mth_stack_size	dt_instrument.c	/^INLINE Int mth_stack_size(ThreadId tid) {$/;"	f	file:
+mth_top_stack	dt_instrument.c	/^INLINE Bool mth_top_stack(ThreadId tid, Addr *addr, MthNode **mth) {$/;"	f	file:
+munmap_wrapper	dt_libfun_replace.c	/^int munmap_wrapper(void *addr, int length)$/;"	f
+myStringArray	dt_taint.h	/^struct myStringArray{$/;"	s
+myStringArray_getIndex	dt_taint.c	/^static Int myStringArray_getIndex( struct myStringArray *a, const HChar* string ){$/;"	f	file:
+myStringArray_push	dt_taint.c	/^static Int myStringArray_push( struct myStringArray *a, const HChar* string ){$/;"	f	file:
+my_exit	dt_libfun_replace.c	/^static inline void my_exit ( int x )$/;"	f	file:
+n_auxmap_L1_cmps	dt_taint.c	/^static ULong n_auxmap_L1_cmps      = 0;$/;"	v	file:
+n_auxmap_L1_searches	dt_taint.c	/^static ULong n_auxmap_L1_searches  = 0;$/;"	v	file:
+n_auxmap_L2_nodes	dt_taint.c	/^static ULong n_auxmap_L2_nodes     = 0;$/;"	v	file:
+n_auxmap_L2_searches	dt_taint.c	/^static ULong n_auxmap_L2_searches  = 0;$/;"	v	file:
+n_defined_SMs	dt_taint.c	/^static Int   n_defined_SMs     = 0;$/;"	v	file:
+n_deissued_SMs	dt_taint.c	/^static Int   n_deissued_SMs    = 0;$/;"	v	file:
+n_issued_SMs	dt_taint.c	/^static Int   n_issued_SMs      = 0;$/;"	v	file:
+n_noaccess_SMs	dt_taint.c	/^static Int   n_noaccess_SMs    = N_PRIMARY_MAP; \/\/ start with many noaccess DSMs$/;"	v	file:
+n_non_DSM_SMs	dt_taint.c	/^static Int   n_non_DSM_SMs     = 0;$/;"	v	file:
+n_secVBit_nodes	dt_taint.c	/^static Int   n_secVBit_nodes   = 0;$/;"	v	file:
+n_undefined_SMs	dt_taint.c	/^static Int   n_undefined_SMs   = 0;$/;"	v	file:
+name	dt_dexparse.h	/^	HChar		name[255];	\/* name of the dex file *\/$/;"	m	struct:DexFileInfo
+name	dt_dexparse.h	/^	const HChar*     name;$/;"	m	struct:Field
+name	dt_dexparse.h	/^	const char*     name;$/;"	m	struct:Method
+name	dt_taint.h	/^	char name[MAX_LEN];$/;"	m	struct:FunList
+name	dt_taint.h	/^	char name[MAX_LEN];$/;"	m	struct:LibList
+name	dt_wrap.h	/^	HChar name[255];$/;"	m	struct:fd_info
+nameIdx	dt_dexparse.h	/^	UInt		nameIdx;$/;"	m	struct:DexMethodId
+nameIdx	dt_dexparse.h	/^	UInt   nameIdx;$/;"	m	struct:DexFieldId
+name_	dt_framework.h	/^	\/*0x14*\/ struct StringMirror*	name_;$/;"	m	struct:_ClassMirror	typeref:struct:_ClassMirror::StringMirror
+name_	dt_oatparse.h	/^	\/*0x00*\/ struct StdString name_;$/;"	m	struct:MemMapPlus	typeref:struct:MemMapPlus::StdString
+nativeFunc	dt_dexparse.h	/^	void*						nativeFunc; \/* Function point *\/$/;"	m	struct:Method
+newTemp	dt_instrument.c	/^static IRTemp newTemp ( MCEnv* mce, IRType ty, TempKind kind )$/;"	f	file:
+next	dt_dexparse.h	/^		struct _Mth_List *next;$/;"	m	struct:_Mth_List	typeref:struct:_Mth_List::_Mth_List
+next	dt_dexparse.h	/^		struct _Mth_Pool *next;$/;"	m	struct:_Mth_Pool	typeref:struct:_Mth_Pool::_Mth_Pool
+next	dt_dexparse.h	/^	struct DexFileList* next;$/;"	m	struct:MonitorDexFile	typeref:struct:MonitorDexFile::DexFileList
+next	dt_dexparse.h	/^	struct DexFilePlusNode *next;$/;"	m	struct:DexFilePlusNode	typeref:struct:DexFilePlusNode::DexFilePlusNode
+next	dt_taint.h	/^	struct FilterList* next;$/;"	m	struct:FilterList	typeref:struct:FilterList::FilterList
+next	dt_taint.h	/^	struct FunList *next;$/;"	m	struct:FunList	typeref:struct:FunList::FunList
+next	dt_taint.h	/^	struct LibList *next;$/;"	m	struct:LibList	typeref:struct:LibList::LibList
+next	dt_wrap.h	/^	struct	_HP_Chunk *next;$/;"	m	struct:_HP_Chunk	typeref:struct:_HP_Chunk::_HP_Chunk
+noRef	dt_dexparse.h	/^	Bool noRef;$/;"	m	struct:Method
+num	dt_dexparse.h	/^		Int	 num;$/;"	m	struct:_Mth_List
+numBBs	dt_instrument.c	/^Int numBBs = 0;$/;"	v
+numEntries	dt_dexparse.h	/^	Int     numEntries;                 \/\/ size of table[]; always power of 2$/;"	m	struct:DexClassLookup
+numEntries	dt_dexparse.h	/^	UChar      numEntries[2];  \/* number of entries *\/$/;"	m	struct:RegisterMap
+numKBBs	dt_instrument.c	/^Int numKBBs = 0;$/;"	v
+num_direct_methods_	dt_framework.h	/^	\/*0x58*\/ UInt	num_direct_methods_;$/;"	m	struct:_ClassMirror
+num_instance_fields_	dt_framework.h	/^	\/*0x5c*\/ UInt	num_instance_fields_;$/;"	m	struct:_ClassMirror
+num_reference_instance_fields_	dt_framework.h	/^	\/*0x60*\/ UInt	num_reference_instance_fields_;$/;"	m	struct:_ClassMirror
+num_reference_static_fields_	dt_framework.h	/^	\/*0x64*\/ UInt	num_reference_static_fields_;$/;"	m	struct:_ClassMirror
+num_static_fields_	dt_framework.h	/^	\/*0x68*\/ UInt	num_static_fields_;$/;"	m	struct:_ClassMirror
+num_virtual_methods_	dt_framework.h	/^	\/*0x6c*\/ UInt	num_virtual_methods_;$/;"	m	struct:_ClassMirror
+oatDexClassParse	dt_oatparse.c	/^Bool oatDexClassParse(Addr oatdata, $/;"	f
+oatDexFileParse	dt_oatparse.c	/^Bool oatDexFileParse(Addr oatdata, $/;"	f
+oatDexParse	dt_oatparse.c	/^Bool oatDexParse(Addr oatdata, UInt oatdata_size,$/;"	f
+oat_dex_file_	dt_oatparse.h	/^	\/*0x44*\/ struct OatDexFilePlus *oat_dex_file_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::OatDexFilePlus
+oatdata_offset	dt_dexparse.h	/^	UInt oatdata_offset;$/;"	m	struct:OatSec
+oatdata_size	dt_dexparse.h	/^	UInt oatdata_size;$/;"	m	struct:OatSec
+oatexec_offset	dt_dexparse.h	/^	UInt oatexec_offset;$/;"	m	struct:OatSec
+oatexec_size	dt_dexparse.h	/^	UInt oatexec_size;$/;"	m	struct:OatSec
+oatlastword_offset	dt_dexparse.h	/^	UInt oatlastword_offset;$/;"	m	struct:OatSec
+oatlastword_size	dt_dexparse.h	/^	UInt oatlastword_size;$/;"	m	struct:OatSec
+object	dt_dexparse.h	/^	struct Object			object;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::Object
+objectSize	dt_dexparse.h	/^	Int							objectSize;$/;"	m	struct:ClassObject
+object_	dt_framework.h	/^	ObjectMirror		object_;$/;"	m	struct:_ClassMirror
+object_	dt_framework.h	/^	ObjectMirror object_;$/;"	m	struct:_ArrayMirror
+object_	dt_framework.h	/^	ObjectMirror object_;$/;"	m	struct:_StringMirror
+object_size_	dt_framework.h	/^	\/*0x70*\/ UInt	object_size_;$/;"	m	struct:_ClassMirror
+offset	dt_dexparse.h	/^	UInt						offset;$/;"	m	struct:MonitorDexFile
+offset	dt_dexparse.h	/^	UInt	 offset;            \/* file offset to the start of data *\/$/;"	m	struct:DexMapItem
+offset	dt_dexparse.h	/^	UInt offset;$/;"	m	struct:OatClassOffset
+offset	dt_wrap.h	/^	UInt	offset;$/;"	m	struct:fd_info
+okayToFree	dt_dexparse.h	/^	Bool        okayToFree;$/;"	m	struct:DexOrJar
+open_wrapper	dt_libfun_replace.c	/^int open_wrapper(const char *file, int mode)$/;"	f
+optLength	dt_dexparse.h	/^	UInt  optLength;$/;"	m	struct:DexOptHeader
+optOffset	dt_dexparse.h	/^	UInt  optOffset;          \/* file offset of optimized data tables *\/$/;"	m	struct:DexOptHeader
+output_log_info	dt_main.c	/^Bool output_log_info  = True;$/;"	v
+outsSize	dt_dexparse.h	/^	UShort              outsSize;$/;"	m	struct:Method
+outsSize	dt_dexparse.h	/^	UShort  outsSize;$/;"	m	struct:DexCode
+outsSize	dt_dexparse.h	/^	UShort outsSize;$/;"	m	struct:CodeItem
+overhead	dt_dexparse.h	/^	UInt               overhead;$/;"	m	struct:DexFile
+pBootDex	dt_oatparse.c	/^struct DexFile *pBootDex = NULL;$/;"	v	typeref:struct:DexFile
+pClassDefs	dt_dexparse.h	/^	const struct DexClassDef*			pClassDefs;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexClassDef
+pClassLookup	dt_dexparse.h	/^	const struct DexClassLookup* pClassLookup;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexClassLookup
+pDexFile	dt_dexparse.h	/^	struct DexFile			*pDexFile;$/;"	m	struct:DexFilePlusNode	typeref:struct:DexFilePlusNode::DexFile
+pDexFile	dt_dexparse.h	/^	struct DexFile*     pDexFile;$/;"	m	struct:DvmDex	typeref:struct:DvmDex::DexFile
+pDexFile	dt_dexparse.h	/^	struct DexFile* pDexFile;$/;"	m	struct:MonitorDexFile	typeref:struct:MonitorDexFile::DexFile
+pDexFileClone	dt_dexparse.h	/^	struct DexFile* pDexFileClone;$/;"	m	struct:MonitorDexFile	typeref:struct:MonitorDexFile::DexFile
+pDexFilePlus	dt_dexparse.h	/^	struct DexFilePlus	*pDexFilePlus;$/;"	m	struct:DexFilePlusNode	typeref:struct:DexFilePlusNode::DexFilePlus
+pDexFilePlusList	dt_dexparse.c	/^struct DexFilePlusNode *pDexFilePlusList = NULL;$/;"	v	typeref:struct:DexFilePlusNode
+pDexMemory	dt_dexparse.h	/^	UChar*         pDexMemory; \/\/ malloc()ed memory, if any$/;"	m	struct:DexOrJar
+pDvmDex	dt_dexparse.h	/^	struct DvmDex*		pDvmDex;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::DvmDex
+pFieldIds	dt_dexparse.h	/^	const struct DexFieldId*			pFieldIds;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexFieldId
+pHeader	dt_dexparse.h	/^	const  struct DexHeader*    pHeader;$/;"	m	struct:DvmDex	typeref:struct:DvmDex::DexHeader
+pHeader	dt_dexparse.h	/^	const struct DexHeader*			  pHeader;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexHeader
+pInterfaceCache	dt_dexparse.h	/^	void* pInterfaceCache;$/;"	m	struct:DvmDex
+pJarFile	dt_dexparse.h	/^	void*			  pJarFile;$/;"	m	struct:DexOrJar
+pLinkData	dt_dexparse.h	/^	const struct DexLink*					pLinkData;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexLink
+pMethodIds	dt_dexparse.h	/^	const struct DexMethodId*			pMethodIds;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexMethodId
+pOptHeader	dt_dexparse.h	/^	const struct DexOptHeader* pOptHeader;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexOptHeader
+pProtoIds	dt_dexparse.h	/^	const struct DexProtoId*			pProtoIds;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexProtoId
+pRawDexFile	dt_dexparse.h	/^	void*			  pRawDexFile;$/;"	m	struct:DexOrJar
+pRegisterMapPool	dt_dexparse.h	/^	Addr         pRegisterMapPool;       \/\/ RegisterMapClassPool$/;"	m	struct:DexFile
+pResClasses	dt_dexparse.h	/^	struct ClassObject** pResClasses;$/;"	m	struct:DvmDex	typeref:struct:DvmDex::ClassObject
+pResFields	dt_dexparse.h	/^	struct Field**      pResFields;$/;"	m	struct:DvmDex	typeref:struct:DvmDex::Field
+pResMethods	dt_dexparse.h	/^	struct Method**     pResMethods;$/;"	m	struct:DvmDex	typeref:struct:DvmDex::Method
+pResStrings	dt_dexparse.h	/^	void** pResStrings;$/;"	m	struct:DvmDex
+pStringIds	dt_dexparse.h	/^	const struct DexStringId*			pStringIds;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexStringId
+pTypeIds	dt_dexparse.h	/^	const struct DexTypeId*				pTypeIds;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexTypeId
+parametersOff	dt_dexparse.h	/^	UInt  parametersOff;      \/* file offset to type_list for parameter types *\/$/;"	m	struct:DexProtoId
+parametersSize	dt_dexparse.h	/^	UInt  parametersSize;       \/* count of DexParameterAnnotationsItem *\/$/;"	m	struct:DexAnnotationsDirectoryItem
+parseAccessFlags	dt_oatparse.c	/^UChar* parseAccessFlags(UInt flags){$/;"	f
+pc	dt_dexparse.h	/^	const UShort*					  pc;         \/\/ Dalvik PC$/;"	m	struct:InterpSaveState
+pformat	dt_debug.h	/^UChar pformat[256];$/;"	v
+pformat1	dt_debug.h	/^UChar pformat1[256];$/;"	v
+pformat2	dt_debug.h	/^UChar pformat2[256];$/;"	v
+pformat3	dt_debug.h	/^UChar pformat3[256];$/;"	v
+pformat4	dt_debug.h	/^UChar pformat4[256];$/;"	v
+prev	dt_dexparse.h	/^	struct InterpSaveState* prev;  \/\/ To follow nested activations$/;"	m	struct:InterpSaveState	typeref:struct:InterpSaveState::InterpSaveState
+primary_map	dt_taint.c	/^static SecMap* primary_map[N_PRIMARY_MAP];$/;"	v	file:
+primitiveType	dt_dexparse.h	/^	enum PrimitiveType	   primitiveType;$/;"	m	struct:ClassObject	typeref:enum:ClassObject::PrimitiveType
+primitiveTypeLabel	dt_dexparse.c	/^static const HChar* primitiveTypeLabel(HChar typeChar)$/;"	f	file:
+primitive_type_	dt_framework.h	/^	\/*0x74*\/ UInt	primitive_type_;$/;"	m	struct:_ClassMirror
+printOatHeader	dt_oatparse.c	/^static void printOatHeader(struct OatHeader* oheader) {$/;"	f	file:
+processDescr1	dt_taint.c	/^static void processDescr1(XArray* descr1, HChar* varnamebuf, UInt bufsize)$/;"	f	file:
+processDexFile	dt_dexparse.c	/^	void processDexFile(struct DexFile* pDexFile)$/;"	f
+process_array_arg	dt_framework.c	/^UInt process_array_arg(HChar *clazz, Addr addr) {$/;"	f	file:
+prot_	dt_oatparse.h	/^	\/*0x1c*\/ Int		prot_;$/;"	m	struct:MemMapPlus
+protoIdsOff	dt_dexparse.h	/^	\/* 4c *\/UInt  protoIdsOff;$/;"	m	struct:DexHeader
+protoIdsSize	dt_dexparse.h	/^	\/* 48 *\/UInt  protoIdsSize;$/;"	m	struct:DexHeader
+protoIdx	dt_dexparse.h	/^	UInt  protoIdx;                \/* index into proto_ids table of dexFile *\/$/;"	m	struct:DexProto
+protoIdx	dt_dexparse.h	/^	UShort  protoIdx;$/;"	m	struct:DexMethodId
+proto_ids_	dt_oatparse.h	/^	\/*0x34*\/ struct ProtoId		*proto_ids_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::ProtoId
+prototype	dt_dexparse.h	/^	struct DexProto prototype;$/;"	m	struct:Method	typeref:struct:Method::DexProto
+pthread_mutex_lock_wrapper	dt_libfun_replace.c	/^int pthread_mutex_lock_wrapper(pthread_mutex_t *mutex) {$/;"	f
+pthread_mutex_t	dt_dexparse.h	/^	void*								pthread_mutex_t;$/;"	m	struct:DvmDex
+pthread_mutex_unlock_wrapper	dt_libfun_replace.c	/^int pthread_mutex_unlock_wrapper(pthread_mutex_t *mutex) {$/;"	f
+ptr_sized_fields_	dt_oatparse.h	/^	}ptr_sized_fields_;$/;"	m	struct:ArtMethodPlus	typeref:struct:ArtMethodPlus::PtrSizedFields
+ptrace_wrapper	dt_libfun_replace.c	/^long ptrace_wrapper(int request, int pid, int addr, int data) {$/;"	f
+query_method	dt_oatparse.c	/^Bool query_method(Addr codeAddr, HChar **clazz, HChar **mth, HChar **shorty, Int *accFlags)$/;"	f
+query_method_list	dt_oatparse.c	/^MthList* query_method_list(Addr codeAddr) {$/;"	f
+query_method_node	dt_oatparse.c	/^MthNode* query_method_node(Addr codeAddr, Int index)$/;"	f
+quickGenericJniTrampolineOffset	dt_dexparse.h	/^	UInt  quickGenericJniTrampolineOffset;$/;"	m	struct:OatHeader
+quickImtConflictTrampolineOffset	dt_dexparse.h	/^	UInt  quickImtConflictTrampolineOffset;$/;"	m	struct:OatHeader
+quickResolutionTrampolineOffset	dt_dexparse.h	/^	UInt  quickResolutionTrampolineOffset;$/;"	m	struct:OatHeader
+quickToInterpreterBridgeOffset	dt_dexparse.h	/^	UInt  quickToInterpreterBridgeOffset;				$/;"	m	struct:OatHeader
+readAndVerifySignedLeb128	dt_dexparse.c	/^Int readAndVerifySignedLeb128(const UChar** pStream, const UChar* limit,$/;"	f
+readAndVerifyUnsignedLeb128	dt_dexparse.c	/^Int readAndVerifyUnsignedLeb128(const UChar** pStream, const UChar* limit,$/;"	f
+readSignedLeb128	dt_dexparse.c	/^INLINE Int readSignedLeb128(const UChar** pStream) {$/;"	f
+readUnsignedLeb128	dt_dexparse.c	/^INLINE Int readUnsignedLeb128(const UChar** pStream) {$/;"	f
+readUnsignedLeb128	dt_oatparse.c	/^Int readUnsignedLeb128(UChar** pStream)$/;"	f
+read_wrapper	dt_libfun_replace.c	/^int read_wrapper(int handle, void *buffer, int nbyte)$/;"	f
+realloc_block	dt_mem_wrap.c	/^void* realloc_block ( ThreadId tid, void* p_old, SizeT new_req_szB )$/;"	f	file:
+record_block	dt_mem_wrap.c	/^void* record_block( ThreadId tid, void* p, SizeT req_szB, SizeT slop_szB )$/;"	f	file:
+recv_wrapper	dt_libfun_replace.c	/^int recv_wrapper(int s, void *buf, int len, unsigned int flags)$/;"	f
+recvfrom_wrapper	dt_libfun_replace.c	/^int recvfrom_wrapper(int s, void *buf, int len, int flags, struct sockaddr *from, socklen_t *slen)$/;"	f
+refOffsets	dt_dexparse.h	/^	UInt							refOffsets;$/;"	m	struct:ClassObject
+reference_	dt_framework.h	/^	Addr	reference_;$/;"	m	struct:_ObjectReference
+reference_instance_offset_	dt_framework.h	/^	\/*0x78*\/ UInt	reference_instance_offset_;$/;"	m	struct:_ClassMirror
+regWidth	dt_dexparse.h	/^	UChar      regWidth;       \/* bytes per register line, 1+ *\/$/;"	m	struct:RegisterMap
+registerMap	dt_dexparse.h	/^	const struct RegisterMap* registerMap;$/;"	m	struct:Method	typeref:struct:Method::RegisterMap
+registersSize	dt_dexparse.h	/^	UShort              registersSize;  \/* ins + locals *\/$/;"	m	struct:Method
+registersSize	dt_dexparse.h	/^	UShort  registersSize;$/;"	m	struct:DexCode
+registersSize	dt_dexparse.h	/^	UShort registersSize;$/;"	m	struct:CodeItem
+releaseDexFileList	dt_dexparse.c	/^void releaseDexFileList() {$/;"	f
+releaseFilterlist	dt_instrument.c	/^void releaseFilterlist() {$/;"	f
+remove_method	dt_oatparse.c	/^static void remove_method(Addr codeAddr)$/;"	f	file:
+req_szB	dt_wrap.h	/^	SizeT		req_szB;						\/\/ Size requested$/;"	m	struct:_HP_Chunk
+resolve_filename	dt_sys_wrap.c	/^static void resolve_filename(UWord fd, HChar *path, Int max)$/;"	f	file:
+returnTypeIdx	dt_dexparse.h	/^	UInt  returnTypeIdx;      \/* index into typeIds list for return type *\/$/;"	m	struct:DexProtoId
+return_superblock	dt_instrument.c	/^static void return_superblock(Addr a,  VexGuestLayout *layout)$/;"	f	file:
+retval	dt_dexparse.h	/^	union JValue						retval;$/;"	m	struct:InterpSaveState	typeref:union:InterpSaveState::JValue
+reuse_	dt_oatparse.h	/^	\/*0x20*\/ Bool   reuse_;$/;"	m	struct:MemMapPlus
+ri	dt_taint.c	/^UInt  ri[RI_MAX];$/;"	v
+s	dt_dexparse.h	/^		Short    s;$/;"	m	struct:JValue::__anon17
+s	dt_dexparse.h	/^	Short      s;$/;"	m	union:JValue
+s_addr	dt_main.h	/^	unsigned long s_addr;$/;"	m	struct:in_addr
+sa_data	dt_main.h	/^	UChar sa_data[14];$/;"	m	struct:sockaddr
+sa_family	dt_main.h	/^	Short	sa_family;$/;"	m	struct:sockaddr_in
+sa_family	dt_main.h	/^	UShort sa_family;$/;"	m	struct:sockaddr
+sa_family_t	dt_main.h	/^typedef	unsigned short	sa_family_t;$/;"	t
+sa_port	dt_main.h	/^	UShort	sa_port;$/;"	m	struct:sockaddr_in
+sa_zero	dt_main.h	/^	HChar		sa_zero[8];$/;"	m	struct:sockaddr_in
+sameKindedAtoms	dt_instrument.c	/^static Bool sameKindedAtoms ( IRAtom* a1, IRAtom* a2 )$/;"	f	file:
+sb	dt_instrument.c	/^	IRSB* sb;$/;"	m	struct:_MCEnv	file:
+sb	dt_instrument.h	/^	IRSB*		sb;$/;"	m	struct:_MCEnv
+scalarShift	dt_instrument.c	/^static IRAtom* scalarShift ( MCEnv*  mce,$/;"	f	file:
+secVBitLimit	dt_taint.c	/^static Int  secVBitLimit = 1000;$/;"	v	file:
+secVBitTable	dt_taint.c	/^static OSet* secVBitTable;$/;"	v	file:
+sec_vbits_new_nodes	dt_taint.c	/^static ULong sec_vbits_new_nodes = 0;$/;"	v	file:
+sec_vbits_updates	dt_taint.c	/^static ULong sec_vbits_updates   = 0;$/;"	v	file:
+send_wrapper	dt_libfun_replace.c	/^int send_wrapper(int s, const void *buf, int len, unsigned int flags) $/;"	f
+sendto_wrapper	dt_libfun_replace.c	/^int sendto_wrapper(int s, const void *buf, int len, unsigned int flags, const struct sockaddr *to, int tolen)$/;"	f
+serialNumber	dt_dexparse.h	/^	UInt              serialNumber;$/;"	m	struct:ClassObject
+setHelperAnns	dt_instrument.c	/^static void setHelperAnns ( MCEnv* mce, IRDirty* di ) {$/;"	f	file:
+set_address_range_perms	dt_taint.c	/^static void set_address_range_perms (Addr a, SizeT lenT, UWord vabits16, UWord dsm_num) {$/;"	f	file:
+set_sec_vbits8	dt_taint.c	/^static void set_sec_vbits8(Addr a, UWord vbits8)$/;"	f	file:
+set_vabits2	dt_taint.c	/^void set_vabits2 ( Addr a, UChar vabits2 )$/;"	f	file:
+set_vabits8_for_aligned_word32	dt_taint.c	/^void set_vabits8_for_aligned_word32 ( Addr a, UChar vabits8 )$/;"	f	file:
+set_vbits8	dt_taint.c	/^Bool set_vbits8 ( Addr a, UChar vbits8 )$/;"	f	file:
+setregid_wrapper	dt_libfun_replace.c	/^int setregid_wrapper(int ruid, int euid)$/;"	f
+setreuid_wrapper	dt_libfun_replace.c	/^int setreuid_wrapper(int ruid, int euid)$/;"	f
+sfieldCount	dt_dexparse.h	/^	Int				        sfieldCount;$/;"	m	struct:ClassObject
+sfields	dt_dexparse.h	/^	struct StaticField sfields[0]; \/* MUST be last item *\/$/;"	m	struct:ClassObject	typeref:struct:ClassObject::StaticField
+sfields_	dt_framework.h	/^	\/*0x38*\/ ULong	sfields_;$/;"	m	struct:_ClassMirror
+shadowTypeV	dt_instrument.c	/^static IRType shadowTypeV ( IRType ty ) \/\/348$/;"	f	file:
+shadowV	dt_instrument.c	/^	IRTemp   shadowV;$/;"	m	struct:__anon5	file:
+shadowV	dt_instrument.h	/^	IRTemp		shadowV;$/;"	m	struct:__anon24
+shadow_GET	dt_instrument.c	/^IRExpr* shadow_GET ( MCEnv* mce, Int offset, IRType ty )$/;"	f	file:
+shadow_GETI	dt_instrument.c	/^IRExpr* shadow_GETI ( MCEnv* mce,$/;"	f	file:
+shallowMallocIRExprVec	copy.c	/^IRExpr** shallowMallocIRExprVec(IRExpr** vec)$/;"	f
+shorty	dt_dexparse.h	/^		HChar		shorty[32];$/;"	m	struct:_Mth_Pool
+shorty	dt_dexparse.h	/^	const char*     shorty;$/;"	m	struct:Method
+shortyIdx	dt_dexparse.h	/^	UInt  shortyIdx;          \/* index into stringIds for shorty descriptor *\/$/;"	m	struct:DexProtoId
+shouldTrace	dt_dexparse.h	/^	Bool shouldTrace;$/;"	m	struct:Method
+shutdown_wrapper	dt_libfun_replace.c	/^int shutdown_wrapper(int s, int how) {$/;"	f
+sigaction_wrapper	dt_libfun_replace.c	/^int sigaction_wrapper(int signum, void* act, void* oldact)$/;"	f
+signal_wrapper	dt_libfun_replace.c	/^int signal_wrapper(int signum, int handler)$/;"	f
+signature	dt_dexparse.h	/^	\/* 0c *\/UChar  signature[kSHA1DigestLen]; \/* SHA-1 hash *\/$/;"	m	struct:DexHeader
+signature	dt_dexparse.h	/^	const HChar*     signature;      \/* e.g. "I", "[C", "Landroid\/os\/Debug;" *\/$/;"	m	struct:Field
+sigprocmask_wrapper	dt_libfun_replace.c	/^int sigprocmask_wrapper(int how, void *set, void *oldset)$/;"	f
+size	dt_dexparse.h	/^		UInt	size;$/;"	m	struct:_Mth_stack
+size	dt_dexparse.h	/^	Int     size;                       \/\/ total size, including "size"$/;"	m	struct:DexClassLookup
+size	dt_dexparse.h	/^	UInt	 size;              \/* count of items of the indicated type *\/$/;"	m	struct:DexMapItem
+size	dt_dexparse.h	/^	UInt  size;			               \/* #of entries in list *\/$/;"	m	struct:DexMapList
+size	dt_dexparse.h	/^	UInt  size;$/;"	m	struct:DexAnnotationSetItem
+size	dt_dexparse.h	/^	UInt  size;$/;"	m	struct:DexAnnotationSetRefList
+size	dt_dexparse.h	/^	UInt size;						\/\/ size of the list, in entries$/;"	m	struct:DexTypeList
+size	dt_taint.h	/^   int size;$/;"	m	struct:myStringArray
+size_	dt_oatparse.h	/^	\/*0x08*\/ UInt		size_;$/;"	m	struct:DexFilePlus
+size_	dt_oatparse.h	/^	\/*0x10*\/ UInt	  size_;$/;"	m	struct:MemMapPlus
+slop_szB	dt_wrap.h	/^	SizeT		slop_szB;						\/\/ Extra bytes given above those requested$/;"	m	struct:_HP_Chunk
+sm	dt_taint.c	/^	SecMap* sm;$/;"	m	struct:__anon1	file:
+sm_distinguished	dt_taint.c	/^static SecMap sm_distinguished[3];$/;"	v	file:
+smt2_binop_ct_add	dt_stmt2.c	495;"	d	file:
+smt2_binop_ct_cmp	dt_stmt2.c	501;"	d	file:
+smt2_binop_tc_add	dt_stmt2.c	469;"	d	file:
+smt2_binop_tc_cmp	dt_stmt2.c	475;"	d	file:
+smt2_binop_tc_cmpMxN	dt_stmt2.c	482;"	d	file:
+smt2_binop_tt_11_add	dt_stmt2.c	678;"	d	file:
+smt2_binop_tt_11_cmp	dt_stmt2.c	685;"	d	file:
+smt2_ctz64	dt_stmt2.c	380;"	d	file:
+smt2_extract	dt_stmt2.c	355;"	d	file:
+smt2_getmsbsMxN	dt_stmt2.c	366;"	d	file:
+smt2_sign_extend	dt_stmt2.c	345;"	d	file:
+smt2_unop	dt_stmt2.c	360;"	d	file:
+smt2_zero_extend	dt_stmt2.c	350;"	d	file:
+sockaddr	dt_main.h	/^struct sockaddr {$/;"	s
+sockaddr_in	dt_main.h	/^struct sockaddr_in {$/;"	s
+socket_wrapper	dt_libfun_replace.c	/^int socket_wrapper(int namespace, int style, int protocol)$/;"	f
+socklen_t	dt_main.h	/^typedef int							socklen_t;$/;"	t
+sourceFile	dt_dexparse.h	/^	const HChar*	    sourceFile;$/;"	m	struct:ClassObject
+sourceFileIdx	dt_dexparse.h	/^	\/*0x10*\/ UInt  sourceFileIdx;      \/* index into stringIds for source file name *\/$/;"	m	struct:DexClassDef
+stackOverflowed	dt_dexparse.h	/^	Bool        stackOverflowed;$/;"	m	struct:Thread
+startAddr	dt_dexparse.h	/^	UInt	  startAddr;          \/* start address, in 16-bit code units *\/$/;"	m	struct:DexTry
+start_of_this_sm	dt_taint.h	/^static INLINE Addr start_of_this_sm ( Addr a ) {$/;"	f
+state	dt_dexparse.h	/^	UInt						state;$/;"	m	struct:MonitorDexFile
+staticFields	dt_dexparse.h	/^	struct DexField*          staticFields;$/;"	m	struct:DexClassData	typeref:struct:DexClassData::DexField
+staticFieldsSize	dt_dexparse.h	/^	UInt staticFieldsSize;$/;"	m	struct:DexClassDataHeader
+staticValuesOff	dt_dexparse.h	/^	\/*0x1c*\/ UInt  staticValuesOff;    \/* file offset to DexEncodedArray *\/$/;"	m	struct:DexClassDef
+status	dt_dexparse.h	/^	enum ClassStatus  status;$/;"	m	struct:ClassObject	typeref:enum:ClassObject::ClassStatus
+status	dt_dexparse.h	/^	unsigned short status; \/\/ State of class during compilation$/;"	m	struct:OatClassHeader
+status_	dt_framework.h	/^	\/*0x7c*\/ UInt	status_;$/;"	m	struct:_ClassMirror
+stmt	dt_instrument.c	/^static inline void stmt( HChar cat, MCEnv* mce, IRStmt* st ) { \/\/385$/;"	f	file:
+stringDataOff	dt_dexparse.h	/^	UInt stringDataOff;$/;"	m	struct:DexStringId
+stringIdsOff	dt_dexparse.h	/^	\/* 3c *\/UInt  stringIdsOff;$/;"	m	struct:DexHeader
+stringIdsSize	dt_dexparse.h	/^	\/* 38 *\/UInt  stringIdsSize;$/;"	m	struct:DexHeader
+string_ids_	dt_oatparse.h	/^	\/*0x24*\/ struct StringId	*string_ids_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::StringId
+strncmp_wrapper	dt_libfun_replace.c	/^int strncmp_wrapper(char *s1, char *s2, int n)$/;"	f
+strstr_wrapper	dt_libfun_replace.c	/^char* strstr_wrapper(const char *ls, const char *ss)$/;"	f
+subMode	dt_dexparse.h	/^		UChar		   subMode;$/;"	m	struct:InterpBreak::__anon18
+super	dt_dexparse.h	/^	struct ClassObject*    super;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::ClassObject
+super_class_	dt_framework.h	/^	\/*0x18*\/ struct ClassPlus*	super_class_;$/;"	m	struct:_ClassMirror	typeref:struct:_ClassMirror::ClassPlus
+superclassIdx	dt_dexparse.h	/^	\/*0x08*\/ UInt  superclassIdx;      \/* index into typeIds for superclass *\/$/;"	m	struct:DexClassDef
+suspendCount	dt_dexparse.h	/^	int suspendCount;$/;"	m	struct:Thread
+syscallnames	dt_string.h	/^const char* syscallnames[] = {$/;"	v
+system_wrapper	dt_libfun_replace.c	/^int system_wrapper(const char *command) {$/;"	f
+szToITy	dt_instrument.c	/^static IRType szToITy ( Int n )$/;"	f	file:
+table	dt_dexparse.h	/^	} table[1];$/;"	m	struct:DexClassLookup	typeref:struct:DexClassLookup::__anon13
+text_avma	dt_taint.h	/^	Addr			text_avma;$/;"	m	struct:FilterList
+text_end	dt_taint.h	/^	Addr      text_end;$/;"	m	struct:FilterList
+text_size	dt_taint.h	/^	SizeT			text_size;$/;"	m	struct:FilterList
+threadId	dt_dexparse.h	/^	UInt threadId;$/;"	m	struct:Thread
+ti	dt_taint.c	/^UInt  ti[TI_MAX];$/;"	v
+tid	dt_dexparse.h	/^	ThreadId	tid;				\/* Id of the thread which loaded this file *\/$/;"	m	struct:DexFileInfo
+tmpMap	dt_instrument.c	/^	XArray* \/* of TempMapEnt *\/ tmpMap;$/;"	m	struct:_MCEnv	file:
+tmpMap	dt_instrument.h	/^	XArray* tmpMap;$/;"	m	struct:_MCEnv
+tmp_class_name	dt_framework.c	/^HChar tmp_class_name[TMP_STR_SIZE];$/;"	v
+tmp_string_str	dt_framework.c	/^HChar tmp_string_str[TMP_STR_SIZE];$/;"	v
+trace	dt_instrument.c	/^	Bool  trace;$/;"	m	struct:_MCEnv	file:
+trace	dt_instrument.h	/^	Bool		trace;$/;"	m	struct:_MCEnv
+trace_art_method	dt_main.c	/^Bool trace_art_method = False;$/;"	v
+trace_ins_taint	dt_main.c	/^Bool trace_ins_taint  = False;$/;"	v
+trace_obj_taint	dt_main.c	/^Bool trace_obj_taint  = False;$/;"	v
+triesSize	dt_dexparse.h	/^	UShort  triesSize;$/;"	m	struct:DexCode
+triesSize	dt_dexparse.h	/^	UShort triesSize;$/;"	m	struct:CodeItem
+triop	dt_instrument.c	304;"	d	file:
+tt	dt_stmt2.c	/^UInt tt[TI_MAX];$/;"	v
+tv	dt_taint.c	/^ULong tv[TI_MAX];$/;"	v
+type	dt_dexparse.h	/^		UChar		type;$/;"	m	struct:_Mth_Pool
+type	dt_dexparse.h	/^	UShort type;              \/* type code (see kDexType* above) *\/$/;"	m	struct:DexMapItem
+type	dt_dexparse.h	/^	unsigned short type;   \/\/ Type of class$/;"	m	struct:OatClassHeader
+type	dt_wrap.h	/^	enum OpenedFdType  type;$/;"	m	struct:fd_info	typeref:enum:fd_info::OpenedFdType
+typeIdsOff	dt_dexparse.h	/^	\/* 44 *\/UInt  typeIdsOff;$/;"	m	struct:DexHeader
+typeIdsSize	dt_dexparse.h	/^	\/* 40 *\/UInt  typeIdsSize;$/;"	m	struct:DexHeader
+typeIdx	dt_dexparse.h	/^	UShort typeIdx;				\/\/ index into type_ids section$/;"	m	struct:DexTypeItem
+typeIdx	dt_dexparse.h	/^	UShort typeIdx;$/;"	m	struct:DexFieldId
+type_ids_	dt_oatparse.h	/^	\/*0x28*\/ struct TypeId		*type_ids_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::TypeId
+uleb128_value	dt_oatparse.c	/^UInt uleb128_value(UChar* pStream)$/;"	f
+unary32F0x4	dt_instrument.c	/^IRAtom* unary32F0x4 ( MCEnv* mce, IRAtom* vatomX )$/;"	f	file:
+unary32Fx2	dt_instrument.c	/^IRAtom* unary32Fx2 ( MCEnv* mce, IRAtom* vatomX )$/;"	f	file:
+unary32Fx4	dt_instrument.c	/^IRAtom* unary32Fx4 ( MCEnv* mce, IRAtom* vatomX )$/;"	f	file:
+unary32Fx4_w_rm	dt_instrument.c	/^IRAtom* unary32Fx4_w_rm ( MCEnv* mce, IRAtom* vRM, IRAtom* vatomX )$/;"	f	file:
+unary32Fx8	dt_instrument.c	/^IRAtom* unary32Fx8 ( MCEnv* mce, IRAtom* vatomX )$/;"	f	file:
+unary64F0x2	dt_instrument.c	/^IRAtom* unary64F0x2 ( MCEnv* mce, IRAtom* vatomX )$/;"	f	file:
+unary64Fx2	dt_instrument.c	/^IRAtom* unary64Fx2 ( MCEnv* mce, IRAtom* vatomX )$/;"	f	file:
+unary64Fx2_w_rm	dt_instrument.c	/^IRAtom* unary64Fx2_w_rm ( MCEnv* mce, IRAtom* vRM, IRAtom* vatomX )$/;"	f	file:
+unary64Fx4	dt_instrument.c	/^IRAtom* unary64Fx4 ( MCEnv* mce, IRAtom* vatomX )$/;"	f	file:
+unknown	dt_oatparse.h	/^	\/*0x00*\/ UInt		unknown;$/;"	m	struct:StdString
+unop	dt_instrument.c	307;"	d	file:
+unrecord_block	dt_mem_wrap.c	/^void unrecord_block ( void* p )$/;"	f	file:
+unsignedLeb128Size	dt_dexparse.c	/^INLINE Int unsignedLeb128Size(UInt data)$/;"	f
+unused	dt_dexparse.h	/^		UChar			 unused;   \/* for future expansion *\/$/;"	m	struct:InterpBreak::__anon18
+unused	dt_dexparse.h	/^	UShort unused;$/;"	m	struct:DexMapItem
+unused	dt_dexparse.h	/^	int											unused;        \/\/ Keep struct size constant$/;"	m	struct:InterpSaveState
+unused1	dt_dexparse.h	/^		UInt		   unused1;$/;"	m	struct:InterpBreak::__anon18
+update_SM_counts	dt_taint.c	/^static void update_SM_counts(SecMap* oldSM, SecMap* newSM)$/;"	f	file:
+useLLVMworkarounds	dt_instrument.c	/^	Bool useLLVMworkarounds;$/;"	m	struct:_MCEnv	file:
+useLLVMworkarounds	dt_instrument.h	/^	Bool		useLLVMworkarounds;$/;"	m	struct:_MCEnv
+vabits8	dt_taint.h	/^  UChar vabits8[SM_CHUNKS];$/;"	m	struct:__anon27
+value	dt_dexparse.h	/^	HChar* value;          \/* the latest value *\/$/;"	m	struct:DexStringCache
+value	dt_dexparse.h	/^	union JValue        value;          \/* initially set from DEX for primitives *\/$/;"	m	struct:StaticField	typeref:union:StaticField::JValue
+value_	dt_framework.h	/^	UShort	value_[0];$/;"	m	struct:_StringMirror
+vanillaNarrowingOpOfShape	dt_instrument.c	/^IROp vanillaNarrowingOpOfShape ( IROp qnarrowOp )$/;"	f	file:
+vbits8	dt_taint.c	/^	UChar vbits8[BYTES_PER_SEC_VBIT_NODE];$/;"	m	struct:__anon3	file:
+vectorNarrowBin64	dt_instrument.c	/^IRAtom* vectorNarrowBin64 ( MCEnv* mce, IROp narrow_op,$/;"	f	file:
+vectorNarrowBinV128	dt_instrument.c	/^IRAtom* vectorNarrowBinV128 ( MCEnv* mce, IROp narrow_op,$/;"	f	file:
+vectorNarrowUnV128	dt_instrument.c	/^IRAtom* vectorNarrowUnV128 ( MCEnv* mce, IROp narrow_op,$/;"	f	file:
+vectorWidenI64	dt_instrument.c	/^IRAtom* vectorWidenI64 ( MCEnv* mce, IROp longen_op,$/;"	f	file:
+verifyErrorClass	dt_dexparse.h	/^	struct ClassObject*    verifyErrorClass;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::ClassObject
+verifyUlebs	dt_dexparse.c	/^static Bool verifyUlebs(const UChar* pData, const UChar* pLimit, UInt count) {$/;"	f	file:
+verify_error_class_	dt_framework.h	/^	\/*0x1c*\/ struct ClassPlus*	verify_error_class_;$/;"	m	struct:_ClassMirror	typeref:struct:_ClassMirror::ClassPlus
+version	dt_dexparse.h	/^	UChar  version[4];$/;"	m	struct:OatHeader
+virtualMethodCount	dt_dexparse.h	/^	Int								virtualMethodCount;$/;"	m	struct:ClassObject
+virtualMethods	dt_dexparse.h	/^	struct DexMethod*         virtualMethods;$/;"	m	struct:DexClassData	typeref:struct:DexClassData::DexMethod
+virtualMethods	dt_dexparse.h	/^	struct Method*    virtualMethods;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::Method
+virtualMethodsSize	dt_dexparse.h	/^	UInt virtualMethodsSize;$/;"	m	struct:DexClassDataHeader
+virtual_methods_	dt_framework.h	/^	\/*0x40*\/ ULong	virtual_methods_;$/;"	m	struct:_ClassMirror
+visibility	dt_dexparse.h	/^	UChar  visibility;$/;"	m	struct:DexAnnotationItem
+vmapTableOffset	dt_dexparse.h	/^	UInt vmapTableOffset;$/;"	m	struct:OatQuickMethodHeader
+vtable	dt_dexparse.h	/^	struct Method**		vtable;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::Method
+vtableCount	dt_dexparse.h	/^	Int								vtableCount;$/;"	m	struct:ClassObject
+vtable_	dt_framework.h	/^	\/*0x20*\/ void*	vtable_;$/;"	m	struct:_ClassMirror
+writeUnsignedLeb128	dt_dexparse.c	/^INLINE UChar* writeUnsignedLeb128(UChar* ptr, UInt data)$/;"	f
+write_wrapper	dt_libfun_replace.c	/^int write_wrapper(int handle, void *buffer, int nbyte)$/;"	f
+z	dt_dexparse.h	/^		UChar    z;$/;"	m	struct:JValue::__anon14
+z	dt_dexparse.h	/^	UChar      z;$/;"	m	union:JValue
+zwidenToHostWord	dt_instrument.c	/^IRExpr* zwidenToHostWord ( MCEnv* mce, IRAtom* vatom )$/;"	f	file:

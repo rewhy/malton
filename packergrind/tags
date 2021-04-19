@@ -1,0 +1,1486 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCESS_FLAG_NAMES	pg_oatparse.c	/^const HChar* ACCESS_FLAG_NAMES[21] = {$/;"	v
+ACCESS_FLAG_VALUES	pg_oatparse.c	/^const UInt ACCESS_FLAG_VALUES[20] = {$/;"	v
+ACC_ABSTRACT	pg_dexparse.h	/^	ACC_ABSTRACT     = 0x00000400,       \/\/ class, method, ic$/;"	e	enum:__anon13
+ACC_ANNOTATION	pg_dexparse.h	/^	ACC_ANNOTATION   = 0x00002000,       \/\/ class, ic (1.5)$/;"	e	enum:__anon13
+ACC_BRIDGE	pg_dexparse.h	/^	ACC_BRIDGE       = 0x00000040,       \/\/ method (1.5)$/;"	e	enum:__anon13
+ACC_CLASS_MASK	pg_dexparse.h	/^	ACC_CLASS_MASK =$/;"	e	enum:__anon13
+ACC_CONSTRUCTOR	pg_dexparse.h	/^	ACC_CONSTRUCTOR  = 0x00010000,       \/\/ method (Dalvik only)$/;"	e	enum:__anon13
+ACC_DECLARED_SYNCHRONIZED	pg_dexparse.h	/^	ACC_DECLARED_SYNCHRONIZED =$/;"	e	enum:__anon13
+ACC_ENUM	pg_dexparse.h	/^	ACC_ENUM         = 0x00004000,       \/\/ class, field, ic (1.5)$/;"	e	enum:__anon13
+ACC_FIELD_MASK	pg_dexparse.h	/^	ACC_FIELD_MASK =$/;"	e	enum:__anon13
+ACC_FINAL	pg_dexparse.h	/^	ACC_FINAL        = 0x00000010,       \/\/ class, field, method, ic$/;"	e	enum:__anon13
+ACC_INNER_CLASS_MASK	pg_dexparse.h	/^	ACC_INNER_CLASS_MASK =$/;"	e	enum:__anon13
+ACC_INTERFACE	pg_dexparse.h	/^	ACC_INTERFACE    = 0x00000200,       \/\/ class, ic$/;"	e	enum:__anon13
+ACC_METHOD_MASK	pg_dexparse.h	/^	ACC_METHOD_MASK =$/;"	e	enum:__anon13
+ACC_NATIVE	pg_dexparse.h	/^	ACC_NATIVE       = 0x00000100,       \/\/ method$/;"	e	enum:__anon13
+ACC_NATIVE	pg_dexparse.h	1018;"	d
+ACC_PRIVATE	pg_dexparse.h	/^	ACC_PRIVATE      = 0x00000002,       \/\/ field, method, ic$/;"	e	enum:__anon13
+ACC_PROTECTED	pg_dexparse.h	/^	ACC_PROTECTED    = 0x00000004,       \/\/ field, method, ic$/;"	e	enum:__anon13
+ACC_PUBLIC	pg_dexparse.h	/^	ACC_PUBLIC       = 0x00000001,       \/\/ class, field, method, ic$/;"	e	enum:__anon13
+ACC_STATIC	pg_dexparse.h	/^	ACC_STATIC       = 0x00000008,       \/\/ field, method, ic$/;"	e	enum:__anon13
+ACC_STRICT	pg_dexparse.h	/^	ACC_STRICT       = 0x00000800,       \/\/ method$/;"	e	enum:__anon13
+ACC_SUPER	pg_dexparse.h	/^	ACC_SUPER        = 0x00000020,       \/\/ class (not used in Dalvik)$/;"	e	enum:__anon13
+ACC_SYNCHRONIZED	pg_dexparse.h	/^	ACC_SYNCHRONIZED = 0x00000020,       \/\/ method (only allowed on natives)$/;"	e	enum:__anon13
+ACC_SYNTHETIC	pg_dexparse.h	/^	ACC_SYNTHETIC    = 0x00001000,       \/\/ field, method, ic$/;"	e	enum:__anon13
+ACC_TRANSIENT	pg_dexparse.h	/^	ACC_TRANSIENT    = 0x00000080,       \/\/ field$/;"	e	enum:__anon13
+ACC_VARARGS	pg_dexparse.h	/^	ACC_VARARGS      = 0x00000080,       \/\/ method (1.5)$/;"	e	enum:__anon13
+ACC_VOLATILE	pg_dexparse.h	/^	ACC_VOLATILE     = 0x00000040,       \/\/ field$/;"	e	enum:__anon13
+ADDRESS_FAMILY	pg_main.c	/^const HChar* ADDRESS_FAMILY[11] = {$/;"	v
+AF_INET	packergrind.h	43;"	d
+AF_LOCAL	packergrind.h	42;"	d
+AF_UNIX	packergrind.h	41;"	d
+AF_UNSPEC	packergrind.h	40;"	d
+APPEND_MEM	pg_dexparse.c	2083;"	d	file:
+ART_INVOKE	pg_mthtrace.c	18;"	d	file:
+ART_LOGI	pg_mthtrace.c	26;"	d	file:
+ART_LOGW	pg_mthtrace.c	30;"	d	file:
+ART_RETURN	pg_mthtrace.c	22;"	d	file:
+AccessFor	pg_dexparse.h	/^enum AccessFor {$/;"	g
+ArtMethod	pg_oatparse.h	/^struct ArtMethod {$/;"	s
+ArtMethod_RegisterNative	pg_libart_wrapper.c	/^void ArtMethod_RegisterNative(const void* this, const void* native_method, Int is_fast){$/;"	f
+BANGCLE_ART_1603	packergrind.h	16;"	d
+BGEnv	pg_translate.h	/^} BGEnv;$/;"	t	typeref:struct:_BGEnv
+BG_	pg_translate.h	11;"	d
+BG_ASSERT	pg_debug.h	73;"	d
+BG_ASSERT	pg_debug.h	80;"	d
+BG_DEBUG	pg_debug.h	7;"	d
+BG_EXE_LOGI	pg_debug.h	65;"	d
+BG_EXE_LOGI	pg_debug.h	82;"	d
+BG_IP_INFO	pg_debug.h	42;"	d
+BG_LOGE	pg_debug.h	57;"	d
+BG_LOGE	pg_debug.h	79;"	d
+BG_LOGI	pg_debug.h	52;"	d
+BG_LOGI	pg_debug.h	78;"	d
+BG_MALLOC_REDZONE_SZB	pg_wrappers.h	12;"	d
+BG_WHITE_LIST	pg_translate.h	17;"	d
+BG_Z_LIBANDROID_RUNTINE_SONAME	pg_libart_wrapper.c	9;"	d	file:
+BG_Z_LIBART_SONAME	pg_libart_wrapper.c	3;"	d	file:
+BG_Z_LIBDL_SONAME	pg_replace_wrapper.c	29;"	d	file:
+BG_Z_LIBDVM_SONAME	pg_libdvm_wrapper.c	4;"	d	file:
+CALL_FN_v_8W	pg_replace_wrapper.c	34;"	d	file:
+CLASS_ERROR	pg_dexparse.h	/^	CLASS_ERROR         = -1,$/;"	e	enum:ClassStatus
+CLASS_FIELD_SLOTS	pg_dexparse.h	1016;"	d
+CLASS_IDX	pg_dexparse.h	/^	CLASS_IDX           = 1,    \/* loaded, DEX idx in super or ifaces *\/$/;"	e	enum:ClassStatus
+CLASS_INITIALIZED	pg_dexparse.h	/^	CLASS_INITIALIZED   = 7,    \/* ready to go *\/$/;"	e	enum:ClassStatus
+CLASS_INITIALIZING	pg_dexparse.h	/^	CLASS_INITIALIZING  = 6,    \/* class init in progress *\/$/;"	e	enum:ClassStatus
+CLASS_LOADED	pg_dexparse.h	/^	CLASS_LOADED        = 2,    \/* DEX idx values resolved *\/$/;"	e	enum:ClassStatus
+CLASS_NOTREADY	pg_dexparse.h	/^	CLASS_NOTREADY      = 0,$/;"	e	enum:ClassStatus
+CLASS_RESOLVED	pg_dexparse.h	/^	CLASS_RESOLVED      = 3,    \/* part of linking *\/$/;"	e	enum:ClassStatus
+CLASS_VERIFIED	pg_dexparse.h	/^	CLASS_VERIFIED      = 5,    \/* logically part of linking; done pre-init *\/$/;"	e	enum:ClassStatus
+CLASS_VERIFYING	pg_dexparse.h	/^	CLASS_VERIFYING     = 4,    \/* in the process of being verified *\/$/;"	e	enum:ClassStatus
+ClassLinker_DefineClass	pg_libart_wrapper.c	/^void* ClassLinker_DefineClass(void* this, void* thread,void* descriptor, int hash, void* class_loader, void* dex_file, void* dex_class_def)$/;"	f
+ClassLinker_LinkCode	pg_libart_wrapper.c	/^void ClassLinker_LinkCode(void* this, void* method, void* oat_class, UInt class_def_method_index)$/;"	f
+ClassLinker_LoadMethod	pg_libart_wrapper.c	/^void ClassLinker_LoadMethod(void* this, void* thread, void* dex_file, void* it, void* klass, void* dst)$/;"	f
+ClassObject	pg_dexparse.h	/^struct ClassObject{$/;"	s
+ClassStatus	pg_dexparse.h	/^enum ClassStatus {$/;"	g
+CodeItem	pg_oatparse.h	/^struct CodeItem {$/;"	s
+DBG_ADVANCE_LINE	pg_dexparse.h	/^	DBG_ADVANCE_LINE         = 0x02,$/;"	e	enum:__anon11
+DBG_ADVANCE_PC	pg_dexparse.h	/^	DBG_ADVANCE_PC           = 0x01,$/;"	e	enum:__anon11
+DBG_ART_METHOD	pg_debug.h	17;"	d
+DBG_CALL_INFO	pg_debug.h	101;"	d
+DBG_CALL_INFO	pg_debug.h	109;"	d
+DBG_CURRENT_LINE	pg_debug.h	22;"	d
+DBG_END_LOCAL	pg_dexparse.h	/^	DBG_END_LOCAL            = 0x05,$/;"	e	enum:__anon11
+DBG_END_SEQUENCE	pg_dexparse.h	/^	DBG_END_SEQUENCE         = 0x00,$/;"	e	enum:__anon11
+DBG_FIRST_SPECIAL	pg_dexparse.h	/^	DBG_FIRST_SPECIAL        = 0x0a,$/;"	e	enum:__anon11
+DBG_INSTRUMENT	pg_debug.h	19;"	d
+DBG_LINE_BASE	pg_dexparse.h	/^	DBG_LINE_BASE            = -4,$/;"	e	enum:__anon11
+DBG_LINE_RANGE	pg_dexparse.h	/^	DBG_LINE_RANGE           = 15,$/;"	e	enum:__anon11
+DBG_MEM	pg_debug.h	8;"	d
+DBG_MEM_FUNC	pg_mem_wrappers.c	17;"	d	file:
+DBG_MEM_INFO	pg_debug.h	88;"	d
+DBG_MEM_INFO	pg_debug.h	96;"	d
+DBG_OAT_PARSE	pg_debug.h	15;"	d
+DBG_PARAMETER_PARSE	pg_mthtrace.h	15;"	d
+DBG_REQUEST_INFO	pg_debug.h	25;"	d
+DBG_REQUEST_INFO	pg_debug.h	30;"	d
+DBG_RESTART_LOCAL	pg_dexparse.h	/^	DBG_RESTART_LOCAL        = 0x06,$/;"	e	enum:__anon11
+DBG_SET_EPILOGUE_BEGIN	pg_dexparse.h	/^	DBG_SET_EPILOGUE_BEGIN   = 0x08,$/;"	e	enum:__anon11
+DBG_SET_FILE	pg_dexparse.h	/^	DBG_SET_FILE             = 0x09,$/;"	e	enum:__anon11
+DBG_SET_PROLOGUE_END	pg_dexparse.h	/^	DBG_SET_PROLOGUE_END     = 0x07,$/;"	e	enum:__anon11
+DBG_SHOW_STRING	pg_main.c	578;"	d	file:
+DBG_START_LOCAL	pg_dexparse.h	/^	DBG_START_LOCAL          = 0x03,$/;"	e	enum:__anon11
+DBG_START_LOCAL_EXTENDED	pg_dexparse.h	/^	DBG_START_LOCAL_EXTENDED = 0x04,$/;"	e	enum:__anon11
+DBG_SYSCALL	pg_debug.h	9;"	d
+DBT_TAINT_INFO	pg_debug.h	20;"	d
+DEXCLASS	pg_dexparse.h	495;"	d
+DEXFILEPARSE_FLAG	pg_main.c	/^const HChar* DEXFILEPARSE_FLAG[3] = { $/;"	v
+DEXHEAD	pg_dexparse.h	493;"	d
+DEXMETHOD	pg_dexparse.h	496;"	d
+DEXOPTDATA	pg_dexparse.h	494;"	d
+DEX_DEP_MAGIC	pg_dexparse.h	47;"	d
+DEX_MAGIC	pg_dexparse.h	41;"	d
+DEX_MAGIC_VERS	pg_dexparse.h	42;"	d
+DEX_OPT_MAGIC	pg_dexparse.h	44;"	d
+DEX_OPT_MAGIC_VERS	pg_dexparse.h	45;"	d
+DO_CREQ_W_W	packergrind.h	190;"	d
+DO_CREQ_W_W	packergrind.h	205;"	d
+DO_CREQ_W_WW	packergrind.h	192;"	d
+DO_CREQ_W_WWW	packergrind.h	194;"	d
+DO_CREQ_W_WWW	packergrind.h	238;"	d
+DO_CREQ_v_W	packergrind.h	189;"	d
+DO_CREQ_v_W	packergrind.h	196;"	d
+DO_CREQ_v_WW	packergrind.h	191;"	d
+DO_CREQ_v_WW	packergrind.h	216;"	d
+DO_CREQ_v_WWW	packergrind.h	193;"	d
+DO_CREQ_v_WWW	packergrind.h	226;"	d
+DO_CREQ_v_WWWW	packergrind.h	253;"	d
+DO_CREQ_v_WWWWW	packergrind.h	267;"	d
+DexAnnotationItem	pg_dexparse.h	/^struct DexAnnotationItem {$/;"	s
+DexAnnotationSetItem	pg_dexparse.h	/^struct DexAnnotationSetItem {$/;"	s
+DexAnnotationSetRefItem	pg_dexparse.h	/^struct DexAnnotationSetRefItem {$/;"	s
+DexAnnotationSetRefList	pg_dexparse.h	/^struct DexAnnotationSetRefList {$/;"	s
+DexAnnotationsDirectoryItem	pg_dexparse.h	/^struct DexAnnotationsDirectoryItem {$/;"	s
+DexClassData	pg_dexparse.h	/^struct DexClassData {$/;"	s
+DexClassDataHeader	pg_dexparse.h	/^struct DexClassDataHeader {$/;"	s
+DexClassDef	pg_dexparse.h	/^struct DexClassDef {$/;"	s
+DexClassLookup	pg_dexparse.h	/^struct DexClassLookup {$/;"	s
+DexCode	pg_dexparse.h	/^struct DexCode {$/;"	s
+DexEncodedArray	pg_dexparse.h	/^struct DexEncodedArray {$/;"	s
+DexField	pg_dexparse.h	/^struct DexField {$/;"	s
+DexFieldAnnotationsItem	pg_dexparse.h	/^struct DexFieldAnnotationsItem {$/;"	s
+DexFieldId	pg_dexparse.h	/^struct DexFieldId {$/;"	s
+DexFile	pg_dexparse.h	/^struct DexFile { \/\/ 52 bytes$/;"	s
+DexFileInfo	pg_dexparse.h	/^struct DexFileInfo {$/;"	s
+DexFilePlus	pg_oatparse.h	/^struct DexFilePlus {$/;"	s
+DexFilePlus2DexFile	pg_dexparse.c	/^static struct DexFile *DexFilePlus2DexFile(struct DexFilePlus *pDexFilePlus) {$/;"	f	file:
+DexFilePlusNode	pg_dexparse.h	/^struct DexFilePlusNode {$/;"	s
+DexHeader	pg_dexparse.h	/^struct DexHeader { \/* 112 bytes *\/$/;"	s
+DexLink	pg_dexparse.h	/^struct DexLink {$/;"	s
+DexMapItem	pg_dexparse.h	/^struct DexMapItem {$/;"	s
+DexMapList	pg_dexparse.h	/^struct DexMapList {$/;"	s
+DexMemParse	pg_dexparse.c	/^void DexMemParse(UChar* addr, Int len) {$/;"	f
+DexMethod	pg_dexparse.h	/^struct DexMethod {$/;"	s
+DexMethodAnnotationsItem	pg_dexparse.h	/^struct DexMethodAnnotationsItem {$/;"	s
+DexMethodId	pg_dexparse.h	/^struct DexMethodId {$/;"	s
+DexOptHeader	pg_dexparse.h	/^struct DexOptHeader {$/;"	s
+DexOrJar	pg_dexparse.h	/^struct DexOrJar {$/;"	s
+DexParameterAnnotationsItem	pg_dexparse.h	/^struct DexParameterAnnotationsItem {$/;"	s
+DexProto	pg_dexparse.h	/^struct DexProto {$/;"	s
+DexProtoId	pg_dexparse.h	/^struct DexProtoId {$/;"	s
+DexStringCache	pg_dexparse.h	/^struct DexStringCache {$/;"	s
+DexStringId	pg_dexparse.h	/^struct DexStringId {$/;"	s
+DexTry	pg_dexparse.h	/^struct DexTry {$/;"	s
+DexTypeId	pg_dexparse.h	/^struct DexTypeId {$/;"	s
+DexTypeItem	pg_dexparse.h	/^struct DexTypeItem {$/;"	s
+DexTypeList	pg_dexparse.h	/^struct DexTypeList {$/;"	s
+DvmDex	pg_dexparse.h	/^struct DvmDex {$/;"	s
+F	pg_framework.c	19;"	d	file:
+FD_MAX	pg_wrappers.h	141;"	d
+FD_MAX_PATH	pg_wrappers.h	142;"	d
+FD_READ	pg_wrappers.h	143;"	d
+FD_STAT	pg_wrappers.h	145;"	d
+FD_WRITE	pg_wrappers.h	144;"	d
+FNNAME_MAX	pg_wrappers.h	135;"	d
+FdAppApk	pg_wrappers.h	/^	FdAppApk,$/;"	e	enum:OpenedFdType
+FdAppDex	pg_wrappers.h	/^	FdAppDex,$/;"	e	enum:OpenedFdType
+FdAppJar	pg_wrappers.h	/^	FdAppJar,$/;"	e	enum:OpenedFdType
+FdAppLib	pg_wrappers.h	/^	FdAppLib,$/;"	e	enum:OpenedFdType
+FdDevice	pg_wrappers.h	/^	FdDevice,$/;"	e	enum:OpenedFdType
+FdFrameworkDex	pg_wrappers.h	/^	FdFrameworkDex,$/;"	e	enum:OpenedFdType
+FdFrameworkJar	pg_wrappers.h	/^	FdFrameworkJar,$/;"	e	enum:OpenedFdType
+FdProcMap	pg_wrappers.h	/^	FdProcMap,$/;"	e	enum:OpenedFdType
+FdSystemLib	pg_wrappers.h	/^	FdSystemLib = 1,$/;"	e	enum:OpenedFdType
+FdUnknown	pg_wrappers.h	/^	FdUnknown$/;"	e	enum:OpenedFdType
+Field	pg_dexparse.h	/^struct Field {$/;"	s
+FilterList	pg_memtrace.h	/^struct FilterList {$/;"	s
+FunList	pg_memtrace.h	/^struct FunList {$/;"	s
+H32_PC_PRE	pg_stmt.c	276;"	d	file:
+H32_PRINT_PC	pg_stmt.c	292;"	d	file:
+H64_PC_PRE	pg_stmt.c	284;"	d	file:
+H64_PRINT_PC	pg_stmt.c	295;"	d	file:
+HP_Chunk	pg_wrappers.h	/^} HP_Chunk;$/;"	t	typeref:struct:_HP_Chunk
+HTONL	packergrind.h	50;"	d
+HTONS	packergrind.h	58;"	d
+INLINE	pg_dexparse.h	11;"	d
+INLINE	pg_translate.h	14;"	d
+INS_LOAD	pg_debug.h	11;"	d
+INS_STORE	pg_debug.h	12;"	d
+IRAtom	pg_translate.h	/^typedef		IRExpr	IRAtom;$/;"	t
+IRConst_string	pg_string.h	/^const char *IRConst_string[] = {$/;"	v
+IREndness_string	pg_string.h	/^const char *IREndness_string[] = {$/;"	v
+IRExpr_string	pg_string.h	/^const char *IRExpr_string[] = {$/;"	v
+IRJumpKind_string	pg_string.h	/^const char *IRJumpKind_string[] = {$/;"	v
+IRStmt_string	pg_string.h	/^const char *IRStmt_string[] = {$/;"	v
+IRType_MAX	pg_string.h	24;"	d
+IRType_string	pg_string.h	/^const char *IRType_string[] = {$/;"	v
+IS_SYSCALL_ALLOWED	pg_wrappers.h	164;"	d
+InitiatingLoaderList	pg_dexparse.h	/^struct InitiatingLoaderList {$/;"	s
+InstField	pg_dexparse.h	/^struct InstField {$/;"	s
+InstructionSet	pg_oatparse.h	/^} InstructionSet;$/;"	t	typeref:enum:__anon3
+InterfaceEntry	pg_dexparse.h	/^struct InterfaceEntry {$/;"	s
+InterpBreak	pg_dexparse.h	/^union InterpBreak {$/;"	u
+InterpSaveState	pg_dexparse.h	/^struct InterpSaveState {$/;"	s
+JValue	pg_dexparse.h	/^union JValue {$/;"	u
+JavaVMExt_LoadNativeLibrary	pg_libart_wrapper.c	/^Bool JavaVMExt_LoadNativeLibrary(void *this, void *env, char* path, void* class_loader, char* error_msg)$/;"	f
+LIBANDROID_RUNTIME_FUNC	pg_libart_wrapper.c	10;"	d	file:
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(Bool, _ZN3art9JavaVMExt17LoadNativeLibraryEP7_JNIEnvRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEP8_jobjectPS9_,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(Int, _ZN3art11interpreter15ExecuteGotoImplILb0ELb0EEENS_6JValueEPNS_6ThreadEPKNS_7DexFile8CodeItemERNS_11ShadowFrameES2_,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(Int, _ZN3art11interpreter17ExecuteSwitchImplILb1ELb1EEENS_6JValueEPNS_6ThreadEPKNS_7DexFile8CodeItemERNS_11ShadowFrameES2_,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(int, _ZN3art7DexFile8OpenFileEiPKcbPNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(int, _ZN3art7OatFile5SetupEPKcPNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(void*,  _ZN3art11ClassLinker11DefineClassEPNS_6ThreadEPKcjNS_6HandleINS_6mirror11ClassLoaderEEERKNS_7DexFileERKNS9_8ClassDefE,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(void*,  _ZN3art9Libraries16FindNativeMethodEPNS_9ArtMethodERNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(void*, _ZN3art11ClassLinker19OpenDexFilesFromOatEPKcS2_PNSt3__16vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS8_ISA_EEEE,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(void*, _ZN3art16OatFileAssistant12LoadDexFilesERKNS_7OatFileEPKc,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(void*, _ZN3art7DexFile10OpenMemoryEPKhjRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEjPNS_6MemMapEPKNS_10OatDexFileEPS9_,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(void*, _ZN3art7DexFileC2EPKhjRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEjPNS_6MemMapEPKNS_10OatDexFileE,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(void*, _ZN3art7OatFile4OpenERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_PhSA_bPKcPS7_,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(void*, _ZNK3art10OatDexFile11OpenDexFileEPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(void,  _ZN3art11interpreter26EnterInterpreterFromInvokeEPNS_6ThreadEPNS_9ArtMethodEPNS_6mirror6ObjectEPjPNS_6JValueE,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(void, _ZN3art11ClassLinker10LoadMethodEPNS_6ThreadERKNS_7DexFileERKNS_21ClassDataItemIteratorENS_6HandleINS_6mirror5ClassEEEPNS_9ArtMethodE,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(void, _ZN3art11ClassLinker8LinkCodeEPNS_9ArtMethodEPKNS_7OatFile8OatClassEj,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	/^LIBART_FUNC(void, _ZN3art9ArtMethod14RegisterNativeEPKvb,$/;"	f
+LIBART_FUNC	pg_libart_wrapper.c	4;"	d	file:
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(FILE *, fopen,$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, accept,$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, bind,$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, connect, $/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, fclose,$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, fseek,$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, gettimeofday, void *tv, void *tz) {$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, listen,$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, open,$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, recv,$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, recvfrom, $/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, send,$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, sendto,$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, shutdown, int s, int how) {$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, socket,$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(int, system, const void *command) {$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	/^LIBC_FUNC(long, ptrace,	int r, int p, int a, int d) {$/;"	f
+LIBC_FUNC	pg_replace_wrapper.c	18;"	d	file:
+LIBC_FUNC	pg_replace_wrapper.c	21;"	d	file:
+LIBDL_FUNC	pg_replace_wrapper.c	/^LIBDL_FUNC(void*, dlopen,$/;"	f
+LIBDL_FUNC	pg_replace_wrapper.c	26;"	d	file:
+LIBDL_FUNC	pg_replace_wrapper.c	30;"	d	file:
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC( int, _Z22dvmRawDexFileOpenArrayPhjPP10RawDexFile,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(Bool, _Z17dvmLoadNativeCodePKcP6ObjectPPc,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(Bool, _Z21dvmPrepareDexInMemoryPhjPP6DvmDex,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(Bool, _Z23dvmContinueOptimizationillPKcjjb,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(ThreadStatus, _Z15dvmChangeStatusP6Thread12ThreadStatus,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(int, _Z17dvmRawDexFileOpenPKcS0_PP10RawDexFileb,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(int, _Z20dvmDexFileOpenFromFdiPP6DvmDex,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(int, _Z21dvmDexFileOpenPartialPKviPP6DvmDex,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(void*, _Z12dexFileParsePKhji, $/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(void*, _Z14dvmDefineClassP6DvmDexPKcP6Object,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(void*, _Z15dvmInvokeMethodP6ObjectPK6MethodP11ArrayObjectS5_P11ClassObjectb,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(void*, _Z18dvmFindClassByNameP12StringObjectP6Objectb,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(void, _Z11dvmMterpStdP6Thread,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(void, _Z12dvmInterpretP6ThreadPK6MethodP6JValue,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(void, _Z14dvmCallMethodAP6ThreadPK6MethodP6ObjectbP6JValuePK6jvalue,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(void, _Z14dvmCallMethodVP6ThreadPK6MethodP6ObjectbP6JValueSt9__va_list,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(void, _Z16dvmCallJNIMethodPKjP6JValuePK6MethodP6Thread,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(void, _Z20dvmInterpretPortableP6Thread,$/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	/^LIBDVM_FUNC(void, dvmMterpStdRun, void *self) $/;"	f
+LIBDVM_FUNC	pg_libdvm_wrapper.c	5;"	d	file:
+LibList	pg_memtrace.h	/^struct LibList {$/;"	s
+Library_FindNativeMethod	pg_libart_wrapper.c	/^void* Library_FindNativeMethod(const void* this, const void* artMethod, void* std_string) {$/;"	f
+MAP_ANON	packergrind.h	73;"	d
+MAP_ANONYMOUS	packergrind.h	72;"	d
+MAP_DENYWRITE	packergrind.h	75;"	d
+MAP_FILE	packergrind.h	71;"	d
+MAP_FIXED	packergrind.h	70;"	d
+MAP_FOOBAR	packergrind.h	76;"	d
+MAP_PRIVATE	packergrind.h	68;"	d
+MAP_SHARED	packergrind.h	67;"	d
+MAX_LEN	pg_translate.h	19;"	d
+MAX_MTH_NUM	pg_mthtrace.h	13;"	d
+MAX_SPILL_JIT_IA	pg_dexparse.h	1283;"	d
+MAX_STACK_SIZE	pg_mthtrace.h	47;"	d
+MEMCPY	pg_replace_wrapper.c	870;"	d	file:
+MEMMOVE	pg_replace_wrapper.c	867;"	d	file:
+MEMMOVE_OR_MEMCPY	pg_replace_wrapper.c	793;"	d	file:
+MON_STR_OPERATIONS	pg_debug.h	35;"	d
+MemList	pg_wrappers.h	/^struct MemList {$/;"	s
+MemMapPlus	pg_oatparse.h	/^struct MemMapPlus {$/;"	s
+MemMapping	pg_dexparse.h	/^struct MemMapping {$/;"	s
+Method	pg_dexparse.h	/^struct Method {$/;"	s
+MonitorDexFile	pg_dexparse.h	/^struct MonitorDexFile {$/;"	s
+MthCodeNode	pg_mthtrace.h	/^} MthCodeNode;$/;"	t	typeref:struct:_Method_Code_Node
+MthNode	pg_framework.h	/^MthNode;$/;"	t	typeref:struct:_Mth_Pool
+MthNode	pg_mthtrace.h	/^} MthNode;$/;"	t	typeref:struct:_Mth_Pool
+MthStack	pg_mthtrace.h	/^} MthStack;$/;"	t	typeref:struct:_Mth_stack
+NO_INDEX	pg_dexparse.h	28;"	d
+NTOHL	packergrind.h	45;"	d
+NTOHS	packergrind.h	55;"	d
+NUM_FLAGS	pg_dexparse.c	902;"	d	file:
+N_PROF_EVENTS	pg_wrappers.h	59;"	d
+OAT_CLASS_TYPE	pg_oatparse.c	/^const HChar * OAT_CLASS_TYPE[3] = {$/;"	v
+OAT_LOGD	pg_dexparse.h	15;"	d
+OAT_LOGD	pg_dexparse.h	18;"	d
+OAT_LOGD	pg_dexparse.h	20;"	d
+OAT_LOGE	pg_dexparse.h	26;"	d
+OAT_LOGI	pg_dexparse.h	24;"	d
+OatClass	pg_oatparse.h	/^struct OatClass {$/;"	s
+OatClassHeader	pg_oatparse.h	/^struct OatClassHeader {$/;"	s
+OatClassOffset	pg_oatparse.h	/^struct OatClassOffset {$/;"	s
+OatClassType	pg_oatparse.h	/^} OatClassType;$/;"	t	typeref:enum:__anon2
+OatDexFile	pg_oatparse.h	/^struct OatDexFile {$/;"	s
+OatFile	pg_oatparse.h	/^struct OatFile {$/;"	s
+OatHeader	pg_oatparse.h	/^struct OatHeader {$/;"	s
+OatMethod	pg_oatparse.h	/^struct OatMethod {$/;"	s
+OatQuickMethodHeader	pg_oatparse.h	/^struct OatQuickMethodHeader {$/;"	s
+OatSec	pg_oatparse.h	/^struct OatSec {$/;"	s
+Object	pg_dexparse.h	/^struct Object {$/;"	s
+OpenedFdType	pg_wrappers.h	/^enum OpenedFdType { $/;"	g
+Orig	pg_translate.h	/^typedef enum { Orig=1, VSh=2 } \/\/, BSh=3 }  Not doing origin tracking$/;"	e	enum:__anon5
+PARSE_IST_STORE	pg_stmt.c	299;"	d	file:
+PG_MEM_TRACE_H	pg_memtrace.h	3;"	d
+PRIM_BOOLEAN	pg_dexparse.h	/^	PRIM_BOOLEAN    = 2,$/;"	e	enum:PrimitiveType
+PRIM_BYTE	pg_dexparse.h	/^	PRIM_BYTE       = 3,$/;"	e	enum:PrimitiveType
+PRIM_CHAR	pg_dexparse.h	/^	PRIM_CHAR       = 5,$/;"	e	enum:PrimitiveType
+PRIM_DOUBLE	pg_dexparse.h	/^	PRIM_DOUBLE     = 9,$/;"	e	enum:PrimitiveType
+PRIM_FLOAT	pg_dexparse.h	/^	PRIM_FLOAT      = 8,$/;"	e	enum:PrimitiveType
+PRIM_INT	pg_dexparse.h	/^	PRIM_INT        = 6,$/;"	e	enum:PrimitiveType
+PRIM_LONG	pg_dexparse.h	/^	PRIM_LONG       = 7,$/;"	e	enum:PrimitiveType
+PRIM_NOT	pg_dexparse.h	/^	PRIM_NOT        = 0,       \/* value is a reference type, not a primitive type *\/$/;"	e	enum:PrimitiveType
+PRIM_SHORT	pg_dexparse.h	/^	PRIM_SHORT      = 4,$/;"	e	enum:PrimitiveType
+PRIM_VOID	pg_dexparse.h	/^	PRIM_VOID       = 1,$/;"	e	enum:PrimitiveType
+PROF_EVENT	pg_wrappers.h	64;"	d
+PROF_EVENT	pg_wrappers.h	74;"	d
+PROTOCOL_FAMILY	pg_main.c	/^const char* PROTOCOL_FAMILY[11] = {$/;"	v
+PROT_EXEC	packergrind.h	65;"	d
+PROT_NONE	packergrind.h	62;"	d
+PROT_READ	packergrind.h	63;"	d
+PROT_WRITE	packergrind.h	64;"	d
+PrimitiveType	pg_dexparse.h	/^enum PrimitiveType {$/;"	g
+PtrSizedFields	pg_oatparse.h	/^	struct PtrSizedFields {$/;"	s	struct:ArtMethod
+RECORD_OVERLAP_ERROR	pg_replace_wrapper.c	784;"	d	file:
+RI_MAX	pg_translate.h	60;"	d
+RegisterMap	pg_dexparse.h	/^struct RegisterMap {$/;"	s
+SHUTDOWN_HOW	pg_main.c	/^const HChar* SHUTDOWN_HOW[3] = {$/;"	v
+SOCKET_TYPE	pg_main.c	/^const HChar* SOCKET_TYPE[11] = {$/;"	v
+STACK_SIZE	pg_translate.h	20;"	d
+STACK_TRACE_SIZE	pg_wrappers.h	11;"	d
+STRCMP	pg_replace_wrapper.c	907;"	d	file:
+SYSCALLS_MAX	pg_wrappers.h	162;"	d
+StaticField	pg_dexparse.h	/^struct StaticField{$/;"	s
+T	pg_framework.c	18;"	d	file:
+TG_N_THREADS	packergrind.h	19;"	d
+THREAD_INITIALIZING	packergrind.h	/^	THREAD_INITIALIZING = 5,        \/* allocated, not yet running *\/$/;"	e	enum:__anon20
+THREAD_MONITOR	packergrind.h	/^	THREAD_MONITOR      = 3,        \/* BLOCKED on a monitor *\/$/;"	e	enum:__anon20
+THREAD_NATIVE	packergrind.h	/^	THREAD_NATIVE       = 7,        \/* off in a JNI native method *\/$/;"	e	enum:__anon20
+THREAD_RUNNING	packergrind.h	/^	THREAD_RUNNING      = 1,        \/* RUNNABLE or running now *\/$/;"	e	enum:__anon20
+THREAD_STARTING	packergrind.h	/^	THREAD_STARTING     = 6,        \/* started, not yet on thread list *\/$/;"	e	enum:__anon20
+THREAD_SUSPENDED	packergrind.h	/^	THREAD_SUSPENDED    = 9,        \/* suspended, usually by GC or debugger *\/$/;"	e	enum:__anon20
+THREAD_TIMED_WAIT	packergrind.h	/^	THREAD_TIMED_WAIT   = 2,        \/* TIMED_WAITING in Object.wait() *\/$/;"	e	enum:__anon20
+THREAD_UNDEFINED	packergrind.h	/^	THREAD_UNDEFINED    = -1,       \/* makes enum compatible with int32_t *\/$/;"	e	enum:__anon20
+THREAD_VMWAIT	packergrind.h	/^	THREAD_VMWAIT       = 8,        \/* waiting on a VM resource *\/$/;"	e	enum:__anon20
+THREAD_WAIT	packergrind.h	/^	THREAD_WAIT         = 4,        \/* WAITING in Object.wait() *\/$/;"	e	enum:__anon20
+THREAD_ZOMBIE	packergrind.h	/^	THREAD_ZOMBIE       = 0,        \/* TERMINATED *\/$/;"	e	enum:__anon20
+TI_MAX	pg_translate.h	59;"	d
+TMP_STR_SIZE	pg_framework.c	16;"	d	file:
+TNT_LOGI	pg_debug.h	113;"	d
+TRACE_ART_PLATFORM	packergrind.h	15;"	d
+TRACE_SO_LOAD_STATUS_ONLY	pg_replace_wrapper.c	38;"	d	file:
+TYPE_NONE	pg_oatparse.h	/^	TYPE_NONE		= 0x00,$/;"	e	enum:__anon4
+TYPE_SINK	pg_oatparse.h	/^	TYPE_SINK		= 0x02$/;"	e	enum:__anon4
+TYPE_SOURCE	pg_oatparse.h	/^	TYPE_SOURCE	= 0x01,$/;"	e	enum:__anon4
+TempKind	pg_translate.h	/^TempKind;$/;"	t	typeref:enum:__anon5
+TempMapEnt	pg_translate.h	/^} TempMapEnt;$/;"	t	typeref:struct:__anon6
+Thread	pg_dexparse.h	/^struct Thread {$/;"	s
+UNKNOWN_CLASS_NAME	pg_framework.c	15;"	d	file:
+VALGRIND_CHECK_VALUE_IS_DEFINED	pg_replace_wrapper.c	787;"	d	file:
+VAR_MAX	pg_wrappers.h	148;"	d
+VAR_READ	pg_wrappers.h	149;"	d
+VAR_WRITE	pg_wrappers.h	150;"	d
+VG_USERREQ__MAKE_MEM_NOACCESS	packergrind.h	/^	VG_USERREQ__MAKE_MEM_NOACCESS,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ACCEPT	packergrind.h	/^	VG_USERREQ__WRAPPER_ACCEPT,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_ASSISTANT_LOADDEXFILES	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_ASSISTANT_LOADDEXFILES,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_ASSISTANT_LOADDEXFILES_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_ASSISTANT_LOADDEXFILES_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_CLASSLINKER_OPENDEXFILESFROMOAT	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_CLASSLINKER_OPENDEXFILESFROMOAT,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_CLASSLINKER_OPENDEXFILESFROMOAT_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_CLASSLINKER_OPENDEXFILESFROMOAT_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_DEFINECLASS	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_DEFINECLASS,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_DEFINECLASS_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_DEFINECLASS_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_DEXFILEDEXFILE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_DEXFILEDEXFILE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_DEXFILEDEXFILE_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_DEXFILEDEXFILE_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_DEXFILEOPENFILE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_DEXFILEOPENFILE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_DEXFILEOPENFILE_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_DEXFILEOPENFILE_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_DEXFILEOPENMEMORY	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_DEXFILEOPENMEMORY,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_DEXFILEOPENMEMORY_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_DEXFILEOPENMEMORY_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_ENTERINTERPRETERFROMINVOKE_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_ENTERINTERPRETERFROMINVOKE_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_EXECUTEGOTO	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_EXECUTEGOTO,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_EXECUTEGOTO_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_EXECUTEGOTO_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_EXECUTESWITCH	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_EXECUTESWITCH,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_EXECUTESWITCH_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_EXECUTESWITCH_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_FINDNATIVEMETHOD	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_FINDNATIVEMETHOD,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_JNIGETMETHODID	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_JNIGETMETHODID,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_JNIGETSTATICMETHODID	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_JNIGETSTATICMETHODID,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_LOADNATIVELIBRARY	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_LOADNATIVELIBRARY,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_LOADNATIVELIBRARY_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_LOADNATIVELIBRARY_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_OATFILEOPEN	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_OATFILEOPEN,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_OATFILEOPEN_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_OATFILEOPEN_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_OATFILESETUP	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_OATFILESETUP,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_OATFILESETUP_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_OATFILESETUP_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_OATFILE_GETOATDEXFILE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_OATFILE_GETOATDEXFILE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_OATFILE_GETOATDEXFILE_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_OATFILE_GETOATDEXFILE_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_OPENDEXFILE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_OPENDEXFILE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_OPENDEXFILE_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_OPENDEXFILE_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_REGISTERNATIVE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_REGISTERNATIVE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_TEST	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_TEST$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_ART_TEST_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_ART_TEST_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_BIND	packergrind.h	/^	VG_USERREQ__WRAPPER_BIND,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_CLASSLINKER_LINKCODE	packergrind.h	/^	VG_USERREQ__WRAPPER_CLASSLINKER_LINKCODE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_CLASSLINKER_LINKCODE_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_CLASSLINKER_LINKCODE_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_CLASSLINKER_LOADMETHOD	packergrind.h	/^	VG_USERREQ__WRAPPER_CLASSLINKER_LOADMETHOD,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_CLASSLINKER_LOADMETHOD_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_CLASSLINKER_LOADMETHOD_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_CLOSE	packergrind.h	/^	VG_USERREQ__WRAPPER_CLOSE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_CONNECT	packergrind.h	/^	VG_USERREQ__WRAPPER_CONNECT,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_CONNECT_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_CONNECT_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_DLOPEN	packergrind.h	/^	VG_USERREQ__WRAPPER_DLOPEN,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_EXIT_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_EXIT_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_FCLOSE	packergrind.h	/^	VG_USERREQ__WRAPPER_FCLOSE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_FOPEN	packergrind.h	/^	VG_USERREQ__WRAPPER_FOPEN,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_FREAD	packergrind.h	/^	VG_USERREQ__WRAPPER_FREAD,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_FSEEK	packergrind.h	/^	VG_USERREQ__WRAPPER_FSEEK,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_FWRITE	packergrind.h	/^	VG_USERREQ__WRAPPER_FWRITE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_GETTIMEOFDAY	packergrind.h	/^	VG_USERREQ__WRAPPER_GETTIMEOFDAY,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_LISTEN	packergrind.h	/^	VG_USERREQ__WRAPPER_LISTEN,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_LSEEK	packergrind.h	/^	VG_USERREQ__WRAPPER_LSEEK,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_MADVISE	packergrind.h	/^	VG_USERREQ__WRAPPER_MADVISE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_MADVISE_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_MADVISE_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_MEMCHR	packergrind.h	/^	VG_USERREQ__WRAPPER_MEMCHR,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_MEMCMP	packergrind.h	/^	VG_USERREQ__WRAPPER_MEMCMP,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_MMAP	packergrind.h	/^	VG_USERREQ__WRAPPER_MMAP,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_MPROTECT	packergrind.h	/^	VG_USERREQ__WRAPPER_MPROTECT,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_MUNMAP	packergrind.h	/^	VG_USERREQ__WRAPPER_MUNMAP,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_OPEN	packergrind.h	/^	VG_USERREQ__WRAPPER_OPEN,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_READ	packergrind.h	/^	VG_USERREQ__WRAPPER_READ,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_RECV	packergrind.h	/^	VG_USERREQ__WRAPPER_RECV,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_RECVFROM	packergrind.h	/^	VG_USERREQ__WRAPPER_RECVFROM,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_RECVFROM_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_RECVFROM_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_RECV_PRE	packergrind.h	/^	VG_USERREQ__WRAPPER_RECV_PRE,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_SEND	packergrind.h	/^	VG_USERREQ__WRAPPER_SEND,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_SENDTO	packergrind.h	/^	VG_USERREQ__WRAPPER_SENDTO,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_SHUTDOWN	packergrind.h	/^	VG_USERREQ__WRAPPER_SHUTDOWN,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_SIGACTION	packergrind.h	/^	VG_USERREQ__WRAPPER_SIGACTION,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_SIGNAL	packergrind.h	/^	VG_USERREQ__WRAPPER_SIGNAL,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_SIGPROCMASK	packergrind.h	/^	VG_USERREQ__WRAPPER_SIGPROCMASK,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_SOCKET	packergrind.h	/^	VG_USERREQ__WRAPPER_SOCKET,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_STRCMP	packergrind.h	/^	VG_USERREQ__WRAPPER_STRCMP,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_STRNCMP	packergrind.h	/^	VG_USERREQ__WRAPPER_STRNCMP,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_STRSTR	packergrind.h	/^	VG_USERREQ__WRAPPER_STRSTR,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_SYSTEM	packergrind.h	/^	VG_USERREQ__WRAPPER_SYSTEM,$/;"	e	enum:__anon21
+VG_USERREQ__WRAPPER_WRITE	packergrind.h	/^	VG_USERREQ__WRAPPER_WRITE,$/;"	e	enum:__anon21
+VSh	pg_translate.h	/^typedef enum { Orig=1, VSh=2 } \/\/, BSh=3 }  Not doing origin tracking$/;"	e	enum:__anon5
+Vg_DatatraceClientRequest	packergrind.h	/^} Vg_DatatraceClientRequest;$/;"	t	typeref:enum:__anon21
+WITH_JIT	pg_dexparse.h	1282;"	d
+XcurFrame	pg_dexparse.h	/^	void*       XcurFrame;$/;"	m	struct:Thread
+_BGEnv	pg_translate.h	/^typedef struct _BGEnv {$/;"	s
+_BG_DEBUG_H	pg_debug.h	2;"	d
+_BG_OAT_PARSE_H	pg_oatparse.h	2;"	d
+_BG_TRANSLATE_H	pg_translate.h	2;"	d
+_BG_WRAPPERS_h	pg_wrappers.h	2;"	d
+_HP_Chunk	pg_wrappers.h	/^typedef struct _HP_Chunk {$/;"	s
+_Method_Code_Node	pg_mthtrace.h	/^struct _Method_Code_Node {$/;"	s
+_Mth_Pool	pg_mthtrace.h	/^struct _Mth_Pool {$/;"	s
+_Mth_stack	pg_mthtrace.h	/^struct _Mth_stack {$/;"	s
+_PG_DEX_PARSE_H	pg_dexparse.h	2;"	d
+_PG_FRAMEWORK_H	pg_framework.h	2;"	d
+_PG_MTH_TRACE_H	pg_mthtrace.h	3;"	d
+__BG_STRING_H	pg_string.h	2;"	d
+__COPY_H	pg_copy.h	33;"	d
+__PACKERRIND_H	packergrind.h	2;"	d
+__builtin_delete	pg_mem_wrappers.c	/^void BG_(__builtin_delete) ( ThreadId tid, void* p )$/;"	f
+__builtin_new	pg_mem_wrappers.c	/^void* BG_(__builtin_new) ( ThreadId tid, SizeT szB )$/;"	f
+__builtin_vec_delete	pg_mem_wrappers.c	/^void BG_(__builtin_vec_delete) ( ThreadId tid, void* p )$/;"	f
+__builtin_vec_new	pg_mem_wrappers.c	/^void* BG_(__builtin_vec_new) ( ThreadId tid, SizeT szB )$/;"	f
+_b	pg_dexparse.h	/^		s1    _b[3];$/;"	m	struct:JValue::__anon16
+_c	pg_dexparse.h	/^		u2    _c;$/;"	m	struct:JValue::__anon17
+_s	pg_dexparse.h	/^		s2    _s;$/;"	m	struct:JValue::__anon18
+_ti	pg_translate.h	117;"	d
+_z	pg_dexparse.h	/^		u1    _z[3];$/;"	m	struct:JValue::__anon15
+accept_wrapper	pg_replace_wrapper.c	/^int accept_wrapper(int s, struct sockaddr *addr, socklen_t *addrlen)$/;"	f
+accessFlags	pg_dexparse.h	/^	UInt              accessFlags;$/;"	m	struct:ClassObject
+accessFlags	pg_dexparse.h	/^	UInt             accessFlags;$/;"	m	struct:Field
+accessFlags	pg_dexparse.h	/^	UInt accessFlags;$/;"	m	struct:DexField
+accessFlags	pg_dexparse.h	/^	UInt accessFlags;$/;"	m	struct:DexMethod
+accessFlags	pg_dexparse.h	/^	\/*0x04*\/ UInt  accessFlags;$/;"	m	struct:DexClassDef
+accessFlags	pg_dexparse.h	/^	u4		          accessFlags;$/;"	m	struct:Method
+accessFlags	pg_mthtrace.h	/^	Int			accessFlags;$/;"	m	struct:_Mth_Pool
+access_flags_	pg_oatparse.h	/^	\/*0x0c*\/	UInt	access_flags_;$/;"	m	struct:ArtMethod
+addDexFileList	pg_dexparse.c	/^struct MonitorDexFile* addDexFileList( struct DexFile* pDexFile ) {$/;"	f
+addFilterFun	pg_memtrace.c	/^Bool addFilterFun(const HChar* soname, const HChar* fnname) {$/;"	f
+addFilterList	pg_memtrace.c	/^static void addFilterList(struct FilterList** ppfl, const HChar* info, Addr avma, SizeT size ) {$/;"	f	file:
+addMthCodeNode	pg_mthtrace.c	/^void addMthCodeNode(struct DexFile *pDex, Addr dexCodeAddr, Addr nativeCodeAddr, SizeT nativeCodeSize, Int accessFlags, Int idx)$/;"	f
+addTraceMemMap	pg_memtrace.c	/^void addTraceMemMap(Addr addr, Int size, Int prot, HChar *info)$/;"	f
+add_method	pg_mthtrace.c	/^void* add_method(HChar *clazz, HChar* mth, HChar* shorty, Addr codeAddr, SizeT codeSize, Int index, Int accessFlags)$/;"	f
+addr	packergrind.h	/^	struct	in_addr	addr;$/;"	m	struct:sockaddr_in	typeref:struct:sockaddr_in::in_addr
+addr	pg_dexparse.h	/^	void*   addr;           \/* start of data *\/$/;"	m	struct:MemMapping
+addr	pg_mthtrace.h	/^	Addr	addr[MAX_STACK_SIZE];$/;"	m	struct:_Mth_stack
+addr	pg_wrappers.h	/^	Addr	addr;$/;"	m	struct:MemList
+adler32Checksum	pg_oatparse.h	/^	UInt  adler32Checksum;$/;"	m	struct:OatHeader
+all	pg_dexparse.h	/^	volatile Long   all;$/;"	m	union:InterpBreak
+alloc_and_record_block	pg_mem_wrappers.c	/^void* alloc_and_record_block ( ThreadId tid, SizeT req_szB, SizeT req_alignB,$/;"	f	file:
+allocatedSize	pg_dexparse.h	/^	Int allocatedSize; \/* size of the allocated buffer, if allocated *\/$/;"	m	struct:DexStringCache
+annotation	pg_dexparse.h	/^	UChar  annotation[1];              \/* data in encoded_annotation format *\/$/;"	m	struct:DexAnnotationItem
+annotationsOff	pg_dexparse.h	/^	UInt  annotationsOff;             \/* offset to DexAnnotationSetItem *\/$/;"	m	struct:DexAnnotationSetRefItem
+annotationsOff	pg_dexparse.h	/^	UInt  annotationsOff;             \/* offset to DexAnnotationSetItem *\/$/;"	m	struct:DexFieldAnnotationsItem
+annotationsOff	pg_dexparse.h	/^	UInt  annotationsOff;             \/* offset to DexAnnotationSetItem *\/$/;"	m	struct:DexMethodAnnotationsItem
+annotationsOff	pg_dexparse.h	/^	UInt  annotationsOff;             \/* offset to DexAnotationSetRefList *\/$/;"	m	struct:DexParameterAnnotationsItem
+annotationsOff	pg_dexparse.h	/^	\/*0x14*\/ UInt  annotationsOff;     \/* file offset to annotations_directory_item *\/$/;"	m	struct:DexClassDef
+anonymous_file	pg_stmt.c	/^static const HChar *anonymous_file = "???";$/;"	v	file:
+array	pg_dexparse.h	/^	UChar  array[1];                   \/* data in encoded_array format *\/$/;"	m	struct:DexEncodedArray
+arrayDim	pg_dexparse.h	/^	Int								arrayDim;$/;"	m	struct:ClassObject
+asciify	pg_dexparse.c	/^static void asciify(HChar* out, const UChar* data, UInt len)$/;"	f	file:
+assign	pg_translate.c	/^void assign ( HChar cat, BGEnv* bge, IRTemp tmp, IRExpr* expr ) {$/;"	f	file:
+assignNew	pg_translate.c	/^static IRAtom* assignNew ( HChar cat, BGEnv* bge, IRType ty, IRExpr* e )$/;"	f	file:
+atoi	pg_stmt.c	/^Int atoi( HChar *s ){$/;"	f
+b	pg_dexparse.h	/^		s1    b;$/;"	m	struct:JValue::__anon16
+b	pg_dexparse.h	/^	s1      b;$/;"	m	union:JValue
+bailPtr	pg_dexparse.h	/^	void*										bailPtr;$/;"	m	struct:InterpSaveState
+baseAddr	pg_dexparse.h	/^	Addr						baseAddr;$/;"	m	struct:MonitorDexFile
+baseAddr	pg_dexparse.h	/^	const UChar*       baseAddr;$/;"	m	struct:DexFile
+baseAddr	pg_dexparse.h	/^	void*   baseAddr;       \/* page-aligned base address *\/$/;"	m	struct:MemMapping
+baseLength	pg_dexparse.h	/^	Int  baseLength;     \/* length of mapping *\/$/;"	m	struct:MemMapping
+base_begin_	pg_oatparse.h	/^	\/*0x14*\/ void*  base_begin_;$/;"	m	struct:MemMapPlus
+base_oatdata_addr	pg_main.c	/^static Addr base_oatdata_addr = 0;$/;"	v	file:
+base_oatdata_size	pg_main.c	/^static UInt base_oatdata_size = 0;$/;"	v	file:
+base_oatexec_addr	pg_main.c	/^static Addr base_oatexec_addr = 0;$/;"	v	file:
+base_oatexec_size	pg_main.c	/^static UInt base_oatexec_size = 0;$/;"	v	file:
+base_size_	pg_oatparse.h	/^	\/*0x18*\/ UInt		base_size_;$/;"	m	struct:MemMapPlus
+begin	pg_dexparse.h	/^	Addr		begin;			\/* The beginning address of mapped memory *\/$/;"	m	struct:DexFileInfo
+begin	pg_memtrace.h	/^	Addr			begin;$/;"	m	struct:FilterList
+begin_	pg_oatparse.h	/^	\/*0x04*\/ UChar*	begin_;$/;"	m	struct:DexFilePlus
+begin_	pg_oatparse.h	/^	\/*0x0c*\/ UChar* begin_;$/;"	m	struct:MemMapPlus
+begin_	pg_oatparse.h	/^	unsigned char*		begin_;$/;"	m	struct:OatFile
+begin_	pg_oatparse.h	/^	unsigned char*	begin_;$/;"	m	struct:OatMethod
+bg_copy_mem_to_reg	pg_main.c	/^static void bg_copy_mem_to_reg ( CorePart part, ThreadId tid, Addr a,$/;"	f	file:
+bg_copy_reg_to_mem	pg_main.c	/^static void bg_copy_reg_to_mem ( CorePart part, ThreadId tid, $/;"	f	file:
+bg_discard_superblock_info	pg_main.c	/^void bg_discard_superblock_info ( Addr orig_addr, VexGuestExtents vge )$/;"	f	file:
+bg_fini	pg_main.c	/^static void bg_fini(Int exitcode)$/;"	f	file:
+bg_get_bb_info	pg_main.c	/^void bg_get_bb_info(Addr addr)$/;"	f	file:
+bg_get_debug_info	pg_main.c	/^Bool bg_get_debug_info( Addr instr_addr,$/;"	f	file:
+bg_instrument	pg_main.c	/^IRSB* bg_instrument ( VgCallbackClosure* closure,$/;"	f	file:
+bg_new_mem_startup	pg_main.c	/^static void bg_new_mem_startup ( Addr a, SizeT len, Bool rr, Bool ww, Bool xx, $/;"	f	file:
+bg_post_clo_init	pg_main.c	/^static void bg_post_clo_init(void)$/;"	f	file:
+bg_post_mem_write	pg_main.c	/^void bg_post_mem_write ( CorePart part, ThreadId tid, Addr a, SizeT len) {$/;"	f	file:
+bg_post_reg_write	pg_main.c	/^static void bg_post_reg_write ( CorePart part, ThreadId tid,$/;"	f	file:
+bg_post_reg_write_clientcall	pg_main.c	/^static void bg_post_reg_write_clientcall ( ThreadId tid,$/;"	f	file:
+bg_post_syscall	pg_main.c	/^static void bg_post_syscall(ThreadId tid, UInt syscallno, UWord *args, UInt nArgs, SysRes res) {$/;"	f	file:
+bg_pre_clo_init	pg_main.c	/^static void bg_pre_clo_init(void)$/;"	f	file:
+bg_pre_mem_read	pg_main.c	/^void bg_pre_mem_read ( CorePart part, ThreadId tid, const HChar* s,$/;"	f	file:
+bg_pre_mem_read_asciiz	pg_main.c	/^void bg_pre_mem_read_asciiz ( CorePart part, ThreadId tid, const HChar* s,$/;"	f	file:
+bg_pre_mem_write	pg_main.c	/^void bg_pre_mem_write ( CorePart part, ThreadId tid, const HChar* s,$/;"	f	file:
+bg_pre_syscall	pg_main.c	/^static void bg_pre_syscall(ThreadId tid, UInt syscallno, UWord *args, UInt nArgs) {$/;"	f	file:
+bg_track_change_mem_mprotect	pg_main.c	/^static void bg_track_change_mem_mprotect ( Addr a, SizeT len, Bool rr, Bool ww, $/;"	f	file:
+bg_track_copy_mem_remap	pg_main.c	/^static void bg_track_copy_mem_remap ( Addr src, Addr dst, SizeT len) {$/;"	f	file:
+bg_track_die_mem_brk	pg_main.c	/^static void bg_track_die_mem_brk (Addr a, SizeT len) {$/;"	f	file:
+bg_track_die_mem_munmap	pg_main.c	/^static void bg_track_die_mem_munmap (Addr a, SizeT len) {$/;"	f	file:
+bg_track_die_mem_stack_signal	pg_main.c	/^static void bg_track_die_mem_stack_signal (Addr a, SizeT len) {$/;"	f	file:
+bg_track_new_mem_mmap	pg_main.c	/^static void bg_track_new_mem_mmap ( Addr a, SizeT len, Bool rr, Bool ww, Bool xx,$/;"	f	file:
+bg_track_post_deliver_signal	pg_main.c	/^void bg_track_post_deliver_signal(ThreadId tid, Int sigNo)$/;"	f
+bg_track_pre_deliver_signal	pg_main.c	/^void bg_track_pre_deliver_signal(ThreadId tid, Int sigNo, Bool tt)$/;"	f
+bge	pg_translate.c	/^static BGEnv		bge;$/;"	v	file:
+bind_wrapper	pg_replace_wrapper.c	/^int bind_wrapper(int socket, struct sockaddr *addr, socklen_t length)$/;"	f
+binop	pg_translate.c	78;"	d	file:
+bitmap_	pg_oatparse.h	/^	unsigned int*		bitmap_;$/;"	m	struct:OatClass
+bleargh	pg_dexparse.h	/^	UChar  bleargh;$/;"	m	struct:DexLink
+bogusLiterals	pg_translate.h	/^	Bool			bogusLiterals;$/;"	m	struct:_BGEnv
+boot_oatdata_addr	pg_main.c	/^static Addr boot_oatdata_addr = 0;$/;"	v	file:
+boot_oatdata_size	pg_main.c	/^static UInt boot_oatdata_size = 0;$/;"	v	file:
+boot_oatexec_addr	pg_main.c	/^static Addr boot_oatexec_addr = 0;$/;"	v	file:
+boot_oatexec_size	pg_main.c	/^static UInt boot_oatexec_size = 0;$/;"	v	file:
+breakFlags	pg_dexparse.h	/^		UChar			 breakFlags;$/;"	m	struct:InterpBreak::__anon19
+bss_begin_	pg_oatparse.h	/^	unsigned char*		bss_begin_;$/;"	m	struct:OatFile
+bss_end_	pg_oatparse.h	/^	unsigned char*		bss_end_;$/;"	m	struct:OatFile
+buffer	pg_dexparse.h	/^	HChar buffer[120];     \/* buffer used to hold small-enough results *\/$/;"	m	struct:DexStringCache
+byteOffset	pg_dexparse.h	/^	Int             byteOffset;$/;"	m	struct:InstField
+c	pg_dexparse.h	/^		u2    c;$/;"	m	struct:JValue::__anon17
+c	pg_dexparse.h	/^	u2      c;$/;"	m	union:JValue
+calloc	pg_mem_wrappers.c	/^void* BG_(calloc) ( ThreadId tid, SizeT m, SizeT szB )$/;"	f
+canonical_dex_file_location_	pg_oatparse.h	/^	struct StdString	canonical_dex_file_location_;$/;"	m	struct:OatDexFile	typeref:struct:OatDexFile::StdString
+cardTable	pg_dexparse.h	/^	UChar*         cardTable;$/;"	m	struct:Thread
+check_fd_access	pg_syswrap.c	/^void BG_(check_fd_access)(ThreadId tid, UInt fd, Int fd_request) {$/;"	f
+check_mth_invoke	pg_framework.c	/^Int check_mth_invoke(MthNode *mNode, ThreadId tid)$/;"	f
+check_mth_return	pg_framework.c	/^Int check_mth_return(MthNode *mNode, ThreadId tid)$/;"	f
+checksum	pg_dexparse.h	/^	UInt  checksum;           \/* adler32 checksum covering deps\/opt *\/$/;"	m	struct:DexOptHeader
+checksum	pg_dexparse.h	/^	\/* 08 *\/UInt  checksum;           \/* adler32 checksum *\/$/;"	m	struct:DexHeader
+classAnnotationsOff	pg_dexparse.h	/^	UInt  classAnnotationsOff;  \/* offset to DexAnnotationSetItem *\/$/;"	m	struct:DexAnnotationsDirectoryItem
+classDataOff	pg_dexparse.h	/^	\/*0x18*\/ UInt  classDataOff;       \/* file offset to class_data_item *\/$/;"	m	struct:DexClassDef
+classDefOffset	pg_dexparse.h	/^		Int		classDefOffset;         \/\/ in bytes, from start of DEX$/;"	m	struct:DexClassLookup::__anon14
+classDefsOff	pg_dexparse.h	/^	\/* 64 *\/UInt  classDefsOff;$/;"	m	struct:DexHeader
+classDefsSize	pg_dexparse.h	/^	\/* 60 *\/UInt  classDefsSize;$/;"	m	struct:DexHeader
+classDescriptorHash	pg_dexparse.h	/^		UInt  classDescriptorHash;    \/\/ class descriptor hash code$/;"	m	struct:DexClassLookup::__anon14
+classDescriptorOffset	pg_dexparse.h	/^		Int   classDescriptorOffset;  \/\/ in bytes, from start of DEX$/;"	m	struct:DexClassLookup::__anon14
+classIdx	pg_dexparse.h	/^	UShort  classIdx;$/;"	m	struct:DexMethodId
+classIdx	pg_dexparse.h	/^	UShort classIdx;$/;"	m	struct:DexFieldId
+classIdx	pg_dexparse.h	/^	\/*0x00*\/ UInt  classIdx;           \/* index into typeIds for this class *\/$/;"	m	struct:DexClassDef
+classLoader	pg_dexparse.h	/^	struct Object*         classLoader;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::Object
+class_def_index_	pg_oatparse.h	/^	\/*0x40*\/ void		*class_def_index_; $/;"	m	struct:DexFilePlus
+class_defs_	pg_oatparse.h	/^	\/*0x38*\/ struct ClassDef	*class_defs_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::ClassDef
+classlinker_opendexfilesfromoat	pg_libart_wrapper.c	/^void* classlinker_opendexfilesfromoat(void* unknown, void* this, char* dex_location, char* oat_location, void* error_msg)$/;"	f
+clazz	pg_dexparse.h	/^	struct ClassObject*			clazz;$/;"	m	struct:Method	typeref:struct:Method::ClassObject
+clazz	pg_dexparse.h	/^	struct ClassObject*    clazz;$/;"	m	struct:InterfaceEntry	typeref:struct:InterfaceEntry::ClassObject
+clazz	pg_dexparse.h	/^	void*		  				clazz;$/;"	m	struct:Field
+clazz	pg_dexparse.h	/^	void* clazz;$/;"	m	struct:Object
+clazz	pg_mthtrace.h	/^	HChar*	clazz;$/;"	m	struct:_Mth_Pool
+client_binary_name	pg_stmt.c	/^HChar* client_binary_name = NULL;$/;"	v
+clo_trace_begin	pg_main.c	/^Bool BG_(clo_trace_begin) = False;$/;"	v
+cloneLen	pg_dexparse.h	/^	UInt						cloneLen;$/;"	m	struct:MonitorDexFile
+cloneMem	pg_dexparse.h	/^	Addr						cloneMem;$/;"	m	struct:MonitorDexFile
+close_dex_fun_	pg_oatparse.h	/^	\/*0x00*\/ void*  close_dex_fun_;$/;"	m	struct:DexFilePlus
+codeAddr	pg_mthtrace.h	/^	Addr		codeAddr;$/;"	m	struct:_Mth_Pool
+codeOff	pg_dexparse.h	/^	UInt codeOff;      \/* file offset to a code_item *\/$/;"	m	struct:DexMethod
+codeSize	pg_mthtrace.h	/^	SizeT		codeSize;$/;"	m	struct:_Mth_Pool
+codeSize	pg_oatparse.h	/^	UInt codeSize;$/;"	m	struct:OatQuickMethodHeader
+code_offset_	pg_oatparse.h	/^	unsigned int		code_offset_;$/;"	m	struct:OatMethod
+connect_wrapper	pg_replace_wrapper.c	/^int connect_wrapper(int socket, const struct sockaddr *serv_addr, socklen_t addrlen)$/;"	f
+convert_Value	pg_translate.c	/^static IRExpr* convert_Value( BGEnv* bge, IRAtom* value ){$/;"	f	file:
+copyAllClasses	pg_dexparse.c	/^Bool copyAllClasses(const struct DexFile* pDexFile) {$/;"	f
+copyDexClass	pg_dexparse.c	/^Bool copyDexClass(const struct DexFile* pDexFile, Int idx, HChar* desc) {$/;"	f
+copyDexFileHead	pg_dexparse.c	/^Bool copyDexFileHead(const struct DexFile* pDexFile) {$/;"	f
+copyDexFileOptHeader	pg_dexparse.c	/^Bool copyDexFileOptHeader(const struct DexFile* pDexFile) {$/;"	f
+copyFile	pg_dexparse.c	/^void copyFile(Char* from, Char* dest)$/;"	f
+copyMethod	pg_dexparse.c	/^static	Bool copyMethod(struct MonitorDexFile* pMDexFile, $/;"	f	file:
+copyMthCode	pg_dexparse.c	/^Bool copyMthCode(const struct DexFile* pDexFile, const struct Method* pMethod) {$/;"	f
+copyOneClass	pg_dexparse.c	/^Bool copyOneClass(const struct DexFile* pDexFile, HChar* desc) {$/;"	f
+coreSpillMask	pg_oatparse.h	/^	UInt coreSpillMask;$/;"	m	struct:OatQuickMethodHeader
+countOnes	pg_dexparse.c	/^static Int countOnes(UInt val)$/;"	f	file:
+createAccessFlagStr	pg_dexparse.c	/^static HChar* createAccessFlagStr(UInt flags, enum AccessFor forWhat)$/;"	f	file:
+createDexFileMem	pg_dexparse.c	/^struct MonitorDexFile* createDexFileMem(const struct DexFile* pDexFile, Addr addr, UInt len) {$/;"	f
+create_dirty_LOAD	pg_translate.c	/^IRDirty* create_dirty_LOAD( BGEnv* bge, IRStmt *clone, IRTemp tmp,$/;"	f
+create_dirty_LOADG_addr	pg_translate.c	/^IRDirty* create_dirty_LOADG_addr( BGEnv* bge, IRStmt *clone, IRTemp tmp,$/;"	f
+create_dirty_LOADG_alt	pg_translate.c	/^IRDirty* create_dirty_LOADG_alt( BGEnv* bge, IRStmt *clone, IRTemp tmp,$/;"	f
+create_dirty_STORE	pg_translate.c	/^IRDirty* create_dirty_STORE(BGEnv* bge, IRStmt *clone,$/;"	f
+create_dirty_WRTMP	pg_translate.c	/^IRDirty* create_dirty_WRTMP( BGEnv* bge, IRStmt *clone, IRTemp tmp, IRExpr* e ){$/;"	f
+ctl	pg_dexparse.h	/^	} ctl;$/;"	m	union:InterpBreak	typeref:struct:InterpBreak::__anon19
+ctoi	pg_stmt.c	/^Int ctoi( HChar c ){$/;"	f
+ctoi_test	pg_stmt.c	/^Int ctoi_test( HChar c ){$/;"	f
+curFrame	pg_dexparse.h	/^	UInt*										curFrame;   \/\/ Dalvik frame pointer$/;"	m	struct:InterpSaveState
+curHandlerTable	pg_dexparse.h	/^		void*			 curHandlerTable;$/;"	m	struct:InterpBreak::__anon19
+d	pg_dexparse.h	/^	Double  d;$/;"	m	union:JValue
+d	pg_dexparse.h	/^	double  d;$/;"	m	union:JValue
+data	pg_dexparse.h	/^	u1      data[1];$/;"	m	struct:RegisterMap
+data	pg_wrappers.h	/^	Addr		data;								\/\/ Address of the actual block$/;"	m	struct:_HP_Chunk
+dataOff	pg_dexparse.h	/^	\/* 6c *\/UInt  dataOff;$/;"	m	struct:DexHeader
+dataSize	pg_dexparse.h	/^	\/* 68 *\/UInt  dataSize;$/;"	m	struct:DexHeader
+dbgSuspendCount	pg_dexparse.h	/^	int dbgSuspendCount;$/;"	m	struct:Thread
+debugInfoOff	pg_dexparse.h	/^	UInt	  debugInfoOff;       \/* file offset to debug info stream *\/$/;"	m	struct:DexCode
+debugInfoOff	pg_oatparse.h	/^	UInt	 debugInfoOff;$/;"	m	struct:CodeItem
+debugIsMethodEntry	pg_dexparse.h	/^	Bool        debugIsMethodEntry;$/;"	m	struct:Thread
+declaring_class_	pg_oatparse.h	/^	\/*0x00*\/	void* declaring_class_;$/;"	m	struct:ArtMethod
+deepMallocIRCallee	pg_copy.c	/^IRCallee* deepMallocIRCallee(IRCallee* ce)$/;"	f
+deepMallocIRConst	pg_copy.c	/^IRConst* deepMallocIRConst(IRConst* c)$/;"	f
+deepMallocIRDirty	pg_copy.c	/^IRDirty* deepMallocIRDirty(IRDirty* d)$/;"	f
+deepMallocIRExpr	pg_copy.c	/^IRExpr* deepMallocIRExpr(IRExpr* e)$/;"	f
+deepMallocIRExprVec	pg_copy.c	/^IRExpr** deepMallocIRExprVec(IRExpr** vec)$/;"	f
+deepMallocIRRegArray	pg_copy.c	/^IRRegArray* deepMallocIRRegArray(IRRegArray* d)$/;"	f
+deepMallocIRStmt	pg_copy.c	/^IRStmt* deepMallocIRStmt(IRStmt* s)$/;"	f
+delDexFileList	pg_dexparse.c	/^void delDexFileList( struct DexFile* pDexFile ) {$/;"	f
+delFilterList	pg_memtrace.c	/^static void delFilterList(struct FilterList** ppfl, const HChar *info, Addr avma, SizeT size )$/;"	f	file:
+delTraceMemMap	pg_memtrace.c	/^void delTraceMemMap(Addr addr, Int size)$/;"	f
+depsLength	pg_dexparse.h	/^	UInt  depsLength;$/;"	m	struct:DexOptHeader
+depsOffset	pg_dexparse.h	/^	UInt  depsOffset;         \/* offset of optimized DEX dependency table *\/$/;"	m	struct:DexOptHeader
+describe_IP	pg_stmt.c	/^static HChar* BG_(describe_IP)(Addr pc) {$/;"	f	file:
+descriptor	pg_dexparse.h	/^	const HChar*			descriptor;$/;"	m	struct:ClassObject
+descriptorAlloc	pg_dexparse.h	/^	HChar*						descriptorAlloc;$/;"	m	struct:ClassObject
+descriptorClassToDot	pg_dexparse.c	/^static HChar* descriptorClassToDot(const HChar* str)$/;"	f	file:
+descriptorIdx	pg_dexparse.h	/^	UInt descriptorIdx;$/;"	m	struct:DexTypeId
+descriptorToDot	pg_dexparse.c	/^static HChar* descriptorToDot(const HChar* str)$/;"	f	file:
+dexCodeAddr	pg_mthtrace.h	/^	Addr	dexCodeAddr;$/;"	m	struct:_Method_Code_Node
+dexComputeChecksum	pg_dexparse.c	/^static UInt dexComputeChecksum(const struct DexHeader* pHeader)$/;"	f	file:
+dexCopyDescriptorFromMethodId	pg_dexparse.c	/^INLINE HChar* dexCopyDescriptorFromMethodId(const struct DexFile* pDexFile,$/;"	f
+dexFile	pg_dexparse.h	/^	const struct DexFile* dexFile;     \/* file the idx refers to *\/$/;"	m	struct:DexProto	typeref:struct:DexProto::DexFile
+dexFileCount	pg_oatparse.h	/^	UInt  dexFileCount;$/;"	m	struct:OatHeader
+dexFileList	pg_dexparse.c	/^static struct MonitorDexFile *dexFileList = NULL;$/;"	v	typeref:struct:MonitorDexFile	file:
+dexFileParse	pg_dexparse.c	/^struct DexFile* dexFileParse(UChar* dexBuf, UInt length) {$/;"	f
+dexFileParse_wrapper	pg_libdvm_wrapper.c	/^void* dexFileParse_wrapper(const unsigned char* data, size_t len, int flags)$/;"	f
+dexFileSetupBasicPoInters	pg_dexparse.c	/^void dexFileSetupBasicPoInters(struct DexFile* pDexFile, const UChar* data) {$/;"	f
+dexGetAnnotationItem	pg_dexparse.h	/^INLINE const struct DexAnnotationItem* dexGetAnnotationItem($/;"	f
+dexGetAnnotationOff	pg_dexparse.h	/^INLINE UInt dexGetAnnotationOff($/;"	f
+dexGetAnnotationsDirectoryItem	pg_dexparse.h	/^INLINE const struct DexAnnotationsDirectoryItem* dexGetAnnotationsDirectoryItem($/;"	f
+dexGetCatchHandlerData	pg_dexparse.h	/^INLINE const UChar* dexGetCatchHandlerData(const struct DexCode* pCode) {$/;"	f
+dexGetClassAnnotationSet	pg_dexparse.h	/^INLINE const struct DexAnnotationSetItem* dexGetClassAnnotationSet($/;"	f
+dexGetClassData	pg_dexparse.h	/^INLINE const UChar* dexGetClassData(const struct DexFile* pDexFile,$/;"	f
+dexGetClassDef	pg_dexparse.h	/^INLINE const struct DexClassDef* dexGetClassDef(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexGetClassDescriptor	pg_dexparse.h	/^INLINE const UChar* dexGetClassDescriptor(const struct DexFile* pDexFile,$/;"	f
+dexGetCode	pg_dexparse.c	/^INLINE const struct DexCode* dexGetCode(const struct DexFile* pDexFile,$/;"	f
+dexGetDebugInfoStream	pg_dexparse.h	/^INLINE const UChar* dexGetDebugInfoStream(const struct DexFile* pDexFile,$/;"	f
+dexGetDescriptorFromMethodId	pg_dexparse.c	/^INLINE const HChar* dexGetDescriptorFromMethodId(const struct DexFile* pDexFile,$/;"	f
+dexGetFieldAnnotationSetItem	pg_dexparse.h	/^INLINE const struct DexAnnotationSetItem* dexGetFieldAnnotationSetItem($/;"	f
+dexGetFieldAnnotations	pg_dexparse.h	/^INLINE const struct DexFieldAnnotationsItem* dexGetFieldAnnotations($/;"	f
+dexGetFieldAnnotationsSize	pg_dexparse.h	/^INLINE Int dexGetFieldAnnotationsSize(const struct DexFile* pDexFile,$/;"	f
+dexGetFieldId	pg_dexparse.h	/^INLINE const struct DexFieldId* dexGetFieldId(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexGetIndexForClassDef	pg_dexparse.h	/^INLINE UInt dexGetIndexForClassDef(const struct DexFile* pDexFile,$/;"	f
+dexGetInterfacesList	pg_dexparse.h	/^INLINE const struct DexTypeList* dexGetInterfacesList(const struct DexFile* pDexFile,$/;"	f
+dexGetMap	pg_dexparse.h	/^INLINE const struct DexMapList* dexGetMap(const struct DexFile* pDexFile) {$/;"	f
+dexGetMethodAnnotationSetItem	pg_dexparse.h	/^INLINE const struct DexAnnotationSetItem* dexGetMethodAnnotationSetItem($/;"	f
+dexGetMethodAnnotations	pg_dexparse.h	/^INLINE const struct DexMethodAnnotationsItem* dexGetMethodAnnotations($/;"	f
+dexGetMethodAnnotationsSize	pg_dexparse.h	/^INLINE Int dexGetMethodAnnotationsSize(const struct DexFile* pDexFile,$/;"	f
+dexGetMethodId	pg_dexparse.h	/^INLINE const struct DexMethodId* dexGetMethodId(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexGetParameterAnnotationSetRef	pg_dexparse.h	/^INLINE const struct DexAnnotationSetRefItem* dexGetParameterAnnotationSetRef($/;"	f
+dexGetParameterAnnotationSetRefList	pg_dexparse.h	/^INLINE const struct DexAnnotationSetRefList* dexGetParameterAnnotationSetRefList($/;"	f
+dexGetParameterAnnotationSetRefSize	pg_dexparse.h	/^INLINE Int dexGetParameterAnnotationSetRefSize(const struct DexFile* pDexFile,$/;"	f
+dexGetParameterAnnotations	pg_dexparse.h	/^INLINE const struct DexParameterAnnotationsItem* dexGetParameterAnnotations($/;"	f
+dexGetParameterAnnotationsSize	pg_dexparse.h	/^INLINE Int dexGetParameterAnnotationsSize(const struct DexFile* pDexFile,$/;"	f
+dexGetProtoId	pg_dexparse.h	/^INLINE const struct DexProtoId* dexGetProtoId(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexGetProtoParameters	pg_dexparse.h	/^INLINE const struct DexTypeList* dexGetProtoParameters($/;"	f
+dexGetSetRefItemItem	pg_dexparse.h	/^INLINE const struct DexAnnotationSetItem* dexGetSetRefItemItem($/;"	f
+dexGetSourceFile	pg_dexparse.h	/^INLINE const UChar* dexGetSourceFile($/;"	f
+dexGetStaticValuesList	pg_dexparse.h	/^INLINE const struct DexEncodedArray* dexGetStaticValuesList($/;"	f
+dexGetStringData	pg_dexparse.h	/^INLINE const HChar* dexGetStringData(const struct DexFile* pDexFile,$/;"	f
+dexGetStringId	pg_dexparse.h	/^INLINE const struct DexStringId* dexGetStringId(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexGetSuperClassDescriptor	pg_dexparse.h	/^INLINE const UChar* dexGetSuperClassDescriptor(const struct DexFile* pDexFile,$/;"	f
+dexGetTries	pg_dexparse.h	/^INLINE const struct DexTry* dexGetTries(const struct DexCode* pCode) {$/;"	f
+dexGetTypeId	pg_dexparse.h	/^INLINE const struct DexTypeId* dexGetTypeId(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexGetTypeItem	pg_dexparse.h	/^INLINE const struct DexTypeItem* dexGetTypeItem(const struct DexTypeList* pList,$/;"	f
+dexHeaderParse	pg_dexparse.c	/^void dexHeaderParse( struct DexHeader* dh) $/;"	f
+dexLength	pg_dexparse.h	/^	UInt  dexLength;$/;"	m	struct:DexOptHeader
+dexOffset	pg_dexparse.h	/^	UInt  dexOffset;          \/* file offset of DEX header *\/$/;"	m	struct:DexOptHeader
+dexParseOptData	pg_dexparse.c	/^Bool dexParseOptData(const UChar* data, UInt length, struct DexFile* pDexFile)$/;"	f
+dexProtoCopyMethodDescriptor	pg_dexparse.c	/^INLINE HChar* dexProtoCopyMethodDescriptor(const struct DexProto* pProto) {$/;"	f
+dexProtoGetMethodDescriptor	pg_dexparse.c	/^const HChar* dexProtoGetMethodDescriptor(const struct DexProto* pProto,$/;"	f
+dexProtoGetShorty	pg_dexparse.c	/^static INLINE const char* dexProtoGetShorty(const struct DexProto* pProto) {$/;"	f	file:
+dexProtoSetFromMethodId	pg_dexparse.c	/^INLINE void dexProtoSetFromMethodId(struct DexProto* pProto,$/;"	f
+dexReadAndVerifyClassData	pg_dexparse.c	/^struct DexClassData* dexReadAndVerifyClassData(const UChar** pData, const UChar* pLimit) {$/;"	f
+dexReadAndVerifyClassDataField	pg_dexparse.c	/^Bool dexReadAndVerifyClassDataField(const UChar** pData, const UChar* pLimit,$/;"	f
+dexReadAndVerifyClassDataHeader	pg_dexparse.c	/^Bool dexReadAndVerifyClassDataHeader(const UChar** pData, const UChar* pLimit,$/;"	f
+dexReadAndVerifyClassDataMethod	pg_dexparse.c	/^Bool dexReadAndVerifyClassDataMethod(const UChar** pData, const UChar* pLimit,$/;"	f
+dexReadClassDataField	pg_dexparse.c	/^INLINE void dexReadClassDataField(const UInt** pData, struct DexField* pField,$/;"	f
+dexReadClassDataHeader	pg_dexparse.c	/^INLINE void dexReadClassDataHeader(const UChar** pData,$/;"	f
+dexReadClassDataMethod	pg_dexparse.c	/^INLINE void dexReadClassDataMethod(const UChar** pData, struct DexMethod* pMethod,$/;"	f
+dexStringById	pg_dexparse.h	/^INLINE const HChar* dexStringById(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexStringByTypeIdx	pg_dexparse.h	/^INLINE const char* dexStringByTypeIdx(const struct DexFile* pDexFile, UInt idx) {$/;"	f
+dexStringCacheAbandon	pg_dexparse.c	/^HChar* dexStringCacheAbandon(struct DexStringCache* pCache, const HChar* value) {$/;"	f
+dexStringCacheAlloc	pg_dexparse.c	/^void dexStringCacheAlloc(struct DexStringCache* pCache, Int length) {$/;"	f
+dexStringCacheEnsureCopy	pg_dexparse.c	/^HChar* dexStringCacheEnsureCopy(struct DexStringCache* pCache, const HChar* value) {$/;"	f
+dexStringCacheInit	pg_dexparse.c	/^void dexStringCacheInit(struct DexStringCache* pCache) {$/;"	f
+dexStringCacheRelease	pg_dexparse.c	/^void dexStringCacheRelease(struct DexStringCache* pCache) {$/;"	f
+dexTypeListGetIdx	pg_dexparse.h	/^INLINE UInt dexTypeListGetIdx(const struct DexTypeList* pList, UInt idx) {$/;"	f
+dex_cache_resolved_methods_	pg_oatparse.h	/^	\/*0x04*\/	void* dex_cache_resolved_methods_;$/;"	m	struct:ArtMethod
+dex_cache_resolved_types_	pg_oatparse.h	/^	\/*0x08*\/	void* dex_cache_resolved_types_;$/;"	m	struct:ArtMethod
+dex_code_item_offset_	pg_oatparse.h	/^	\/*0x10*\/	UInt	dex_code_item_offset_;			\/* offset to the CodeItem *\/$/;"	m	struct:ArtMethod
+dex_file_location_	pg_oatparse.h	/^	struct StdString	dex_file_location_;$/;"	m	struct:OatDexFile	typeref:struct:OatDexFile::StdString
+dex_file_location_checksum_	pg_oatparse.h	/^	unsigned int			dex_file_location_checksum_;$/;"	m	struct:OatDexFile
+dex_file_pointer_	pg_oatparse.h	/^	unsigned char*		dex_file_pointer_;$/;"	m	struct:OatDexFile
+dex_method_index_	pg_oatparse.h	/^	\/*0x14*\/	UInt	dex_method_index_;					\/* index into method_ids of the dex file *\/$/;"	m	struct:ArtMethod
+dex_object	pg_dexparse.h	/^	void*								dex_object; \/\/ jobject is type _jobject* in native layer$/;"	m	struct:DvmDex
+dexfile_dexfile	pg_libart_wrapper.c	/^void* dexfile_dexfile(void *base, int size, void* location, int checksum, void* mem_map, void* oat_dex_file)$/;"	f
+dexfile_openfile	pg_libart_wrapper.c	/^void* dexfile_openfile(void* unknown, int fd, const char* location, int verify, void* error_msg) $/;"	f
+dexfile_openmemory	pg_libart_wrapper.c	/^void* dexfile_openmemory(void* this, void* dexfile, int size, void* location, int location_checksum, void* mem_map, void* oat_dex_file, void* error_msg)$/;"	f
+di_libart	pg_main.c	/^static DebugInfo*	di_libart		= NULL;$/;"	v	file:
+directMethodCount	pg_dexparse.h	/^	Int								directMethodCount;$/;"	m	struct:ClassObject
+directMethods	pg_dexparse.h	/^	struct DexMethod*         directMethods;$/;"	m	struct:DexClassData	typeref:struct:DexClassData::DexMethod
+directMethods	pg_dexparse.h	/^	struct Method*    directMethods;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::Method
+directMethodsSize	pg_dexparse.h	/^	UInt directMethodsSize;$/;"	m	struct:DexClassDataHeader
+dlopen_handle_	pg_oatparse.h	/^	void*							dlopen_handle_;$/;"	m	struct:OatFile
+dlopen_mmaps_	pg_oatparse.h	/^	struct StdVector	dlopen_mmaps_;$/;"	m	struct:OatFile	typeref:struct:OatFile::StdVector
+dlopen_wrapper	pg_replace_wrapper.c	/^void* dlopen_wrapper(const char *file, int flags)$/;"	f
+do_frame_mth_list	pg_mthtrace.c	/^static VgHashTable*	do_frame_mth_list = NULL;$/;"	v	file:
+do_main_activity	pg_mthtrace.c	/^HChar* do_main_activity = NULL;$/;"	v
+do_main_oncreate_index	pg_mthtrace.c	/^Int    do_main_oncreate_index = -1;$/;"	v
+do_oatmth_list	pg_mthtrace.c	/^static VgHashTable*	do_oatmth_list = NULL; \/\/ Used to store the native code offset of methods when pasing OAT file$/;"	v	file:
+do_start_clazz	pg_mthtrace.c	/^HChar* do_start_clazz = NULL;$/;"	v
+do_start_method_index	pg_mthtrace.c	/^Int    do_start_method_index = -1;$/;"	v
+do_start_method_name	pg_mthtrace.c	/^HChar* do_start_method_name = NULL;$/;"	v
+do_start_method_shorty	pg_mthtrace.c	/^HChar* do_start_method_shorty = NULL;$/;"	v
+do_stop_clazz	pg_mthtrace.c	/^HChar* do_stop_clazz = NULL;$/;"	v
+do_stop_method_index	pg_mthtrace.c	/^Int    do_stop_method_index = -1;$/;"	v
+do_stop_method_name	pg_mthtrace.c	/^HChar* do_stop_method_name = NULL;$/;"	v
+do_trace_LoadG	pg_translate.c	/^static void do_trace_LoadG( BGEnv* bge, $/;"	f	file:
+do_trace_Store	pg_translate.c	/^static void do_trace_Store( BGEnv* bge,$/;"	f	file:
+do_trace_StoreG	pg_translate.c	/^static void do_trace_StoreG( BGEnv* bge, $/;"	f	file:
+do_trace_WRTMP	pg_translate.c	/^static void do_trace_WRTMP ( BGEnv* bge, IRStmt *clone, IRTemp tmp, IRExpr* expr )$/;"	f	file:
+dumpClass	pg_dexparse.c	/^void dumpClass(struct DexFile* pDexFile, Int idx, HChar** pLastPackage)$/;"	f
+dumpClassData	pg_dexparse.c	/^void dumpClassData(const struct DexFile* pDexFile, const struct MonitorDexFile* pMDexFile) $/;"	f
+dumpClassDef	pg_dexparse.c	/^void dumpClassDef(struct DexFile* pDexFile, Int idx)$/;"	f
+dumpDexFile	pg_dexparse.c	/^void dumpDexFile(UChar* addr, Int len) {$/;"	f
+dumpDexFileBasicPointers	pg_dexparse.c	/^void dumpDexFileBasicPointers(struct DexFile* pDexFile) {$/;"	f	file:
+dumpDexMem	pg_dexparse.c	/^void dumpDexMem(UChar* buf, UInt size) {$/;"	f
+dumpDifferentialCompressedMap	pg_dexparse.c	/^void dumpDifferentialCompressedMap(const UChar** pData)$/;"	f
+dumpFileHeader	pg_dexparse.c	/^static Bool dumpFileHeader(const struct DexFile* pDexFile, const struct MonitorDexFile* pMDexFile)$/;"	f	file:
+dumpFilterList	pg_memtrace.c	/^static void dumpFilterList(struct FilterList *pfl) {$/;"	f	file:
+dumpIField	pg_dexparse.c	/^void dumpIField(const struct DexFile* pDexFile, const struct DexField* pIField, Int i)$/;"	f
+dumpInterface	pg_dexparse.c	/^void dumpInterface(const struct DexFile* pDexFile, const struct DexTypeItem* pTypeItem,$/;"	f
+dumpMemBlock	pg_mem_wrappers.c	/^void dumpMemBlock( Addr addr, SizeT size ) {$/;"	f
+dumpMethod	pg_dexparse.c	/^void dumpMethod(struct DexFile* pDexFile, const struct DexMethod* pDexMethod, Int i)$/;"	f
+dumpMethodMap	pg_dexparse.c	/^void dumpMethodMap(struct DexFile* pDexFile, const struct DexMethod* pDexMethod, Int idx,$/;"	f
+dumpOatMem	pg_oatparse.c	/^void dumpOatMem(UChar* buf, UInt size) {$/;"	f
+dumpOptDirectory	pg_dexparse.c	/^void dumpOptDirectory(const struct DexFile* pDexFile, const struct MonitorDexFile* pMDexFile)$/;"	f
+dumpRawData	pg_dexparse.c	/^Bool dumpRawData(UChar* buf, UInt size, Addr a, const char* type) {$/;"	f
+dumpRegisterMaps	pg_dexparse.c	/^static void dumpRegisterMaps(const struct DexFile* pDexFile, const struct MonitorDexFile* pMDexFile)$/;"	f	file:
+dumpSField	pg_dexparse.c	/^void dumpSField(const struct DexFile* pDexFile, const struct DexField* pSField, Int i)$/;"	f
+dvmCallJNIMethod_wrapper	pg_libdvm_wrapper.c	/^void dvmCallJNIMethod_wrapper(const uint32_t* args, void* pResult, const void* method,	void* self)$/;"	f
+dvmCallMethod_wrapper	pg_libdvm_wrapper.c	/^void dvmCallMethod_wrapper(void* self, const void* method, void* obj, $/;"	f
+dvmChangeStatus_wrapper	pg_libdvm_wrapper.c	/^ThreadStatus dvmChangeStatus_wrapper(void* self, ThreadStatus newStatus)$/;"	f
+dvmContinueOptimization_wrapper	pg_libdvm_wrapper.c	/^Bool dvmContinueOptimization_wrapper(int fd, off_t dexOffset, long dexLong,$/;"	f
+dvmDefineClass_wrapper	pg_libdvm_wrapper.c	/^void* dvmDefineClass_wrapper(void* pDvmDex, const char* descriptor, void* classLoader)$/;"	f
+dvmDexFileOpenFromFd	pg_libdvm_wrapper.c	/^int dvmDexFileOpenFromFd(int fd, void **ppDvmDex)$/;"	f
+dvmDexFileOpenPartial_wrapper	pg_libdvm_wrapper.c	/^int dvmDexFileOpenPartial_wrapper(const void* addr, int len, void** ppDvmDex) $/;"	f
+dvmFindClassByName_wrapper	pg_libdvm_wrapper.c	/^void* dvmFindClassByName_wrapper(void* nameObj, void* loader, Bool doInit) $/;"	f
+dvmInterpretPortable_wrapper	pg_libdvm_wrapper.c	/^void dvmInterpretPortable_wrapper(void* self) $/;"	f
+dvmInterpret_wrapper	pg_libdvm_wrapper.c	/^void dvmInterpret_wrapper(void* self, const void* method, void* pResult) $/;"	f
+dvmInvokeMethod_wrapper	pg_libdvm_wrapper.c	/^void* dvmInvokeMethod_wrapper(void* invokeObj, const void* meth, $/;"	f
+dvmLoadNativeCode_wrapper	pg_libdvm_wrapper.c	/^Bool dvmLoadNativeCode_wrapper(const char* pathName, void* classLoader, char** detail)$/;"	f
+dvmMterpStdRun_wrapper	pg_libdvm_wrapper.c	/^void dvmMterpStdRun_wrapper(void* self) $/;"	f
+dvmMterpStd_wrapper	pg_libdvm_wrapper.c	/^void dvmMterpStd_wrapper(void* self) $/;"	f
+dvmPrepareDexInMemory_wrapper	pg_libdvm_wrapper.c	/^Bool dvmPrepareDexInMemory_wrapper(unsigned char *addr, size_t len, void** ppDvmDex)$/;"	f
+dvmRawDexFileOpenArrary	pg_libdvm_wrapper.c	/^int dvmRawDexFileOpenArrary(unsigned char* pBytes, int length, void** ppDexFile)$/;"	f
+dvmRawDexFileOpen_wrapper	pg_libdvm_wrapper.c	/^int dvmRawDexFileOpen_wrapper(const char* fileName, const char* odexOutputName,$/;"	f
+elementClass	pg_dexparse.h	/^	struct ClassObject*    elementClass;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::ClassObject
+elf_file_	pg_oatparse.h	/^	void*							elf_file_;$/;"	m	struct:OatFile
+enc_unicode_to_utf8_one	pg_framework.c	/^static int enc_unicode_to_utf8_one(ULong unic, UChar *pOutput, Int outSize)  $/;"	f	file:
+end	pg_memtrace.h	/^	Addr      end;$/;"	m	struct:FilterList
+endAddr	pg_dexparse.h	/^	Addr						endAddr;$/;"	m	struct:MonitorDexFile
+end_	pg_oatparse.h	/^	unsigned char*		end_;$/;"	m	struct:OatFile
+endianTag	pg_dexparse.h	/^	\/* 28 *\/UInt  endianTag;$/;"	m	struct:DexHeader
+entries	pg_dexparse.h	/^	UInt  entries[1];                 \/* offset to DexAnnotationItem *\/$/;"	m	struct:DexAnnotationSetItem
+entry_point_from_interpreter_	pg_oatparse.h	/^		\/*0x1c*\/	void* entry_point_from_interpreter_;$/;"	m	struct:ArtMethod::PtrSizedFields
+entry_point_from_jni_	pg_oatparse.h	/^		\/*0x20*\/	void* entry_point_from_jni_;$/;"	m	struct:ArtMethod::PtrSizedFields
+entry_point_from_quick_compiled_code_	pg_oatparse.h	/^		\/*0x24*\/	void* entry_point_from_quick_compiled_code_;$/;"	m	struct:ArtMethod::PtrSizedFields
+exception	pg_dexparse.h	/^	void*			  exception;$/;"	m	struct:Thread
+executableOffset	pg_oatparse.h	/^	UInt  executableOffset;$/;"	m	struct:OatHeader
+extract_IRAtom	pg_stmt.c	/^Int extract_IRAtom( IRAtom* atom ){$/;"	f
+extract_IRConst	pg_stmt.c	/^Int extract_IRConst( IRConst* con ){$/;"	f
+extract_IRConst64	pg_stmt.c	/^ULong extract_IRConst64( IRConst* con ){$/;"	f
+f	pg_dexparse.h	/^	Float   f;$/;"	m	union:JValue
+f	pg_dexparse.h	/^	float   f;$/;"	m	union:JValue
+fastJni	pg_dexparse.h	/^	Bool fastJni;$/;"	m	struct:Method
+fclose_wrapper	pg_replace_wrapper.c	/^int fclose_wrapper(FILE *fp)$/;"	f
+fd	pg_dexparse.h	/^	Int			fd;					\/* fd of the opened file *\/$/;"	m	struct:DexFileInfo
+fd_info	pg_wrappers.h	/^struct fd_info {$/;"	s
+fds	pg_main.c	/^struct fd_info fds[TG_N_THREADS][FD_MAX];$/;"	v	typeref:struct:fd_info
+field	pg_dexparse.h	/^	struct Field				field;$/;"	m	struct:StaticField	typeref:struct:StaticField::Field
+field	pg_dexparse.h	/^	struct Field		field;$/;"	m	struct:InstField	typeref:struct:InstField::Field
+fieldIdsOff	pg_dexparse.h	/^	\/* 54 *\/UInt  fieldIdsOff;$/;"	m	struct:DexHeader
+fieldIdsSize	pg_dexparse.h	/^	\/* 50 *\/UInt  fieldIdsSize;$/;"	m	struct:DexHeader
+fieldIdx	pg_dexparse.h	/^	UInt  fieldIdx;$/;"	m	struct:DexFieldAnnotationsItem
+fieldIdx	pg_dexparse.h	/^	UInt fieldIdx;    \/* index to a field_id_item *\/$/;"	m	struct:DexField
+field_ids_	pg_oatparse.h	/^	\/*0x2c*\/ struct FieldId		*field_ids_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::FieldId
+fieldsSize	pg_dexparse.h	/^	UInt  fieldsSize;           \/* count of DexFieldAnnotationsItem *\/$/;"	m	struct:DexAnnotationsDirectoryItem
+fileName	pg_dexparse.h	/^	char*       fileName;$/;"	m	struct:DexOrJar
+fileSize	pg_dexparse.h	/^	\/* 20 *\/UInt  fileSize;           \/* length of entire file *\/$/;"	m	struct:DexHeader
+file_index	pg_dexparse.c	/^static Int file_index = 0;$/;"	v	file:
+filterNum	pg_memtrace.c	/^static Int filterNum  = 0;$/;"	v	file:
+findLib	pg_memtrace.c	/^static struct LibList* findLib(const HChar* soname) {$/;"	f	file:
+find_class_def_misses_	pg_oatparse.h	/^	\/*0x3b*\/ UInt		find_class_def_misses_;$/;"	m	struct:DexFilePlus
+fl_mem_file	pg_memtrace.c	/^static struct FilterList* fl_mem_file		= NULL;   \/* List of the important address realated to file data (mmap\/read) *\/$/;"	v	typeref:struct:FilterList	file:
+fl_mem_map	pg_memtrace.c	/^static struct FilterList* fl_mem_map		= NULL; \/* memory mapped executable segments *\/$/;"	v	typeref:struct:FilterList	file:
+fl_mem_syslib	pg_memtrace.c	/^static struct FilterList* fl_mem_syslib	= NULL;   \/* Filter list of system libraries *\/$/;"	v	typeref:struct:FilterList	file:
+flags	pg_dexparse.h	/^	UInt  flags;              \/* some info flags *\/$/;"	m	struct:DexOptHeader
+flist	pg_memtrace.h	/^	struct Funlist *flist;$/;"	m	struct:LibList	typeref:struct:LibList::Funlist
+fopen_wrapper	pg_replace_wrapper.c	/^FILE *fopen_wrapper(const char *path, const char *mode)$/;"	f
+format	pg_dexparse.h	/^	u1      format;         \/* enum RegisterMapFormat; MUST be first entry *\/$/;"	m	struct:RegisterMap
+fpSpillMask	pg_oatparse.h	/^	UInt fpSpillMask;$/;"	m	struct:OatQuickMethodHeader
+frameSizeInBytes	pg_oatparse.h	/^	UInt frameSizeInBytes;$/;"	m	struct:OatQuickMethodHeader
+free	pg_mem_wrappers.c	/^void BG_(free) ( ThreadId tid __attribute__((unused)), void* p )$/;"	f
+fseek_wrapper	pg_replace_wrapper.c	/^int fseek_wrapper(FILE *stream, long offset, int whence)$/;"	f
+gcMapOffset	pg_oatparse.h	/^	UInt gcMapOffset;$/;"	m	struct:OatQuickMethodHeader
+get2LE	pg_dexparse.c	/^static INLINE UShort get2LE(UChar const* pSrc)$/;"	f	file:
+get4LE	pg_dexparse.c	/^static INLINE UInt get4LE(UChar const* pSrc)$/;"	f	file:
+getClassFileName	pg_oatparse.c	/^void getClassFileName(UChar* dex, struct DexStringId *strIdList, $/;"	f
+getClassMethods	pg_dexparse.c	/^Bool getClassMethods(const struct DexFile *pDexFile, struct ClassObject *pClazz) {$/;"	f
+getCodeOffset	pg_oatparse.c	/^UInt getCodeOffset(UShort type, UChar* bitmap, UInt* offsets, UInt mid, UInt *nid) {$/;"	f
+getMethod	pg_dexparse.c	/^static struct Method* getMethod(struct Method* mth, Int count, $/;"	f	file:
+getMethodCode	pg_dexparse.c	/^static Bool getMethodCode(struct DexFile *pDexFile, struct DexMethod* pDexMethod, struct Method *mths, Int count)$/;"	f	file:
+getMethodSignature	pg_dexparse.c	/^Bool getMethodSignature(const struct DexFile *pDex, Int idx, HChar** psClass, HChar** psMth, HChar** psShorty)$/;"	f
+getProtoDesc	pg_oatparse.c	/^void getProtoDesc(UChar* dex, struct DexStringId *strIdList,$/;"	f
+getProtoId	pg_dexparse.c	/^static INLINE const struct DexProtoId* getProtoId(const struct DexProto* pProto) {$/;"	f	file:
+getStringValue	pg_oatparse.c	/^void getStringValue(UChar* dex, struct DexStringId *strIdList,$/;"	f
+getTraceMemMapInfo	pg_memtrace.c	/^Bool getTraceMemMapInfo(Addr addr, Int prot, HChar **pinfo) $/;"	f
+getTypeDesc	pg_oatparse.c	/^void getTypeDesc(UChar* dex, struct DexStringId *strIdList,$/;"	f
+getTypeDescForClass	pg_oatparse.c	/^UInt getTypeDescForClass(UChar* dex, struct DexStringId* strIdList,$/;"	f
+getUnsignedLebValue	pg_oatparse.c	/^void getUnsignedLebValue(UChar* dex, UChar* stringData,$/;"	f
+get_and_check_reg	pg_stmt.c	/^Int get_and_check_reg( HChar *reg ){$/;"	f
+get_and_check_tvar	pg_stmt.c	/^Int get_and_check_tvar( HChar *tmp ){$/;"	f
+get_classobject_name	pg_framework.c	/^HChar *get_classobject_name(ClassMirror *clazz) {$/;"	f
+get_fnname	pg_syswrap.c	/^void BG_(get_fnname)(ThreadId tid, const HChar** buf) {$/;"	f
+get_string_content	pg_framework.c	/^UShort* get_string_content(Addr addr)$/;"	f
+get_stringobj_str	pg_framework.c	/^HChar* get_stringobj_str(Addr addr)$/;"	f	file:
+gettimeofday_wrapper	pg_replace_wrapper.c	/^int gettimeofday_wrapper(void* tv, void* tz) {$/;"	f
+h32_load	pg_stmt.c	/^VG_REGPARM(3) void BG_(h32_load) ($/;"	f
+h32_loadg_addr	pg_stmt.c	/^VG_REGPARM(3) void BG_(h32_loadg_addr)($/;"	f
+h32_loadg_alt	pg_stmt.c	/^VG_REGPARM(3) void BG_(h32_loadg_alt)($/;"	f
+h32_store_ct	pg_stmt.c	/^VG_REGPARM(3) void BG_(h32_store_ct) ($/;"	f
+h32_store_tc	pg_stmt.c	/^VG_REGPARM(3) void BG_(h32_store_tc) ($/;"	f
+h32_store_tt	pg_stmt.c	/^VG_REGPARM(3) void BG_(h32_store_tt) ($/;"	f
+h64_load	pg_stmt.c	/^VG_REGPARM(3) void BG_(h64_load) ($/;"	f
+h64_loadg_addr	pg_stmt.c	/^VG_REGPARM(3) void BG_(h64_loadg_addr)($/;"	f
+h64_loadg_alt	pg_stmt.c	/^VG_REGPARM(3) void BG_(h64_loadg_alt)($/;"	f
+h64_store_ct	pg_stmt.c	/^VG_REGPARM(3) void BG_(h64_store_ct) ($/;"	f
+h64_store_tc	pg_stmt.c	/^VG_REGPARM(3) void BG_(h64_store_tc) ($/;"	f
+h64_store_tt	pg_stmt.c	/^VG_REGPARM(3) void BG_(h64_store_tt) ($/;"	f
+hWordTy	pg_translate.h	/^	IRType		hWordTy;$/;"	m	struct:_BGEnv
+handle_client_requests	pg_main.c	/^Bool BG_(handle_client_requests) ( ThreadId tid, UWord *arg, UWord *ret) {$/;"	f
+handlerOff	pg_dexparse.h	/^	UShort  handlerOff;         \/* offset in encoded handler data to handlers *\/$/;"	m	struct:DexTry
+header	pg_dexparse.h	/^	struct DexClassDataHeader header;$/;"	m	struct:DexClassData	typeref:struct:DexClassData::DexClassDataHeader
+headerSize	pg_dexparse.h	/^	\/* 24 *\/UInt  headerSize;         \/* offset to start of next section *\/$/;"	m	struct:DexHeader
+header_	pg_oatparse.h	/^	\/*0x20*\/ struct DexHeader	*header_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::DexHeader
+i	pg_dexparse.h	/^	s4      i;$/;"	m	union:JValue
+identifyFdType	pg_syswrap.c	/^Bool identifyFdType(ThreadId tid, Int fd, HChar *path) $/;"	f	file:
+ifieldCount	pg_dexparse.h	/^	Int								ifieldCount;$/;"	m	struct:ClassObject
+ifieldRefCount	pg_dexparse.h	/^	Int								ifieldRefCount; \/\/ number of fields that are object refs$/;"	m	struct:ClassObject
+ifields	pg_dexparse.h	/^	struct InstField* ifields;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::InstField
+iftable	pg_dexparse.h	/^	struct InterfaceEntry*		iftable;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::InterfaceEntry
+iftableCount	pg_dexparse.h	/^	Int								iftableCount;$/;"	m	struct:ClassObject
+ifviPool	pg_dexparse.h	/^	Int*							ifviPool;$/;"	m	struct:ClassObject
+ifviPoolCount	pg_dexparse.h	/^	Int								ifviPoolCount;$/;"	m	struct:ClassObject
+imageFileLocationOatChecksum	pg_oatparse.h	/^	UInt  imageFileLocationOatChecksum;					\/\/ Adler-32 checksum of boot.oat's header$/;"	m	struct:OatHeader
+imageFileLocationOatDataBegin	pg_oatparse.h	/^	UInt  imageFileLocationOatDataBegin;				\/\/ The virtual address of boot.oat's oatdata section$/;"	m	struct:OatHeader
+imagePatchDelta	pg_oatparse.h	/^	UInt  imagePatchDelta;											\/\/ The image relocated address delta$/;"	m	struct:OatHeader
+inProfile	pg_dexparse.h	/^	Bool            inProfile;$/;"	m	struct:Method
+in_addr	packergrind.h	/^struct in_addr {$/;"	s
+inet_aton	pg_main.c	/^Int inet_aton(UChar *cp,	struct in_addr *ap)$/;"	f
+inet_ntoa	pg_main.c	/^HChar *inet_ntoa(struct in_addr in)$/;"	f
+info	pg_memtrace.h	/^	HChar			info[255];$/;"	m	struct:FilterList
+info	pg_stmt.c	/^static HChar info[255];$/;"	v	file:
+initFilterlist	pg_memtrace.c	/^void initFilterlist() {$/;"	f
+initSoaapData	pg_memtrace.c	/^void initSoaapData() {$/;"	f
+initThreadId	pg_dexparse.h	/^	UInt              initThreadId;$/;"	m	struct:ClassObject
+init_tv	pg_main.c	/^static ULong	init_tv = 0;$/;"	v	file:
+initiatingLoaderCount	pg_dexparse.h	/^	Int						  initiatingLoaderCount;$/;"	m	struct:InitiatingLoaderList
+initiatingLoaderList	pg_dexparse.h	/^	struct InitiatingLoaderList initiatingLoaderList;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::InitiatingLoaderList
+initiatingLoaders	pg_dexparse.h	/^	struct Object**  initiatingLoaders;$/;"	m	struct:InitiatingLoaderList	typeref:struct:InitiatingLoaderList::Object
+insSize	pg_dexparse.h	/^	UShort  insSize;$/;"	m	struct:DexCode
+insSize	pg_dexparse.h	/^	u2              insSize;$/;"	m	struct:Method
+insSize	pg_oatparse.h	/^	UShort insSize;$/;"	m	struct:CodeItem
+insertStmt	pg_translate.c	/^void insertStmt( HChar cat, BGEnv* bge, IRStmt* st) {$/;"	f
+insnCount	pg_dexparse.h	/^	UShort  insnCount;          \/* instruction count, in 16-bit code units *\/$/;"	m	struct:DexTry
+insns	pg_dexparse.h	/^	UShort  insns[1];$/;"	m	struct:DexCode
+insns	pg_dexparse.h	/^	const u2*       insns;          \/* instructions, in memory-mapped .dex *\/$/;"	m	struct:Method
+insns	pg_oatparse.h	/^	UShort insns[1];$/;"	m	struct:CodeItem
+insnsSize	pg_dexparse.h	/^	UInt	  insnsSize;          \/* size of the insns array, in u2 units *\/$/;"	m	struct:DexCode
+insnsSizeInCodeUnits	pg_oatparse.h	/^	UInt	 insnsSizeInCodeUnits;$/;"	m	struct:CodeItem
+instanceData	pg_dexparse.h	/^	UInt							instanceData[CLASS_FIELD_SLOTS];$/;"	m	struct:ClassObject
+instanceFields	pg_dexparse.h	/^	struct DexField*          instanceFields;$/;"	m	struct:DexClassData	typeref:struct:DexClassData::DexField
+instanceFieldsSize	pg_dexparse.h	/^	UInt instanceFieldsSize;$/;"	m	struct:DexClassDataHeader
+instructionSet	pg_oatparse.h	/^	UInt  instructionSet;$/;"	m	struct:OatHeader
+instructionSetFeatures	pg_oatparse.h	/^	UInt  instructionSetFeatures;$/;"	m	struct:OatHeader
+instrument	pg_translate.c	/^IRSB* BG_(instrument)( VgCallbackClosure* closure,$/;"	f
+interfaceCount	pg_dexparse.h	/^	Int								interfaceCount;$/;"	m	struct:ClassObject
+interfaces	pg_dexparse.h	/^	struct ClassObject**   interfaces;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::ClassObject
+interfacesOff	pg_dexparse.h	/^	\/*0x0c*\/ UInt  interfacesOff;      \/* file offset to DexTypeList *\/$/;"	m	struct:DexClassDef
+interpBreak	pg_dexparse.h	/^	union InterpBreak interpBreak;$/;"	m	struct:Thread	typeref:union:Thread::InterpBreak
+interpSave	pg_dexparse.h	/^	struct InterpSaveState	interpSave;$/;"	m	struct:Thread	typeref:struct:Thread::InterpSaveState
+interpStackEnd	pg_dexparse.h	/^	const UChar*   interpStackEnd;$/;"	m	struct:Thread
+interpStackSize	pg_dexparse.h	/^	int         interpStackSize;$/;"	m	struct:Thread
+interpreterToCompiledCodeBridgeOffset	pg_oatparse.h	/^	UInt  interpreterToCompiledCodeBridgeOffset;$/;"	m	struct:OatHeader
+interpreterToInterpreterBridgeOffset	pg_oatparse.h	/^	UInt  interpreterToInterpreterBridgeOffset;$/;"	m	struct:OatHeader
+interpreter_enterinterpreterfrominvoke	pg_libart_wrapper.c	/^void interpreter_enterinterpreterfrominvoke(void* self, void* method, void* receiver, void* args, void* result)$/;"	f
+interpreter_executeSwitchGoto	pg_libart_wrapper.c	/^Int interpreter_executeSwitchGoto(void* this, void* self, void* code_item, void* shadow_frame, void* result_register)$/;"	f
+interpreter_executeSwitchImpl	pg_libart_wrapper.c	/^Int interpreter_executeSwitchImpl(void* this, void* self, void* code_item, void* shadow_frame, void* result_register)$/;"	f
+invoke_superblock	pg_mthtrace.c	/^void invoke_superblock(MthNode* mNode, VexGuestLayout *layout)$/;"	f
+iov_base	pg_wrappers.h	/^	Addr  iov_base;$/;"	m	struct:iovec
+iov_len	pg_wrappers.h	/^	Int		iov_len;$/;"	m	struct:iovec
+iovec	pg_wrappers.h	/^struct iovec {$/;"	s
+isCloneMemValid	pg_dexparse.c	/^static INLINE Bool isCloneMemValid(const struct DexFile* pDexFile, const struct MonitorDexFile* pMDexFile) {$/;"	f	file:
+isDex	pg_dexparse.h	/^	Bool        isDex;$/;"	m	struct:DexOrJar
+isFrameworkClass	pg_main.c	/^Bool isFrameworkClass(HChar* desc) {$/;"	f
+isInDexFileList	pg_dexparse.c	/^struct MonitorDexFile* isInDexFileList( struct DexFile* pDexFile ) {$/;"	f
+isInFilterList	pg_memtrace.c	/^static Addr isInFilterList(struct FilterList* pfl, Addr a, HChar** pInfo) {$/;"	f	file:
+isInTraceMemFile	pg_memtrace.c	/^Bool isInTraceMemFile(Addr a, HChar** pInfo) {$/;"	f
+isInTraceMemMap	pg_memtrace.c	/^Bool isInTraceMemMap(Addr a, HChar** pInfo) {$/;"	f
+isInTraceMemSyslib	pg_memtrace.c	/^Bool isInTraceMemSyslib(Addr a, HChar** pInfo) {$/;"	f
+isInstrumentNeeded	pg_memtrace.c	/^Bool isInstrumentNeeded( VgCallbackClosure* closure ) {$/;"	f
+isMappedReadOnly	pg_dexparse.h	/^	Bool                isMappedReadOnly;$/;"	m	struct:DvmDex
+isNotParse	pg_oatparse.c	/^Bool isNotParse(HChar* className) {$/;"	f	file:
+isOriginalAtom	pg_translate.c	/^static Bool isOriginalAtom ( BGEnv* bge, IRAtom* a1 )$/;"	f	file:
+isTargetClass	pg_oatparse.c	/^Bool isTargetClass(HChar* className) {$/;"	f	file:
+isThirdFd	pg_syswrap.c	/^INLINE Bool isThirdFd( Int tid, Int fd) {$/;"	f	file:
+isValidPoInter	pg_dexparse.c	/^static INLINE Bool isValidPoInter(const UChar* ptr, const UChar* start, const UChar* end)$/;"	f	file:
+is_executable_	pg_oatparse.h	/^	Bool							is_executable_;$/;"	m	struct:OatFile
+is_framework_bb	pg_mthtrace.c	/^static INLINE Bool is_framework_bb(Addr *a) {$/;"	f	file:
+is_instrument	pg_main.c	/^Bool BG_(is_instrument)  	= False;$/;"	v
+is_instrument_load	pg_main.c	/^Bool BG_(is_instrument_load)	= False;$/;"	v
+is_instrument_store	pg_main.c	/^Bool BG_(is_instrument_store)	= False;$/;"	v
+is_overlap	pg_replace_wrapper.c	/^Bool is_overlap ( void* dst, const void* src, SizeT dstlen, SizeT srclen )$/;"	f	file:
+is_parse_oat	pg_main.c	/^Bool is_parse_oat = False;$/;"	v
+is_so_loading	pg_libdvm_wrapper.c	/^static Bool is_so_loading = False;$/;"	v	file:
+is_system_lib	pg_stmt.c	/^Bool is_system_lib(UInt pc) {$/;"	f	file:
+is_tainted	pg_translate.h	118;"	d
+is_trace_framework	pg_main.c	/^Bool BG_(is_trace_framework)	= False;$/;"	v
+is_trace_syscall	pg_main.c	/^Bool BG_(is_trace_syscall)  	= False;$/;"	v
+j	pg_dexparse.h	/^	s8      j;$/;"	m	union:JValue
+jniArgInfo	pg_dexparse.h	/^	int             jniArgInfo;$/;"	m	struct:Method
+jniDlsymLookupOffset	pg_oatparse.h	/^	UInt  jniDlsymLookupOffset;$/;"	m	struct:OatHeader
+kAccessForClass	pg_dexparse.h	/^	kAccessForClass = 0, kAccessForMethod = 1, kAccessForField = 2,$/;"	e	enum:AccessFor
+kAccessForField	pg_dexparse.h	/^	kAccessForClass = 0, kAccessForMethod = 1, kAccessForField = 2,$/;"	e	enum:AccessFor
+kAccessForMAX	pg_dexparse.h	/^	kAccessForMAX$/;"	e	enum:AccessFor
+kAccessForMethod	pg_dexparse.h	/^	kAccessForClass = 0, kAccessForMethod = 1, kAccessForField = 2,$/;"	e	enum:AccessFor
+kArm	pg_oatparse.h	/^	kArm,$/;"	e	enum:__anon3
+kArm64	pg_oatparse.h	/^	kArm64,$/;"	e	enum:__anon3
+kDexAnnotationAnnotation	pg_dexparse.h	/^	kDexAnnotationAnnotation    = 0x1d,$/;"	e	enum:__anon8
+kDexAnnotationArray	pg_dexparse.h	/^	kDexAnnotationArray         = 0x1c,$/;"	e	enum:__anon8
+kDexAnnotationBoolean	pg_dexparse.h	/^	kDexAnnotationBoolean       = 0x1f,$/;"	e	enum:__anon8
+kDexAnnotationByte	pg_dexparse.h	/^	kDexAnnotationByte          = 0x00,$/;"	e	enum:__anon8
+kDexAnnotationChar	pg_dexparse.h	/^	kDexAnnotationChar          = 0x03,$/;"	e	enum:__anon8
+kDexAnnotationDouble	pg_dexparse.h	/^	kDexAnnotationDouble        = 0x11,$/;"	e	enum:__anon8
+kDexAnnotationEnum	pg_dexparse.h	/^	kDexAnnotationEnum          = 0x1b,$/;"	e	enum:__anon8
+kDexAnnotationField	pg_dexparse.h	/^	kDexAnnotationField         = 0x19,$/;"	e	enum:__anon8
+kDexAnnotationFloat	pg_dexparse.h	/^	kDexAnnotationFloat         = 0x10,$/;"	e	enum:__anon8
+kDexAnnotationInt	pg_dexparse.h	/^	kDexAnnotationInt           = 0x04,$/;"	e	enum:__anon8
+kDexAnnotationLong	pg_dexparse.h	/^	kDexAnnotationLong          = 0x06,$/;"	e	enum:__anon8
+kDexAnnotationMethod	pg_dexparse.h	/^	kDexAnnotationMethod        = 0x1a,$/;"	e	enum:__anon8
+kDexAnnotationNull	pg_dexparse.h	/^	kDexAnnotationNull          = 0x1e,$/;"	e	enum:__anon8
+kDexAnnotationShort	pg_dexparse.h	/^	kDexAnnotationShort         = 0x02,$/;"	e	enum:__anon8
+kDexAnnotationString	pg_dexparse.h	/^	kDexAnnotationString        = 0x17,$/;"	e	enum:__anon8
+kDexAnnotationType	pg_dexparse.h	/^	kDexAnnotationType          = 0x18,$/;"	e	enum:__anon8
+kDexAnnotationValueArgShift	pg_dexparse.h	/^	kDexAnnotationValueArgShift = 5,$/;"	e	enum:__anon8
+kDexAnnotationValueTypeMask	pg_dexparse.h	/^	kDexAnnotationValueTypeMask = 0x1f,     \/* low 5 bits *\/$/;"	e	enum:__anon8
+kDexChunkClassLookup	pg_dexparse.h	/^	kDexChunkClassLookup            = 0x434c4b50,   \/* CLKP *\/$/;"	e	enum:__anon10
+kDexChunkEnd	pg_dexparse.h	/^	kDexChunkEnd                    = 0x41454e44,   \/* AEND *\/$/;"	e	enum:__anon10
+kDexChunkRegisterMaps	pg_dexparse.h	/^	kDexChunkRegisterMaps           = 0x524d4150,   \/* RMAP *\/$/;"	e	enum:__anon10
+kDexEndianConstant	pg_dexparse.h	/^	kDexEndianConstant = 0x12345678,    \/* the endianness indicator *\/$/;"	e	enum:__anon12
+kDexNoIndex	pg_dexparse.h	/^	kDexNoIndex = 0xffffffff,           \/* not a valid index value *\/$/;"	e	enum:__anon12
+kDexTypeAnnotationItem	pg_dexparse.h	/^	kDexTypeAnnotationItem           = 0x2004,$/;"	e	enum:__anon9
+kDexTypeAnnotationSetItem	pg_dexparse.h	/^	kDexTypeAnnotationSetItem        = 0x1003,$/;"	e	enum:__anon9
+kDexTypeAnnotationSetRefList	pg_dexparse.h	/^	kDexTypeAnnotationSetRefList     = 0x1002,$/;"	e	enum:__anon9
+kDexTypeAnnotationsDirectoryItem	pg_dexparse.h	/^	kDexTypeAnnotationsDirectoryItem = 0x2006,$/;"	e	enum:__anon9
+kDexTypeClassDataItem	pg_dexparse.h	/^	kDexTypeClassDataItem            = 0x2000,$/;"	e	enum:__anon9
+kDexTypeClassDefItem	pg_dexparse.h	/^	kDexTypeClassDefItem             = 0x0006,$/;"	e	enum:__anon9
+kDexTypeCodeItem	pg_dexparse.h	/^	kDexTypeCodeItem                 = 0x2001,$/;"	e	enum:__anon9
+kDexTypeDebugInfoItem	pg_dexparse.h	/^	kDexTypeDebugInfoItem            = 0x2003,$/;"	e	enum:__anon9
+kDexTypeEncodedArrayItem	pg_dexparse.h	/^	kDexTypeEncodedArrayItem         = 0x2005,$/;"	e	enum:__anon9
+kDexTypeFieldIdItem	pg_dexparse.h	/^	kDexTypeFieldIdItem              = 0x0004,$/;"	e	enum:__anon9
+kDexTypeHeaderItem	pg_dexparse.h	/^	kDexTypeHeaderItem               = 0x0000,$/;"	e	enum:__anon9
+kDexTypeMapList	pg_dexparse.h	/^	kDexTypeMapList                  = 0x1000,$/;"	e	enum:__anon9
+kDexTypeMethodIdItem	pg_dexparse.h	/^	kDexTypeMethodIdItem             = 0x0005,$/;"	e	enum:__anon9
+kDexTypeProtoIdItem	pg_dexparse.h	/^	kDexTypeProtoIdItem              = 0x0003,$/;"	e	enum:__anon9
+kDexTypeStringDataItem	pg_dexparse.h	/^	kDexTypeStringDataItem           = 0x2002,$/;"	e	enum:__anon9
+kDexTypeStringIdItem	pg_dexparse.h	/^	kDexTypeStringIdItem             = 0x0001,$/;"	e	enum:__anon9
+kDexTypeTypeIdItem	pg_dexparse.h	/^	kDexTypeTypeIdItem               = 0x0002,$/;"	e	enum:__anon9
+kDexTypeTypeList	pg_dexparse.h	/^	kDexTypeTypeList                 = 0x1001,$/;"	e	enum:__anon9
+kDexVisibilityBuild	pg_dexparse.h	/^	kDexVisibilityBuild         = 0x00,     \/* annotation visibility *\/$/;"	e	enum:__anon8
+kDexVisibilityRuntime	pg_dexparse.h	/^	kDexVisibilityRuntime       = 0x01,$/;"	e	enum:__anon8
+kDexVisibilitySystem	pg_dexparse.h	/^	kDexVisibilitySystem        = 0x02,$/;"	e	enum:__anon8
+kMips	pg_oatparse.h	/^	kMips,$/;"	e	enum:__anon3
+kMips64	pg_oatparse.h	/^	kMips64$/;"	e	enum:__anon3
+kNone	pg_oatparse.h	/^	kNone,$/;"	e	enum:__anon3
+kOatClassAllCompiled	pg_oatparse.h	/^	kOatClassAllCompiled = 0, $/;"	e	enum:__anon2
+kOatClassMax	pg_oatparse.h	/^	kOatClassMax = 3$/;"	e	enum:__anon2
+kOatClassNoneCompiled	pg_oatparse.h	/^	kOatClassNoneCompiled = 2,$/;"	e	enum:__anon2
+kOatClassSomeCompiled	pg_oatparse.h	/^	kOatClassSomeCompiled = 1,$/;"	e	enum:__anon2
+kSHA1DigestLen	pg_dexparse.h	/^enum { kSHA1DigestLen = 20,$/;"	e	enum:__anon7
+kSHA1DigestOutputLen	pg_dexparse.h	/^	kSHA1DigestOutputLen = kSHA1DigestLen*2 +1 };$/;"	e	enum:__anon7
+kThumb2	pg_oatparse.h	/^	kThumb2,$/;"	e	enum:__anon3
+kX86	pg_oatparse.h	/^	kX86,$/;"	e	enum:__anon3
+kX86_64	pg_oatparse.h	/^	kX86_64,$/;"	e	enum:__anon3
+keyValueStoreSize	pg_oatparse.h	/^	UInt  keyValueStoreSize;										\/\/ The length of key_value_store$/;"	m	struct:OatHeader
+kind	pg_translate.h	/^	TempKind kind;$/;"	m	struct:__anon6
+l	pg_dexparse.h	/^	struct Object* l;$/;"	m	union:JValue	typeref:struct:JValue::Object
+l	pg_dexparse.h	/^	void*   l;$/;"	m	union:JValue
+lastAddr	pg_dexparse.h	/^	Addr						lastAddr;$/;"	m	struct:MonitorDexFile
+layout	pg_translate.h	/^	const VexGuestLayout*	layout;$/;"	m	struct:_BGEnv
+len	pg_dexparse.h	/^	UInt		len;				\/* Length of the file in memory *\/$/;"	m	struct:DexFileInfo
+len_uleb128	pg_oatparse.c	/^UInt len_uleb128(unsigned long n)$/;"	f
+length	pg_dexparse.h	/^	Int  length;         \/* length of data *\/$/;"	m	struct:MemMapping
+lib_list	pg_memtrace.c	/^static struct LibList* lib_list = NULL;$/;"	v	typeref:struct:LibList	file:
+libart_text_addr	pg_main.c	/^static Addr libart_text_addr	= 0;$/;"	v	file:
+libart_text_size	pg_main.c	/^static UInt libart_text_size	= 0;$/;"	v	file:
+linkOff	pg_dexparse.h	/^	\/* 30 *\/UInt  linkOff;$/;"	m	struct:DexHeader
+linkSize	pg_dexparse.h	/^	\/* 2c *\/UInt  linkSize;$/;"	m	struct:DexHeader
+list	pg_dexparse.h	/^	struct DexAnnotationSetRefItem list[1];$/;"	m	struct:DexAnnotationSetRefList	typeref:struct:DexAnnotationSetRefList::DexAnnotationSetRefItem
+list	pg_dexparse.h	/^	struct DexMapItem list[1];     \/* entries *\/$/;"	m	struct:DexMapList	typeref:struct:DexMapList::DexMapItem
+list	pg_dexparse.h	/^	struct DexTypeItem list[1];	\/\/ elements of the list$/;"	m	struct:DexTypeList	typeref:struct:DexTypeList::DexTypeItem
+listen_wrapper	pg_replace_wrapper.c	/^int listen_wrapper(int s, int backlog) $/;"	f
+location_	pg_oatparse.h	/^	\/*0x0c*\/ struct StdString location_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::StdString
+location_	pg_oatparse.h	/^	struct StdString	location_; \/\/ 12 bytes$/;"	m	struct:OatFile	typeref:struct:OatFile::StdString
+location_checksum_	pg_oatparse.h	/^	\/*0x18*\/ UInt		location_checksum_;$/;"	m	struct:DexFilePlus
+lock	pg_dexparse.h	/^	UInt  lock;$/;"	m	struct:Object
+lvar_s	pg_stmt.c	/^struct   myStringArray lvar_s;$/;"	v	typeref:struct:myStringArray
+m	pg_memtrace.h	/^	char m[STACK_SIZE][MAX_LEN];$/;"	m	struct:myStringArray
+magic	pg_dexparse.h	/^	UChar  magic[8];           \/* includes version number *\/$/;"	m	struct:DexOptHeader
+magic	pg_dexparse.h	/^	\/* 00 *\/UChar  magic[8];           \/* includes version number *\/$/;"	m	struct:DexHeader
+magic	pg_oatparse.h	/^	UChar  magic[4];$/;"	m	struct:OatHeader
+malloc	pg_mem_wrappers.c	/^void* BG_(malloc) ( ThreadId tid, SizeT szB )$/;"	f
+mallocEmptyIRDirty	pg_copy.c	/^IRDirty* mallocEmptyIRDirty(void) {$/;"	f
+mallocIRCallee	pg_copy.c	/^IRCallee* mallocIRCallee(Int regparms, const HChar* name, void* addr)$/;"	f
+mallocIRConst_F64	pg_copy.c	/^IRConst* mallocIRConst_F64(Double f64)$/;"	f
+mallocIRConst_F64i	pg_copy.c	/^IRConst* mallocIRConst_F64i(ULong f64i)$/;"	f
+mallocIRConst_U1	pg_copy.c	/^IRConst* mallocIRConst_U1(Bool bit)$/;"	f
+mallocIRConst_U16	pg_copy.c	/^IRConst* mallocIRConst_U16(UShort u16)$/;"	f
+mallocIRConst_U32	pg_copy.c	/^IRConst* mallocIRConst_U32(UInt u32)$/;"	f
+mallocIRConst_U64	pg_copy.c	/^IRConst* mallocIRConst_U64(ULong u64)$/;"	f
+mallocIRConst_U8	pg_copy.c	/^IRConst* mallocIRConst_U8(UChar u8)$/;"	f
+mallocIRConst_V128	pg_copy.c	/^IRConst* mallocIRConst_V128(UShort con)$/;"	f
+mallocIRExpr_Binder	pg_copy.c	/^IRExpr* mallocIRExpr_Binder(Int binder) {$/;"	f
+mallocIRExpr_Binop	pg_copy.c	/^IRExpr* mallocIRExpr_Binop(IROp op, IRExpr* arg1, IRExpr* arg2) {$/;"	f
+mallocIRExpr_CCall	pg_copy.c	/^IRExpr* mallocIRExpr_CCall(IRCallee* cee, IRType retty, IRExpr** args) {$/;"	f
+mallocIRExpr_Const	pg_copy.c	/^IRExpr* mallocIRExpr_Const(IRConst* con) {$/;"	f
+mallocIRExpr_Get	pg_copy.c	/^IRExpr* mallocIRExpr_Get(Int off, IRType ty) {$/;"	f
+mallocIRExpr_GetI	pg_copy.c	/^IRExpr* mallocIRExpr_GetI(IRRegArray* descr, IRExpr* ix, Int bias) {$/;"	f
+mallocIRExpr_ITE	pg_copy.c	/^IRExpr* mallocIRExpr_ITE(IRExpr* cond, IRExpr* iftrue, IRExpr* iffalse) {$/;"	f
+mallocIRExpr_Load	pg_copy.c	/^IRExpr* mallocIRExpr_Load(IREndness end, IRType ty, IRExpr* addr) {$/;"	f
+mallocIRExpr_Qop	pg_copy.c	/^IRExpr* mallocIRExpr_Qop(IROp op, IRExpr* arg1, IRExpr* arg2, $/;"	f
+mallocIRExpr_RdTmp	pg_copy.c	/^IRExpr* mallocIRExpr_RdTmp(IRTemp tmp) {$/;"	f
+mallocIRExpr_Triop	pg_copy.c	/^IRExpr* mallocIRExpr_Triop (IROp op, IRExpr* arg1, $/;"	f
+mallocIRExpr_Unop	pg_copy.c	/^IRExpr* mallocIRExpr_Unop(IROp op, IRExpr* arg) {$/;"	f
+mallocIRRegArray	pg_copy.c	/^IRRegArray* mallocIRRegArray(Int base, IRType elemTy, Int nElems)$/;"	f
+mallocIRStmt_AbiHint	pg_copy.c	/^IRStmt* mallocIRStmt_AbiHint(IRExpr* base, Int len, IRExpr* nia) {$/;"	f
+mallocIRStmt_Dirty	pg_copy.c	/^IRStmt* mallocIRStmt_Dirty(IRDirty* d)$/;"	f
+mallocIRStmt_Exit	pg_copy.c	/^IRStmt* mallocIRStmt_Exit(IRExpr* guard, IRJumpKind jk, IRConst* dst) {$/;"	f
+mallocIRStmt_IMark	pg_copy.c	/^IRStmt* mallocIRStmt_IMark(Addr64 addr, Int len) {$/;"	f
+mallocIRStmt_LoadG	pg_copy.c	/^IRStmt* mallocIRStmt_LoadG(IREndness end, IRLoadGOp cvt, IRTemp dst,$/;"	f
+mallocIRStmt_MBE	pg_copy.c	/^IRStmt* mallocIRStmt_MBE(IRMBusEvent event)$/;"	f
+mallocIRStmt_NoOp	pg_copy.c	/^IRStmt* mallocIRStmt_NoOp(void)$/;"	f
+mallocIRStmt_Put	pg_copy.c	/^IRStmt* mallocIRStmt_Put(Int off, IRExpr* data) {$/;"	f
+mallocIRStmt_PutI	pg_copy.c	/^IRStmt* mallocIRStmt_PutI(IRRegArray* descr, IRExpr* ix,$/;"	f
+mallocIRStmt_Store	pg_copy.c	/^IRStmt* mallocIRStmt_Store(IREndness end, IRExpr* addr, IRExpr* data) {$/;"	f
+mallocIRStmt_StoreG	pg_copy.c	/^IRStmt* mallocIRStmt_StoreG(IREndness end, IRExpr* addr, $/;"	f
+mallocIRStmt_WrTmp	pg_copy.c	/^IRStmt* mallocIRStmt_WrTmp(IRTemp tmp, IRExpr* data) {$/;"	f
+malloc_list	pg_mem_wrappers.c	/^VgHashTable *BG_(malloc_list)  = NULL;   \/\/ HP_Chunks$/;"	v
+malloc_usable_size	pg_mem_wrappers.c	/^SizeT BG_(malloc_usable_size) ( ThreadId tid, void* p )$/;"	f
+mapOff	pg_dexparse.h	/^	\/* 34 *\/UInt  mapOff;$/;"	m	struct:DexHeader
+mappingTableOffset	pg_oatparse.h	/^	UInt mappingTableOffset;$/;"	m	struct:OatQuickMethodHeader
+meetDexFile	pg_dexparse.c	/^struct MonitorDexFile* meetDexFile(const struct DexFile* pDexFile, Addr addr, UInt len, UInt state)$/;"	f
+meetDexFilePlus	pg_dexparse.c	/^struct MonitorDexFile* meetDexFilePlus(const struct DexFilePlus* pDexFilePlus, Addr addr, UInt len, UInt state)$/;"	f
+memMap	pg_dexparse.h	/^	struct MemMapping   memMap;$/;"	m	struct:DvmDex	typeref:struct:DvmDex::MemMapping
+mem_map_	pg_oatparse.h	/^	\/*0x1c*\/ struct MemMapPlus *mem_map_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::MemMapPlus
+mem_map_	pg_oatparse.h	/^	void*							mem_map_;$/;"	m	struct:OatFile
+memalign	pg_mem_wrappers.c	/^void* BG_(memalign) ( ThreadId tid, SizeT alignB, SizeT szB )$/;"	f
+method	pg_dexparse.h	/^	const  struct Method*		method;    \/\/ Method being executed$/;"	m	struct:InterpSaveState	typeref:struct:InterpSaveState::Method
+method	pg_mthtrace.h	/^	HChar*	method;$/;"	m	struct:_Mth_Pool
+methodClassDex	pg_dexparse.h	/^	struct  DvmDex*         methodClassDex;$/;"	m	struct:InterpSaveState	typeref:struct:InterpSaveState::DvmDex
+methodIdsOff	pg_dexparse.h	/^	\/* 5c *\/UInt  methodIdsOff;$/;"	m	struct:DexHeader
+methodIdsSize	pg_dexparse.h	/^	\/* 58 *\/UInt  methodIdsSize;$/;"	m	struct:DexHeader
+methodIdx	pg_dexparse.h	/^	UInt  methodIdx;$/;"	m	struct:DexMethodAnnotationsItem
+methodIdx	pg_dexparse.h	/^	UInt  methodIdx;$/;"	m	struct:DexParameterAnnotationsItem
+methodIdx	pg_dexparse.h	/^	UInt methodIdx;    \/* index to a method_id_item *\/$/;"	m	struct:DexMethod
+methodIndex	pg_dexparse.h	/^	u2			        methodIndex;$/;"	m	struct:Method
+methodIndexArray	pg_dexparse.h	/^	Int*            methodIndexArray;$/;"	m	struct:InterfaceEntry
+method_ids_	pg_oatparse.h	/^	\/*0x30*\/ struct MethodId	*method_ids_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::MethodId
+method_index_	pg_oatparse.h	/^	\/*0x18*\/	UInt	method_index_;							\/* Entry within a dispatch table for this methods *\/$/;"	m	struct:ArtMethod
+methodsSize	pg_dexparse.h	/^	UInt  methodsSize;          \/* count of DexMethodAnnotationsItem *\/$/;"	m	struct:DexAnnotationsDirectoryItem
+methods_pointer_	pg_oatparse.h	/^	void*						methods_pointer_;$/;"	m	struct:OatClass
+mkU1	pg_translate.c	80;"	d	file:
+mkU16	pg_translate.c	82;"	d	file:
+mkU32	pg_translate.c	83;"	d	file:
+mkU64	pg_translate.c	84;"	d	file:
+mkU8	pg_translate.c	81;"	d	file:
+mkV128	pg_translate.c	85;"	d	file:
+mkexpr	pg_translate.c	86;"	d	file:
+mmap_proto2a	pg_main.c	/^HChar* mmap_proto2a(Int flag) {$/;"	f
+mth	pg_mthtrace.h	/^	Addr	mth[MAX_STACK_SIZE];$/;"	m	struct:_Mth_stack
+mthKey	pg_mthtrace.h	/^	UInt		mthKey;$/;"	m	struct:_Mth_Pool
+mthStack	pg_mthtrace.c	/^static MthStack	mthStack[TG_N_THREADS];$/;"	v	file:
+mth_lookup_stack	pg_mthtrace.c	/^MthNode* mth_lookup_stack(ThreadId tid, Addr a) {$/;"	f	file:
+mth_pop_stack	pg_mthtrace.c	/^Int mth_pop_stack(ThreadId tid) {$/;"	f	file:
+mth_push_stack	pg_mthtrace.c	/^Int mth_push_stack(ThreadId tid, Addr addr, MthNode* mth)$/;"	f	file:
+mth_stack_size	pg_mthtrace.c	/^Int mth_stack_size(ThreadId tid) {$/;"	f	file:
+mth_top_stack	pg_mthtrace.c	/^Bool mth_top_stack(ThreadId tid, Addr *addr, MthNode **mth) {$/;"	f	file:
+myStringArray	pg_memtrace.h	/^struct myStringArray{$/;"	s
+myStringArray_getIndex	pg_stmt.c	/^static Int myStringArray_getIndex( struct myStringArray *a, const HChar* string ){$/;"	f	file:
+myStringArray_push	pg_stmt.c	/^static Int myStringArray_push( struct myStringArray *a, const HChar* string ){$/;"	f	file:
+my_exit	pg_replace_wrapper.c	/^static inline void my_exit ( int x )$/;"	f	file:
+name	pg_dexparse.h	/^	HChar		name[255];	\/* name of the dex file *\/$/;"	m	struct:DexFileInfo
+name	pg_dexparse.h	/^	const HChar*     name;$/;"	m	struct:Field
+name	pg_dexparse.h	/^	const char*     name;$/;"	m	struct:Method
+name	pg_memtrace.h	/^	char name[MAX_LEN];$/;"	m	struct:FunList
+name	pg_memtrace.h	/^	char name[MAX_LEN];$/;"	m	struct:LibList
+name	pg_wrappers.h	/^	HChar	name[255];$/;"	m	struct:MemList
+name	pg_wrappers.h	/^	HChar name[255];$/;"	m	struct:fd_info
+nameIdx	pg_dexparse.h	/^	UInt		nameIdx;$/;"	m	struct:DexMethodId
+nameIdx	pg_dexparse.h	/^	UInt   nameIdx;$/;"	m	struct:DexFieldId
+name_	pg_oatparse.h	/^	\/*0x00*\/ struct StdString name_;$/;"	m	struct:MemMapPlus	typeref:struct:MemMapPlus::StdString
+nativeCodeAddr	pg_mthtrace.h	/^	Addr	nativeCodeAddr;$/;"	m	struct:_Method_Code_Node
+nativeCodeSize	pg_mthtrace.h	/^	SizeT nativeCodeSize;$/;"	m	struct:_Method_Code_Node
+nativeFunc	pg_dexparse.h	/^	void*						nativeFunc; \/* Function point *\/$/;"	m	struct:Method
+newTemp	pg_translate.c	/^static IRTemp newTemp ( BGEnv* bge, IRType ty, TempKind kind )$/;"	f	file:
+next	pg_dexparse.h	/^	struct DexFileList* next;$/;"	m	struct:MonitorDexFile	typeref:struct:MonitorDexFile::DexFileList
+next	pg_dexparse.h	/^	struct DexFilePlusNode *next;$/;"	m	struct:DexFilePlusNode	typeref:struct:DexFilePlusNode::DexFilePlusNode
+next	pg_memtrace.h	/^	struct FilterList* next;$/;"	m	struct:FilterList	typeref:struct:FilterList::FilterList
+next	pg_memtrace.h	/^	struct FunList *next;$/;"	m	struct:FunList	typeref:struct:FunList::FunList
+next	pg_memtrace.h	/^	struct LibList *next;$/;"	m	struct:LibList	typeref:struct:LibList::LibList
+next	pg_mthtrace.h	/^	struct _Hash_Node	*next;$/;"	m	struct:_Method_Code_Node	typeref:struct:_Method_Code_Node::_Hash_Node
+next	pg_mthtrace.h	/^	struct _Mth_Pool *next;$/;"	m	struct:_Mth_Pool	typeref:struct:_Mth_Pool::_Mth_Pool
+next	pg_wrappers.h	/^	struct	_HP_Chunk *next;$/;"	m	struct:_HP_Chunk	typeref:struct:_HP_Chunk::_HP_Chunk
+next	pg_wrappers.h	/^	struct MemList *next;$/;"	m	struct:MemList	typeref:struct:MemList::MemList
+noRef	pg_dexparse.h	/^	Bool noRef;$/;"	m	struct:Method
+numEntries	pg_dexparse.h	/^	Int     numEntries;                 \/\/ size of table[]; always power of 2$/;"	m	struct:DexClassLookup
+numEntries	pg_dexparse.h	/^	u1      numEntries[2];  \/* number of entries *\/$/;"	m	struct:RegisterMap
+oatDexClassParse	pg_oatparse.c	/^Bool oatDexClassParse($/;"	f
+oatDexFileParse	pg_oatparse.c	/^static Bool oatDexFileParse($/;"	f	file:
+oatDexParse	pg_oatparse.c	/^Bool oatDexParse(struct DexFilePlus* pDexPlus,$/;"	f
+oatTypeBase	pg_oatparse.h	/^	oatTypeBase = 2$/;"	e	enum:__anon1
+oatTypeBoot	pg_oatparse.h	/^	oatTypeBoot = 1,$/;"	e	enum:__anon1
+oatTypeUnknown	pg_oatparse.h	/^	oatTypeUnknown = 0,$/;"	e	enum:__anon1
+oat_class_offsets_pointer_	pg_oatparse.h	/^	unsigned int*			oat_class_offsets_pointer_;$/;"	m	struct:OatDexFile
+oat_dex_file_	pg_oatparse.h	/^	\/*0x44*\/ struct OatDexFilePlus *oat_dex_file_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::OatDexFilePlus
+oat_dex_files_	pg_oatparse.h	/^	UChar							oat_dex_files_[12];$/;"	m	struct:OatFile
+oat_dex_files_storage_	pg_oatparse.h	/^	struct StdVector	oat_dex_files_storage_;$/;"	m	struct:OatFile	typeref:struct:OatFile::StdVector
+oat_file_	pg_oatparse.h	/^	struct OatFile*		oat_file_;$/;"	m	struct:OatDexFile	typeref:struct:OatDexFile::OatFile
+oat_file_	pg_oatparse.h	/^	struct OatFile* oat_file_;$/;"	m	struct:OatClass	typeref:struct:OatClass::OatFile
+oat_file_type	pg_main.c	/^UInt	oat_file_type = oatTypeUnknown;$/;"	v
+oatdata_offset	pg_oatparse.h	/^	UInt oatdata_offset;$/;"	m	struct:OatSec
+oatdata_size	pg_oatparse.h	/^	UInt oatdata_size;$/;"	m	struct:OatSec
+oatexec_offset	pg_oatparse.h	/^	UInt oatexec_offset;$/;"	m	struct:OatSec
+oatexec_size	pg_oatparse.h	/^	UInt oatexec_size;$/;"	m	struct:OatSec
+oatfile_oatdexfile_opendexfile	pg_libart_wrapper.c	/^void* oatfile_oatdexfile_opendexfile(void* unknown, void *this_oat_dex_file, void* error_msg)$/;"	f
+oatfile_open	pg_libart_wrapper.c	/^void* oatfile_open(void* filename, void* location, void* base, void* oat_file_begin, int executable, void* abs_dex_location, void* error_msg)$/;"	f
+oatfile_setup	pg_libart_wrapper.c	/^int oatfile_setup(void* oatfile, const char* abs_dex_location, void* error_msg)$/;"	f
+oatfileassistant_loaddexfiles	pg_libart_wrapper.c	/^void* oatfileassistant_loaddexfiles(void* this, void* oat_file, char* dex_location)$/;"	f
+oatlastword_offset	pg_oatparse.h	/^	UInt oatlastword_offset;$/;"	m	struct:OatSec
+oatlastword_size	pg_oatparse.h	/^	UInt oatlastword_size;$/;"	m	struct:OatSec
+object	pg_dexparse.h	/^	struct Object			object;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::Object
+objectSize	pg_dexparse.h	/^	Int							objectSize;$/;"	m	struct:ClassObject
+offset	pg_dexparse.h	/^	UInt						offset;$/;"	m	struct:MonitorDexFile
+offset	pg_dexparse.h	/^	UInt	 offset;            \/* file offset to the start of data *\/$/;"	m	struct:DexMapItem
+offset	pg_oatparse.h	/^	UInt offset;$/;"	m	struct:OatClassOffset
+offset	pg_wrappers.h	/^	UInt	offset;$/;"	m	struct:fd_info
+okayToFree	pg_dexparse.h	/^	Bool        okayToFree;$/;"	m	struct:DexOrJar
+open_wrapper	pg_replace_wrapper.c	/^int open_wrapper(const char *file, int mode)$/;"	f
+optLength	pg_dexparse.h	/^	UInt  optLength;$/;"	m	struct:DexOptHeader
+optOffset	pg_dexparse.h	/^	UInt  optOffset;          \/* file offset of optimized data tables *\/$/;"	m	struct:DexOptHeader
+outsSize	pg_dexparse.h	/^	UShort  outsSize;$/;"	m	struct:DexCode
+outsSize	pg_dexparse.h	/^	u2              outsSize;$/;"	m	struct:Method
+outsSize	pg_oatparse.h	/^	UShort outsSize;$/;"	m	struct:CodeItem
+overhead	pg_dexparse.h	/^	UInt               overhead;$/;"	m	struct:DexFile
+pAMth	pg_mthtrace.h	/^	Addr		pAMth;$/;"	m	struct:_Mth_Pool
+pAppDexFileObj	pg_main.c	/^struct DexFilePlus*	pAppDexFileObj = NULL;$/;"	v	typeref:struct:DexFilePlus
+pClassDefs	pg_dexparse.h	/^	const struct DexClassDef*			pClassDefs;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexClassDef
+pClassLookup	pg_dexparse.h	/^	const struct DexClassLookup* pClassLookup;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexClassLookup
+pDexFile	pg_dexparse.h	/^	struct DexFIle			*pDexFile;$/;"	m	struct:DexFilePlusNode	typeref:struct:DexFilePlusNode::DexFIle
+pDexFile	pg_dexparse.h	/^	struct DexFile*     pDexFile;$/;"	m	struct:DvmDex	typeref:struct:DvmDex::DexFile
+pDexFile	pg_dexparse.h	/^	struct DexFile* pDexFile;$/;"	m	struct:MonitorDexFile	typeref:struct:MonitorDexFile::DexFile
+pDexFileClone	pg_dexparse.h	/^	struct DexFile* pDexFileClone;$/;"	m	struct:MonitorDexFile	typeref:struct:MonitorDexFile::DexFile
+pDexFilePlus	pg_dexparse.h	/^	struct DexFilePlus	*pDexFilePlus;$/;"	m	struct:DexFilePlusNode	typeref:struct:DexFilePlusNode::DexFilePlus
+pDexFilePlusList	pg_dexparse.c	/^struct DexFilePlusNode *pDexFilePlusList = NULL;$/;"	v	typeref:struct:DexFilePlusNode
+pDexMemory	pg_dexparse.h	/^	u1*         pDexMemory; \/\/ malloc()ed memory, if any$/;"	m	struct:DexOrJar
+pDvmDex	pg_dexparse.h	/^	struct DvmDex*		pDvmDex;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::DvmDex
+pFieldIds	pg_dexparse.h	/^	const struct DexFieldId*			pFieldIds;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexFieldId
+pHeader	pg_dexparse.h	/^	const  struct DexHeader*    pHeader;$/;"	m	struct:DvmDex	typeref:struct:DvmDex::DexHeader
+pHeader	pg_dexparse.h	/^	const struct DexHeader*			  pHeader;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexHeader
+pInterfaceCache	pg_dexparse.h	/^	void* pInterfaceCache;$/;"	m	struct:DvmDex
+pJarFile	pg_dexparse.h	/^	void*			  pJarFile;$/;"	m	struct:DexOrJar
+pLinkData	pg_dexparse.h	/^	const struct DexLink*					pLinkData;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexLink
+pMethodIds	pg_dexparse.h	/^	const struct DexMethodId*			pMethodIds;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexMethodId
+pOptHeader	pg_dexparse.h	/^	const struct DexOptHeader* pOptHeader;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexOptHeader
+pProtoIds	pg_dexparse.h	/^	const struct DexProtoId*			pProtoIds;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexProtoId
+pRawDexFile	pg_dexparse.h	/^	void*			  pRawDexFile;$/;"	m	struct:DexOrJar
+pRegisterMapPool	pg_dexparse.h	/^	Addr         pRegisterMapPool;       \/\/ RegisterMapClassPool$/;"	m	struct:DexFile
+pResClasses	pg_dexparse.h	/^	struct ClassObject** pResClasses;$/;"	m	struct:DvmDex	typeref:struct:DvmDex::ClassObject
+pResFields	pg_dexparse.h	/^	struct Field**      pResFields;$/;"	m	struct:DvmDex	typeref:struct:DvmDex::Field
+pResMethods	pg_dexparse.h	/^	struct Method**     pResMethods;$/;"	m	struct:DvmDex	typeref:struct:DvmDex::Method
+pResStrings	pg_dexparse.h	/^	void** pResStrings;$/;"	m	struct:DvmDex
+pStringIds	pg_dexparse.h	/^	const struct DexStringId*			pStringIds;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexStringId
+pTypeIds	pg_dexparse.h	/^	const struct DexTypeId*				pTypeIds;$/;"	m	struct:DexFile	typeref:struct:DexFile::DexTypeId
+parametersOff	pg_dexparse.h	/^	UInt  parametersOff;      \/* file offset to type_list for parameter types *\/$/;"	m	struct:DexProtoId
+parametersSize	pg_dexparse.h	/^	UInt  parametersSize;       \/* count of DexParameterAnnotationsItem *\/$/;"	m	struct:DexAnnotationsDirectoryItem
+parseAccessFlags	pg_oatparse.c	/^UChar* parseAccessFlags(UInt flags){$/;"	f
+parseLoadedMethod	pg_dexparse.c	/^Bool parseLoadedMethod(const struct DexFilePlus* pDexPlus, const struct ArtMethod* pAMth, HChar** psClass, HChar** psMth, HChar** psShorty)$/;"	f
+parseOatFile	pg_main.c	/^static void parseOatFile(HChar *oatFile) {$/;"	f	file:
+parseOatMem	pg_main.c	/^static void  parseOatMem(HChar *oatFile, Bool isParse)$/;"	f	file:
+pc	pg_dexparse.h	/^	const UShort*					  pc;         \/\/ Dalvik PC$/;"	m	struct:InterpSaveState
+pformat	pg_debug.h	/^UChar pformat[256];$/;"	v
+pformat1	pg_debug.h	/^UChar pformat1[256];$/;"	v
+pformat2	pg_debug.h	/^UChar pformat2[256];$/;"	v
+pformat3	pg_mthtrace.c	/^UChar pformat3[256];$/;"	v
+pformat4	pg_debug.h	/^UChar pformat4[256];$/;"	v
+pg_trace_package	pg_main.c	/^HChar*	pg_trace_package		= NULL;$/;"	v
+prev	pg_dexparse.h	/^	struct InterpSaveState* prev;  \/\/ To follow nested activations$/;"	m	struct:InterpSaveState	typeref:struct:InterpSaveState::InterpSaveState
+primitiveType	pg_dexparse.h	/^	enum PrimitiveType	   primitiveType;$/;"	m	struct:ClassObject	typeref:enum:ClassObject::PrimitiveType
+primitiveTypeLabel	pg_dexparse.c	/^static const HChar* primitiveTypeLabel(HChar typeChar)$/;"	f	file:
+printDexCode	pg_dexparse.c	/^void printDexCode(const struct DexCode *pCode)$/;"	f
+printOatHeader	pg_oatparse.c	/^static void printOatHeader(struct OatHeader* oheader) {$/;"	f	file:
+print_debug_usage	pg_main.c	/^static void BG_(print_debug_usage)(void){}$/;"	f	file:
+print_usage	pg_main.c	/^static void BG_(print_usage)(void) {}$/;"	f	file:
+processDexFile	pg_dexparse.c	/^void processDexFile(struct DexFile* pDexFile)$/;"	f
+process_array_arg	pg_framework.c	/^UInt process_array_arg(HChar *clazz, Addr addr) {$/;"	f	file:
+process_cmd_line_option	pg_main.c	/^static Bool BG_(process_cmd_line_option)(const HChar* arg)$/;"	f	file:
+prot	pg_wrappers.h	/^	Int   prot;$/;"	m	struct:MemList
+prot_	pg_oatparse.h	/^	\/*0x1c*\/ Int		prot_;$/;"	m	struct:MemMapPlus
+protoIdsOff	pg_dexparse.h	/^	\/* 4c *\/UInt  protoIdsOff;$/;"	m	struct:DexHeader
+protoIdsSize	pg_dexparse.h	/^	\/* 48 *\/UInt  protoIdsSize;$/;"	m	struct:DexHeader
+protoIdx	pg_dexparse.h	/^	UInt  protoIdx;                \/* index into proto_ids table of dexFile *\/$/;"	m	struct:DexProto
+protoIdx	pg_dexparse.h	/^	UShort  protoIdx;$/;"	m	struct:DexMethodId
+proto_ids_	pg_oatparse.h	/^	\/*0x34*\/ struct ProtoId		*proto_ids_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::ProtoId
+prototype	pg_dexparse.h	/^	struct DexProto prototype;$/;"	m	struct:Method	typeref:struct:Method::DexProto
+pthread_mutex_t	pg_dexparse.h	/^	void*								pthread_mutex_t;$/;"	m	struct:DvmDex
+ptr_sized_fields_	pg_oatparse.h	/^	}ptr_sized_fields_;$/;"	m	struct:ArtMethod	typeref:struct:ArtMethod::PtrSizedFields
+ptrace_wrapper	pg_replace_wrapper.c	/^long ptrace_wrapper(int request, int pid, int addr, int data) {$/;"	f
+queryMthCodeNode	pg_mthtrace.c	/^MthCodeNode* queryMthCodeNode(Addr dexCodeAddr) $/;"	f
+query_method_list	pg_mthtrace.c	/^MthNode* query_method_list(Addr codeAddr) {$/;"	f	file:
+quickGenericJniTrampolineOffset	pg_oatparse.h	/^	UInt  quickGenericJniTrampolineOffset;$/;"	m	struct:OatHeader
+quickImtConflictTrampolineOffset	pg_oatparse.h	/^	UInt  quickImtConflictTrampolineOffset;$/;"	m	struct:OatHeader
+quickResolutionTrampolineOffset	pg_oatparse.h	/^	UInt  quickResolutionTrampolineOffset;$/;"	m	struct:OatHeader
+quickToInterpreterBridgeOffset	pg_oatparse.h	/^	UInt  quickToInterpreterBridgeOffset;				$/;"	m	struct:OatHeader
+readAndVerifySignedLeb128	pg_dexparse.c	/^Int readAndVerifySignedLeb128(const UChar** pStream, const UChar* limit,$/;"	f
+readAndVerifyUnsignedLeb128	pg_dexparse.c	/^Int readAndVerifyUnsignedLeb128(const UChar** pStream, const UChar* limit,$/;"	f
+readSignedLeb128	pg_dexparse.c	/^INLINE Int readSignedLeb128(const UChar** pStream) {$/;"	f
+readUnsignedLeb128	pg_dexparse.c	/^INLINE Int readUnsignedLeb128(const UChar** pStream) {$/;"	f
+readUnsignedLeb128	pg_oatparse.c	/^Int readUnsignedLeb128(UChar** pStream)$/;"	f
+realloc	pg_mem_wrappers.c	/^void* BG_(realloc) ( ThreadId tid, void* p_old, SizeT new_szB )$/;"	f
+realloc_block	pg_mem_wrappers.c	/^void* realloc_block ( ThreadId tid, void* p_old, SizeT new_req_szB )$/;"	f	file:
+record_block	pg_mem_wrappers.c	/^void* record_block( ThreadId tid, void* p, SizeT req_szB, SizeT slop_szB )$/;"	f	file:
+recv_wrapper	pg_replace_wrapper.c	/^int recv_wrapper(int s, void *buf, int len, unsigned int flags)$/;"	f
+recvfrom_wrapper	pg_replace_wrapper.c	/^int recvfrom_wrapper(int s, void *buf, int len, int flags, struct sockaddr *from, socklen_t *slen)$/;"	f
+refOffsets	pg_dexparse.h	/^	UInt							refOffsets;$/;"	m	struct:ClassObject
+regWidth	pg_dexparse.h	/^	u1      regWidth;       \/* bytes per register line, 1+ *\/$/;"	m	struct:RegisterMap
+registerMap	pg_dexparse.h	/^	const struct RegisterMap* registerMap;$/;"	m	struct:Method	typeref:struct:Method::RegisterMap
+registersSize	pg_dexparse.h	/^	UShort  registersSize;$/;"	m	struct:DexCode
+registersSize	pg_dexparse.h	/^	u2              registersSize;  \/* ins + locals *\/$/;"	m	struct:Method
+registersSize	pg_oatparse.h	/^	UShort registersSize;$/;"	m	struct:CodeItem
+releaseDexFileList	pg_dexparse.c	/^void releaseDexFileList() {$/;"	f
+releaseFilterList	pg_memtrace.c	/^static void releaseFilterList(struct FilterList** ppfl) {$/;"	f	file:
+releaseTraceMemFile	pg_memtrace.c	/^void releaseTraceMemFile(void) {$/;"	f
+releaseTraceMemMap	pg_memtrace.c	/^void releaseTraceMemMap(void) {$/;"	f
+releaseTraceMemSyslib	pg_memtrace.c	/^void releaseTraceMemSyslib(void) {$/;"	f
+req_szB	pg_wrappers.h	/^	SizeT		req_szB;						\/\/ Size requested$/;"	m	struct:_HP_Chunk
+resolve_filename	pg_syswrap.c	/^void resolve_filename(UWord fd, HChar *path, Int max)$/;"	f	file:
+returnTypeIdx	pg_dexparse.h	/^	UInt  returnTypeIdx;      \/* index into typeIds list for return type *\/$/;"	m	struct:DexProtoId
+return_superblock	pg_mthtrace.c	/^void return_superblock(Addr a,  VexGuestLayout *layout)$/;"	f
+retval	pg_dexparse.h	/^	union JValue						retval;$/;"	m	struct:InterpSaveState	typeref:union:InterpSaveState::JValue
+reuse_	pg_oatparse.h	/^	\/*0x20*\/ Bool   reuse_;$/;"	m	struct:MemMapPlus
+ri	pg_stmt.c	/^UInt  ri[RI_MAX];$/;"	v
+s	pg_dexparse.h	/^		s2    s;$/;"	m	struct:JValue::__anon18
+s	pg_dexparse.h	/^	s2      s;$/;"	m	union:JValue
+s1	pg_dexparse.h	/^typedef Char			s1;$/;"	t
+s2	pg_dexparse.h	/^typedef Short			s2;$/;"	t
+s4	pg_dexparse.h	/^typedef Int				s4;$/;"	t
+s8	pg_dexparse.h	/^typedef Long			s8;$/;"	t
+s_addr	packergrind.h	/^	unsigned long s_addr;$/;"	m	struct:in_addr
+sa_data	packergrind.h	/^	UChar sa_data[14];$/;"	m	struct:sockaddr
+sa_family	packergrind.h	/^	Short	sa_family;$/;"	m	struct:sockaddr_in
+sa_family	packergrind.h	/^	UShort sa_family;$/;"	m	struct:sockaddr
+sa_family_t	packergrind.h	/^typedef	unsigned short	sa_family_t;$/;"	t
+sa_port	packergrind.h	/^	UShort	sa_port;$/;"	m	struct:sockaddr_in
+sa_zero	packergrind.h	/^	HChar		sa_zero[8];$/;"	m	struct:sockaddr_in
+sb	pg_translate.h	/^	IRSB*			sb;$/;"	m	struct:_BGEnv
+second_lock_	pg_oatparse.h	/^	UChar							second_lock_[48];$/;"	m	struct:OatFile
+secondary_oat_dex_files_	pg_oatparse.h	/^	UChar							secondary_oat_dex_files_[12];$/;"	m	struct:OatFile
+send_wrapper	pg_replace_wrapper.c	/^int send_wrapper(int s, const void *buf, int len, unsigned int flags) $/;"	f
+sendto_wrapper	pg_replace_wrapper.c	/^int sendto_wrapper(int s, const void *buf, int len, unsigned int flags, const struct sockaddr *to, int tolen)$/;"	f
+serialNumber	pg_dexparse.h	/^	UInt              serialNumber;$/;"	m	struct:ClassObject
+setHelperAnns	pg_translate.c	/^static void setHelperAnns ( BGEnv* bge, IRDirty* di ) {$/;"	f	file:
+set_instrumentsate	pg_main.c	/^void BG_(set_instrumentsate)(const HChar *reason, Bool state) {$/;"	f
+sfieldCount	pg_dexparse.h	/^	Int				        sfieldCount;$/;"	m	struct:ClassObject
+sfields	pg_dexparse.h	/^	struct StaticField sfields[0]; \/* MUST be last item *\/$/;"	m	struct:ClassObject	typeref:struct:ClassObject::StaticField
+shadowV	pg_translate.h	/^	IRTemp   shadowV;$/;"	m	struct:__anon6
+shallowMallocIRExprVec	pg_copy.c	/^IRExpr** shallowMallocIRExprVec(IRExpr** vec)$/;"	f
+shorty	pg_dexparse.h	/^	const char*     shorty;$/;"	m	struct:Method
+shorty	pg_mthtrace.h	/^	HChar*	shorty;$/;"	m	struct:_Mth_Pool
+shortyIdx	pg_dexparse.h	/^	UInt  shortyIdx;          \/* index into stringIds for shorty descriptor *\/$/;"	m	struct:DexProtoId
+shouldTrace	pg_dexparse.h	/^	Bool shouldTrace;$/;"	m	struct:Method
+shutdown_wrapper	pg_replace_wrapper.c	/^int shutdown_wrapper(int s, int how) {$/;"	f
+signature	pg_dexparse.h	/^	\/* 0c *\/UChar  signature[kSHA1DigestLen]; \/* SHA-1 hash *\/$/;"	m	struct:DexHeader
+signature	pg_dexparse.h	/^	const HChar*     signature;      \/* e.g. "I", "[C", "Landroid\/os\/Debug;" *\/$/;"	m	struct:Field
+size	pg_dexparse.h	/^	Int     size;                       \/\/ total size, including "size"$/;"	m	struct:DexClassLookup
+size	pg_dexparse.h	/^	UInt	 size;              \/* count of items of the indicated type *\/$/;"	m	struct:DexMapItem
+size	pg_dexparse.h	/^	UInt  size;			               \/* #of entries in list *\/$/;"	m	struct:DexMapList
+size	pg_dexparse.h	/^	UInt  size;$/;"	m	struct:DexAnnotationSetItem
+size	pg_dexparse.h	/^	UInt  size;$/;"	m	struct:DexAnnotationSetRefList
+size	pg_dexparse.h	/^	UInt size;						\/\/ size of the list, in entries$/;"	m	struct:DexTypeList
+size	pg_memtrace.h	/^	int size;$/;"	m	struct:myStringArray
+size	pg_mthtrace.h	/^	UInt	size;$/;"	m	struct:_Mth_stack
+size	pg_wrappers.h	/^	Int		size;$/;"	m	struct:MemList
+size_	pg_oatparse.h	/^	\/*0x08*\/ UInt		size_;$/;"	m	struct:DexFilePlus
+size_	pg_oatparse.h	/^	\/*0x10*\/ UInt	  size_;$/;"	m	struct:MemMapPlus
+slop_szB	pg_wrappers.h	/^	SizeT		slop_szB;						\/\/ Extra bytes given above those requested$/;"	m	struct:_HP_Chunk
+sockaddr	packergrind.h	/^struct sockaddr {$/;"	s
+sockaddr_in	packergrind.h	/^struct sockaddr_in {$/;"	s
+socket_wrapper	pg_replace_wrapper.c	/^int socket_wrapper(int namespace, int style, int protocol)$/;"	f
+socklen_t	packergrind.h	/^typedef int							socklen_t;$/;"	t
+sourceFile	pg_dexparse.h	/^	const HChar*	    sourceFile;$/;"	m	struct:ClassObject
+sourceFileIdx	pg_dexparse.h	/^	\/*0x10*\/ UInt  sourceFileIdx;      \/* index into stringIds for source file name *\/$/;"	m	struct:DexClassDef
+stack	pg_mthtrace.h	/^	Addr  stack[MAX_STACK_SIZE];$/;"	m	struct:_Mth_stack
+stackOverflowed	pg_dexparse.h	/^	Bool        stackOverflowed;$/;"	m	struct:Thread
+startAddr	pg_dexparse.h	/^	UInt	  startAddr;          \/* start address, in 16-bit code units *\/$/;"	m	struct:DexTry
+state	pg_dexparse.h	/^	UInt						state;$/;"	m	struct:MonitorDexFile
+staticFields	pg_dexparse.h	/^	struct DexField*          staticFields;$/;"	m	struct:DexClassData	typeref:struct:DexClassData::DexField
+staticFieldsSize	pg_dexparse.h	/^	UInt staticFieldsSize;$/;"	m	struct:DexClassDataHeader
+staticValuesOff	pg_dexparse.h	/^	\/*0x1c*\/ UInt  staticValuesOff;    \/* file offset to DexEncodedArray *\/$/;"	m	struct:DexClassDef
+status	pg_dexparse.h	/^	enum ClassStatus  status;$/;"	m	struct:ClassObject	typeref:enum:ClassObject::ClassStatus
+status	pg_oatparse.h	/^	unsigned short status; \/\/ State of class during compilation$/;"	m	struct:OatClassHeader
+status_	pg_oatparse.h	/^	void*						status_;$/;"	m	struct:OatClass
+stmt	pg_translate.c	/^static INLINE void stmt ( HChar cat, BGEnv* bge, IRStmt* st ) { \/\/385$/;"	f	file:
+stringDataOff	pg_dexparse.h	/^	UInt stringDataOff;$/;"	m	struct:DexStringId
+stringIdsOff	pg_dexparse.h	/^	\/* 3c *\/UInt  stringIdsOff;$/;"	m	struct:DexHeader
+stringIdsSize	pg_dexparse.h	/^	\/* 38 *\/UInt  stringIdsSize;$/;"	m	struct:DexHeader
+string_cache	pg_oatparse.h	/^	struct StdList		string_cache;$/;"	m	struct:OatFile	typeref:struct:OatFile::StdList
+string_ids_	pg_oatparse.h	/^	\/*0x24*\/ struct StringId	*string_ids_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::StringId
+subMode	pg_dexparse.h	/^		UChar		   subMode;$/;"	m	struct:InterpBreak::__anon19
+super	pg_dexparse.h	/^	struct ClassObject*    super;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::ClassObject
+superclassIdx	pg_dexparse.h	/^	\/*0x08*\/ UInt  superclassIdx;      \/* index into typeIds for superclass *\/$/;"	m	struct:DexClassDef
+suspendCount	pg_dexparse.h	/^	int suspendCount;$/;"	m	struct:Thread
+syscall_action	pg_syswrap.c	/^void BG_(syscall_action)(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_clone	pg_syswrap.c	/^void BG_(syscall_clone)(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_close	pg_syswrap.c	/^void BG_(syscall_close)(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_execve	pg_syswrap.c	/^void BG_(syscall_execve)(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_llseek	pg_syswrap.c	/^void BG_(syscall_llseek)(ThreadId tid, UWord* args, UInt nArgs,$/;"	f
+syscall_lseek	pg_syswrap.c	/^void BG_(syscall_lseek)(ThreadId tid, UWord* args, UInt nArgs,$/;"	f
+syscall_mmap	pg_syswrap.c	/^void BG_(syscall_mmap)( ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_mprotect	pg_syswrap.c	/^void BG_(syscall_mprotect) ( ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_msync	pg_syswrap.c	/^void BG_(syscall_msync)( ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_munmap	pg_syswrap.c	/^void BG_(syscall_munmap)( ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_open	pg_syswrap.c	/^void BG_(syscall_open)(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_pread	pg_syswrap.c	/^void BG_(syscall_pread)(ThreadId tid, UWord* args, UInt nArgs,$/;"	f
+syscall_preadv	pg_syswrap.c	/^void BG_(syscall_preadv)(ThreadId tid, UWord* args, UInt nArgs, SysRes res)$/;"	f
+syscall_ptrace	pg_syswrap.c	/^void BG_(syscall_ptrace)( ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_pwritev	pg_syswrap.c	/^void BG_(syscall_pwritev)(ThreadId tid, UWord* args, UInt nArgs, SysRes res)$/;"	f
+syscall_read	pg_syswrap.c	/^void BG_(syscall_read)(ThreadId tid, UWord* args, UInt nArgs,$/;"	f
+syscall_readv	pg_syswrap.c	/^void BG_(syscall_readv)(ThreadId tid, UWord* args, UInt nArgs, SysRes res)$/;"	f
+syscall_recv	pg_syswrap.c	/^void BG_(syscall_recv)(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_recvfrom	pg_syswrap.c	/^void BG_(syscall_recvfrom)(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_setgid	pg_syswrap.c	/^void BG_(syscall_setgid)(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_setregid	pg_syswrap.c	/^void BG_(syscall_setregid)(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_setreuid	pg_syswrap.c	/^void BG_(syscall_setreuid)(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_setuid	pg_syswrap.c	/^void BG_(syscall_setuid)(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_unlink	pg_syswrap.c	/^void BG_(syscall_unlink)(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_write	pg_syswrap.c	/^void BG_(syscall_write)(ThreadId tid, UWord* args, UInt nArgs, SysRes res) {$/;"	f
+syscall_writev	pg_syswrap.c	/^void BG_(syscall_writev)(ThreadId tid, UWord* args, UInt nArgs, SysRes res)$/;"	f
+syscallnames	pg_string.h	/^const char* syscallnames[] = {$/;"	v
+system_wrapper	pg_replace_wrapper.c	/^int system_wrapper(const char *command) {$/;"	f
+t	pg_mthtrace.c	/^static Int t = 0;$/;"	v	file:
+table	pg_dexparse.h	/^	} table[1];$/;"	m	struct:DexClassLookup	typeref:struct:DexClassLookup::__anon14
+taintTag	pg_mthtrace.h	/^	UChar	taintTag[MAX_STACK_SIZE];$/;"	m	struct:_Mth_stack
+taintTag	pg_mthtrace.h	/^	UChar   taintTag;$/;"	m	struct:_Mth_Pool
+th_is_loading	pg_main.c	/^Bool  th_is_loading[TG_N_THREADS] = {False};$/;"	v
+th_status	pg_main.c	/^Int		th_status[TG_N_THREADS] = {-1};$/;"	v
+threadId	pg_dexparse.h	/^	UInt threadId;$/;"	m	struct:Thread
+ti	pg_stmt.c	/^UInt  ti[TI_MAX];$/;"	v
+tid	pg_dexparse.h	/^	ThreadId	tid;				\/* Id of the thread which loaded this file *\/$/;"	m	struct:DexFileInfo
+tmpMap	pg_translate.h	/^	XArray*		tmpMap;$/;"	m	struct:_BGEnv
+tmp_class_name	pg_framework.c	/^HChar tmp_class_name[TMP_STR_SIZE];$/;"	v
+tmp_string_str	pg_framework.c	/^HChar tmp_string_str[TMP_STR_SIZE];$/;"	v
+trace	pg_translate.h	/^	Bool			trace;$/;"	m	struct:_BGEnv
+trackJavaMethod	pg_mthtrace.c	/^void trackJavaMethod(const BGEnv* mce, $/;"	f
+triesSize	pg_dexparse.h	/^	UShort  triesSize;$/;"	m	struct:DexCode
+triesSize	pg_oatparse.h	/^	UShort triesSize;$/;"	m	struct:CodeItem
+triop	pg_translate.c	76;"	d	file:
+tv	pg_stmt.c	/^ULong tv[TI_MAX];$/;"	v
+type	pg_dexparse.h	/^	UShort type;              \/* type code (see kDexType* above) *\/$/;"	m	struct:DexMapItem
+type	pg_mthtrace.h	/^	UChar		type;$/;"	m	struct:_Mth_Pool
+type	pg_oatparse.h	/^	unsigned short type;   \/\/ Type of class$/;"	m	struct:OatClassHeader
+type	pg_wrappers.h	/^	enum OpenedFdType  type;$/;"	m	struct:fd_info	typeref:enum:fd_info::OpenedFdType
+typeIdsOff	pg_dexparse.h	/^	\/* 44 *\/UInt  typeIdsOff;$/;"	m	struct:DexHeader
+typeIdsSize	pg_dexparse.h	/^	\/* 40 *\/UInt  typeIdsSize;$/;"	m	struct:DexHeader
+typeIdx	pg_dexparse.h	/^	UShort typeIdx;				\/\/ index into type_ids section$/;"	m	struct:DexTypeItem
+typeIdx	pg_dexparse.h	/^	UShort typeIdx;$/;"	m	struct:DexFieldId
+type_	pg_oatparse.h	/^	OatClassType		type_;$/;"	m	struct:OatClass
+type_ids_	pg_oatparse.h	/^	\/*0x28*\/ struct TypeId		*type_ids_;$/;"	m	struct:DexFilePlus	typeref:struct:DexFilePlus::TypeId
+u1	pg_dexparse.h	/^typedef	UChar			u1;$/;"	t
+u2	pg_dexparse.h	/^typedef UShort		u2;$/;"	t
+u4	pg_dexparse.h	/^typedef UInt			u4;$/;"	t
+u8	pg_dexparse.h	/^typedef ULong			u8;$/;"	t
+uleb128_value	pg_oatparse.c	/^UInt uleb128_value(UChar* pStream)$/;"	f
+unop	pg_translate.c	79;"	d	file:
+unrecord_block	pg_mem_wrappers.c	/^void unrecord_block ( void* p )$/;"	f	file:
+unsignedLeb128Size	pg_dexparse.c	/^INLINE Int unsignedLeb128Size(UInt data)$/;"	f
+unused	pg_dexparse.h	/^		UChar			 unused;   \/* for future expansion *\/$/;"	m	struct:InterpBreak::__anon19
+unused	pg_dexparse.h	/^	UShort unused;$/;"	m	struct:DexMapItem
+unused	pg_dexparse.h	/^	int											unused;        \/\/ Keep struct size constant$/;"	m	struct:InterpSaveState
+unused1	pg_dexparse.h	/^		UInt		   unused1;$/;"	m	struct:InterpBreak::__anon19
+value	pg_dexparse.h	/^	HChar* value;          \/* the latest value *\/$/;"	m	struct:DexStringCache
+value	pg_dexparse.h	/^	union JValue        value;          \/* initially set from DEX for primitives *\/$/;"	m	struct:StaticField	typeref:union:StaticField::JValue
+verifyErrorClass	pg_dexparse.h	/^	struct ClassObject*    verifyErrorClass;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::ClassObject
+verifyUlebs	pg_dexparse.c	/^static Bool verifyUlebs(const UChar* pData, const UChar* pLimit, UInt count) {$/;"	f	file:
+version	pg_oatparse.h	/^	UChar  version[4];$/;"	m	struct:OatHeader
+virtualMethodCount	pg_dexparse.h	/^	Int								virtualMethodCount;$/;"	m	struct:ClassObject
+virtualMethods	pg_dexparse.h	/^	struct DexMethod*         virtualMethods;$/;"	m	struct:DexClassData	typeref:struct:DexClassData::DexMethod
+virtualMethods	pg_dexparse.h	/^	struct Method*    virtualMethods;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::Method
+virtualMethodsSize	pg_dexparse.h	/^	UInt virtualMethodsSize;$/;"	m	struct:DexClassDataHeader
+visibility	pg_dexparse.h	/^	UChar  visibility;$/;"	m	struct:DexAnnotationItem
+vmapTableOffset	pg_oatparse.h	/^	UInt vmapTableOffset;$/;"	m	struct:OatQuickMethodHeader
+vtable	pg_dexparse.h	/^	struct Method**		vtable;$/;"	m	struct:ClassObject	typeref:struct:ClassObject::Method
+vtableCount	pg_dexparse.h	/^	Int								vtableCount;$/;"	m	struct:ClassObject
+writeUnsignedLeb128	pg_dexparse.c	/^INLINE UChar* writeUnsignedLeb128(UChar* ptr, UInt data)$/;"	f
+z	pg_dexparse.h	/^		u1    z;$/;"	m	struct:JValue::__anon15
+z	pg_dexparse.h	/^	u1      z;$/;"	m	union:JValue
